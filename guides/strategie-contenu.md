@@ -402,3 +402,5 @@ VENDREDI      → Bilan 5 min · 3 questions · 1 insight noté
 ---
 
 *Système construit à partir de la méthode Acquisition · Considération · Relation · Vente, enrichi de principes de psychologie comportementale et de marketing de contenu.*
+
+*Par Opaline, Antidote.AI. Sous licence [CC BY 4.0](../LICENSE) : copie, adapte et partage librement, y compris pour un usage commercial, en citant la source (github.com/antidoteforai-netizen/Toolbox).*
