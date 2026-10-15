@@ -401,6 +401,6 @@ VENDREDI      → Bilan 5 min · 3 questions · 1 insight noté
 
 ---
 
-*Système construit à partir de la méthode Acquisition · Considération · Relation · Vente, enrichi de principes de psychologie comportementale et de marketing de contenu.*
+*Méthode ACRV (Acquisition · Considération · Relation · Vente) : synthèse personnelle issue de mes recherches, adaptée du framework AARRR (Acquisition, Activation, Rétention, Recommandation, Revenu) de Dave McClure (« Startup Metrics for Pirates », 2007) au contenu sur les réseaux sociaux, et enrichie de principes de psychologie comportementale et de marketing de contenu.*
 
 *Par Opaline, Antidote.AI. Sous licence [CC BY 4.0](../LICENSE) : copie, adapte et partage librement, y compris pour un usage commercial, en citant la source (github.com/antidoteforai-netizen/Toolbox).*
