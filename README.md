@@ -1,3 +1,10 @@
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="docs/logo/logo-opaline-white.svg">
+    <img src="docs/logo/logo-opaline.svg" width="220" alt="Opaline">
+  </picture>
+</p>
+
 # Toolbox
 
 **Arrêtez de collectionner les outils IA. Commencez à vous en servir.**
