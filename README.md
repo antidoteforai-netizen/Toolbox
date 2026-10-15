@@ -33,21 +33,29 @@ Chaque document porte sa date de vérification et ses sources sont cliquables. L
 
 ### Veille
 
-[Ressources](./veille/ressources.md) d'inspiration UI, de design systems et d'accessibilité, [outils](./veille/outils.md) de génération d'images et de vidéos, [plugins Figma](./veille/plugins.md) et [bibliothèques](./veille/bibliotheques.md) de composants React.
+- [Ressources](./veille/ressources.md) : inspiration UI, design systems, accessibilité (21)
+- [Outils](./veille/outils.md) : génération d'images et de vidéos, IA builders (39)
+- [Plugins Figma](./veille/plugins.md) (6)
+- [Bibliothèques](./veille/bibliotheques.md) : composants React, 3D, icônes (8)
 
 ### Tutoriels
 
-[Les parcours par profil](./tutoriels/tutoriels-par-profil.md) s'adressent aux designers, aux équipes marketing et aux comptes Instagram business. [Installer n8n avec Docker](./tutoriels/installer-n8n-docker.md) liste aussi les erreurs classiques et leur solution. [Figma vers Webflow avec Relume](./tutoriels/workflow-figma-webflow-relume.md) monte un site de deux pages sur des outils gratuits.
+- [Parcours par profil](./tutoriels/tutoriels-par-profil.md) : designers, équipes marketing, comptes Instagram business
+- [Installer n8n avec Docker](./tutoriels/installer-n8n-docker.md) : avec les erreurs classiques et leur solution
+- [Figma vers Webflow avec Relume](./tutoriels/workflow-figma-webflow-relume.md) : un site de deux pages sur des outils gratuits
 
 ### Guides
 
-[La boîte à outils IA](./guides/boite-a-outils-ia.md), [les ressources IA générative](./guides/ressources-ia-generative.md), [le système de contenu](./guides/strategie-contenu.md) et [le brief projet avec son IA](./guides/brief-projet-avec-ia.pdf).
+- [La boîte à outils IA](./guides/boite-a-outils-ia.md) : sept outils, trois profils
+- [Ressources IA générative](./guides/ressources-ia-generative.md) : outils testés, angles photo, prompts commentés
+- [Système de contenu](./guides/strategie-contenu.md) : la méthode ACRV, du premier regard à la vente
+- [Brief projet avec son IA](./guides/brief-projet-avec-ia.pdf) (PDF) : dix prompts à copier-coller
 
 ### Prompts
 
-[Le prompt maître du harnais d'agents](./prompts/prompt-maitre-harnais.md), pour Claude Code. Sa règle de départ : ne jamais confondre « l'agent dit qu'il a réussi » avec « le système a réussi ».
+- [Prompt maître du harnais d'agents](./prompts/prompt-maitre-harnais.md) : pour Claude Code, avec une règle de départ, ne jamais confondre « l'agent dit qu'il a réussi » avec « le système a réussi »
 
-En ce moment, je creuse les design systems, l'accessibilité (RGAA, WCAG), la génération d'images et de vidéos, Claude Code, l'automatisation avec n8n et Airtable, la vérification des agents et la stratégie de contenu.
+En ce moment, je creuse les design systems, l'accessibilité (RGAA, WCAG), la génération d'images et de vidéos, Claude Code, l'automatisation avec n8n et Airtable, la vérification des agents et la stratégie de contenu. J'en parle aussi sur [LinkedIn](https://www.linkedin.com/in/opalinemustiere/).
 
 ## Servez-vous
 
