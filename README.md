@@ -1,8 +1,5 @@
 <p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="docs/logo/logo-opaline-white.svg">
-    <img src="docs/logo/logo-opaline.svg" width="220" alt="Opaline">
-  </picture>
+  <img src="docs/logo/toolbox/toolbox-etiquette-seule.svg" width="260" alt="Toolbox">
 </p>
 
 # Toolbox
