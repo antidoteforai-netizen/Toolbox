@@ -1,58 +1,53 @@
 # Toolbox
 
-Ma boîte à outils de designer numérique, ouverte. Ce que je teste, ce que je garde, et les tutoriels que j'écris pour que d'autres n'aient pas à refaire mes détours.
+**Arrêtez de collectionner les outils IA. Commencez à vous en servir.**
 
-Je travaille à la croisée du design (UX/UI, design systems, accessibilité) et de l'IA appliquée : génération d'images, automatisation no-code, agents qui codent. Tout ce qui est ici sort de ma pratique réelle, en français, et se lit sans compte ni inscription.
+Ce mois-ci, vous avez testé six outils IA et vous en avez gardé deux, sans trop savoir pourquoi ceux-là. Ce dépôt sert à répondre à cette question.
 
-**Sers-toi.** Copie les prompts, suis les tutos, pique les liens. Si un contenu t'aide, une ⭐ sur le dépôt me fait plaisir.
+Je suis designer numérique. Je range ici ce que j'ai testé moi-même : les liens que je rouvre, les tutos que j'aurais aimé trouver plus tôt, les prompts que je recopie chaque semaine. Tout est en français, gratuit et lisible sans compte.
 
-## Par où commencer
+## Partez de votre problème de la semaine
 
-| Tu veux… | Va voir |
+| Vous vous dites | À lire |
 |---|---|
-| Trouver de l'inspiration UI ou un outil précis | [La veille](./veille/) |
-| Comprendre quels outils IA servent vraiment, selon ton métier | [La boîte à outils IA](./guides/boite-a-outils-ia.md) |
-| Suivre un pas-à-pas sans sauter d'étape | [Les tutoriels par profil](./tutoriels/tutoriels-par-profil.md) |
-| Générer des images cohérentes et piquer des prompts | [Ressources IA générative](./guides/ressources-ia-generative.md) |
-| Publier avec une méthode plutôt qu'au hasard | [Système de contenu](./guides/strategie-contenu.md) |
+| « Je ne sais plus quel outil IA vaut le coup pour mon métier » | [La boîte à outils IA](./guides/boite-a-outils-ia.md) : sept outils, trois profils, et les recettes qui les enchaînent |
+| « Je veux un pas-à-pas, pas une vue d'ensemble » | [Neuf tutoriels par profil](./tutoriels/tutoriels-par-profil.md), de Claude Code à Instagram |
+| « Mon visage change à chaque image générée » | [Ressources IA générative](./guides/ressources-ia-generative.md) et mes prompts commentés |
+| « Je publie tous les jours et rien ne bouge » | [Le système de contenu](./guides/strategie-contenu.md) : quoi publier, quand, et pourquoi |
+| « Mon prestataire n'a pas compris ma boîte » | [Préparer un brief avec son IA](./guides/brief-projet-avec-ia.pdf), dix prompts à copier-coller |
+| « Il me faut une référence UI, là, maintenant » | [La veille](./veille/) : 74 liens triés à la main |
 
-## Ce que tu trouveras ici
+## Pourquoi me faire confiance
 
-### 🔎 Veille, 74 liens triés à la main
+Aucun lien n'est sponsorisé. Quand je recommande un outil payant, je dis aussi pour qui il ne vaut pas le coup. Exemple : j'ai commencé sur MidJourney, essayé six générateurs gratuits, puis pris un abonnement Higgsfield, et le même guide précise que cet abonnement est de trop si vous générez peu d'images.
 
-Ce que j'ouvre quand je cherche une référence, un plugin ou un composant.
+Chaque document porte sa date de vérification et ses sources sont cliquables. Les outils IA changent vite : en cas de doute, la documentation officielle a le dernier mot.
 
-- [Ressources](./veille/ressources.md) (21) : inspiration UI, design systems, podcasts, accessibilité
-- [Outils](./veille/outils.md) (39) : IA builders, génération média, assistants, contraste
-- [Plugins Figma](./veille/plugins.md) (6)
-- [Bibliothèques](./veille/bibliotheques.md) (8) : composants React/Tailwind, 3D, icônes
+## Le contenu en détail
 
-### 🛠️ Tutoriels
+### Veille
 
-- [Tutoriels par profil](./tutoriels/tutoriels-par-profil.md) : neuf parcours pas-à-pas pour designers, équipes marketing et business Instagram (Claude Code, Playwright, Webflow, n8n, Airtable, Higgsfield)
-- [Installer n8n en local avec Docker](./tutoriels/installer-n8n-docker.md) : une commande, zéro conflit, et toutes les erreurs classiques déjà résolues
-- [Workflow Figma → Webflow avec Relume](./tutoriels/workflow-figma-webflow-relume.md) : un site de 2 pages, un socle de variables partagé en équipe, sur des outils gratuits
+[Ressources](./veille/ressources.md) d'inspiration UI, de design systems et d'accessibilité, [outils](./veille/outils.md) de génération d'images et de vidéos, [plugins Figma](./veille/plugins.md) et [bibliothèques](./veille/bibliotheques.md) de composants React.
 
-### 📚 Guides
+### Tutoriels
 
-- [La boîte à outils IA](./guides/boite-a-outils-ia.md) : sept outils, trois profils, des recettes qui les enchaînent
-- [Ressources IA générative](./guides/ressources-ia-generative.md) : mon parcours de MidJourney à Higgsfield, Nano Banana Pro gratuit, lexique des angles photo, prompts commentés
-- [Système de contenu](./guides/strategie-contenu.md) : Acquisition, Considération, Relation, Vente. Savoir quoi publier, quand, et pourquoi
-- [Préparer un brief de projet avec son IA](./guides/brief-projet-avec-ia.pdf) (PDF) : dix prompts à copier-coller pour transmettre à un prestataire le contexte qu'aucune réunion ne fait remonter
+[Les parcours par profil](./tutoriels/tutoriels-par-profil.md) s'adressent aux designers, aux équipes marketing et aux comptes Instagram business. [Installer n8n avec Docker](./tutoriels/installer-n8n-docker.md) liste aussi les erreurs classiques et leur solution. [Figma vers Webflow avec Relume](./tutoriels/workflow-figma-webflow-relume.md) monte un site de deux pages sur des outils gratuits.
 
-### 🤖 Prompts
+### Guides
 
-- [Prompt maître, harnais d'agents](./prompts/prompt-maitre-harnais.md) : un prompt long pour Claude Code qui construit le dispositif autour d'un agent (journal, porte, matrice d'interruption, surface de revue). Le principe qui le guide : ne jamais confondre « l'agent dit qu'il a réussi » avec « le système a réussi ».
+[La boîte à outils IA](./guides/boite-a-outils-ia.md), [les ressources IA générative](./guides/ressources-ia-generative.md), [le système de contenu](./guides/strategie-contenu.md) et [le brief projet avec son IA](./guides/brief-projet-avec-ia.pdf).
 
-## Mes sujets du moment
+### Prompts
 
-`design systems` · `accessibilité (RGAA / WCAG)` · `IA générative image et vidéo` · `vibe coding et Claude Code` · `automatisation n8n / Airtable` · `harnais et vérification des agents` · `stratégie de contenu`
+[Le prompt maître du harnais d'agents](./prompts/prompt-maitre-harnais.md), pour Claude Code. Sa règle de départ : ne jamais confondre « l'agent dit qu'il a réussi » avec « le système a réussi ».
 
-## À savoir
+En ce moment, je creuse les design systems, l'accessibilité (RGAA, WCAG), la génération d'images et de vidéos, Claude Code, l'automatisation avec n8n et Airtable, la vérification des agents et la stratégie de contenu.
 
-- Les outils IA changent vite. Chaque document porte sa date : en cas de doute, la documentation officielle a raison.
-- Rien n'est sponsorisé. Quand je recommande un outil payant, je dis pourquoi et pour qui il ne vaut pas le coup.
-- Une erreur, un lien mort, une ressource à suggérer ? [Ouvre une issue](../../issues).
+## Servez-vous
+
+Tout le contenu est sous licence [CC BY 4.0](./LICENSE). Vous pouvez le copier, l'adapter, le traduire, l'intégrer à une formation ou à un livrable client, même payant, à condition de citer la source, par exemple : « Opaline, Antidote.AI, github.com/antidoteforai-netizen/Toolbox ». Le [système de contenu](./guides/strategie-contenu.md) et le [guide du brief](./guides/brief-projet-avec-ia.pdf) sont faits pour circuler : partagez-les à votre équipe ou à vos clients.
+
+Un guide vous a fait gagner une soirée ? Une ⭐ sur le dépôt me dit quoi enrichir en premier. Pour un lien mort, une erreur ou un outil qui mérite sa place, [ouvrez une issue](../../issues).
 
 ---
 
