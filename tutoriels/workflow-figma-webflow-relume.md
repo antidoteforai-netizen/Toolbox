@@ -87,3 +87,9 @@ C'est précisément ce périmètre qui rend l'étape **chronophage** : chaque ni
 - **Plugin Figma to Webflow** : auto-layout obligatoire, variants non gérés, 1 collection/mode à la fois, pas sur Safari.
 - **Ne pas mélanger** sync Figma → Webflow ET style guide Relume sur le même projet → doublons de classes/variables ingérables sans Class Sync.
 - **Plafond réel = Webflow gratuit** : 2 pages, sous-domaine `.webflow.io`, pas de domaine custom.
+
+## Ailleurs dans la Toolbox
+
+- Webflow au-delà de deux pages, connecté au CMS → [Webflow, de la maquette au site en ligne](./tutoriels-par-profil.md#webflow-de-la-maquette-au-site-en-ligne)
+- Quand choisir Webflow, et quand ne pas le faire → [La boîte à outils IA](../guides/boite-a-outils-ia.md#webflow)
+- Relume et les autres IA builders (Stitch, Bolt, Magic Patterns) → [la veille](../veille/outils.md#relume)

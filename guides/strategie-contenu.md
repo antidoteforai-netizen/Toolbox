@@ -399,6 +399,12 @@ VENDREDI      → Bilan 5 min · 3 questions · 1 insight noté
 
 **Tu ne te demandes jamais quoi faire. Tu suis ce que ton toi du passé a déjà décidé.**
 
+**Ailleurs dans la Toolbox**
+
+- Automatiser la partie répétitive (idée, script, légende) → [Pipeline de contenu avec n8n et Airtable](../tutoriels/tutoriels-par-profil.md#construire-ton-pipeline-de-contenu-avec-n8n--airtable)
+- Ce que l'algorithme d'Instagram regarde en 2026 → [Ce qui marche vraiment sur Instagram](../tutoriels/tutoriels-par-profil.md#ce-qui-marche-vraiment-sur-instagram-en-2026)
+- Produire les visuels sans reprendre une séance photo à chaque post → [Ressources IA générative](./ressources-ia-generative.md)
+
 ---
 
 *Méthode ACRV (Acquisition · Considération · Relation · Vente) : synthèse personnelle issue de mes recherches, adaptée du framework AARRR (Acquisition, Activation, Rétention, Recommandation, Revenu) de Dave McClure (« Startup Metrics for Pirates », 2007) au contenu sur les réseaux sociaux, et enrichie de principes de psychologie comportementale et de marketing de contenu.*

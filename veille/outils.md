@@ -2,6 +2,10 @@
 
 Source : [veille-ux-ui.vercel.app](https://veille-ux-ui.vercel.app/), 39 ressources.
 
+> **Sélection thématique :** vous cherchez à remplacer Higgsfield ? [Les alternatives à Higgsfield](./alternatives-higgsfield.md) classent une vingtaine d'outils et de modèles d'image et de vidéo selon leur profondeur, du navigateur à l'installation locale, avec leurs licences et leurs sources.
+>
+> Cette page liste les outils. Pour choisir entre eux, lisez les [guides](../guides/) ; pour vous en servir pas à pas, suivez les [tutoriels](../tutoriels/).
+
 ## [Wisprflow](https://wisprflow.ai/)
 
 *2026-06-24 · Assistant IA, Productivité*
@@ -31,6 +35,8 @@ Construit des agents IA et pipelines RAG par glisser-déposer de blocs, en low-c
 *2026-06-09 · IA, Design system, Automatisation*
 
 Serveur MCP officiel Figma : design to code / code to design (bêta fév. 2026).
+
+→ Pas à pas : [Prendre en main Claude Code et le vibe coding](../tutoriels/tutoriels-par-profil.md#prendre-en-main-claude-code--le-vibe-coding)
 
 ## [Lyse](https://www.getlyse.com/)
 
@@ -97,6 +103,8 @@ IDE agentique multi-agents pour coder et automatiser des tâches métier.
 *2025-06-18 · Génération média IA*
 
 Génère des images à partir de texte via le modèle Flux.1 (Black Forest Labs).
+
+→ Le dépôt officiel de FLUX, ses licences et comment le faire tourner chez vous : [Alternatives à Higgsfield, niveau 2](./alternatives-higgsfield.md#niveau-2--installé-sur-votre-machine)
 
 ## [Magic Patterns](https://www.magicpatterns.com/)
 
@@ -182,6 +190,8 @@ IA qui transforme du texte en diagrammes et infographies personnalisables.
 
 IA générative de vidéo et simulations interactives (modèle Gen-4.5).
 
+→ Comparé aux autres studios vidéo : [Alternatives à Higgsfield, niveau 3](./alternatives-higgsfield.md#niveau-3--studios-pro-et-api)
+
 ## [Color contrast checker](https://www.tpgi.com/color-contrast-checker/)
 
 *2024-11-01 · Accessibilité*
@@ -200,6 +210,8 @@ IA builder qui crée sites et apps par conversation, avec design system intégr�
 
 IA qui génère sitemaps, wireframes et style guides, exportables vers Figma/Webflow.
 
+→ Pas à pas : [Tutoriel Figma vers Webflow avec Relume](../tutoriels/workflow-figma-webflow-relume.md)
+
 ## [Open AI](https://openai.com/)
 
 *2024-02-16 · IA*
@@ -212,6 +224,8 @@ IA qui génère sitemaps, wireframes et style guides, exportables vers Figma/Web
 
 Génération d'images par IA ; site tiers distinct du service officiel Midjourney.
 
+→ Le service officiel et mon retour d'expérience : [Ressources IA générative, phase 1](../guides/ressources-ia-generative.md#phase-1-midjourney--payant)
+
 ## [Krea](https://www.krea.ai/)
 
 *2023-11-16 · Génération média IA*
@@ -223,6 +237,8 @@ Suite IA pour générer et retoucher images, vidéos et assets 3D en ligne.
 *2023-07-25 · Assistant IA*
 
 Assistant IA conversationnel de Google (multimodal), anciennement nommé Bard.
+
+→ Générer des images gratuitement avec le modèle de Google : [Nano Banana Pro via Google AI Studio](../guides/ressources-ia-generative.md#02--nano-banana-pro-gratuit-via-google-ai-studio)
 
 ## [Usecontrast](https://usecontrast.com/)
 

@@ -323,6 +323,11 @@ La CLI n8n permet d'exporter tous les workflows en JSON : `n8n export:workflow -
 Trois signaux : tu as besoin que ça tourne sans que ton ordi soit allumé, tu reçois des webhooks externes de façon régulière, ou plusieurs personnes doivent y toucher en même temps. Un seul de ces cas coché, et le local a fait son travail, direction un serveur.
 </details>
 
+**Ailleurs dans la Toolbox**
+
+- Ton premier workflow une fois n8n lancé → [S'organiser avec n8n, Notion et Airtable](./tutoriels-par-profil.md#sorganiser-avec-n8n-notion-et-airtable) et [le pipeline de contenu](./tutoriels-par-profil.md#construire-ton-pipeline-de-contenu-avec-n8n--airtable)
+- À quoi sert n8n, et pour qui → [La boîte à outils IA](../guides/boite-a-outils-ia.md#n8n)
+
 ---
 
 *n8n × Docker, installation locale · un tuto, pas un roman.*

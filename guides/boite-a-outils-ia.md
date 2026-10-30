@@ -212,6 +212,8 @@ La qualité des photos de départ détermine presque tout le résultat : une vin
 
 > 📎 **Ressource.** Soul ID, Higgsfield.
 
+> 💸 **L'abonnement ne se justifie pas pour ton volume ?** [Les alternatives à Higgsfield](../veille/alternatives-higgsfield.md) vont du gratuit dans le navigateur à l'installation sur ta machine, avec les licences à vérifier avant un usage commercial.
+
 ## N8N
 
 L’outil qui transforme une suite de tâches manuelles répétées en un système qui tourne pendant que tu fais autre chose.
@@ -346,6 +348,13 @@ Chaque affirmation technique de ce document a été vérifiée sur une source pr
 - Instagram Algorithm Updates 2026 · [meetedgar.com](https://meetedgar.com/blog)
 
 Voilà. Sept outils, trois profils, aucun d'entre eux ne va "tout changer" tout seul pendant que tu regardes ailleurs. Ce qui change les choses, c'est de choisir un outil, une astuce, cette semaine, et de la mettre en pratique avant d'en lire une nouvelle. Referme cette page, ouvre celui des sept qui te parle le plus, et fais quelque chose avec.
+
+**Ailleurs dans la Toolbox**
+
+- Les mêmes outils en étapes numérotées → [Tutoriels par profil](../tutoriels/tutoriels-par-profil.md)
+- n8n installé chez toi en une commande → [Installer n8n avec Docker](../tutoriels/installer-n8n-docker.md)
+- Les outils que je n'ai pas retenus ici → [la veille](../veille/), dont [les alternatives à Higgsfield](../veille/alternatives-higgsfield.md)
+- Un prompt prêt à l'emploi pour encadrer Claude Code → [Prompt maître du harnais](../prompts/prompt-maitre-harnais.md)
 
 ---
 
