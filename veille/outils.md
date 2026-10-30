@@ -10,31 +10,31 @@ Source : [veille-ux-ui.vercel.app](https://veille-ux-ui.vercel.app/), 39 ressour
 
 *2026-06-24 · Assistant IA, Productivité*
 
-Dictée vocale qui transcrit et reformate la parole en texte propre, dans toute app (Mac).
+Dicter au lieu de taper : la voix est transcrite et remise en forme en texte propre, dans toutes les applis du Mac.
 
 ## [Client first](https://finsweet.com/client-first)
 
 *2026-06-14 · Design system*
 
-Convention de nommage et structure de classes pour organiser un projet Webflow.
+Organiser un projet Webflow avec une convention de nommage et une structure de classes communes.
 
 ## [Trae Work](https://work.trae.ai/)
 
 *2026-06-10 · Assistant IA, Productivité*
 
-Assistant IA pour tâches pro : présentations, analyse Excel, documents.
+Confier à une IA des tâches de bureau : présentations, analyse de fichiers Excel, documents.
 
 ## [Langflow](https://www.langflow.org/)
 
 *2026-06-10 · IA builder*
 
-Construit des agents IA et pipelines RAG par glisser-déposer de blocs, en low-code.
+Assembler des agents IA et des chaînes RAG (une IA qui cherche ses réponses dans vos documents) en glissant des blocs, avec très peu de code.
 
 ## [Figma MCP + Claude Code (boucle design ↔ code)](https://www.figma.com/blog/introducing-claude-code-to-figma/)
 
 *2026-06-09 · IA, Design system, Automatisation*
 
-Serveur MCP officiel Figma : design to code / code to design (bêta fév. 2026).
+Passer d'une maquette Figma au code, et du code à la maquette, avec le serveur MCP officiel de Figma (le connecteur qui laisse Claude Code lire et écrire dans Figma), en bêta depuis février 2026.
 
 → Pas à pas : [Prendre en main Claude Code et le vibe coding](../tutoriels/tutoriels-par-profil.md#prendre-en-main-claude-code--le-vibe-coding)
 
@@ -42,67 +42,67 @@ Serveur MCP officiel Figma : design to code / code to design (bêta fév. 2026).
 
 *2026-06-09 · IA, Design system*
 
-Audite un design system et attribue un score de santé 0, 100 (CLI, GitHub Action, MCP).
+Mesurer la santé d'un design system avec un score de 0 à 100, en ligne de commande, dans une GitHub Action ou via MCP.
 
 ## [Vite](https://vite.dev)
 
 *2026-06-09 · Productivité*
 
-Build tool / serveur de dev frontend (HMR, build Rollup, plugin Tailwind v4 officiel).
+Faire tourner un projet front-end en local avec rechargement à chaud (HMR), puis le compiler pour la mise en ligne avec Rollup ; Tailwind v4 y a son plugin officiel.
 
 ## [tweakcn, éditeur de thèmes shadcn](https://tweakcn.com)
 
 *2026-06-09 · Design system, UI*
 
-Éditeur visuel de thèmes shadcn/ui (variables CSS).
+Régler visuellement les variables CSS d'un thème shadcn/ui.
 
 ## [Color magic](https://colormagic.app/)
 
 *2026-03-17 · Génération média IA*
 
-Génère des palettes de couleurs par IA à partir d'un mot, d'une image ou d'un hex.
+Obtenir une palette de couleurs générée par IA à partir d'un mot, d'une image ou d'un code hexadécimal.
 
 ## [Huemint](https://huemint.com/)
 
 *2026-03-16 · Génération média IA, UI*
 
-Génère des palettes de couleurs et de branding par IA (machine learning).
+Générer par IA des palettes de couleurs, y compris pour une identité de marque.
 
 ## [Gumloop](https://www.gumloop.com/)
 
 *2026-02-19 · Automatisation, IA builder*
 
-Crée des agents IA qui automatisent des tâches entre apps (Slack, Teams, Gmail).
+Automatiser des tâches entre Slack, Teams ou Gmail avec des agents IA construits sur mesure.
 
 ## [Replit](https://replit.com/products/design)
 
 *2026-02-18 · Présentation, IA*
 
-Génère des slides de présentation soignées à partir d'une idée ou d'un brief.
+Obtenir des diapositives de présentation à partir d'une idée ou d'un brief.
 
 ## [Antigravity](https://antigravity.google/)
 
 *2025-11-20 · IA builder*
 
-IDE agentique Google : des agents IA autonomes codent, testent et livrent vos projets.
+Laisser des agents IA autonomes coder, tester et livrer un projet, dans l'éditeur de code de Google piloté par agents.
 
 ## [Kiro](https://kiro.dev/)
 
 *2025-08-28 · IA builder*
 
-IDE agentique (AWS) qui transforme un prompt en spécifications puis en code.
+Passer d'une demande écrite à des spécifications, puis au code, dans l'éditeur à agents d'AWS.
 
 ## [Qoder](https://qoder.com/)
 
 *2025-08-28 · IA builder*
 
-IDE agentique multi-agents pour coder et automatiser des tâches métier.
+Coder et automatiser des tâches métier en faisant travailler plusieurs agents IA dans le même éditeur.
 
 ## [Flux 1](https://flux1.ai/)
 
 *2025-06-18 · Génération média IA*
 
-Génère des images à partir de texte via le modèle Flux.1 (Black Forest Labs).
+Générer des images à partir d'un texte avec le modèle Flux.1 de Black Forest Labs.
 
 → Le dépôt officiel de FLUX, ses licences et comment le faire tourner chez vous : [Alternatives à Higgsfield, niveau 2](./alternatives-higgsfield.md#niveau-2--installé-sur-votre-machine)
 
@@ -110,85 +110,85 @@ Génère des images à partir de texte via le modèle Flux.1 (Black Forest Labs)
 
 *2025-05-28 · IA builder*
 
-Génère des prototypes UI interactifs depuis un prompt, export Figma/code.
+Décrire une interface et obtenir un prototype interactif, exportable vers Figma ou en code.
 
 ## [Stitch](https://stitch.withgoogle.com/)
 
 *2025-05-21 · IA builder*
 
-Génère maquettes UI et code front-end depuis un prompt (Gemini), export Figma.
+Obtenir d'un simple texte la maquette d'un écran et son code front-end, générés par Gemini et exportables vers Figma.
 
 ## [Hana](https://blog.spline.design/introducing-hana)
 
 *2025-05-02 · Motion design*
 
-Canvas collaboratif (Spline) pour designer et animer des interfaces 2D interactives.
+Dessiner et animer à plusieurs des interfaces 2D interactives, sur le canevas de Spline.
 
 ## [Grok](https://grok.com/)
 
 *2025-04-24 · Assistant IA*
 
-Chatbot IA généraliste de xAI, intégré à X, avec génération d'images.
+Poser ses questions au chatbot généraliste de xAI, intégré à X, qui génère aussi des images.
 
 ## [Genspark](https://www.genspark.ai/)
 
 *2025-04-17 · Assistant IA*
 
-Agent IA multitâche (recherche, slides, tableurs) orchestrant plusieurs modèles.
+Déléguer une recherche, des diapositives ou un tableur à un agent IA qui combine plusieurs modèles.
 
 ## [Polymet](https://www.polymet.ai/)
 
 *2025-04-16 · IA builder*
 
-IA qui génère du code frontend prêt pour la prod à partir de designs, avec intégration GitHub/Storybook.
+Transformer une maquette en code front-end destiné à la production, relié à GitHub et à Storybook.
 
 ## [Tempo](https://www.tempo.new/)
 
 *2025-04-15 · IA builder*
 
-IA builder qui génère une app React à partir d'un prompt, avec design et collaboration en temps réel.
+Décrire une application et obtenir son code React, dans un éditeur visuel où plusieurs personnes travaillent en temps réel.
 
 ## [Klippa](https://www.klippa.com/)
 
 *2025-03-18 · IA, Automatisation*
 
-Plateforme IA d'OCR qui extrait et vérifie automatiquement les données de documents.
+Extraire et vérifier automatiquement les données d'un document, grâce à la reconnaissance de texte par IA (OCR).
 
 ## [Readdy AI](https://readdy.ai)
 
 *2025-02-11 · IA builder*
 
-IA builder qui génère des sites web complets à partir d'un prompt, sans code.
+Obtenir un site web entier à partir d'une simple description, sans écrire de code.
 
 ## [Divhunt](https://divhunt.com/)
 
 *2025-02-06 · IA builder*
 
-Builder de sites hybride (visuel + code) pour codeurs et non-codeurs, avec génération IA.
+Construire un site en mode visuel ou en code, pour les personnes qui codent comme pour les autres, avec génération par IA.
 
 ## [Trickle](https://www.trickle.so/)
 
 *2025-01-23 · IA builder*
 
-IA builder qui génère des apps web à partir de descriptions en langage naturel.
+Générer une appli web à partir d'une description écrite en langage courant.
 
 ## [Motiff](https://motiff.com/)
 
 *2025-01-20 · UI, IA*
 
-Alternative à Figma avec édition collaborative et génération d'UI par IA.
+Concevoir des interfaces à plusieurs, comme dans Figma, avec en plus une génération d'écrans par IA.
 
 ## [Napkin](https://www.napkin.ai/)
 
 *2024-12-12 · Assistant IA*
 
-IA qui transforme du texte en diagrammes et infographies personnalisables.
+Coller un texte et obtenir des diagrammes et des infographies modifiables.
 
 ## [Runwayml](https://runwayml.com/)
 
 *2024-11-25 · Génération média IA*
 
-IA générative de vidéo et simulations interactives (modèle Gen-4.5).
+Générer des vidéos et des simulations interactives avec le modèle Gen-4.5 de Runway.
 
 → Comparé aux autres studios vidéo : [Alternatives à Higgsfield, niveau 3](./alternatives-higgsfield.md#niveau-3--studios-pro-et-api)
 
@@ -196,19 +196,19 @@ IA générative de vidéo et simulations interactives (modèle Gen-4.5).
 
 *2024-11-01 · Accessibilité*
 
-Vérifie le contraste des couleurs selon les normes WCAG (outil en ligne).
+Vérifier en ligne que le contraste entre deux couleurs respecte les normes WCAG.
 
 ## [Bolt](https://bolt.new/)
 
 *2024-06-11 · IA builder*
 
-IA builder qui crée sites et apps par conversation, avec design system intégré.
+Construire un site ou une appli en conversant avec une IA, sur un design system intégré.
 
 ## [Relume](https://www.relume.io)
 
 *2024-03-13 · IA builder*
 
-IA qui génère sitemaps, wireframes et style guides, exportables vers Figma/Webflow.
+Générer l'arborescence, les wireframes et le guide de style d'un site, puis les exporter vers Figma ou Webflow.
 
 → Pas à pas : [Tutoriel Figma vers Webflow avec Relume](../tutoriels/workflow-figma-webflow-relume.md)
 
@@ -216,13 +216,13 @@ IA qui génère sitemaps, wireframes et style guides, exportables vers Figma/Web
 
 *2024-02-16 · IA*
 
-Éditeur de ChatGPT, GPT et DALL·E, modèles d'IA générative multimodale.
+Retrouver ChatGPT, les modèles GPT et DALL·E chez leur éditeur ; ces IA génératives sont multimodales, elles traitent plusieurs types de contenus.
 
 ## [Mid journey](https://mid-journey.ai)
 
 *2023-12-14 · Génération média IA*
 
-Génération d'images par IA ; site tiers distinct du service officiel Midjourney.
+Attention, site tiers : il génère des images par IA mais n'est pas le service officiel Midjourney.
 
 → Le service officiel et mon retour d'expérience : [Ressources IA générative, phase 1](../guides/ressources-ia-generative.md#phase-1-midjourney--payant)
 
@@ -230,13 +230,13 @@ Génération d'images par IA ; site tiers distinct du service officiel Midjourne
 
 *2023-11-16 · Génération média IA*
 
-Suite IA pour générer et retoucher images, vidéos et assets 3D en ligne.
+Générer et retoucher en ligne des images, des vidéos et des éléments 3D, au même endroit.
 
 ## [Gemini](https://gemini.google.com/)
 
 *2023-07-25 · Assistant IA*
 
-Assistant IA conversationnel de Google (multimodal), anciennement nommé Bard.
+Discuter avec l'assistant IA de Google, qui comprend le texte comme les images ; il s'appelait Bard.
 
 → Générer des images gratuitement avec le modèle de Google : [Nano Banana Pro via Google AI Studio](../guides/ressources-ia-generative.md#02--nano-banana-pro-gratuit-via-google-ai-studio)
 
@@ -244,10 +244,10 @@ Assistant IA conversationnel de Google (multimodal), anciennement nommé Bard.
 
 *2023-03-22 · Accessibilité*
 
-Vérifie instantanément les ratios de contraste WCAG, en plugin Figma ou app Mac.
+Contrôler sur-le-champ les ratios de contraste WCAG, dans un plugin Figma ou une appli Mac.
 
 ## [Slantt](https://slantt.co/)
 
 *2023-03-01 · Présentation, 3D*
 
-Transforme des captures d'écran en visuels 3D stylisés, sans compétences design.
+Transformer une capture d'écran en visuel 3D stylisé, sans compétences en design.

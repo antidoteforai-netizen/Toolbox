@@ -1,6 +1,6 @@
 # Installer n8n en local avec Docker
 
-Pas de config à la main, pas de conflit de versions. Une commande, et n8n tourne chez toi. On fait ça ensemble, étape par étape.
+Une seule commande suffit pour faire tourner n8n chez toi, sans config à la main ni conflit de versions, et on fait ça ensemble, étape par étape.
 
 ```bash
 $ docker run -it --rm --name n8n -p 5678:5678 -v n8n_data:/home/node/.n8n docker.n8n.io/n8nio/n8n
@@ -24,7 +24,7 @@ Editor is now accessible via: http://localhost:5678
 
 ## En local, avant de te lancer
 
-Ce tuto installe n8n sur ta machine, pas sur un serveur. C'est le bon move pour apprendre, prototyper, tester des workflows sans rien payer. Ce n'est pas le bon move pour tout. Mets ça au clair avant de commencer :
+Ce tuto installe n8n sur ta machine et non sur un serveur, ce qui est le bon move pour apprendre, prototyper et tester des workflows sans rien payer, mais pas pour tout. Mets ça au clair avant de commencer :
 
 | Avantages | Limites |
 |---|---|
@@ -39,18 +39,16 @@ Ce tuto installe n8n sur ta machine, pas sur un serveur. C'est le bon move pour 
 ### À la fin de ce tuto, tu sais
 
 - Ce qu'est Docker, et pourquoi c'est la méthode reco pour n8n
-- Installer Docker Desktop sur ta machine
-- Créer un volume pour ne jamais perdre tes workflows
-- Lancer n8n avec une seule commande
-- Accéder à n8n depuis ton navigateur
-- Démarrer / arrêter n8n au quotidien, sans y réfléchir
-- Mettre à jour n8n sans casser tes données
+- Installer Docker Desktop, puis créer le volume qui t'évite de perdre tes workflows
+- Lancer n8n d'une seule commande et l'ouvrir dans ton navigateur
+- Le démarrer et l'arrêter au quotidien, sans y réfléchir
+- Le mettre à jour sans casser tes données
 
 ## Pourquoi Docker, et pas une install classique
 
-n8n s'installe de plusieurs façons. Docker, c'est la méthode que l'équipe recommande officiellement. Et honnêtement, c'est aussi la plus simple à comprendre une fois que t'as capté le principe.
+n8n s'installe de plusieurs façons, et Docker est celle que l'équipe recommande officiellement. Et honnêtement, c'est aussi la plus simple à comprendre une fois que t'as capté le principe.
 
-Docker fait tourner n8n dans une boîte isolée, tout ce dont n8n a besoin est dedans. Zéro dépendance à installer à la main, zéro conflit de versions, zéro "ça marche chez moi mais pas chez toi". La même commande tourne sur Windows, Mac, Linux. Sans rien changer.
+Docker fait tourner n8n dans une boîte isolée qui contient tout ce dont il a besoin. Zéro dépendance à installer toi-même, zéro conflit de versions, zéro "ça marche chez moi mais pas chez toi" : la même commande tourne sur Windows, Mac et Linux sans rien changer.
 
 | Terme | Ce que c'est |
 |---|---|
@@ -62,17 +60,17 @@ Docker fait tourner n8n dans une boîte isolée, tout ce dont n8n a besoin est d
 
 ## 01 · Installer Docker Desktop
 
-Docker Desktop, c'est l'appli qui fait tourner Docker chez toi. Installation classique, comme n'importe quel logiciel.
+Docker Desktop, c'est l'appli qui fait tourner Docker chez toi, et elle s'installe comme n'importe quel logiciel.
 
 ### Windows
 
 Va sur [docker.com/products/docker-desktop](https://www.docker.com/products/docker-desktop/), télécharge la version Windows, lance le fichier. Pendant l'install, laisse coché **WSL 2**, c'est la config recommandée. Redémarre si on te le demande, puis lance Docker Desktop depuis le menu Démarrer. Une baleine apparaît dans la barre des tâches : attends qu'elle soit stable.
 
-> WSL 2 = Windows Subsystem for Linux. Un noyau Linux qui tourne dans Windows, utilisé en arrière-plan par Docker. Tu n'as rien à gérer directement.
+> WSL 2 = Windows Subsystem for Linux. Un noyau Linux qui tourne dans Windows, et dont Docker se sert en arrière-plan. Tu n'as rien à gérer directement.
 
 ### Mac
 
-Même page, télécharge la bonne version : Apple Silicon (M1/M2/M3) ou Intel. Pour vérifier ta puce → Pomme > À propos de ce Mac. Ouvre le `.dmg`, glisse Docker dans Applications, lance-le. La baleine apparaît en haut à droite. Attends qu'elle soit stable.
+Même page, télécharge la bonne version : Apple Silicon (M1/M2/M3) ou Intel. Pour vérifier ta puce → Pomme > À propos de ce Mac. Ouvre le `.dmg`, glisse Docker dans Applications, lance-le. La baleine apparaît en haut à droite : attends qu'elle soit stable.
 
 ### Linux (Ubuntu / Debian)
 
@@ -104,18 +102,18 @@ Docker version 24.0.5
 
 ## 02 · Créer le volume de données
 
-Avant de lancer n8n, tu crées le volume qui va stocker tes données. Une seule fois, jamais deux.
+Avant de lancer n8n, tu crées, une fois pour toutes, le volume qui va stocker tes données.
 
 ```bash
 $ docker volume create n8n_data
 n8n_data
 ```
 
-Docker te renvoie `n8n_data` : c'est la confirmation. Ce volume survit à toutes les mises à jour, tous les redémarrages de conteneur. Tes workflows y restent, point.
+Docker te renvoie `n8n_data` : c'est la confirmation. Ce volume survit à toutes les mises à jour et à tous les redémarrages de conteneur, alors tes workflows y restent, point.
 
 ## 03 · Lancer n8n
 
-C'est parti. Une seule commande :
+C'est parti, tout tient en une commande :
 
 ```bash
 docker run -it --rm --name n8n -p 5678:5678 -v n8n_data:/home/node/.n8n docker.n8n.io/n8nio/n8n
@@ -131,7 +129,7 @@ docker run -it --rm --name n8n -p 5678:5678 -v n8n_data:/home/node/.n8n docker.n
 | `-v n8n_data:...` | attache le volume au bon dossier n8n |
 | `docker.n8n.io/n8nio/n8n` | l'image officielle |
 
-Premier lancement : Docker télécharge l'image, ça prend quelques minutes selon ta connexion. Ensuite, ce sera instantané. Tu sais que c'est bon quand tu vois :
+Au premier lancement, Docker télécharge l'image, ce qui prend quelques minutes selon ta connexion, et les fois suivantes ce sera instantané. Tu sais que c'est bon quand tu vois :
 
 ```text
 Editor is now accessible via: http://localhost:5678
@@ -162,9 +160,9 @@ echo "alias n8n='docker run -it --rm --name n8n -p 5678:5678 -v n8n_data:/home/n
 source ~/.zshrc
 ```
 
-> Tu utilises bash plutôt que zsh ? Remplace `~/.zshrc` par `~/.bashrc`.
+> Ton terminal tourne sous bash plutôt que zsh ? Remplace `~/.zshrc` par `~/.bashrc`.
 
-Ensuite, tape juste `n8n` dans le terminal. Fini les copier-coller.
+Ensuite, taper `n8n` suffit, et tu n'as plus rien à copier-coller.
 
 Sur Windows : crée un fichier `lancer-n8n.bat` sur ton bureau, avec ce contenu, et double-clique dessus :
 
@@ -175,7 +173,7 @@ docker run -it --rm --name n8n -p 5678:5678 -v n8n_data:/home/node/.n8n docker.n
 
 ## Mettre à jour n8n
 
-Arrête n8n s'il tourne, télécharge la nouvelle image, relance. Tes données ne bougent pas.
+Arrête n8n s'il tourne, télécharge la nouvelle image et relance : tes données ne bougent pas.
 
 ```bash
 docker pull docker.n8n.io/n8nio/n8n
@@ -219,11 +217,11 @@ Avant de passer à la suite, vérifie que tout tient debout :
 
 ## Bonnes pratiques
 
-L'install qui tourne, c'est une chose. La faire durer sans mauvaise surprise, c'en est une autre. Quelques réflexes à prendre.
+Une fois l'install en route, quelques réflexes la font durer sans mauvaise surprise.
 
 ### Coupe n8n quand tu ne l'utilises pas
 
-Avec la commande `-it --rm`, n8n ne tourne que quand ton terminal est ouvert, pas de service qui tourne en tâche de fond 24/7 sur ta machine. Ferme-le en fin de session, comme n'importe quelle appli lourde.
+Avec la commande `-it --rm`, n8n ne tourne que quand ton terminal est ouvert, sans service qui reste actif en tâche de fond 24/7. Ferme-le en fin de session, comme n'importe quelle appli lourde.
 
 Nuance importante : les Schedule Trigger et les webhooks ne se déclenchent que si n8n tourne au moment prévu. Un workflow programmé à 9h ne partira pas si ton n8n local est éteint à 9h. Pour de l'automatisation qui doit tourner sans toi, il faut un hébergement distant, pas ce setup local.
 
@@ -240,7 +238,7 @@ Une copie de temps en temps, sur un disque externe ou un cloud perso, et tu ne r
 
 ### Mets à jour régulièrement, mais pas les yeux fermés
 
-n8n sort une nouvelle version quasiment chaque semaine. Utile pour les nouveautés, risqué si tu casses un workflow en prod perso sans t'en rendre compte. Avant un `docker pull`, jette un œil au changelog. Et si un workflow est critique, teste la mise à jour avant de l'appliquer partout.
+n8n sort une nouvelle version quasiment chaque semaine, ce qui est utile pour les nouveautés et risqué si tu casses un workflow en prod perso sans t'en rendre compte. Avant un `docker pull`, jette un œil au changelog (la liste des changements de la version). Et si un workflow est critique, teste la mise à jour avant de l'appliquer partout.
 
 ### Configure ton fuseau horaire dès le départ
 
@@ -250,15 +248,15 @@ Sans ça, tes Schedule Trigger peuvent se déclencher à la mauvaise heure. Ajou
 -e GENERIC_TIMEZONE="Europe/Paris" -e TZ="Europe/Paris"
 ```
 
-`GENERIC_TIMEZONE` pilote les nodes programmés (Schedule Trigger). `TZ` règle l'heure système du conteneur. Les deux, sinon ça se contredit.
+`GENERIC_TIMEZONE` pilote les nodes programmés (Schedule Trigger). `TZ` règle l'heure système du conteneur. Il faut les deux, sinon ça se contredit.
 
 ### Le tunnel webhook, c'est du dev only
 
-n8n propose un service de tunnel (via cloudflared) pour recevoir des webhooks externes, GitHub, Stripe, etc., sur ton instance locale. Pratique pour tester. Mais l'implémentation change d'une version à l'autre, et ce n'est pas fait pour tourner en continu. Pour un usage stable, il faut une vraie instance hébergée, joignable depuis internet.
+n8n propose un service de tunnel (via cloudflared) pour recevoir des webhooks externes (GitHub, Stripe, etc.) sur ton instance locale. Pratique pour tester, mais l'implémentation change d'une version à l'autre et ce n'est pas fait pour tourner en continu. Pour un usage stable, il faut une vraie instance hébergée, joignable depuis internet.
 
 ### SQLite en local, très bien, jusqu'à un certain point
 
-Par défaut, n8n stocke tout dans une base SQLite, dans le volume. Largement suffisant pour un usage perso ou des tests. Si tu montes en charge (beaucoup de workflows, exécutions fréquentes, plusieurs personnes), c'est le signe qu'il est temps de passer à PostgreSQL et à une vraie instance, plus dans le scope de ce tuto local.
+Par défaut, n8n stocke tout dans une base SQLite, dans le volume, ce qui suffit largement pour un usage perso ou des tests. Si tu montes en charge (beaucoup de workflows, exécutions fréquentes, plusieurs personnes), c'est le signe qu'il est temps de passer à PostgreSQL et à une vraie instance, ce qui sort du cadre de ce tuto local.
 
 ## Travailler à plusieurs en local
 
@@ -302,7 +300,7 @@ Parce que ton instance n'est pas joignable depuis internet, localhost ne veut ri
 <details>
 <summary><strong>C'est quoi le "queue mode" dont tout le monde parle ?</strong></summary>
 
-Un mode d'exécution où n8n distribue les tâches à des workers séparés via Redis, au lieu de tout traiter dans un seul process. Ça évite qu'un workflow long bloque toute l'interface. Utile dès que tu as des exécutions fréquentes, longues, ou beaucoup de trafic simultané. Overkill pour un usage perso, c'est une brique d'infra en plus à maintenir.
+Un mode d'exécution où n8n distribue les tâches à des workers séparés via Redis, au lieu de tout traiter dans un seul process. Ça évite qu'un workflow long bloque toute l'interface. Utile dès que tu as des exécutions fréquentes, longues, ou beaucoup de trafic simultané. Sur un poste perso, c'est disproportionné : une brique d'infra en plus à maintenir.
 </details>
 
 <details>

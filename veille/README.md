@@ -9,17 +9,17 @@
 | [Plugins](./plugins.md) | 6 | Plugins Figma : données, documentation, présentation, design system |
 | [Bibliothèques](./bibliotheques.md) | 8 | Composants React/Tailwind, variants, 3D, icônes |
 
-**Sélection thématique :**
+Une sélection thématique complète ces listes : [les alternatives à Higgsfield](./alternatives-higgsfield.md), pour générer images et vidéos sans abonnement, du navigateur à l'installation locale, avec les licences, les contraintes Mac et des sources datées.
 
-- [Alternatives à Higgsfield](./alternatives-higgsfield.md) : générer images et vidéos sans abonnement, du navigateur à l'installation locale, avec licences, contraintes Mac et sources datées
+## Par thème
 
-**Par thème :**
-
-- **Design system** : Component gallery, Redesign in Design systems, designsystems.fr, tweakcn, Lyse, CVA, Untitled UI
-- **Accessibilité** : Checklist Pidila, Checklist Opquast, Color contrast checker, Usecontrast
-- **IA builders** : Stitch, Magic Patterns, Bolt, Relume, Kiro, Antigravity, Langflow
-- **Motion** : Design Spells, Motion Zajno, Hana
-- **Génération d'images et de vidéos** : Runwayml, Krea, Flux 1, Mid journey, et la sélection [Alternatives à Higgsfield](./alternatives-higgsfield.md)
+| Thème | Ce que la veille propose |
+|---|---|
+| Design system | Component gallery, Redesign in Design systems, designsystems.fr, tweakcn, Lyse, CVA, Untitled UI |
+| Accessibilité | Checklist Pidila, Checklist Opquast, Color contrast checker, Usecontrast |
+| IA builders (créer un site ou une appli en le décrivant) | Stitch, Magic Patterns, Bolt, Relume, Kiro, Antigravity, Langflow |
+| Motion | Design Spells, Motion Zajno, Hana |
+| Génération d'images et de vidéos | Runwayml, Krea, Flux 1, Mid journey, et [les alternatives à Higgsfield](./alternatives-higgsfield.md) |
 
 ## La veille liste, les autres dossiers expliquent
 

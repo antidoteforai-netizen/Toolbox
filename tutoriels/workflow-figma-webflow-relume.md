@@ -18,7 +18,7 @@
 ## Phase 1, Conception (Figma)
 
 1. **Ouvrir le Relume Figma Kit v3.7** et dupliquer le fichier dans ton espace.
-2. **Cartographier le "gratuit utilisable".** Parcourir <https://www.relume.io/free-components> et noter quelles sections sont gratuites côté Webflow. Dans Figma, **n'utiliser que les sections Relume qui ont un équivalent gratuit en Webflow**, sinon tu concevras quelque chose que tu ne pourras pas reconstruire gratuitement.
+2. **Cartographier le "gratuit utilisable".** Parcourir <https://www.relume.io/free-components> et noter quelles sections sont gratuites côté Webflow. Dans Figma, **ne garder que les sections Relume qui ont un équivalent gratuit en Webflow**, sinon tu concevras quelque chose que tu ne pourras pas reconstruire gratuitement.
 3. **Maquetter les 2 pages** avec ces sections (hiérarchie claire, contenu réaliste).
 4. **Définir les tokens** dans Figma (Variables) : typographie, primary, secondary, color schemes. C'est ici qu'on prépare le socle commun.
 5. **Exporter les variables** via le plugin Figma → fichier **JSON ou CSS, une collection à la fois** (couleurs, typo, espacements...).
@@ -33,9 +33,9 @@ L'idée : une personne crée le socle de variables dans Webflow, puis tout le mo
 
 Le format JSON Figma ≠ format Webflow. Trois options, du plus simple au plus manuel :
 
-- **Option 1 (recommandée)** : convertir l'export Figma en **CSS** (`--primary-500: #...;`) puis l'injecter avec l'app **CSS Variable Importer** → crée les variables natives Webflow dans la collection choisie.
-- **Option 2** : utiliser le plugin officiel **Figma to Webflow** (sync variables), mais auto-layout obligatoire et **variants non supportés**.
-- **Option 3** : saisie manuelle des variables dans le panneau Variables (`V`) de Webflow en recopiant le JSON. Long mais sans dépendance.
+- Convertir l'export Figma en **CSS** (`--primary-500: #...;`) puis l'injecter avec l'app **CSS Variable Importer**, qui crée les variables natives Webflow dans la collection choisie : c'est l'option recommandée.
+- Passer par le plugin officiel **Figma to Webflow** (sync variables), à condition d'accepter l'auto-layout obligatoire et des **variants non supportés**.
+- Saisir les variables à la main dans le panneau Variables (`V`) de Webflow en recopiant le JSON, ce qui est long mais sans dépendance.
 
 ### Étape B, partage entre coéquipiers (Webflow → Webflow)
 
@@ -50,12 +50,9 @@ Une fois le socle dans **un** projet Webflow :
 
 ### Note pragmatique, périmètre retenu
 
-Le socle inclut volontairement :
+Le socle inclut volontairement la typographie, soit la ou les familles de police et les **H1, H2, H3** (tailles, graisses, line-heights), ainsi que les color schemes, c'est-à-dire les schémas de couleurs complets (primary, secondary, neutres et leurs déclinaisons par scheme).
 
-- **Typographie** : famille(s) de police + **H1, H2, H3** (tailles, graisses, line-heights).
-- **Color schemes** : les schémas de couleurs complets (primary, secondary, neutres + leurs déclinaisons par scheme).
-
-C'est précisément ce périmètre qui rend l'étape **chronophage** : chaque niveau de titre et chaque scheme se règle individuellement, puis se rebranche sur les bonnes variables. À assumer dès le départ et à chiffrer dans le temps de l'exercice, c'est la partie la plus longue du workflow, mais aussi celle qui démontre le mieux la maîtrise du design system.
+C'est précisément ce périmètre qui rend l'étape **chronophage** : chaque niveau de titre et chaque scheme se règle individuellement, puis se rebranche sur les bonnes variables. Assume-le dès le départ et chiffre-le dans le temps de l'exercice, parce que c'est la partie la plus longue du workflow, mais aussi celle qui démontre le mieux la maîtrise du design system.
 
 ## Phase 3, Développement (Webflow)
 

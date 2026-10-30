@@ -24,7 +24,7 @@
 
 # 1. 📅 Calendrier Saisonnier
 
-**Temporalité :** À remplir en janvier. Ne plus y toucher de l'année.
+**Temporalité :** À remplir en janvier, puis ne plus y toucher de l'année.
 **Utilisation :** Ce calendrier détermine quel type de contenu prioriser selon l'état mental de ton audience à chaque période. Il se superpose automatiquement à ton planning hebdomadaire, tu n'as pas à y repenser, juste à respecter la saison en cours.
 
 | Période | État mental de l'audience | Contenu prioritaire |
@@ -38,7 +38,7 @@
 | Octobre, Novembre | Profondeur, réflexion, intériorité | 🟡 Considération |
 | Décembre | Bilan, émotions, nostalgie | 🟢 Relation + ⚪ Communauté |
 
-> 💡 **Comment l'utiliser :** Chaque lundi lors de ton diagnostic, regarde quelle saison tu es. Ça oriente la sélection dans ta Matrice sans décision supplémentaire.
+> 💡 **Comment t'en servir :** Chaque lundi lors de ton diagnostic, regarde dans quelle saison tu es. Ça oriente la sélection dans ta Matrice sans décision supplémentaire.
 
 ---
 
@@ -56,7 +56,7 @@
 | S3 du mois | Offre premium (accompagnement / haut de gamme) |
 | S4 du mois | Libre, Communauté ou Relation pure |
 
-> 💡 **Si tu n'as qu'une seule offre :** Utilise les semaines pour varier l'angle (bénéfice principal / objection principale / résultat client / "pour qui c'est").
+> 💡 **Si tu n'as qu'une seule offre :** Fais varier l'angle d'une semaine à l'autre (bénéfice principal / objection principale / résultat client / "pour qui c'est").
 
 > ⚠️ **Règle :** Ce tableau est figé pour 3 mois. Tu n'y touches pas en cours de trimestre sauf changement d'offre majeur.
 
@@ -97,7 +97,7 @@
 # 4. 🗃️ La Matrice Stratégique
 
 **Temporalité :** En continu, alimentée dès qu'une idée de post arrive.
-**Utilisation :** C'est ton stock. Toutes tes idées de contenus y sont rangées et qualifiées avant d'être planifiées. Tu ne crées jamais un post sans savoir pourquoi il existe dans le parcours.
+**Utilisation :** C'est ton stock : toutes tes idées de contenus y sont rangées et qualifiées avant d'être planifiées. Tu ne crées jamais un post sans savoir pourquoi il existe dans le parcours.
 
 ## Comment l'utiliser
 
@@ -128,54 +128,62 @@
 ### 🔵 Acquisition, 6 formats
 *Objectif : capter un inconnu en moins de 2 secondes*
 
-1. **Prise de position**, contredire une croyance dominante de ta niche
-2. **Problème nommé crûment**, nommer une douleur si précisément que la personne se sent vue
-3. **Résultat chiffré surprenant**, un chiffre inattendu qui arrête le scroll
-4. **Liste ultra-ciblée**, "X choses que font les [profil précis]"
-5. **Contenu de curiosité**, créer un manque d'information qui force la lecture
-6. **Controverse douce**, affirmer ce que ta cible pense tout bas
+| Format | Principe |
+|---|---|
+| Prise de position | Contredire une croyance dominante de ta niche |
+| Problème nommé crûment | Nommer une douleur si précisément que la personne se sent vue |
+| Résultat chiffré surprenant | Un chiffre inattendu qui arrête le scroll |
+| Liste ultra-ciblée | "X choses que font les [profil précis]" |
+| Contenu de curiosité | Créer un manque d'information qui force la lecture |
+| Controverse douce | Affirmer ce que ta cible pense tout bas |
 
 ### 🟡 Considération, 12 formats
 *Objectif : transformer un abonné passif en fan actif*
 
-1. **Before/after intellectuel**, montrer une transformation de pensée
-2. **Démystification**, détruire une croyance populaire avec des preuves
-3. **Les coulisses**, montrer le processus, pas le résultat poli
-4. **Erreur assumée**, raconter une vraie erreur + ce qu'elle a enseigné
-5. **Comparatif**, "La différence entre X et Y"
-6. **La méthode nommée**, donner un nom à ta façon de faire
-7. **Cas client détaillé**, pas un témoignage, une dissection complète
-8. **Point de vue fort**, une opinion tranchée sur ton domaine
-9. **La série**, contenus liés qui créent une raison de revenir
-10. **Information rare**, ce que peu de gens dans ta niche savent
-11. **La réfutation**, répondre publiquement à une objection courante
-12. **Le processus en direct**, montrer comment tu travailles en temps réel
+| Format | Principe |
+|---|---|
+| Before/after intellectuel | Montrer une transformation de pensée |
+| Démystification | Détruire une croyance populaire avec des preuves |
+| Les coulisses | Montrer le processus, pas le résultat poli |
+| Erreur assumée | Raconter une vraie erreur + ce qu'elle a enseigné |
+| Comparatif | "La différence entre X et Y" |
+| La méthode nommée | Donner un nom à ta façon de faire |
+| Cas client détaillé | Pas un témoignage, une dissection complète |
+| Point de vue fort | Une opinion tranchée sur ton domaine |
+| La série | Contenus liés qui créent une raison de revenir |
+| Information rare | Ce que peu de gens dans ta niche savent |
+| La réfutation | Répondre publiquement à une objection courante |
+| Le processus en direct | Montrer comment tu travailles en temps réel |
 
 ### 🟢 Relation, 6 formats
 *Objectif : créer un attachement qui dépasse l'algorithme*
 
-1. **Récit personnel**, une histoire vraie avec une leçon réelle
-2. **Vulnérabilité calibrée**, partager une difficulté sans tomber dans le drama
-3. **Positionnement de valeurs**, ce en quoi tu crois / ce que tu refuses
-4. **Humour identitaire**, une blague que seule ta communauté comprend
-5. **Réponse communautaire**, réagir à ce que pense ton audience
-6. **Contenu long terme**, une réflexion de fond qui montre une vision
+| Format | Principe |
+|---|---|
+| Récit personnel | Une histoire vraie avec une leçon réelle |
+| Vulnérabilité calibrée | Partager une difficulté sans tomber dans le drama |
+| Positionnement de valeurs | Ce en quoi tu crois / ce que tu refuses |
+| Humour identitaire | Une blague que seule ta communauté comprend |
+| Réponse communautaire | Réagir à ce que pense ton audience |
+| Contenu long terme | Une réflexion de fond qui montre une vision |
 
 ### 🟣 Vente, 12 formats
 *Objectif : amener à la décision sans forcer*
 
-1. **Dissolution d'objection**, nommer et dissoudre la peur principale
-2. **Démonstration de résultat**, prouver que ça marche sur toi d'abord
-3. **Pour qui / pas pour qui**, qualifier l'audience, ça rassure et convertit
-4. **Urgence réelle**, une vraie raison d'agir maintenant
-5. **Prix justifié**, expliquer la valeur, pas juste annoncer le tarif
-6. **Témoignage ciblé**, un retour client qui répond à l'objection principale
-7. **Coût de l'inaction**, ce qu'il se passe si on ne fait rien
-8. **Comparaison de valeur**, "pour le prix de X, tu obtiens Y"
-9. **Éducatif qui mène à l'offre**, donner gratuitement ce qui donne envie du payant
-10. **FAQ publique**, répondre aux questions d'achat en contenu
-11. **Récit de transformation client**, le chemin du point A au point B
-12. **Appel direct**, dire clairement ce que tu vends, à qui, comment l'avoir
+| Format | Principe |
+|---|---|
+| Dissolution d'objection | Nommer et dissoudre la peur principale |
+| Démonstration de résultat | Prouver que ça marche sur toi d'abord |
+| Pour qui / pas pour qui | Qualifier l'audience, ça rassure et convertit |
+| Urgence réelle | Une vraie raison d'agir maintenant |
+| Prix justifié | Expliquer la valeur, pas juste annoncer le tarif |
+| Témoignage ciblé | Un retour client qui répond à l'objection principale |
+| Coût de l'inaction | Ce qu'il se passe si on ne fait rien |
+| Comparaison de valeur | "pour le prix de X, tu obtiens Y" |
+| Éducatif qui mène à l'offre | Donner gratuitement ce qui donne envie du payant |
+| FAQ publique | Répondre aux questions d'achat en contenu |
+| Récit de transformation client | Le chemin du point A au point B |
+| Appel direct | Dire clairement ce que tu vends, à qui, comment l'avoir |
 
 ### ⚪ Communauté, format bonus
 *Objectif : fidéliser ceux qui ont déjà acheté et créer des ambassadeurs*
@@ -214,7 +222,7 @@
 | Samedi | | | | | |
 | Dimanche | | | | | |
 
-> 💡 **Règle vidéo :** 1 post texte sur 3 devient une vidéo. Même contenu, format différent. Structure vidéo : 0-3s accroche / 3-25s développement / 25-30s appel à réaction.
+> 💡 **Règle vidéo :** 1 post texte sur 3 devient une vidéo, avec le même contenu dans un autre format. Structure vidéo : 0-3s accroche / 3-25s développement / 25-30s appel à réaction.
 
 > ⚠️ **Banque tampon :** Vérifie que tu as au moins 4 posts "✅ Prêt à publier" dans la Matrice. Si non, reconstitue avant de planifier autre chose.
 
@@ -225,7 +233,7 @@
 # 6. ✅ Checklist Distribution
 
 **Temporalité :** Dans les 30 minutes après chaque publication.
-**Utilisation :** Publier un bon post c'est 50% du travail. L'autre 50% c'est le faire voir. Cette checklist est à imprimer ou mettre en widget sur ton téléphone, pas dans Notion, pour créer une obligation physique.
+**Utilisation :** Publier un bon post, c'est 50% du travail, et l'autre 50%, c'est le faire voir. Cette checklist est à imprimer ou mettre en widget sur ton téléphone, pas dans Notion, pour créer une obligation physique.
 
 ```
 □ Répondre aux 5 premiers commentaires (dans les 10 min)
@@ -242,14 +250,14 @@
 # 7. 📊 Note de Performance
 
 **Temporalité :** À J+2 après chaque publication (une alarme récurrente sur ton téléphone peut aider).
-**Utilisation :** Revenir dans la Matrice sur le post publié et lui attribuer une note. Pas d'analyse, juste un chiffre. Au bout de 2 mois, les patterns émergent seuls.
+**Utilisation :** Revenir dans la Matrice sur le post publié et lui attribuer une note, juste un chiffre, sans analyse. Au bout de 2 mois, les patterns émergent seuls.
 
 **Échelle :**
 - **1**, Sous les attentes (peu de vues, zéro engagement, zéro DM)
 - **2**, Dans la moyenne
 - **3**, A surperformé (vues élevées, DM, partages, demandes)
 
-> 💡 **Ce que tu feras avec ces notes :** Au bout de 8 semaines, filtre la Matrice sur les notes "3". Quels formats reviennent ? Quelles étapes ? → Ce sont tes formats personnels. Produis-en plus.
+> 💡 **Ce que tu feras avec ces notes :** Au bout de 8 semaines, filtre la Matrice sur les notes "3" et regarde quels formats et quelles étapes reviennent : ce sont tes formats personnels, alors produis-en plus.
 
 ---
 
@@ -258,7 +266,7 @@
 # 8. 📝 Bilan Vendredi
 
 **Temporalité :** Chaque vendredi, alarme à 18h, 5 minutes.
-**Utilisation :** Capitaliser sur la semaine sans effort d'analyse. 3 questions, 1 insight noté. Pas de tableau, pas de Notion, une note dans ton téléphone suffit.
+**Utilisation :** Capitaliser sur la semaine sans effort d'analyse, avec 3 questions et 1 insight noté : pas de tableau ni de Notion, une note dans ton téléphone suffit.
 
 ```
 1. Quel post a le mieux marché cette semaine ?
@@ -280,7 +288,7 @@
 # 9. 🏦 Banque Tampon
 
 **Temporalité :** En continu, à maintenir en permanence.
-**Utilisation :** Toujours avoir 8 posts "✅ Prêt à publier" dans la Matrice, répartis sur les 4 étapes. Créés pendant tes pics d'énergie, consommés pendant tes creux.
+**Utilisation :** Toujours avoir 8 posts "✅ Prêt à publier" dans la Matrice, répartis sur les 4 étapes, créés pendant tes pics d'énergie et consommés pendant tes creux.
 
 ## État de la banque
 
@@ -304,7 +312,7 @@
 # 10. ⚪ Post Communauté Mensuel
 
 **Temporalité :** 1 fois par mois, obligatoire.
-**Utilisation :** S'adresser publiquement à ceux qui ont déjà acheté. Ils se sentent vus, ils parlent de toi. C'est ton meilleur contenu d'acquisition, et il est gratuit.
+**Utilisation :** S'adresser publiquement à ceux qui ont déjà acheté : ils se sentent vus et parlent de toi, ce qui en fait ton meilleur contenu d'acquisition, et il est gratuit.
 
 ## Suivi mensuel
 
@@ -343,11 +351,9 @@ La plupart des créateurs classent leur contenu en *éducatif*, *inspirant*, *en
 
 ## Le principe fondamental
 
-Ton audience est constituée de personnes à des stades différents de leur relation avec toi. Certains te découvrent aujourd'hui. D'autres te suivent depuis 6 mois sans jamais avoir acheté. D'autres encore sont prêts à acheter mais n'ont pas reçu le bon signal.
+Ton audience est constituée de personnes à des stades différents de leur relation avec toi. Certains te découvrent aujourd'hui, d'autres te suivent depuis 6 mois sans jamais avoir acheté, et d'autres encore sont prêts à acheter mais n'ont pas reçu le bon signal.
 
-**Un contenu bien structuré fait avancer chaque personne d'un stade au suivant.**
-
-Ce n'est pas un tunnel linéaire que chaque personne traverse dans l'ordre, c'est un écosystème où chaque type de contenu joue un rôle permanent.
+**Un contenu bien structuré fait avancer chaque personne d'un stade au suivant.** Chaque type de contenu y joue un rôle permanent, au lieu de se succéder comme les étapes d'un tunnel linéaire que chacun traverserait dans l'ordre.
 
 ## Les 4 étapes relationnelles
 
@@ -357,11 +363,11 @@ Ce n'est pas un tunnel linéaire que chaque personne traverse dans l'ordre, c'es
 
 ### 🟡 Considération
 **Objectif :** Faire passer quelqu'un de consommateur passif à consommateur actif de ton contenu.
-**Mécanique psychologique :** Pour changer de comportement, une personne doit d'abord douter de son statu quo. La considération joue sur la dissonance cognitive, montrer que ce que la personne croit est incomplet ou faux, et sur l'effet de mere exposition : plus on voit quelqu'un, plus on lui fait confiance. C'est l'étape la plus longue car changer une croyance prend du temps. C'est aussi celle que la plupart des créateurs négligent le plus.
+**Mécanique psychologique :** Pour changer de comportement, une personne doit d'abord douter de son statu quo. La considération joue sur la dissonance cognitive (montrer que ce que la personne croit est incomplet ou faux) et sur l'effet de simple exposition (mere exposure) : plus on voit quelqu'un, plus on lui fait confiance. C'est l'étape la plus longue car changer une croyance prend du temps. C'est aussi celle que la plupart des créateurs négligent le plus.
 
 ### 🟢 Relation
 **Objectif :** Construire une confiance qui survit aux semaines sans publier.
-**Mécanique psychologique :** On s'attache à quelqu'un quand on a l'impression de le connaître vraiment. Ça nécessite de la consistance (même personne, mêmes valeurs dans la durée), de la vulnérabilité (les gens ne s'attachent pas à la perfection), et un ennemi commun (partager ce qu'on refuse crée plus de lien que partager ce qu'on aime).
+**Mécanique psychologique :** On s'attache à quelqu'un quand on a l'impression de le connaître vraiment. Ça nécessite de la constance (même personne, mêmes valeurs dans la durée), de la vulnérabilité (les gens ne s'attachent pas à la perfection), et un ennemi commun (partager ce qu'on refuse crée plus de lien que partager ce qu'on aime).
 
 ### 🟣 Vente
 **Objectif :** Amener à la décision d'achat sans technique de vente moisie.
@@ -376,9 +382,7 @@ Ce n'est pas un tunnel linéaire que chaque personne traverse dans l'ordre, c'es
 
 ## Le vrai secret de l'exécution
 
-La plupart des systèmes échouent parce qu'ils demandent de la motivation au moment de l'action.
-
-Ce système fonctionne parce qu'il déplace les décisions **en amont**, quand tu as de l'énergie, et ne laisse que l'exécution mécanique pour les moments ordinaires.
+La plupart des systèmes échouent parce qu'ils demandent de la motivation au moment de l'action. Celui-ci fonctionne parce qu'il déplace les décisions **en amont**, quand tu as de l'énergie, et ne laisse que l'exécution mécanique pour les moments ordinaires.
 
 ```
 ANNUEL        → Calendrier saisonnier (défini en janvier, jamais retouché)
@@ -397,7 +401,7 @@ POST PAR POST → Checklist distribution (papier/widget)
 VENDREDI      → Bilan 5 min · 3 questions · 1 insight noté
 ```
 
-**Tu ne te demandes jamais quoi faire. Tu suis ce que ton toi du passé a déjà décidé.**
+**Tu ne te demandes jamais quoi faire, tu suis ce que ton toi du passé a déjà décidé.**
 
 **Ailleurs dans la Toolbox**
 
