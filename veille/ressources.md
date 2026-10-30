@@ -1,3 +1,5 @@
+<sub>[Toolbox](../README.md) › [Veille](./README.md) › Ressources</sub>
+
 # Ressources
 
 Source : [veille-ux-ui.vercel.app](https://veille-ux-ui.vercel.app/), 21 ressources.
@@ -129,3 +131,7 @@ Contrôler la qualité d'un service numérique avec un référentiel de 245 règ
 *2023-03-28 · Design system*
 
 Parcourir plus de 100 design systems recensés par un collectif francophone, qui anime aussi une communauté.
+
+---
+
+[← Toute la veille](./README.md) · [Choisir parmi ces outils : les guides](../guides/README.md) · [Accueil de la Toolbox](../README.md)

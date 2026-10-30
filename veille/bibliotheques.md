@@ -1,3 +1,5 @@
+<sub>[Toolbox](../README.md) › [Veille](./README.md) › Bibliothèques</sub>
+
 # Bibliothèques
 
 Source : [veille-ux-ui.vercel.app](https://veille-ux-ui.vercel.app/), 7 ressources.
@@ -45,3 +47,8 @@ Trouver des composants React (shadcn) prêts à intégrer, sur une place de marc
 *2023-06-03 · Icons, 3D*
 
 Télécharger gratuitement plus de 1 400 icônes 3D sous licence CC0, sans obligation de citer l'auteur.
+
+
+---
+
+[← Toute la veille](./README.md) · [Choisir parmi ces outils : les guides](../guides/README.md) · [Accueil de la Toolbox](../README.md)

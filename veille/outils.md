@@ -1,3 +1,5 @@
+<sub>[Toolbox](../README.md) › [Veille](./README.md) › Outils</sub>
+
 # Outils
 
 Source : [veille-ux-ui.vercel.app](https://veille-ux-ui.vercel.app/), 37 ressources.
@@ -241,3 +243,7 @@ Discuter avec l'assistant IA de Google, qui comprend le texte comme les images ;
 *2023-03-22 · Accessibilité*
 
 Contrôler sur-le-champ les ratios de contraste WCAG, dans un plugin Figma ou une appli Mac.
+
+---
+
+[← Toute la veille](./README.md) · [Choisir parmi ces outils : les guides](../guides/README.md) · [Accueil de la Toolbox](../README.md)

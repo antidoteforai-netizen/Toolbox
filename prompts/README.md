@@ -1,3 +1,5 @@
+<sub>[Toolbox](../README.md) › Prompts</sub>
+
 # Prompts
 
 *Dossier mis à jour le 30 octobre 2026.*

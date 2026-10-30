@@ -1,3 +1,5 @@
+<sub>[Toolbox](../README.md) › [Prompts](./README.md) › Prompt maître du harnais</sub>
+
 # PROMPT MAÎTRE, Harnais, voyant et surface de revue
 
 **Version 2.** Destiné à Claude Code, lancé à la racine du cockpit. Session longue, cinq blocs, points d'arrêt obligatoires entre chaque.
