@@ -1,10 +1,12 @@
 # Prompts
 
+*Dossier mis à jour le 30 octobre 2026.*
+
 Des prompts longs, à copier tels quels dans l'outil indiqué, commentés pour que vous puissiez les adapter à votre projet.
 
-| Prompt | Outil | Ce qu'il fait |
-|---|---|---|
-| [Prompt maître du harnais d'agents](./prompt-maitre-harnais.md) | Claude Code | Construit, en cinq blocs avec points d'arrêt, le dispositif qui rend le travail d'un agent observable, arrêtable et vérifiable, avec une règle de départ : ne jamais confondre « l'agent dit qu'il a réussi » avec « le système a réussi » |
+| Prompt | Outil | Ce qu'il fait | Mis à jour |
+|---|---|---|---|
+| [Prompt maître du harnais d'agents](./prompt-maitre-harnais.md) | Claude Code | Construit, en cinq blocs avec points d'arrêt, le dispositif qui rend le travail d'un agent observable, arrêtable et vérifiable, avec une règle de départ : ne jamais confondre « l'agent dit qu'il a réussi » avec « le système a réussi » | 30 octobre 2026 |
 
 ## Les autres prompts, rangés avec leurs explications
 

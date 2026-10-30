@@ -2,6 +2,8 @@
 
 **Neuf tutoriels en trois parcours, sans sauter une seule étape** : c’est la suite logique de [la boîte à outils](../guides/boite-a-outils-ia.md). Ici, pas de vue d’ensemble, mais des étapes numérotées, des commandes à coller et des astuces placées à l’endroit précis où tu vas en avoir besoin. Suis ton parcours du début à la fin, une seule fois, et tu n’auras plus besoin de revenir sur les bases.
 
+*Mis à jour le 30 octobre 2026.*
+
 ## Sommaire
 
 - [Lire ces tutoriels dans le bon ordre](#lire-ces-tutoriels-dans-le-bon-ordre)
@@ -39,17 +41,19 @@ De la maquette au lien qu’on peut envoyer à un client, en trois tutoriels qui
 
 Installer, donner ta première vraie instruction, et comprendre la différence entre explorer vite et livrer proprement.
 
-**Prérequis :** Node.js installé sur ta machine, un terminal, un compte Claude (Pro, Max, ou accès API).
+**Prérequis :** Un terminal, et un abonnement Claude Pro, Max, Team ou Enterprise, ou bien un compte Console avec accès API, parce que l’offre gratuite de claude.ai ne donne pas accès à Claude Code.
 
 ### Installer Claude Code
 
-Depuis ton terminal, installe le paquet officiel puis lance-le dans le dossier de ton projet (ou un dossier vide pour t’entraîner).
+Depuis ton terminal (Mac, Linux ou WSL), lance l’installateur officiel, puis démarre Claude Code dans le dossier de ton projet (ou un dossier vide pour t’entraîner).
 
 ```bash
-npm install -g @anthropic-ai/claude-code
+curl -fsSL https://claude.ai/install.sh | bash
 cd mon-projet
 claude
 ```
+
+Sur Windows, dans PowerShell, la commande d’installation devient `irm https://claude.ai/install.ps1 | iex`. Si `claude` reste introuvable juste après, ouvre un nouveau terminal et tape `claude --version` : un numéro de version veut dire que tout est en place. L’installation par npm existe encore, mais elle demande Node.js 22 ou plus récent, alors que l’installateur officiel, celui que la documentation recommande, n’a pas besoin de Node.js.
 
 La première fois, on te demande de te connecter à ton compte. Une fois fait, tu es dans une session interactive : tu peux discuter, mais aussi laisser Claude lire, écrire et exécuter du code directement dans ce dossier.
 
@@ -65,7 +69,7 @@ d'attente". Le formulaire doit valider l'email et
 afficher un message de confirmation.
 ```
 
-Claude va d’abord t’exposer un plan avant de commencer à écrire, c’est le moment de corriger si l’interprétation ne colle pas à ce que tu voulais.
+Pour que Claude t’expose son plan avant d’écrire, passe en mode plan en appuyant sur Maj+Tab jusqu’à voir « plan mode on » sous la zone de saisie. Claude lit alors ton projet et propose un plan sans toucher au moindre fichier tant que tu ne l’as pas validé, c’est le moment de corriger si l’interprétation ne colle pas à ce que tu voulais.
 
 ### Comprendre le cycle Explore → Plan → Code → Commit
 
@@ -89,7 +93,7 @@ Pour explorer une idée un week-end, accepte les suggestions et avance vite, c�
 
 ### Les réflexes de debug qui font gagner du temps
 
-Colle les messages d’erreur bruts, sans les résumer, Claude Code s’en sort mieux avec le texte exact qu’avec ta reformulation. Si une session part dans une mauvaise direction, reviens en arrière au lieu d’accumuler les corrections successives.
+Colle les messages d’erreur bruts, sans les résumer, Claude Code s’en sort mieux avec le texte exact qu’avec ta reformulation. Si une session part dans une mauvaise direction, reviens en arrière (commande `/rewind`, ou deux fois Échap sur une invite vide) au lieu d’accumuler les corrections successives.
 
 > 💡 **Astuce.** Demande explicitement à Claude Code de te présenter son plan avant d’écrire quoi que ce soit ("explique ton plan avant de commencer") si tu sens que la tâche est ambiguë, ça coûte trente secondes et ça évite de défaire une heure de travail.
 
@@ -101,7 +105,7 @@ Colle les messages d’erreur bruts, sans les résumer, Claude Code s’en sort 
 
 Le complément obligatoire du tutoriel précédent, parce que du code qui "a l’air" de marcher n’est pas forcément du code qui marche : Playwright le vérifie dans un vrai navigateur.
 
-**Prérequis :** Avoir terminé le tutoriel 1, une application qui tourne en local (ex. localhost:3000).
+**Prérequis :** Avoir terminé le tutoriel 1, une application qui tourne en local (ex. localhost:3000), et Node.js 20 ou plus récent, parce que le serveur Playwright se lance avec `npx`.
 
 ### Comprendre pourquoi ce tutoriel existe
 
@@ -156,7 +160,7 @@ Une fois qu’une vérification décrite en une phrase fonctionne bien, demande 
 
 > ⚠️ **Point de vigilance.** Tout ce que Claude voit à travers Playwright MCP (contenu de page, console, données de formulaire) part vers l’API Anthropic pour être traité. Réserve cet usage aux environnements de développement avec des données de test, jamais à un environnement de production avec de vraies données utilisateur.
 
-> 💡 **Astuce.** Pour des tests répétés en intégration continue plutôt que de l’exploration ponctuelle, Microsoft propose depuis 2026 une variante en ligne de commande de Playwright, plus économe en tokens. Garde le MCP pour explorer et déboguer, la CLI pour les tests qui tournent en boucle.
+> 💡 **Astuce.** Microsoft propose depuis janvier 2026 Playwright CLI (`npm install -g @playwright/cli@latest`), une variante en ligne de commande pensée pour les agents de code comme Claude Code, plus économe en tokens parce qu’elle évite de charger tout l’arbre d’accessibilité de la page dans la conversation. Garde le MCP pour explorer et déboguer, la CLI pour les vérifications qui tournent en boucle.
 
 > 📎 **Ressource.** Playwright MCP, documentation officielle.
 
@@ -166,7 +170,7 @@ Une fois qu’une vérification décrite en une phrase fonctionne bien, demande 
 
 Quand ouvrir Webflow au lieu de Claude Code, et comment ne pas livrer un site qui sent le générateur IA à trois kilomètres.
 
-**Prérequis :** Un compte Webflow (l’offre gratuite suffit pour ce tutoriel), une idée claire de ton contenu.
+**Prérequis :** Un compte Webflow et une idée claire de ton contenu. L’offre gratuite suffit pour découvrir l’AI Site Builder, mais elle limite le site à deux pages, alors qu’une offre payante (Site ou Workspace) en génère jusqu’à cinq au départ et débloque la rédaction de textes par Webflow AI.
 
 ### Décider si Webflow est le bon outil
 
@@ -174,7 +178,7 @@ Règle simple : un site vitrine, une landing page, un portfolio → Webflow. Un 
 
 ### Générer un premier jet avec l’AI Site Builder
 
-Depuis ton espace Webflow, choisis "AI Site Builder" et décris ton activité aussi précisément que possible : nom, ce que tu fais, ton audience, les pages dont tu as besoin. Plus le prompt de départ est précis, plus la structure générée est exploitable telle quelle. Tu obtiens un site multi-pages avec un vrai système de design derrière, pas une maquette figée.
+Depuis ton tableau de bord Webflow, clique sur "New site" puis choisis "AI Site Builder", et décris ton activité aussi précisément que possible : nom, ce que tu fais, ton audience, les pages dont tu as besoin. Plus le prompt de départ est précis, plus la structure générée est exploitable telle quelle. Tu obtiens un site multi-pages avec un vrai système de design derrière, pas une maquette figée.
 
 ### Reprendre la main dans le Designer
 
@@ -192,7 +196,7 @@ Si le site a besoin de contenu qui change régulièrement (articles, études de 
 
 Teste sur mobile, vérifie que chaque formulaire envoie bien ses données quelque part, contrôle la vitesse de chargement des images. C’est le moment de rappeler le tutoriel précédent : si le site embarque une brique applicative testable, Playwright peut vérifier ce parcours pour toi avant la mise en ligne.
 
-> ⚠️ **Point de vigilance.** L’éditeur historique de Webflow (le "legacy Editor") ferme le 4 août 2026. Si ton équipe ou toi passez encore par lui pour les mises à jour de contenu au quotidien, planifie la bascule vers la nouvelle expérience d’édition avant cette date.
+> ⚠️ **Point de vigilance.** L’éditeur historique de Webflow (le "legacy Editor") a fermé le 4 août 2026, et les personnes qui s’en servaient ont été basculées vers des sièges client ou des sièges limités gratuits. Si ton client doit mettre à jour lui-même les textes du site, prévois-lui un siège client dans ton espace Webflow (ils sont proposés sur les offres Workspace pour freelances et agences) avant la livraison, au lieu de lui parler de l’ancien Editor.
 
 > 📎 **Ressource.** Webflow AI Site Builder.
 
@@ -247,7 +251,7 @@ Rien ne doit partir en production sans qu’une personne l’ait vu passer. Ajou
 
 > 💡 **Astuce.** Ne construis pas Notion et Airtable en parallèle dès le premier jour. Commence par un seul, sers-t’en deux semaines, et ajoute le second seulement quand la limite du premier devient concrètement gênante, tu sauras alors exactement quoi lui demander.
 
-> 📎 **Ressource.** Airtable, AI agent software · N8N, AI agents.
+> 📎 **Ressource.** Using Omni AI in Airtable · N8N, AI agents.
 
 *Parcours Marketing · tutoriel 2/3 · ~35 min*
 
@@ -255,7 +259,7 @@ Rien ne doit partir en production sans qu’une personne l’ait vu passer. Ajou
 
 Un porte-parole ou une identité de campagne, décliné en dizaines de visuels cohérents, sans reprogrammer un shooting à chaque déclinaison.
 
-**Prérequis :** Un compte Higgsfield, entre 20 et 30 photos de référence de haute qualité (personne réelle ou mannequin, avec les droits d’usage).
+**Prérequis :** Un compte Higgsfield, au moins 20 photos de référence de haute qualité (Higgsfield en accepte jusqu’à 80), d’une personne réelle ou d’un mannequin dont tu as les droits d’usage.
 
 ### Définir l’identité avant d’ouvrir l’outil
 
@@ -263,7 +267,7 @@ Choisis qui incarne la campagne : un vrai porte-parole de marque, un mannequin s
 
 ### Entraîner Soul ID
 
-Dans Higgsfield, section Characters, importe 20 à 30 photos : plusieurs angles de visage, éclairage cohérent, rien qui masque les traits (pas de lunettes de soleil, pas de chapeau qui cache le front). L’entraînement prend 3 à 5 minutes. Nomme l’identité pour la retrouver facilement ensuite.
+Dans Higgsfield, section Characters, importe entre 20 et 80 photos : plusieurs angles de visage et plusieurs expressions, au moins une photo en pied, un éclairage cohérent, et rien qui masque les traits (pas de lunettes de soleil, pas de chapeau qui cache le front, pas de photo de groupe). L’entraînement prend 3 à 5 minutes. Nomme l’identité pour la retrouver facilement ensuite.
 
 ### Générer une première série de test
 
@@ -277,7 +281,7 @@ Connecte Higgsfield à N8N (support MCP natif) pour industrialiser : un brief de
 
 Passe chaque lot généré en revue avant publication : les scènes d’action ou de mouvement rapide restent le point faible de la cohérence de visage, privilégie les scènes posées pour ta production récurrente et réserve les tests plus ambitieux à des allers-retours de validation.
 
-> ⚠️ **Point de vigilance.** Les visuels générés embarquent un marquage de provenance (C2PA). Vérifie les obligations de divulgation IA de chaque plateforme où tu publies en contexte publicitaire, les règles varient déjà selon les régions et se durcissent.
+> ⚠️ **Point de vigilance.** Higgsfield se réserve le droit d’intégrer aux visuels générés un marquage de provenance lisible par machine (filigrane ou métadonnées au standard C2PA), et ses conditions générales t’interdisent de le retirer. Vérifie les obligations de divulgation IA de chaque plateforme où tu publies en contexte publicitaire, les règles varient déjà selon les régions et se durcissent.
 
 > 📎 **Ressource.** Soul ID, Higgsfield.
 
@@ -327,11 +331,11 @@ Tu es le produit, la marque et l’équipe de contenu à toi seul·e. Trois tuto
 
 Le même visage, la même vibe, sur des dizaines de posts, sans reprendre une séance photo chaque semaine.
 
-**Prérequis :** Un compte Higgsfield, 20 à 30 photos de toi-même (ou de ton personnage de marque), bien éclairées.
+**Prérequis :** Un compte Higgsfield, au moins 20 photos de toi-même (ou de ton personnage de marque), bien éclairées.
 
 ### Choisir tes photos de référence
 
-La qualité de départ détermine presque tout le résultat. Vise 20 à 30 photos avec un éclairage cohérent (naturel de préférence), plusieurs angles de visage (face, trois-quarts, profil), sans lunettes de soleil ni chapeau qui masque les traits. Un jeu de photos faible donne systématiquement une identité faible, n’essaie pas de compenser ça après coup.
+La qualité de départ détermine presque tout le résultat. Higgsfield demande entre 20 et 80 photos : vise au moins 20 photos avec un éclairage cohérent (naturel de préférence), plusieurs angles de visage (face, trois-quarts, profil) et plusieurs expressions, dont au moins une en pied, sans lunettes de soleil ni chapeau qui masque les traits. Un jeu de photos faible donne systématiquement une identité faible, n’essaie pas de compenser ça après coup.
 
 ### Entraîner ton Soul ID
 
@@ -421,34 +425,39 @@ Instagram limite désormais chaque publication à cinq hashtags, et Mosseri pré
 
 Suis dans ta base Airtable (tutoriel précédent) les envois en message privé et le temps de visionnage plutôt que le seul nombre de likes. Selon MeetEdgar, ce sont ces signaux, bien plus que ton nombre d’abonnés, qui décident si Instagram montre ton prochain post au-delà de ta bulle actuelle.
 
-> ⚠️ **Point de vigilance.** Aucun de ces signaux n’est figé : Instagram ajuste son système en continu, et ce qui est vrai en juillet 2026 ne le sera pas nécessairement dans un an. Reviens vérifier les dernières annonces d’Adam Mosseri plutôt que de traiter cette méthode comme définitive.
+> ⚠️ **Point de vigilance.** Aucun de ces signaux n’est figé : Instagram ajuste son système en continu, et ce qui est vrai en octobre 2026 ne le sera pas nécessairement dans un an. Reviens vérifier les dernières annonces d’Adam Mosseri plutôt que de traiter cette méthode comme définitive.
 
 > 📎 **Ressource.** [Instagram algorithm tips for 2026](https://blog.hootsuite.com/instagram-algorithm/) (blog Hootsuite) · [Instagram Algorithm Updates 2026](https://meetedgar.com/blog/instagram-algorithm-updates) (blog MeetEdgar, mars 2026).
 
 ## Sources vérifiées
 
-Les commandes et les affirmations techniques de ces neuf tutoriels ont été vérifiées en juillet 2026 sur la documentation des éditeurs. Deux exceptions : un article de Simon Willison sur le vibe coding, et la partie Instagram, qui s’appuie sur deux blogs spécialisés, Hootsuite et MeetEdgar, eux-mêmes fondés sur les déclarations d’Adam Mosseri. Les interfaces changent vite : si une commande ne fonctionne plus telle quelle, la doc officielle est toujours le bon réflexe avant de chercher plus loin.
+Les commandes et les affirmations techniques de ces neuf tutoriels ont été revérifiées le 30 octobre 2026 sur la documentation des éditeurs. Deux exceptions : un article de Simon Willison sur le vibe coding, et la partie Instagram, qui s’appuie sur deux blogs spécialisés, Hootsuite et MeetEdgar, eux-mêmes fondés sur les déclarations d’Adam Mosseri. Les interfaces changent vite : si une commande ne fonctionne plus telle quelle, la doc officielle est toujours le bon réflexe avant de chercher plus loin.
 
 ### Claude Code & Playwright
 
+- [Claude Code, Advanced setup](https://code.claude.com/docs/en/setup) · code.claude.com
 - [Not all AI-assisted programming is vibe coding](https://simonwillison.net/2025/Mar/19/vibe-coding/) · simonwillison.net
 - [Playwright MCP, documentation officielle](https://playwright.dev/docs/getting-started-mcp) · playwright.dev
-
 - [microsoft/playwright-mcp](https://github.com/microsoft/playwright-mcp) · github.com
+- [microsoft/playwright-cli](https://github.com/microsoft/playwright-cli) · github.com
 
 ### Webflow
 
 - [Webflow AI Site Builder](https://webflow.com/ai-site-builder) · webflow.com
-- [Webflow AI overview](https://help.webflow.com) · help.webflow.com
+- [Build a site with Webflow’s AI site builder](https://help.webflow.com/hc/en-us/articles/38840145286035) · help.webflow.com
+- [Webflow AI overview](https://help.webflow.com/hc/en-us/articles/34297897805715) · help.webflow.com
+- [Legacy Editor deprecation](https://webflow.com/updates/legacy-editor-deprecation) · webflow.com
 
 ### Organisation & données
 
-- [Airtable, AI agent software](https://www.airtable.com) · airtable.com
+- [Using Omni AI in Airtable](https://support.airtable.com/articles/1744327578-using-omni-ai-in-airtable) · support.airtable.com
 - [N8N, AI agents](https://n8n.io/ai-agents/) · n8n.io
 
 ### Higgsfield
 
-- [Soul ID, Higgsfield](https://higgsfield.ai) · higgsfield.ai
+- [Soul ID, Higgsfield](https://higgsfield.ai/character) · higgsfield.ai
+- [How to Put Yourself in an AI Video](https://higgsfield.ai/blog/how-to-put-yourself-in-ai-video) · blog Higgsfield, nombre de photos et durée d’entraînement
+- [Terms of Use, section 6.4 « Provenance and Watermarking »](https://higgsfield.ai/terms-of-use-agreement) · higgsfield.ai
 
 ### Instagram & algorithme
 
@@ -467,4 +476,4 @@ Aucun de ces neuf tutoriels ne vaut quoi que ce soit tant que tu ne l’as pas f
 
 ---
 
-*Tutoriels conçus sur-mesure · Sources vérifiées en juillet 2026 · Les outils et commandes cités évoluent vite, retourne à la documentation officielle pour toute donnée sensible au temps.*
+*Tutoriels conçus sur-mesure · Sources vérifiées le 30 octobre 2026 · Les outils et commandes cités évoluent vite, retourne à la documentation officielle pour toute donnée sensible au temps.*

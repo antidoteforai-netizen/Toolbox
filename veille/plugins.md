@@ -2,6 +2,8 @@
 
 Source : [veille-ux-ui.vercel.app](https://veille-ux-ui.vercel.app/), 6 ressources.
 
+*Mis à jour le 30 octobre 2026.*
+
 ## [Data to design](https://www.figma.com/community/plugin/1133729773197702197)
 
 *2026-06-29 · UI*
@@ -18,19 +20,19 @@ Transformer une maquette Figma en documentation Markdown structurée, spécifica
 
 *2023-07-12 · UI, Assistant IA*
 
-Faire relire une maquette par une IA dans Figma, qui propose des améliorations de design.
+Faire relire une maquette dans Figma par un assistant qui repère les polices employées par erreur, les écarts de style et les problèmes du fichier, puis explique comment les corriger.
 
-## [Deck 2.0](https://www.figma.com/community/plugin/1140054344941215008/Deck-2.0-(BETA))
+## [Deck](https://www.figma.com/community/plugin/1140054344941215008/deck)
 
 *2023-05-30 · UI, Présentation*
 
-Changer des frames Figma en présentation interactive, diapositive par diapositive.
+Convertir gratuitement des frames Figma en présentation PowerPoint modifiable : le texte et les formes simples restent éditables, le reste passe en image.
 
 ## [Toolabs Design System Manager](https://www.figma.com/community/plugin/862818788004280193/Toolabs-Design-System-Manager)
 
 *2023-03-22 · UI, Design system*
 
-Organiser et documenter les composants d'un design system sans quitter Figma.
+Organiser et documenter les composants d'un design system sans quitter Figma. Son éditeur ne fait plus évoluer Toolabs, faute d'en avoir fait une activité viable, et le garde seulement en service pour ses utilisateurs existants (dernière version du plugin en novembre 2021).
 
 ## [Figma GPT](https://www.figma.com/community/plugin/1213050091855586023/Figma-GPT)
 

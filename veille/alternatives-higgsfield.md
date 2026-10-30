@@ -194,10 +194,10 @@ Depuis le premier recensement, le dépôt Open Higgsfield AI a été renommé, s
 
 | Dossier | Pour aller plus loin |
 |---|---|
-| Guides | [Higgsfield dans la boîte à outils IA](../guides/boite-a-outils-ia.md#higgsfield), pour comprendre Soul ID ; [Nano Banana Pro gratuit via Google AI Studio](../guides/ressources-ia-generative.md#02--nano-banana-pro-gratuit-via-google-ai-studio), une autre piste gratuite pour l'image ; [les alternatives gratuites que j'ai testées](../guides/ressources-ia-generative.md#phase-2-les-alternatives-gratuites) |
+| Guides | [Higgsfield dans la boîte à outils IA](../guides/boite-a-outils-ia.md#higgsfield), pour comprendre Soul ID ; [Nano Banana Pro via Google AI Studio](../guides/ressources-ia-generative.md#02--nano-banana-pro-via-google-ai-studio), une autre piste gratuite pour l'image ; [les alternatives gratuites que j'ai testées](../guides/ressources-ia-generative.md#phase-2-les-alternatives-gratuites) |
 | Tutoriels | [Génération visuelle à l'échelle](../tutoriels/tutoriels-par-profil.md#génération-visuelle-à-léchelle-avec-higgsfield) et [Identité visuelle cohérente](../tutoriels/tutoriels-par-profil.md#construire-une-identité-visuelle-cohérente-avec-higgsfield), dont la méthode vaut pour tous ces outils ; [Installer n8n avec Docker](../tutoriels/installer-n8n-docker.md), pour automatiser via une API |
 | Prompts | [Les prompts d'image et de vidéo commentés](../guides/ressources-ia-generative.md#05--prompts-que-jutilise-et-comment-les-lire) et [les angles photo](../guides/ressources-ia-generative.md#04--maîtriser-les-angles-photo), qui marchent avec chacun de ces modèles ; [tous les prompts](../prompts/) |
-| Veille | [Les autres outils de génération](./outils.md), dont Runway, Krea et Flux 1 |
+| Veille | [Les autres outils de génération](./outils.md), dont Runway, Krea et FLUX |
 
 ---
 

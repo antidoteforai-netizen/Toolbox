@@ -6,6 +6,8 @@
 
 **Arrêtez de collectionner les outils IA et commencez à vous en servir.**
 
+*Mis à jour le 30 octobre 2026 : prix, versions, commandes et liens revérifiés sur les sources officielles.*
+
 Ce mois-ci, vous avez testé six outils IA et vous en avez gardé deux, sans trop savoir pourquoi ceux-là. Ce dépôt sert à répondre à cette question.
 
 Je range ici ce que j'ai testé moi-même : les liens que je rouvre, les tutos que j'aurais aimé trouver plus tôt, les prompts que je recopie chaque semaine. Tout est en français, gratuit et lisible sans compte.
@@ -26,7 +28,7 @@ Je ne suis pas ingénieure. Je me suis formée à l'automatisation, au no-code e
 | « Higgsfield coûte trop cher pour ce que je génère » | [Les alternatives à Higgsfield](./veille/alternatives-higgsfield.md) : du navigateur à l'installation locale, licences et coûts réels compris |
 | « Je publie tous les jours et rien ne bouge » | [Le système de contenu](./guides/strategie-contenu.md) : quoi publier, quand, et pourquoi |
 | « Mon prestataire n'a pas compris ma boîte » | [Préparer un brief avec son IA](./guides/brief-projet-avec-ia.pdf), dix prompts à copier-coller |
-| « Il me faut une référence UI, là, maintenant » | [La veille](./veille/) : 74 liens triés à la main |
+| « Il me faut une référence UI, là, maintenant » | [La veille](./veille/) : 71 liens triés à la main |
 
 ## Pourquoi me faire confiance
 
@@ -38,12 +40,12 @@ Chaque document porte sa date de vérification et ses sources sont cliquables. L
 
 Quatre dossiers, du plus large au plus concret. Chaque page renvoie vers les autres dossiers quand c'est utile, vous pouvez donc entrer par n'importe laquelle et suivre le fil.
 
-| Dossier | Répond à la question | Par exemple |
-|---|---|---|
-| [Veille](./veille/) | Qu'est-ce qui existe ? | [Les alternatives à Higgsfield](./veille/alternatives-higgsfield.md) |
-| [Guides](./guides/) | Lequel choisir, et pourquoi ? | [La boîte à outils IA](./guides/boite-a-outils-ia.md) |
-| [Tutoriels](./tutoriels/) | Comment m'en servir, étape par étape ? | [Installer n8n avec Docker](./tutoriels/installer-n8n-docker.md) |
-| [Prompts](./prompts/) | Quoi taper, mot pour mot ? | [Le prompt maître du harnais](./prompts/prompt-maitre-harnais.md) |
+| Dossier | Répond à la question | Par exemple | Mis à jour |
+|---|---|---|---|
+| [Veille](./veille/) | Qu'est-ce qui existe ? | [Les alternatives à Higgsfield](./veille/alternatives-higgsfield.md) | 30 octobre 2026 |
+| [Guides](./guides/) | Lequel choisir, et pourquoi ? | [La boîte à outils IA](./guides/boite-a-outils-ia.md) | 30 octobre 2026 |
+| [Tutoriels](./tutoriels/) | Comment m'en servir, étape par étape ? | [Installer n8n avec Docker](./tutoriels/installer-n8n-docker.md) | 30 octobre 2026 |
+| [Prompts](./prompts/) | Quoi taper, mot pour mot ? | [Le prompt maître du harnais](./prompts/prompt-maitre-harnais.md) | 30 octobre 2026 |
 
 ## Le contenu en détail
 

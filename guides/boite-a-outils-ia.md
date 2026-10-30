@@ -2,6 +2,8 @@
 
 **Arrête de collectionner les outils IA et commence à t’en servir.**
 
+*Mis à jour le 30 octobre 2026.*
+
 Ce document te dit précisément quoi faire avec Claude Code, les Skills, Figma, Webflow, Higgsfield, N8N et Airtable, que tu t’en serves déjà tous les jours ou que tu n’aies encore jamais ouvert aucun d’entre eux. Les sept outils y sont répartis selon trois profils, sans le blabla générique sur "l’IA qui va tout changer".
 
 ## Sommaire
@@ -74,11 +76,11 @@ Un prompt qui marche donne assez de contexte pour qu’il n’y ait plus qu’un
 
 ### Outil, agent, Skill : la différence qui évite les malentendus
 
-Un outil, c’est une capacité ponctuelle : générer une image, chercher sur le web, lire un fichier. Un agent, c’est un système qui enchaîne plusieurs étapes tout seul vers un objectif, en décidant lui-même l’ordre et les outils à mobiliser en cours de route ; Claude Cowork ou Manus en sont des exemples grand public. Une Skill (spécifique à Claude) est un mode d’emploi réutilisable que tu écris une fois et que Claude charge automatiquement quand la tâche correspond : la procédure, pas l’action elle-même. Retiens l’essentiel : plus le besoin est répétitif, plus une Skill vaut le coup ; plus la tâche est longue et à plusieurs étapes, plus un agent devient pertinent.
+Un outil, c’est une capacité ponctuelle : générer une image, chercher sur le web, lire un fichier. Un agent, c’est un système qui enchaîne plusieurs étapes tout seul vers un objectif, en décidant lui-même l’ordre et les outils à mobiliser en cours de route ; Claude Cowork ou Manus en sont des exemples grand public. Une Skill (un format ouvert lancé par Anthropic, que d’autres agents savent aussi lire) est un mode d’emploi réutilisable que tu écris une fois et que Claude charge automatiquement quand la tâche correspond : la procédure, pas l’action elle-même. Retiens l’essentiel : plus le besoin est répétitif, plus une Skill vaut le coup ; plus la tâche est longue et à plusieurs étapes, plus un agent devient pertinent.
 
 ### Texte, image, vidéo : qui fait quoi en 2026
 
-Pour le texte et le raisonnement (rédaction, code, structuration), les modèles de langage comme Claude dominent. Pour l’image fixe, deux familles se distinguent : Nano Banana Pro (Gemini 3 Pro Image, chez Google) excelle sur le texte lisible dans l’image (mockups, posters, infographies), et Higgsfield sur la cohérence d’un même personnage ou visage à travers des dizaines de générations. Pour la vidéo, le paysage bouge vite : Veo 3.1 et Runway Gen-4.5 mènent aujourd’hui, Kling 3.0 reste l’option économique, et Sora, qui dominait les conversations il y a un an, a été mis à l’arrêt par OpenAI en 2026, faute de rentabilité. Retiens la leçon plus que le classement : dans cette catégorie, ne construis jamais un système qui dépend d’un seul fournisseur.
+Pour le texte et le raisonnement (rédaction, code, structuration), les modèles de langage comme Claude dominent. Pour l’image fixe, deux familles se distinguent : Nano Banana Pro (Gemini 3 Pro Image, chez Google) excelle sur le texte lisible dans l’image (mockups, posters, infographies), et Higgsfield sur la cohérence d’un même personnage ou visage à travers des dizaines de générations. Pour la vidéo, le paysage bouge vite : Veo 3.1 et Runway Gen-4.5 mènent aujourd’hui, Kling 3.0 reste l’option économique, et Sora, qui dominait les conversations il y a un an, a été mis à l’arrêt par OpenAI en 2026 (l’application en avril, l’API en septembre), sans motif officiel donné. Retiens la leçon plus que le classement : dans cette catégorie, ne construis jamais un système qui dépend d’un seul fournisseur.
 
 ## Ce que les sept outils font vraiment pour toi
 
@@ -90,7 +92,7 @@ Un agent qui code dans ton terminal, et une façon de travailler qui change selo
 
 #### C’est quoi, sans le blabla
 
-Claude Code est un agent qui travaille directement dans ton terminal ou ton éditeur : il lit ton code, en écrit, exécute des commandes, corrige ses propres erreurs. Le "vibe coding", un terme lancé par Andrej Karpathy début 2025, désigne la pratique consistant à laisser l’IA écrire sans tout relire, pour aller vite sur un prototype jetable. La nuance qui compte, popularisée par le développeur Simon Willison : si tu relis, testes et comprends chaque ligne, ce n’est plus du vibe coding, c’est de la programmation assistée, et c’est la seule des deux approches qu’on peut raisonnablement livrer à un client.
+Claude Code est un agent qui travaille directement dans ton terminal, ton éditeur, son application de bureau ou ton navigateur : il lit ton code, en écrit, exécute des commandes, corrige ses propres erreurs. Le "vibe coding", un terme lancé par Andrej Karpathy début 2025, désigne la pratique consistant à laisser l’IA écrire sans tout relire, pour aller vite sur un prototype jetable. La nuance qui compte, popularisée par le développeur Simon Willison : si tu relis, testes et comprends chaque ligne, ce n’est plus du vibe coding, c’est de la programmation assistée, et c’est la seule des deux approches qu’on peut raisonnablement livrer à un client.
 
 #### Pourquoi ça compte pour toi
 
@@ -166,7 +168,7 @@ Le constructeur de site qui ne t’enferme ni dans un template ni dans du code i
 
 #### C’est quoi, sans le blabla
 
-Webflow est un constructeur de site visuel qui produit du vrai code propre derrière, avec un gestionnaire de contenus (CMS) et un contrôle fin du design. Son AI Site Builder transforme un prompt en site complet, multi-pages, avec animations et système de design de base, un vrai point de départ, pas un site fini : les textes restent génériques, les images restent des placeholders, et la structure fine reste à construire. Sa fonctionnalité la plus intéressante en 2026 est sans doute l’AEO (l’optimisation pour les moteurs de réponse IA) : des agents qui auditent comment les IA comme ChatGPT ou Perplexity représentent ta marque, et proposent des correctifs.
+Webflow est un constructeur de site visuel qui produit du vrai code propre derrière, avec un gestionnaire de contenus (CMS) et un contrôle fin du design. Son AI Site Builder transforme un prompt en site complet, multi-pages, avec animations et système de design de base, un vrai point de départ, pas un site fini : les textes restent génériques, les images restent des placeholders, et la structure fine reste à construire. Sa fonctionnalité la plus intéressante en 2026 est sans doute l’AEO (l’optimisation pour les moteurs de réponse IA) : des agents qui auditent comment les IA comme ChatGPT ou Perplexity représentent ta marque, et proposent des correctifs (agents réservés aux clients Enterprise).
 
 #### Pourquoi ça compte pour toi
 
@@ -176,13 +178,13 @@ Webflow est un constructeur de site visuel qui produit du vrai code propre derri
 
 #### Comment démarrer
 
-Avant de toucher l’IA Site Builder, sache précisément ce que tu veux : tes pages, tes collections de contenu, ton objectif de conversion. Plus le prompt de départ est précis sur ton activité et ton audience, plus le résultat généré est exploitable tel quel.
+Avant de toucher l’IA Site Builder, sache précisément ce que tu veux : tes pages, tes collections de contenu, ton objectif de conversion. Plus le prompt de départ est précis sur ton activité et ton audience, plus le résultat généré est exploitable tel quel. Sans plan payant, le site généré se limite à deux pages, alors qu’un plan payant en génère jusqu’à cinq au départ et te laisse en ajouter ensuite.
 
 #### Astuces
 
 - 💡 confie à l’IA le squelette (structure, sections, système de design), pas le texte final : la copie générée reste générique et se repère à l’œil nu.
 - 💡 Webflow se connecte à N8N et Zapier : ton CMS peut déclencher des automatisations (nouvel article publié → post LinkedIn généré) sans code.
-- 💡 l’éditeur historique de Webflow ferme le 4 août 2026, si ton équipe s’appuie encore dessus pour les mises à jour de contenu, planifie la bascule maintenant.
+- 💡 l’éditeur historique de Webflow (le legacy Editor) a fermé le 4 août 2026, si bien que la mise à jour des contenus passe désormais par un siège client ou un siège limité, attribué gratuitement à ses anciens utilisateurs.
 
 > 📎 **Ressource.** Webflow AI Site Builder.
 
@@ -208,7 +210,7 @@ La qualité des photos de départ détermine presque tout le résultat : une vin
 
 - 💡 teste ton identité sur 3 styles différents avant de t’en servir en production, attends-toi à "clairement la même personne", pas à du pixel pour pixel.
 - 💡 les scènes d’action ou de mouvement rapide restent le point faible de la cohérence de visage, privilégie les scènes posées ou à mouvement lent pour ton contenu récurrent.
-- 💡 les contenus générés embarquent un marquage de provenance (C2PA), vérifie les règles de divulgation IA de ta plateforme avant de publier en contexte commercial.
+- 💡 les contenus générés peuvent embarquer un marquage de provenance (C2PA), prévu par les conditions d’utilisation de Higgsfield, alors vérifie les règles de divulgation IA de ta plateforme avant de publier en contexte commercial.
 
 > 📎 **Ressource.** Soul ID, Higgsfield.
 
@@ -220,7 +222,7 @@ L’outil qui transforme une suite de tâches manuelles répétées en un systè
 
 #### C’est quoi, sans le blabla
 
-N8N est un outil d’automatisation visuel, des nœuds reliés entre eux sur un canevas, avec un vrai bloc "agent IA" capable de raisonner et d’appeler des outils, pas seulement d’enchaîner des étapes fixes. Il se connecte à MCP dans les deux sens : il peut piloter des serveurs MCP existants, et tes propres workflows N8N peuvent devenir un serveur MCP que Claude appelle directement. Concrètement : c’est l’outil qui relie tous les autres de ce document entre eux.
+N8N est un outil d’automatisation visuel, des nœuds reliés entre eux sur un canevas, avec un vrai bloc "agent IA" capable de raisonner et d’appeler des outils, pas seulement d’enchaîner des étapes fixes. En préversion, N8N propose aussi des agents autonomes qui gardent leur mémoire d’une exécution à l’autre. Il se connecte à MCP dans les deux sens : il peut piloter des serveurs MCP existants, et tes propres workflows N8N peuvent devenir un serveur MCP que Claude appelle directement. Concrètement : c’est l’outil qui relie tous les autres de ce document entre eux.
 
 #### Pourquoi ça compte pour toi
 
@@ -238,7 +240,7 @@ Ne commence pas par un pipeline complexe. Prends une seule tâche répétitive q
 - 💡 teste ton pipeline sur 5 sujets différents plutôt que de peaufiner un seul cas en boucle : c’est en comparant plusieurs sorties que le maillon faible du système devient visible.
 - 💡 N8N se branche nativement sur Webflow, Airtable et la plupart des outils de ce document : commence par connecter deux outils dont tu te sers déjà avant d’en ajouter un troisième.
 
-> 📎 **Ressource.** Build custom AI agents with logic & control, n8n.
+> 📎 **Ressource.** Agents IA, n8n.
 
 ## Airtable
 
@@ -317,11 +319,13 @@ Reviens ici plutôt que de tout relire : une ligne par outil dit ce qu’il fait
 
 ## Sources vérifiées
 
-Les affirmations techniques de ce document ont été vérifiées en juillet 2026 sur la documentation des éditeurs ou sur une source primaire. Seule exception, la partie Instagram s’appuie sur deux blogs spécialisés, Hootsuite et MeetEdgar, eux-mêmes fondés sur les déclarations d’Adam Mosseri. Les outils évoluant vite, reviens à ces liens plutôt qu’à ce document pour toute donnée sensible au temps.
+Les affirmations techniques de ce document ont été revérifiées le 30 octobre 2026 sur la documentation des éditeurs ou sur une source primaire. Seule exception, la partie Instagram s’appuie sur deux blogs spécialisés, Hootsuite et MeetEdgar, eux-mêmes fondés sur les déclarations d’Adam Mosseri. Les outils évoluant vite, reviens à ces liens plutôt qu’à ce document pour toute donnée sensible au temps.
 
 ### Claude, Skills & vibe coding
 
 - [Agent Skills, Claude Platform Docs](https://platform.claude.com/docs/en/agents-and-tools/agent-skills/overview)
+- [Extend Claude with skills, Claude Code Docs](https://code.claude.com/docs/en/skills)
+- [Agent Skills, le standard ouvert](https://agentskills.io)
 - [anthropics/skills, dépôt public d’exemples](https://github.com/anthropics/skills)
 - [Not all AI-assisted programming is vibe coding](https://simonwillison.net/2025/Mar/19/vibe-coding/)
 
@@ -329,17 +333,21 @@ Les affirmations techniques de ce document ont été vérifiées en juillet 2026
 
 - [Figma Make](https://www.figma.com/make/)
 - [Webflow AI Site Builder](https://webflow.com/ai-site-builder)
-- [Webflow AI overview](https://help.webflow.com)
+- [Build a site with Webflow’s AI site builder](https://help.webflow.com/hc/en-us/articles/38840145286035-Build-a-site-with-Webflow-s-AI-site-builder) (aide Webflow)
+- [Webflow AEO](https://webflow.com/aeo)
+- [Legacy Editor deprecation](https://webflow.com/updates/legacy-editor-deprecation) (Webflow)
 
 ### Génération visuelle
 
-- [Soul ID, Higgsfield](https://higgsfield.ai)
-- [Introducing Nano Banana Pro](https://blog.google/technology/ai/nano-banana-pro/)
-- What to know about the Sora discontinuation · [help.openai.com](https://help.openai.com)
+- [Soul ID, Higgsfield](https://higgsfield.ai/soul-intro)
+- [Terms of Use Agreement, Higgsfield](https://higgsfield.ai/terms-of-use-agreement) (section 6.4, provenance et marquage)
+- [Introducing Nano Banana Pro](https://blog.google/innovation-and-ai/products/nano-banana-pro/)
+- [What to know about the Sora discontinuation](https://help.openai.com/en/articles/20001152-what-to-know-about-the-sora-discontinuation) (aide OpenAI)
 
 ### Automatisation & données
 
-- [Build custom AI agents with logic & control](https://n8n.io/ai/)
+- [Agents IA, n8n](https://n8n.io/ai-agents/)
+- [MCP Server Trigger, n8n Docs](https://docs.n8n.io/integrations/builtin/core-nodes/n8n-nodes-langchain.mcptrigger/)
 - [Airtable, AI agent software](https://www.airtable.com/platform/ai)
 
 ### Instagram & algorithme
@@ -358,4 +366,4 @@ Aucun de ces sept outils ne va "tout changer" tout seul pendant que tu regardes 
 
 ---
 
-*Ressource conçue sur-mesure · Sources vérifiées en juillet 2026 · Les outils, tarifs et fonctionnalités cités évoluent vite, retourne aux liens ci-dessus pour toute donnée sensible au temps.*
+*Ressource conçue sur-mesure · Sources revérifiées le 30 octobre 2026 · Les outils, tarifs et fonctionnalités cités évoluent vite, retourne aux liens ci-dessus pour toute donnée sensible au temps.*

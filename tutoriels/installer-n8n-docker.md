@@ -2,9 +2,12 @@
 
 Une seule commande suffit pour faire tourner n8n chez toi, sans config à la main ni conflit de versions, et on fait ça ensemble, étape par étape.
 
+*Mis à jour le 30 octobre 2026.*
+
 ```bash
-$ docker run -it --rm --name n8n -p 5678:5678 -v n8n_data:/home/node/.n8n docker.n8n.io/n8nio/n8n
-Editor is now accessible via: http://localhost:5678
+$ docker run -it --rm --name n8n -p 5678:5678 -v n8n_data:/home/node/.n8n n8nio/n8n
+Editor is now accessible via:
+http://localhost:5678
 ```
 
 ## Sommaire
@@ -60,32 +63,41 @@ Docker fait tourner n8n dans une boîte isolée qui contient tout ce dont il a b
 
 ## 01 · Installer Docker Desktop
 
-Docker Desktop, c'est l'appli qui fait tourner Docker chez toi, et elle s'installe comme n'importe quel logiciel.
+Docker Desktop, c'est l'appli qui fait tourner Docker chez toi, et elle s'installe comme n'importe quel logiciel. Elle est gratuite pour un usage personnel, l'enseignement et l'open source non commercial, ainsi que dans les petites structures (moins de 250 salariés et moins de 10 millions de dollars de chiffre d'affaires annuel). Au-delà, l'entreprise doit prendre un abonnement payant.
 
 ### Windows
 
-Va sur [docker.com/products/docker-desktop](https://www.docker.com/products/docker-desktop/), télécharge la version Windows, lance le fichier. Pendant l'install, laisse coché **WSL 2**, c'est la config recommandée. Redémarre si on te le demande, puis lance Docker Desktop depuis le menu Démarrer. Une baleine apparaît dans la barre des tâches : attends qu'elle soit stable.
+Va sur [docker.com/products/docker-desktop](https://www.docker.com/products/docker-desktop/), télécharge la version Windows, lance le fichier. Pendant l'install, garde l'installation « par utilisateur » proposée par défaut, celle que Docker recommande, puis choisis **WSL 2** sur la page de configuration, le moteur par défaut qui convient à la plupart des gens. Redémarre si on te le demande, puis lance Docker Desktop depuis le menu Démarrer. Une baleine apparaît dans la barre des tâches : attends qu'elle soit stable.
 
 > WSL 2 = Windows Subsystem for Linux. Un noyau Linux qui tourne dans Windows, et dont Docker se sert en arrière-plan. Tu n'as rien à gérer directement.
 
 ### Mac
 
-Même page, télécharge la bonne version : Apple Silicon (M1/M2/M3) ou Intel. Pour vérifier ta puce → Pomme > À propos de ce Mac. Ouvre le `.dmg`, glisse Docker dans Applications, lance-le. La baleine apparaît en haut à droite : attends qu'elle soit stable.
+Même page, télécharge la bonne version : Apple Silicon (puce M1 ou plus récente) ou Intel. Pour vérifier ta puce → Pomme > À propos de ce Mac. Ouvre le `.dmg`, glisse Docker dans Applications, lance-le. La baleine apparaît en haut à droite : attends qu'elle soit stable.
 
 ### Linux (Ubuntu / Debian)
 
-Ça se passe dans le terminal :
+Ça se passe dans le terminal (sur Debian, remplace `ubuntu` par `debian` dans les deux adresses `download.docker.com`) :
 
 ```bash
 sudo apt update
-sudo apt install -y ca-certificates curl gnupg
+sudo apt install -y ca-certificates curl
 
 sudo install -m 0755 -d /etc/apt/keyrings
-curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /etc/apt/keyrings/docker.gpg
-echo "deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/docker.gpg] https://download.docker.com/linux/ubuntu $(. /etc/os-release && echo $VERSION_CODENAME) stable" | sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
+sudo curl -fsSL https://download.docker.com/linux/ubuntu/gpg -o /etc/apt/keyrings/docker.asc
+sudo chmod a+r /etc/apt/keyrings/docker.asc
+
+sudo tee /etc/apt/sources.list.d/docker.sources <<EOF
+Types: deb
+URIs: https://download.docker.com/linux/ubuntu
+Suites: $(. /etc/os-release && echo "${UBUNTU_CODENAME:-$VERSION_CODENAME}")
+Components: stable
+Architectures: $(dpkg --print-architecture)
+Signed-By: /etc/apt/keyrings/docker.asc
+EOF
 
 sudo apt update
-sudo apt install -y docker-ce docker-ce-cli containerd.io docker-compose-plugin
+sudo apt install -y docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
 
 sudo usermod -aG docker $USER
 newgrp docker
@@ -95,7 +107,7 @@ Vérifie l'install, tous systèmes confondus :
 
 ```bash
 $ docker --version
-Docker version 24.0.5
+Docker version 29.9.2
 ```
 
 > Sur Windows et Mac, Docker Desktop doit tourner en arrière-plan pour que les commandes fonctionnent. Fermé = les commandes échouent.
@@ -116,7 +128,7 @@ Docker te renvoie `n8n_data` : c'est la confirmation. Ce volume survit à toutes
 C'est parti, tout tient en une commande :
 
 ```bash
-docker run -it --rm --name n8n -p 5678:5678 -v n8n_data:/home/node/.n8n docker.n8n.io/n8nio/n8n
+docker run -it --rm --name n8n -p 5678:5678 -v n8n_data:/home/node/.n8n n8nio/n8n
 ```
 
 | Morceau | Ce qu'il fait |
@@ -127,12 +139,13 @@ docker run -it --rm --name n8n -p 5678:5678 -v n8n_data:/home/node/.n8n docker.n
 | `--name n8n` | donne un nom au conteneur |
 | `-p 5678:5678` | connecte le port de ta machine à celui du conteneur |
 | `-v n8n_data:...` | attache le volume au bon dossier n8n |
-| `docker.n8n.io/n8nio/n8n` | l'image officielle |
+| `n8nio/n8n` | l'image officielle, publiée sur Docker Hub |
 
 Au premier lancement, Docker télécharge l'image, ce qui prend quelques minutes selon ta connexion, et les fois suivantes ce sera instantané. Tu sais que c'est bon quand tu vois :
 
 ```text
-Editor is now accessible via: http://localhost:5678
+Editor is now accessible via:
+http://localhost:5678
 ```
 
 Ouvre <http://localhost:5678> dans ton navigateur. Au premier lancement, n8n te demande de créer un compte local, stocké uniquement chez toi, dans le volume.
@@ -156,7 +169,7 @@ Tant que n8n tourne, laisse le terminal ouvert. Pour arrêter : `Ctrl + C`.
 **Se simplifier la vie :** la commande est longue à retaper à chaque fois. Sur Mac / Linux, crée un alias :
 
 ```bash
-echo "alias n8n='docker run -it --rm --name n8n -p 5678:5678 -v n8n_data:/home/node/.n8n docker.n8n.io/n8nio/n8n'" >> ~/.zshrc
+echo "alias n8n='docker run -it --rm --name n8n -p 5678:5678 -v n8n_data:/home/node/.n8n n8nio/n8n'" >> ~/.zshrc
 source ~/.zshrc
 ```
 
@@ -168,7 +181,7 @@ Sur Windows : crée un fichier `lancer-n8n.bat` sur ton bureau, avec ce contenu,
 
 ```bat
 @echo off
-docker run -it --rm --name n8n -p 5678:5678 -v n8n_data:/home/node/.n8n docker.n8n.io/n8nio/n8n
+docker run -it --rm --name n8n -p 5678:5678 -v n8n_data:/home/node/.n8n n8nio/n8n
 ```
 
 ## Mettre à jour n8n
@@ -176,7 +189,7 @@ docker run -it --rm --name n8n -p 5678:5678 -v n8n_data:/home/node/.n8n docker.n
 Arrête n8n s'il tourne, télécharge la nouvelle image et relance : tes données ne bougent pas.
 
 ```bash
-docker pull docker.n8n.io/n8nio/n8n
+docker pull n8nio/n8n
 ```
 
 Relance ensuite avec ta commande habituelle. Docker prend la nouvelle image automatiquement.
@@ -229,9 +242,11 @@ Nuance importante : les Schedule Trigger et les webhooks ne se déclenchent que 
 
 Le dossier `/home/node/.n8n` contient aussi ta clé de chiffrement, celle qui protège tes credentials. Si elle disparaît ou change, tous tes identifiants stockés deviennent illisibles, même si les workflows sont toujours là.
 
+n8n conseille d'arrêter l'instance avant de copier ce dossier, parce qu'une copie de la base SQLite faite pendant qu'elle écrit dedans peut sortir incohérente. Comme le conteneur disparaît à l'arrêt (c'est le rôle de `--rm`), la copie passe par un petit conteneur jetable qui lit le volume :
+
 ```bash
-# pendant que le conteneur tourne
-docker cp n8n:/home/node/.n8n ./backup-n8n-$(date +%Y%m%d)
+# n8n arrêté (Ctrl + C), depuis le dossier où tu veux ranger la copie
+docker run --rm -v n8n_data:/data -v "$(pwd)":/backup ubuntu tar cvf /backup/backup-n8n-$(date +%Y%m%d).tar /data
 ```
 
 Une copie de temps en temps, sur un disque externe ou un cloud perso, et tu ne repars jamais de zéro.
@@ -252,7 +267,7 @@ Sans ça, tes Schedule Trigger peuvent se déclencher à la mauvaise heure. Ajou
 
 ### Le tunnel webhook, c'est du dev only
 
-n8n propose un service de tunnel (via cloudflared) pour recevoir des webhooks externes (GitHub, Stripe, etc.) sur ton instance locale. Pratique pour tester, mais l'implémentation change d'une version à l'autre et ce n'est pas fait pour tourner en continu. Pour un usage stable, il faut une vraie instance hébergée, joignable depuis internet.
+n8n propose un service de tunnel (via cloudflared) pour recevoir des webhooks externes (GitHub, Stripe, etc.) sur ton instance locale. Il se lance aujourd'hui depuis le code source de n8n (avec pnpm) et non depuis la commande `docker run` de ce tuto. Il reste un outil de test, parce que l'implémentation change d'une version à l'autre et que ce n'est pas fait pour tourner en continu. Pour un usage stable, il faut une vraie instance hébergée, joignable depuis internet.
 
 ### SQLite en local, très bien, jusqu'à un certain point
 
@@ -265,21 +280,23 @@ Question qui revient vite : "comment je fais si un collègue bosse sur les même
 | Pas possible, gratuit | Possible, gratuit |
 |---|---|
 | Partage de workflows entre comptes, avec permissions, réservé aux plans payants (Projects, rôles) | Export/import manuel : chacun exporte son workflow en JSON, le partage, l'autre importe |
-| Version control Git natif dans l'éditeur (push/pull, branches), fonctionnalité `.ee`, sous licence Enterprise | Export en masse via la CLI, à committer dans un repo Git |
+| Version control Git natif dans l'éditeur (push/pull, branches), fonctionnalité `.ee`, réservée aux plans Business et Enterprise | Export en masse via la CLI, à committer dans un repo Git |
 | Édition simultanée à plusieurs sur le même workflow | Extensions tierces gratuites qui connectent l'instance à GitHub pour un push/pull en un clic |
 
 La méthode manuelle, celle qui coûte rien :
 
 ```bash
-# chacun de son côté
-n8n export:workflow --all --output=./backups/
+# chacun de son côté, pendant que n8n tourne :
+# la CLI n8n vit dans le conteneur, on exporte dedans puis on copie dehors
+docker exec -u node n8n n8n export:workflow --backup --output=/home/node/.n8n/backups/
+docker cp n8n:/home/node/.n8n/backups/. ./backups
 # puis commit + push dans un repo Git partagé
 git add backups/ && git commit -m "update workflows" && git push
 ```
 
 Basique, pas de merge automatique, pas de review façon pull request dans n8n lui-même, mais ça donne un historique de versions et un point de partage commun, sans sortir la carte bleue.
 
-> **Pour une vraie collab à plusieurs, en simultané :** deux options honnêtes. Un plan Business/Enterprise (self-hosted ou Cloud) pour le partage natif avec permissions, ou une instance hébergée à distance sur laquelle tout le monde se connecte, donc plus vraiment "en local". Ce tuto reste pensé pour un poste perso ; au-delà, c'est un autre sujet.
+> **Pour une vraie collab à plusieurs, en simultané :** il reste deux options honnêtes, et la première est un plan payant pour le partage natif avec permissions (Business ou Enterprise en auto-hébergé, ou n8n Cloud, où les projets partagés existent dès le plan Starter). La seconde, c'est une instance hébergée à distance sur laquelle tout le monde se connecte, donc plus vraiment "en local". Ce tuto reste pensé pour un poste perso ; au-delà, c'est un autre sujet.
 
 ## Questions de pros
 
@@ -312,7 +329,7 @@ Sur ta propre machine, oui, tant que ton poste l'est. Le vrai risque arrive si t
 <details>
 <summary><strong>Je veux automatiser mes sauvegardes plutôt que le faire à la main. Comment ?</strong></summary>
 
-La CLI n8n permet d'exporter tous les workflows en JSON : `n8n export:workflow --all --output=./backups/`. Tu peux brancher ça sur une tâche planifiée (cron) qui commit automatiquement ces fichiers dans un repo Git. Ça te donne un historique de versions sans passer par la fonctionnalité Git native, qui elle est réservée aux licences payantes.
+La CLI n8n exporte tous les workflows en JSON, un fichier par workflow : dans ce setup Docker, c'est `docker exec -u node n8n n8n export:workflow --backup --output=/home/node/.n8n/backups/`, suivi du `docker cp` de la section précédente. Tu peux brancher ça sur une tâche planifiée (cron) qui commit automatiquement ces fichiers dans un repo Git. Ça te donne un historique de versions sans passer par la fonctionnalité Git native, qui elle est réservée aux licences payantes.
 </details>
 
 <details>

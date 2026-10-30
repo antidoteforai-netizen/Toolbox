@@ -2,6 +2,8 @@
 
 > **En une phrase :** Ton contenu doit amener un inconnu à devenir client, chaque post a une fonction précise dans ce parcours. Ce système t'aide à savoir quoi publier, quand, pourquoi, et à t'assurer de le faire vraiment.
 
+*Mis à jour le 30 octobre 2026.*
+
 ---
 
 # 🗂️ TABLE DES MATIÈRES

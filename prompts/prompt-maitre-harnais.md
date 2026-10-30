@@ -2,6 +2,8 @@
 
 **Version 2.** Destiné à Claude Code, lancé à la racine du cockpit. Session longue, cinq blocs, points d'arrêt obligatoires entre chaque.
 
+*Mis à jour le 30 octobre 2026.*
+
 ---
 
 ## 0. Rôle
@@ -120,7 +122,7 @@ declencheur: manuel | cron | webhook | sous-agent
 modele: claude-opus-5
 configuration_hash: 7f3a91c2   # empreinte du prompt système + réglages
 skills: [cockpit, parking]
-outils: [bash, str_replace, launchctl]
+outils: [Bash, Edit]
 mcp: []
 sous_agents: []
 
@@ -153,7 +155,7 @@ trajectoire:
   etapes: 14
   boucles_detectees: 1
   appels_outils: 22
-  outils_par_etape: [bash, bash, read, …]
+  outils_par_etape: [Bash, Bash, Read, …]
   forme: propre | detournee | boucle
 
 # --- Coût ---
@@ -396,7 +398,7 @@ Vingt scénarios écrits en français, chacun avec : l'entrée, le comportement 
 
 L'AX a deux moitiés, et il faut les traiter séparément sous peine de tout confondre.
 
-**Moitié entrante : l'agent consomme.** Comment un agent perçoit et manipule mon système quand il s'en sert. C'est le sujet des sections E1 à E6.
+**Moitié entrante : l'agent consomme.** Comment un agent perçoit et manipule mon système quand il s'en sert. C'est le sujet des sections E1 à E5.
 
 **Moitié sortante : l'agent produit de l'interface.** Un agent ne rend plus seulement du texte, il décrit une interface. Ça casse le modèle requête/réponse qui structure le web depuis trente ans : un agent tourne longtemps, mélange entrées structurées et non structurées, délègue à des sous-agents, et produit une UI non déterministe où c'est lui qui décide en partie de ce qui s'affiche. C'est le sujet de la section E7, et c'est directement la suite du bloc D.
 
@@ -479,11 +481,11 @@ Note utile pour le bloc F : les plateformes séparent les deux usages. SAP utili
 - Affiner les descriptions à partir de ces mesures. Un outil dont le taux d'échec dépasse le seuil que je fixerai dans `politique.md` est signalé comme défaut de conception, pas comme incident d'agent.
 - Ces mesures alimentent l'axe 4 du harnais : c'est en croisant outil, modèle et verdict que je saurai quel niveau d'intelligence une classe de tâche exige réellement.
 
-### E7. Quand l'agent produit l'interface
+### E6. Quand l'agent produit l'interface
 
 Ne construis rien ici pour l'instant. **Écris la spécification, et seulement elle.** Cette section prépare le terrain du bloc D et du bloc F, elle ne doit pas ajouter une ligne de code au cockpit.
 
-**Situe les couches, sans les confondre.** Quatre protocoles, quatre questions différentes :
+**Situe les couches, sans les confondre.** Cinq couches, cinq questions différentes :
 
 | Couche | Question |
 |---|---|
@@ -512,7 +514,7 @@ Mémo : A2A, les agents se parlent. MCP, l'agent parle aux outils. AG-UI, le tuy
 
 Ajoute au journal un champ `surface_de_decision` (`cockpit`, `terminal`, `hote_de_chat`, `discord`, `UNKNOWN`), pour que je puisse comparer plus tard les taux d'approbation et de refus selon l'endroit où j'ai décidé. Hypothèse à tester une fois les données là : on approuve plus vite et moins bien sur mobile.
 
-### E8. Ce que ce bloc ajoute aux autres
+### E7. Ce que ce bloc ajoute aux autres
 
 - Au journal : le champ `mcp` enrichi, le champ `surface_de_decision`, plus `outils_par_etape` déjà prévu.
 - Au harnais : l'axe 4 devient mesurable par outil et pas seulement par modèle.

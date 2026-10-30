@@ -2,6 +2,8 @@
 
 Source : [veille-ux-ui.vercel.app](https://veille-ux-ui.vercel.app/), 21 ressources.
 
+*Mis à jour le 30 octobre 2026.*
+
 ## [Podcast dive club](https://www.dive.club/)
 
 *2026-07-05 · Podcast*
@@ -50,11 +52,11 @@ Repérer les micro-interactions et les petits détails qui rendent une interface
 
 Trouver de l'inspiration parmi des interfaces web et des interactions récentes.
 
-## [Les chroniques du design](https://podcast.ausha.co/les-chroniques-du-design)
+## [Les chroniques du design](https://podcasts.apple.com/fr/podcast/les-chroniques-du-design/id1737673260)
 
 *2025-03-25 · Podcast*
 
-Écouter des designers raconter leurs échecs et ce que leur métier leur a appris.
+Écouter des designers raconter leurs échecs et ce que leur métier leur a appris, en dix épisodes dont le dernier date de janvier 2025.
 
 ## [Toools Design](https://www.toools.design/)
 
@@ -96,7 +98,7 @@ Concevoir des services numériques inclusifs avec les guides et les outils de l'
 
 *2023-11-21 · UI*
 
-Parcourir des captures d'écran et des parcours complets d'applications mobiles, pour s'en inspirer.
+Parcourir des captures d'écran d'applications iOS, Android et web pour s'en inspirer, sachant que les parcours complets sont réservés à l'offre payante Pro.
 
 ## [Redesign in Design systems](https://redesigningdesign.systems/resources.html)
 
@@ -116,7 +118,7 @@ Observer les techniques d'animation d'interface de l'agence Zajno, présentées 
 
 Vérifier point par point qu'un site public français respecte ses obligations légales et les bonnes pratiques.
 
-## [Checklist opquast](https://checklists.opquast.com/fr/assurance-qualite-web/)
+## [Checklist opquast](https://checklists.opquast.com/fr/qualite-numerique/)
 
 *2023-04-20 · Accessibilité*
 
