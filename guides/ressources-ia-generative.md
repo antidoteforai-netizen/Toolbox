@@ -59,6 +59,7 @@ Après quelques mois à jongler entre les outils gratuits, j'ai sauté le pas. T
 - MidJourney `--cref` + `--sref` : cohérence avant de changer d'outil → [docs.midjourney.com](https://docs.midjourney.com)
 - LoRA : mini-modèles entraînés sur un visage. Bibliothèque open source → [civitai.com](https://civitai.com)
 - Comparatif des modèles image IA → [artificialanalysis.ai](https://artificialanalysis.ai)
+- Remplacer Higgsfield sans abonnement, en ligne, en local ou à l'usage → [Alternatives à Higgsfield](../veille/alternatives-higgsfield.md)
 
 ## 02 · Nano Banana Pro gratuit via Google AI Studio
 
@@ -403,6 +404,12 @@ Triées par format, taggées par sujet. Aucun sponsoring, que du vrai.
 | [ElevenLabs](https://elevenlabs.io) | Audio · Voix · IA | Le grand nom de la voix IA. Clonage vocal, audio génératif. |
 | [Pika Labs](https://pika.art) | Vidéo · IA · Effets | Effets vidéo spectaculaires : transformations, liquides. |
 | [Krea.ai](https://www.krea.ai) | Image · IA · Temps réel | Génération image en temps réel. Nouveau paradigme. |
+
+**Ailleurs dans la Toolbox**
+
+- Les alternatives à Higgsfield, classées par profondeur, avec licences et sources → [veille](../veille/alternatives-higgsfield.md)
+- Higgsfield pas à pas, de Soul ID à la production en série → [tutoriel Com & Marketing](../tutoriels/tutoriels-par-profil.md#génération-visuelle-à-léchelle-avec-higgsfield) et [tutoriel Business Instagram](../tutoriels/tutoriels-par-profil.md#construire-une-identité-visuelle-cohérente-avec-higgsfield)
+- Brancher la génération visuelle dans un pipeline automatisé → [n8n et Airtable](../tutoriels/tutoriels-par-profil.md#construire-ton-pipeline-de-contenu-avec-n8n--airtable)
 
 ---
 

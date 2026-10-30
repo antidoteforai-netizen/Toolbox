@@ -23,6 +23,7 @@ Je ne suis pas ingénieure. Je me suis formée à l'automatisation, au no-code e
 | « Je ne sais plus quel outil IA vaut le coup pour mon métier » | [La boîte à outils IA](./guides/boite-a-outils-ia.md) : sept outils, trois profils, et les recettes qui les enchaînent |
 | « Je veux un pas-à-pas, pas une vue d'ensemble » | [Neuf tutoriels par profil](./tutoriels/tutoriels-par-profil.md), de Claude Code à Instagram |
 | « Mon visage change à chaque image générée » | [Ressources IA générative](./guides/ressources-ia-generative.md) et mes prompts commentés |
+| « Higgsfield coûte trop cher pour ce que je génère » | [Les alternatives à Higgsfield](./veille/alternatives-higgsfield.md) : du navigateur à l'installation locale, licences et coûts réels compris |
 | « Je publie tous les jours et rien ne bouge » | [Le système de contenu](./guides/strategie-contenu.md) : quoi publier, quand, et pourquoi |
 | « Mon prestataire n'a pas compris ma boîte » | [Préparer un brief avec son IA](./guides/brief-projet-avec-ia.pdf), dix prompts à copier-coller |
 | « Il me faut une référence UI, là, maintenant » | [La veille](./veille/) : 74 liens triés à la main |
@@ -33,31 +34,44 @@ Aucun lien n'est sponsorisé. Quand je recommande un outil payant, je dis aussi 
 
 Chaque document porte sa date de vérification et ses sources sont cliquables. Les outils IA changent vite : en cas de doute, la documentation officielle a le dernier mot.
 
+## Comment le dépôt est rangé
+
+Quatre dossiers, du plus large au plus concret. Chaque page renvoie vers les autres dossiers quand c'est utile, vous pouvez donc entrer par n'importe laquelle et suivre le fil.
+
+| Dossier | Répond à la question | Par exemple |
+|---|---|---|
+| [Veille](./veille/) | Qu'est-ce qui existe ? | [Les alternatives à Higgsfield](./veille/alternatives-higgsfield.md) |
+| [Guides](./guides/) | Lequel choisir, et pourquoi ? | [La boîte à outils IA](./guides/boite-a-outils-ia.md) |
+| [Tutoriels](./tutoriels/) | Comment m'en servir, étape par étape ? | [Installer n8n avec Docker](./tutoriels/installer-n8n-docker.md) |
+| [Prompts](./prompts/) | Quoi taper, mot pour mot ? | [Le prompt maître du harnais](./prompts/prompt-maitre-harnais.md) |
+
 ## Le contenu en détail
 
-### Veille
+### [Veille](./veille/)
 
 - [Ressources](./veille/ressources.md) : inspiration UI, design systems, accessibilité (21)
 - [Outils](./veille/outils.md) : génération d'images et de vidéos, IA builders (39)
 - [Plugins Figma](./veille/plugins.md) (6)
 - [Bibliothèques](./veille/bibliotheques.md) : composants React, 3D, icônes (8)
+- [Alternatives à Higgsfield](./veille/alternatives-higgsfield.md) : générer images et vidéos sans abonnement, classées en trois niveaux de profondeur, avec leurs sources
 
-### Tutoriels
-
-- [Parcours par profil](./tutoriels/tutoriels-par-profil.md) : designers, équipes marketing, comptes Instagram business
-- [Installer n8n avec Docker](./tutoriels/installer-n8n-docker.md) : avec les erreurs classiques et leur solution
-- [Figma vers Webflow avec Relume](./tutoriels/workflow-figma-webflow-relume.md) : un site de deux pages sur des outils gratuits
-
-### Guides
+### [Guides](./guides/)
 
 - [La boîte à outils IA](./guides/boite-a-outils-ia.md) : sept outils, trois profils
 - [Ressources IA générative](./guides/ressources-ia-generative.md) : outils testés, angles photo, prompts commentés
 - [Système de contenu](./guides/strategie-contenu.md) : la méthode ACRV, du premier regard à la vente
 - [Brief projet avec son IA](./guides/brief-projet-avec-ia.pdf) (PDF) : dix prompts à copier-coller
 
-### Prompts
+### [Tutoriels](./tutoriels/)
+
+- [Parcours par profil](./tutoriels/tutoriels-par-profil.md) : designers, équipes marketing, comptes Instagram business
+- [Installer n8n avec Docker](./tutoriels/installer-n8n-docker.md) : avec les erreurs classiques et leur solution
+- [Figma vers Webflow avec Relume](./tutoriels/workflow-figma-webflow-relume.md) : un site de deux pages sur des outils gratuits
+
+### [Prompts](./prompts/)
 
 - [Prompt maître du harnais d'agents](./prompts/prompt-maitre-harnais.md) : pour Claude Code, avec une règle de départ, ne jamais confondre « l'agent dit qu'il a réussi » avec « le système a réussi »
+- Les prompts d'image et de vidéo restent dans leur guide, à côté des explications : [Ressources IA générative, partie 05](./guides/ressources-ia-generative.md#05--prompts-que-jutilise-et-comment-les-lire)
 
 En ce moment, je creuse les design systems, l'accessibilité (RGAA, WCAG), la génération d'images et de vidéos, Claude Code, l'automatisation avec n8n et Airtable, la vérification des agents et la stratégie de contenu. J'en parle aussi sur [LinkedIn](https://www.linkedin.com/in/opalinemustiere/).
 

@@ -9,9 +9,27 @@
 | [Plugins](./plugins.md) | 6 | Plugins Figma : données, documentation, présentation, design system |
 | [Bibliothèques](./bibliotheques.md) | 8 | Composants React/Tailwind, variants, 3D, icônes |
 
+**Sélection thématique :**
+
+- [Alternatives à Higgsfield](./alternatives-higgsfield.md) : générer images et vidéos sans abonnement, du navigateur à l'installation locale, avec licences, contraintes Mac et sources datées
+
 **Par thème :**
 
 - **Design system** : Component gallery, Redesign in Design systems, designsystems.fr, tweakcn, Lyse, CVA, Untitled UI
 - **Accessibilité** : Checklist Pidila, Checklist Opquast, Color contrast checker, Usecontrast
 - **IA builders** : Stitch, Magic Patterns, Bolt, Relume, Kiro, Antigravity, Langflow
 - **Motion** : Design Spells, Motion Zajno, Hana
+- **Génération d'images et de vidéos** : Runwayml, Krea, Flux 1, Mid journey, et la sélection [Alternatives à Higgsfield](./alternatives-higgsfield.md)
+
+## La veille liste, les autres dossiers expliquent
+
+La veille dit ce qui existe. Pour savoir lequel choisir, passez aux [guides](../guides/) ; pour vous en servir étape par étape, aux [tutoriels](../tutoriels/) ; pour les formulations à copier, aux [prompts](../prompts/).
+
+| Dans la veille | Pour aller plus loin |
+|---|---|
+| Relume, Webflow | [Tutoriel Figma vers Webflow avec Relume](../tutoriels/workflow-figma-webflow-relume.md) |
+| Figma MCP + Claude Code | [Prendre en main Claude Code](../tutoriels/tutoriels-par-profil.md#prendre-en-main-claude-code--le-vibe-coding) |
+| Gemini | [Nano Banana Pro gratuit via Google AI Studio](../guides/ressources-ia-generative.md#02--nano-banana-pro-gratuit-via-google-ai-studio) |
+| Mid journey, Flux 1, Runwayml, Krea | [Mon parcours de MidJourney à Higgsfield](../guides/ressources-ia-generative.md#01--mon-parcours-de-midjourney-à-higgsfield) |
+
+[← Retour à l'accueil de la Toolbox](../README.md)

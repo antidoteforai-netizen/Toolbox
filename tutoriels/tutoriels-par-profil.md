@@ -2,7 +2,7 @@
 
 **Neuf tutoriels. Zéro étape sautée.**
 
-La suite logique de la boîte à outils : ici, pas de vue d’ensemble, des étapes numérotées, des commandes à coller, des astuces à l’endroit précis où tu vas en avoir besoin. Trois parcours, trois tutoriels chacun. Suis le tien du début à la fin, une seule fois, et tu n’auras plus besoin de revenir sur les bases.
+La suite logique de [la boîte à outils](../guides/boite-a-outils-ia.md) : ici, pas de vue d’ensemble, des étapes numérotées, des commandes à coller, des astuces à l’endroit précis où tu vas en avoir besoin. Trois parcours, trois tutoriels chacun. Suis le tien du début à la fin, une seule fois, et tu n’auras plus besoin de revenir sur les bases.
 
 ## Sommaire
 
@@ -283,6 +283,8 @@ Passe chaque lot généré en revue avant publication : les scènes d’action o
 
 > 📎 **Ressource.** Soul ID, Higgsfield.
 
+> 💸 **Sans abonnement Higgsfield ?** La méthode reste la même (identité définie avant l'outil, série de test, contrôle qualité). Les outils qui peuvent prendre le relais, et leurs licences : [Alternatives à Higgsfield](../veille/alternatives-higgsfield.md).
+
 *Parcours Marketing · tutoriel 3/3 · ~30 min*
 
 ## Sites & landing pages : Webflow et les alternatives rapides
@@ -350,6 +352,8 @@ Choisis 3 à 4 styles ou ambiances que tu vas réutiliser en boucle (ex : lumiè
 Deux limites à intégrer dès maintenant : la cohérence baisse sur les mouvements rapides, et deux personnes qui interagissent dans un même visuel restent un point faible général de ces outils en 2026, pas seulement de Higgsfield. Prévois tes scènes en conséquence plutôt que de forcer un rendu qui ne viendra pas.
 
 > 📎 **Ressource.** Soul ID, Higgsfield.
+
+> 💸 **Sans abonnement Higgsfield ?** Les photos de référence et les tests restent valables avec d'autres outils : [Alternatives à Higgsfield](../veille/alternatives-higgsfield.md), du gratuit en ligne à l'installation locale.
 
 *Parcours Instagram · tutoriel 2/3 · ~35 min*
 
@@ -454,6 +458,14 @@ Chaque commande, chaque affirmation technique de ces neuf tutoriels a été vér
 - [Instagram Algorithm Updates 2026](https://meetedgar.com/blog) · meetedgar.com
 
 Neuf tutoriels, un seul point commun : aucun ne vaut quoi que ce soit tant que tu ne l’as pas fait tourner toi-même, une fois, sur un vrai projet. Choisis le premier de ton parcours, ouvre l’outil en même temps que ce document, et avance étape par étape plutôt que de tout lire d’une traite.
+
+**Ailleurs dans la Toolbox**
+
+- Pourquoi ces outils et pas d'autres → [La boîte à outils IA](../guides/boite-a-outils-ia.md)
+- n8n chez toi plutôt que dans le cloud → [Installer n8n avec Docker](./installer-n8n-docker.md)
+- Les prompts d'image commentés et les angles photo → [Ressources IA générative](../guides/ressources-ia-generative.md)
+- Quoi publier, et quand → [Le système de contenu ACRV](../guides/strategie-contenu.md)
+- Vérifier ce que Claude Code dit avoir fait → [Prompt maître du harnais](../prompts/prompt-maitre-harnais.md)
 
 ---
 
