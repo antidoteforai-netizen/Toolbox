@@ -1,3 +1,5 @@
+<sub>[Toolbox](../README.md) › [Guides](./README.md) › Système de contenu</sub>
+
 # 🎯 Système Contenu, Méthode Acquisition · Considération · Relation · Vente
 
 > **En une phrase :** Ton contenu doit amener un inconnu à devenir client, chaque post a une fonction précise dans ce parcours. Ce système t'aide à savoir quoi publier, quand, pourquoi, et à t'assurer de le faire vraiment.

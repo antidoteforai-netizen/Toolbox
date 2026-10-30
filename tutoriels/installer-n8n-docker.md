@@ -1,3 +1,5 @@
+<sub>[Toolbox](../README.md) › [Tutoriels](./README.md) › Installer n8n avec Docker</sub>
+
 # Installer n8n en local avec Docker
 
 Une seule commande suffit pour faire tourner n8n chez toi, sans config à la main ni conflit de versions, et on fait ça ensemble, étape par étape.

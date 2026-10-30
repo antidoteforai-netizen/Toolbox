@@ -1,3 +1,5 @@
+<sub>[Toolbox](../README.md) › [Veille](./README.md) › Plugins Figma</sub>
+
 # Plugins
 
 Source : [veille-ux-ui.vercel.app](https://veille-ux-ui.vercel.app/), 6 ressources.
@@ -37,3 +39,7 @@ Organiser et documenter les composants d'un design system sans quitter Figma.
 *2023-03-20 · UI, Assistant IA*
 
 Écrire ou réécrire les textes d'une maquette avec GPT, directement dans Figma.
+
+---
+
+[← Toute la veille](./README.md) · [Choisir parmi ces outils : les guides](../guides/README.md) · [Accueil de la Toolbox](../README.md)

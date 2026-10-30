@@ -1,3 +1,5 @@
+<sub>[Toolbox](../README.md) › [Guides](./README.md) › Ressources IA générative</sub>
+
 # Ressources IA générative
 
 **Outils testés · Prompts · Angles photo · Workflow · Stack marketing**

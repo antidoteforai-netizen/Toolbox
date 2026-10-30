@@ -1,3 +1,5 @@
+<sub>[Toolbox](../README.md) › [Guides](./README.md) › La boîte à outils IA</sub>
+
 # La boîte à outils IA
 
 **Arrête de collectionner les outils IA et commence à t’en servir.**

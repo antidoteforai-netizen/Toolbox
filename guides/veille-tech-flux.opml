@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<opml version="2.0">
+  <head>
+    <title>Flux actu tech - Opaline (vérifiés le 30 oct 2026)</title>
+  </head>
+  <body>
+    <outline text="Avance sur l'actu" title="Avance sur l'actu">
+      <outline text="Techmeme" type="rss" xmlUrl="https://www.techmeme.com/feed.xml" htmlUrl="https://www.techmeme.com/"/>
+      <outline text="Hacker News - une" type="rss" xmlUrl="https://hnrss.org/frontpage" htmlUrl="https://news.ycombinator.com/"/>
+      <outline text="Product Hunt" type="rss" xmlUrl="https://www.producthunt.com/feed" htmlUrl="https://www.producthunt.com/"/>
+      <outline text="GitHub Trending (communautaire)" type="rss" xmlUrl="https://mshibanami.github.io/GitHubTrendingRSS/daily/all.xml" htmlUrl="https://github.com/trending"/>
+    </outline>
+    <outline text="Sources primaires" title="Sources primaires">
+      <outline text="OpenAI" type="rss" xmlUrl="https://openai.com/news/rss.xml" htmlUrl="https://openai.com/news/"/>
+      <outline text="Google DeepMind" type="rss" xmlUrl="https://deepmind.google/blog/rss.xml" htmlUrl="https://deepmind.google/blog/"/>
+      <outline text="Mistral AI" type="rss" xmlUrl="https://mistral.ai/news/rss" htmlUrl="https://mistral.ai/news"/>
+      <outline text="Hugging Face" type="rss" xmlUrl="https://huggingface.co/blog/feed.xml" htmlUrl="https://huggingface.co/blog"/>
+      <outline text="Y Combinator" type="rss" xmlUrl="https://www.ycombinator.com/blog/rss" htmlUrl="https://www.ycombinator.com/blog"/>
+      <outline text="a16z" type="rss" xmlUrl="https://a16z.substack.com/feed" htmlUrl="https://a16z.substack.com/"/>
+      <outline text="Sequoia Capital" type="rss" xmlUrl="https://www.sequoiacap.com/feed/" htmlUrl="https://www.sequoiacap.com/"/>
+    </outline>
+    <outline text="Médias US / Silicon Valley" title="Médias US / Silicon Valley">
+      <outline text="TechCrunch" type="rss" xmlUrl="https://techcrunch.com/feed/" htmlUrl="https://techcrunch.com/"/>
+      <outline text="The Verge" type="rss" xmlUrl="https://www.theverge.com/rss/index.xml" htmlUrl="https://www.theverge.com/"/>
+      <outline text="Ars Technica" type="rss" xmlUrl="https://feeds.arstechnica.com/arstechnica/index" htmlUrl="https://arstechnica.com/"/>
+      <outline text="Wired" type="rss" xmlUrl="https://www.wired.com/feed/rss" htmlUrl="https://www.wired.com/"/>
+      <outline text="CNET" type="rss" xmlUrl="https://www.cnet.com/rss/news/" htmlUrl="https://www.cnet.com/"/>
+      <outline text="NYT Technology" type="rss" xmlUrl="https://rss.nytimes.com/services/xml/rss/nyt/Technology.xml" htmlUrl="https://www.nytimes.com/section/technology"/>
+      <outline text="404 Media (payant)" type="rss" xmlUrl="https://www.404media.co/rss/" htmlUrl="https://www.404media.co/"/>
+    </outline>
+    <outline text="French Tech et Europe" title="French Tech et Europe">
+      <outline text="Maddyness" type="rss" xmlUrl="https://www.maddyness.com/feed/" htmlUrl="https://www.maddyness.com/"/>
+      <outline text="FrenchWeb" type="rss" xmlUrl="https://www.frenchweb.fr/feed" htmlUrl="https://www.frenchweb.fr/"/>
+      <outline text="Siècle Digital" type="rss" xmlUrl="https://siecledigital.fr/feed/" htmlUrl="https://siecledigital.fr/"/>
+      <outline text="Presse-citron" type="rss" xmlUrl="https://www.presse-citron.net/feed/" htmlUrl="https://www.presse-citron.net/"/>
+      <outline text="Journal du Net" type="rss" xmlUrl="https://www.journaldunet.com/rss/" htmlUrl="https://www.journaldunet.com/"/>
+      <outline text="L'Usine Digitale" type="rss" xmlUrl="https://www.usine-digitale.fr/rss" htmlUrl="https://www.usine-digitale.fr/"/>
+      <outline text="Les Pépites Tech" type="rss" xmlUrl="https://lespepitestech.com/feed" htmlUrl="https://lespepitestech.com/"/>
+      <outline text="Sifted" type="rss" xmlUrl="https://sifted.eu/feed" htmlUrl="https://sifted.eu/"/>
+      <outline text="tech.eu" type="rss" xmlUrl="https://tech.eu/feed/" htmlUrl="https://tech.eu/"/>
+    </outline>
+  </body>
+</opml>
