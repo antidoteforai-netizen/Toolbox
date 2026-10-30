@@ -34,7 +34,7 @@ J'ai fait le tour des outils gratuits avant de sortir la carte bleue. Honnêteme
 | Outil | Prix | Ce que ça donne |
 |---|---|---|
 | Gemini | Gratuit limité | Intégré, pratique, mais cohérence du visage capricieuse. |
-| ChatGPT / DALL-E 3 | Freemium | Excellent pour des concepts rapides. Moins précis sur les détails anatomiques. |
+| ChatGPT / DALL-E 3 | Freemium | Excellent pour des concepts rapides et de plus en plus performant en ce moment, même s'il reste moins précis sur les détails anatomiques. |
 | Lumeflow.ai | Freemium | Interface soignée, bons portraits, mais paywall rapide. |
 | Leonardo.ai | Freemium, ~150 tokens/j | Un des plus généreux en gratuit. Bonne qualité avec Phoenix et Flux. |
 | Playground AI | Freemium | Épuré, bonne qualité réaliste. Tourne sur Flux et SDXL. |
@@ -92,13 +92,13 @@ J'ai testé ChatGPT et Gemini sur le même type de prompt (portrait surréaliste
 
 ### ChatGPT / DALL-E 3 · *freemium*
 
-L'esthétique tient la route pour une première itération, mais la fidélité identitaire est approximative : c'est "une femme brune dans le même esprit", pas moi. → [chatgpt.com](https://chatgpt.com)
+L'esthétique tient la route pour une première itération, et surtout ce portrait est beaucoup plus fidèle à mon visage que celui de Gemini. En ce moment (octobre 2026), ChatGPT devient d'ailleurs de plus en plus performant en génération d'image. → [chatgpt.com](https://chatgpt.com)
 
 ### Gemini · *gratuit*
 
 Le rendu est plus lisse, presque trop propre, et la cohérence du visage reste le problème principal : c'est joli, mais ce n'est pas moi. → [gemini.google.com](https://gemini.google.com)
 
-> ✅ **Ce que ces résultats m'ont confirmé.** Les deux outils font quelque chose de joli, et le problème, c'est que ce n'est pas moi. Pour un usage créatif sans contrainte d'identité, les outils gratuits font le job ; pour du contenu récurrent avec mon visage, il faut aller plus loin. C'est exactement ce moment qui m'a fait prendre l'abonnement Higgsfield.
+> ✅ **Ce que ces résultats m'ont confirmé.** Les deux outils font quelque chose de joli, et le portrait de ChatGPT est nettement plus proche de mon visage que celui de Gemini. Pour un usage créatif sans contrainte d'identité, les outils gratuits font le job ; pour du contenu récurrent avec mon visage, il faut aller plus loin. C'est exactement ce moment qui m'a fait prendre l'abonnement Higgsfield.
 
 **Pour aller plus loin**
 
