@@ -10,11 +10,40 @@ Ce mois-ci, vous avez testé six outils IA et vous en avez gardé deux, sans tro
 
 Je range ici ce que j'ai testé moi-même : les liens que je rouvre, les tutos que j'aurais aimé trouver plus tôt, les prompts que je recopie chaque semaine. Tout est en français, gratuit et lisible sans compte.
 
-## Qui écrit
+<p align="center">
+  <b><a href="./veille/">Veille</a> · <a href="./guides/">Guides</a> · <a href="./tutoriels/">Tutoriels</a> · <a href="./prompts/">Prompts</a></b>
+</p>
 
-Je suis Opaline, Product Designer depuis 10 ans. J'aide les entreprises à construire et déployer leur produit, en réduisant la friction, la ressaisie et la charge mentale de leurs utilisateurs. Chaque projet commence de la même façon : faire parler ceux qui se servent du produit, avant de dessiner quoi que ce soit. Ensuite je couvre toutes les phases, de l'atelier de cadrage à la mise en production.
+## Le contenu en détail
 
-Je ne suis pas ingénieure. Je me suis formée à l'automatisation, au no-code et à l'IA pour tester une idée en quelques jours au lieu de plusieurs semaines. Ce dépôt, c'est le carnet de cet apprentissage.
+Quatre dossiers, rangés du plus large au plus concret : la veille dit ce qui existe, les guides aident à choisir, les tutoriels montrent comment s'en servir et les prompts donnent les mots à taper. Chaque page renvoie vers les autres dossiers, vous pouvez donc entrer par n'importe laquelle et suivre le fil.
+
+### [Veille](./veille/) : ce qui existe, trié à la main
+
+- [Ressources](./veille/ressources.md) : inspiration UI, design systems, accessibilité (21 fiches)
+- [Outils](./veille/outils.md) : génération d'images et de vidéos, IA builders (39 fiches)
+- [Plugins Figma](./veille/plugins.md) (6 fiches)
+- [Bibliothèques](./veille/bibliotheques.md) : composants React, 3D, icônes (8 fiches)
+- [Alternatives à Higgsfield](./veille/alternatives-higgsfield.md) : générer images et vidéos sans abonnement, classées en trois niveaux de profondeur, avec leurs sources
+
+### [Guides](./guides/) : lequel choisir, et pourquoi
+
+- [La boîte à outils IA](./guides/boite-a-outils-ia.md) : sept outils, trois profils, et les recettes qui les enchaînent
+- [Ressources IA générative](./guides/ressources-ia-generative.md) : outils testés, angles photo, prompts commentés
+- [Système de contenu](./guides/strategie-contenu.md) : la méthode ACRV, du premier regard à la vente
+- [Veille tech à la source](./guides/veille-tech-sources-primaires.md) : savoir avant les médias, avec 27 flux testés à importer d'un coup et trois montages, du lecteur RSS gratuit à n8n
+- [Brief projet avec son IA](./guides/brief-projet-avec-ia.pdf) (PDF) : dix prompts à copier-coller
+
+### [Tutoriels](./tutoriels/) : comment s'en servir, étape par étape
+
+- [Parcours par profil](./tutoriels/tutoriels-par-profil.md) : neuf tutoriels pour designers, équipes marketing et comptes Instagram business
+- [Installer n8n avec Docker](./tutoriels/installer-n8n-docker.md) : avec les erreurs classiques et leur solution
+- [Figma vers Webflow avec Relume](./tutoriels/workflow-figma-webflow-relume.md) : un site de deux pages sur des outils gratuits
+
+### [Prompts](./prompts/) : quoi taper, mot pour mot
+
+- [Prompt maître du harnais d'agents](./prompts/prompt-maitre-harnais.md) : pour Claude Code, avec une règle de départ, ne jamais confondre « l'agent dit qu'il a réussi » avec « le système a réussi »
+- Les prompts d'image et de vidéo restent dans leur guide, à côté des explications : [Ressources IA générative, partie 05](./guides/ressources-ia-generative.md#05--prompts-que-jutilise-et-comment-les-lire)
 
 ## Partez de votre problème de la semaine
 
@@ -24,56 +53,24 @@ Je ne suis pas ingénieure. Je me suis formée à l'automatisation, au no-code e
 | « Je veux un pas-à-pas, pas une vue d'ensemble » | [Neuf tutoriels par profil](./tutoriels/tutoriels-par-profil.md), de Claude Code à Instagram |
 | « Mon visage change à chaque image générée » | [Ressources IA générative](./guides/ressources-ia-generative.md) et mes prompts commentés |
 | « Higgsfield coûte trop cher pour ce que je génère » | [Les alternatives à Higgsfield](./veille/alternatives-higgsfield.md) : du navigateur à l'installation locale, licences et coûts réels compris |
+| « J'apprends les nouveautés tech une semaine après tout le monde » | [Veille tech à la source](./guides/veille-tech-sources-primaires.md) : où l'info naît, quels flux suivre et comment trier en cinq minutes par jour |
 | « Je publie tous les jours et rien ne bouge » | [Le système de contenu](./guides/strategie-contenu.md) : quoi publier, quand, et pourquoi |
 | « Mon prestataire n'a pas compris ma boîte » | [Préparer un brief avec son IA](./guides/brief-projet-avec-ia.pdf), dix prompts à copier-coller |
 | « Il me faut une référence UI, là, maintenant » | [La veille](./veille/) : 74 liens triés à la main |
+
+## Qui écrit
+
+Je suis Opaline, Product Designer depuis 10 ans. J'aide les entreprises à construire et déployer leur produit, en réduisant la friction, la ressaisie et la charge mentale de leurs utilisateurs. Chaque projet commence de la même façon : faire parler ceux qui se servent du produit, avant de dessiner quoi que ce soit. Ensuite je couvre toutes les phases, de l'atelier de cadrage à la mise en production.
+
+Je ne suis pas ingénieure. Je me suis formée à l'automatisation, au no-code et à l'IA pour tester une idée en quelques jours au lieu de plusieurs semaines. Ce dépôt, c'est le carnet de cet apprentissage.
+
+En ce moment, je creuse les design systems, l'accessibilité (RGAA, WCAG), la génération d'images et de vidéos, Claude Code, l'automatisation avec n8n et Airtable, la vérification des agents et la stratégie de contenu. J'en parle aussi sur [LinkedIn](https://www.linkedin.com/in/opalinemustiere/).
 
 ## Pourquoi me faire confiance
 
 Aucun lien n'est sponsorisé. Quand je recommande un outil payant, je dis aussi pour qui il ne vaut pas le coup. Exemple : j'ai commencé sur MidJourney, essayé six générateurs gratuits, puis pris un abonnement Higgsfield, et le même guide précise que cet abonnement est de trop si vous générez peu d'images.
 
 Chaque document porte sa date de vérification et ses sources sont cliquables. Les outils IA changent vite : en cas de doute, la documentation officielle a le dernier mot.
-
-## Comment le dépôt est rangé
-
-Quatre dossiers, du plus large au plus concret. Chaque page renvoie vers les autres dossiers quand c'est utile, vous pouvez donc entrer par n'importe laquelle et suivre le fil.
-
-| Dossier | Répond à la question | Par exemple |
-|---|---|---|
-| [Veille](./veille/) | Qu'est-ce qui existe ? | [Les alternatives à Higgsfield](./veille/alternatives-higgsfield.md) |
-| [Guides](./guides/) | Lequel choisir, et pourquoi ? | [La boîte à outils IA](./guides/boite-a-outils-ia.md) |
-| [Tutoriels](./tutoriels/) | Comment m'en servir, étape par étape ? | [Installer n8n avec Docker](./tutoriels/installer-n8n-docker.md) |
-| [Prompts](./prompts/) | Quoi taper, mot pour mot ? | [Le prompt maître du harnais](./prompts/prompt-maitre-harnais.md) |
-
-## Le contenu en détail
-
-### [Veille](./veille/)
-
-- [Ressources](./veille/ressources.md) : inspiration UI, design systems, accessibilité (21)
-- [Outils](./veille/outils.md) : génération d'images et de vidéos, IA builders (39)
-- [Plugins Figma](./veille/plugins.md) (6)
-- [Bibliothèques](./veille/bibliotheques.md) : composants React, 3D, icônes (8)
-- [Alternatives à Higgsfield](./veille/alternatives-higgsfield.md) : générer images et vidéos sans abonnement, classées en trois niveaux de profondeur, avec leurs sources
-
-### [Guides](./guides/)
-
-- [La boîte à outils IA](./guides/boite-a-outils-ia.md) : sept outils, trois profils
-- [Ressources IA générative](./guides/ressources-ia-generative.md) : outils testés, angles photo, prompts commentés
-- [Système de contenu](./guides/strategie-contenu.md) : la méthode ACRV, du premier regard à la vente
-- [Brief projet avec son IA](./guides/brief-projet-avec-ia.pdf) (PDF) : dix prompts à copier-coller
-
-### [Tutoriels](./tutoriels/)
-
-- [Parcours par profil](./tutoriels/tutoriels-par-profil.md) : designers, équipes marketing, comptes Instagram business
-- [Installer n8n avec Docker](./tutoriels/installer-n8n-docker.md) : avec les erreurs classiques et leur solution
-- [Figma vers Webflow avec Relume](./tutoriels/workflow-figma-webflow-relume.md) : un site de deux pages sur des outils gratuits
-
-### [Prompts](./prompts/)
-
-- [Prompt maître du harnais d'agents](./prompts/prompt-maitre-harnais.md) : pour Claude Code, avec une règle de départ, ne jamais confondre « l'agent dit qu'il a réussi » avec « le système a réussi »
-- Les prompts d'image et de vidéo restent dans leur guide, à côté des explications : [Ressources IA générative, partie 05](./guides/ressources-ia-generative.md#05--prompts-que-jutilise-et-comment-les-lire)
-
-En ce moment, je creuse les design systems, l'accessibilité (RGAA, WCAG), la génération d'images et de vidéos, Claude Code, l'automatisation avec n8n et Airtable, la vérification des agents et la stratégie de contenu. J'en parle aussi sur [LinkedIn](https://www.linkedin.com/in/opalinemustiere/).
 
 ## Servez-vous
 

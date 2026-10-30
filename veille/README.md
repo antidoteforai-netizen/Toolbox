@@ -1,6 +1,8 @@
+<sub>[Toolbox](../README.md) › Veille</sub>
+
 # Veille UX/UI/IA
 
-74 ressources triées à la main, classées par type. Chaque fiche porte la date à laquelle je l'ai ajoutée et ses thèmes.
+74 ressources triées à la main, classées par type. Chaque fiche porte la date à laquelle je l'ai ajoutée et ses thèmes. Pour monter votre propre veille sur l'actualité tech (flux RSS, alertes, brief du matin), voyez le guide [Veille tech à la source](../guides/veille-tech-sources-primaires.md).
 
 | Type | Nombre | Ce qu'on y trouve |
 |---|---|---|

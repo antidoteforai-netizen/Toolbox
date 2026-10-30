@@ -1,3 +1,5 @@
+<sub>[Toolbox](../README.md) › Prompts</sub>
+
 # Prompts
 
 Des prompts longs, à copier tels quels dans l'outil indiqué, commentés pour que vous puissiez les adapter à votre projet.

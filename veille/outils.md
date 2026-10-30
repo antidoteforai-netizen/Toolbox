@@ -1,3 +1,5 @@
+<sub>[Toolbox](../README.md) › [Veille](./README.md) › Outils</sub>
+
 # Outils
 
 Source : [veille-ux-ui.vercel.app](https://veille-ux-ui.vercel.app/), 39 ressources.
@@ -251,3 +253,7 @@ Contrôler sur-le-champ les ratios de contraste WCAG, dans un plugin Figma ou un
 *2023-03-01 · Présentation, 3D*
 
 Transformer une capture d'écran en visuel 3D stylisé, sans compétences en design.
+
+---
+
+[← Toute la veille](./README.md) · [Choisir parmi ces outils : les guides](../guides/README.md) · [Accueil de la Toolbox](../README.md)

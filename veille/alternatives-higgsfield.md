@@ -1,3 +1,5 @@
+<sub>[Toolbox](../README.md) › [Veille](./README.md) › Alternatives à Higgsfield</sub>
+
 # Alternatives à Higgsfield
 
 **Générer des images et des vidéos sans abonnement, ou en ne payant que ce que vous consommez.**

@@ -1,3 +1,5 @@
+<sub>[Toolbox](../README.md) › [Tutoriels](./README.md) › Tutoriels par profil</sub>
+
 # Tutoriels par profil
 
 **Neuf tutoriels en trois parcours, sans sauter une seule étape** : c’est la suite logique de [la boîte à outils](../guides/boite-a-outils-ia.md). Ici, pas de vue d’ensemble, mais des étapes numérotées, des commandes à coller et des astuces placées à l’endroit précis où tu vas en avoir besoin. Suis ton parcours du début à la fin, une seule fois, et tu n’auras plus besoin de revenir sur les bases.
