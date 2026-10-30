@@ -4,7 +4,7 @@
 
 # Toolbox
 
-**Arrêtez de collectionner les outils IA. Commencez à vous en servir.**
+**Arrêtez de collectionner les outils IA et commencez à vous en servir.**
 
 Ce mois-ci, vous avez testé six outils IA et vous en avez gardé deux, sans trop savoir pourquoi ceux-là. Ce dépôt sert à répondre à cette question.
 
@@ -12,7 +12,7 @@ Je range ici ce que j'ai testé moi-même : les liens que je rouvre, les tutos q
 
 ## Qui écrit
 
-Je suis Opaline, Product Designer depuis 10 ans. J'aide les entreprises à construire et déployer leur produit, en réduisant la friction, la ressaisie et la charge mentale de leurs utilisateurs. Chaque projet commence de la même façon : faire parler ceux qui utilisent le produit, avant de dessiner quoi que ce soit. Ensuite je couvre toutes les phases, de l'atelier de cadrage à la mise en production.
+Je suis Opaline, Product Designer depuis 10 ans. J'aide les entreprises à construire et déployer leur produit, en réduisant la friction, la ressaisie et la charge mentale de leurs utilisateurs. Chaque projet commence de la même façon : faire parler ceux qui se servent du produit, avant de dessiner quoi que ce soit. Ensuite je couvre toutes les phases, de l'atelier de cadrage à la mise en production.
 
 Je ne suis pas ingénieure. Je me suis formée à l'automatisation, au no-code et à l'IA pour tester une idée en quelques jours au lieu de plusieurs semaines. Ce dépôt, c'est le carnet de cet apprentissage.
 

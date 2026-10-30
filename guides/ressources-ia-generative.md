@@ -19,40 +19,36 @@ Par Opaline, 2026
 
 ## 01 · Mon parcours, de MidJourney à Higgsfield
 
-Spoiler : je n'ai pas eu la révélation divine du premier coup. J'ai tâtonné comme tout le monde. Et finalement, ce tâtonnement c'est la meilleure école, du moment qu'on en tire des conclusions utiles.
+Spoiler : je n'ai pas eu la révélation divine du premier coup, j'ai tâtonné comme tout le monde. Et finalement, ce tâtonnement c'est la meilleure école, du moment qu'on en tire des conclusions utiles.
 
 ### Phase 1, MidJourney · *payant*
 
-Mon terrain de jeu de base. Pour la qualité esthétique pure, c'est encore difficile à battre : cohérence stylistique, richesse des textures, rendu cinématographique quasi-instantané. Un outil de DA, pas seulement de génération. → [midjourney.com](https://www.midjourney.com)
+MidJourney a été mon terrain de jeu de base. Pour la qualité esthétique pure, c'est encore difficile à battre : cohérence stylistique, richesse des textures, rendu cinématographique quasi-instantané, ce qui en fait un outil de direction artistique, pas seulement de génération. → [midjourney.com](https://www.midjourney.com)
 
 > ⚠️ **Limite.** Maintenir la cohérence d'un visage entre plusieurs images sans `--cref` bien calibré relève du parcours du combattant. On obtient "une femme brune qui lui ressemble vaguement", pas la même personne.
 
 ### Phase 2, les alternatives gratuites
 
-J'ai fait le tour des outils gratuits avant de sortir la carte bleue. Honnêtement ? La bonne nouvelle, c'est que c'est gratuit. La mauvaise, ça se voit parfois.
+J'ai fait le tour des outils gratuits avant de sortir la carte bleue. Honnêtement, la bonne nouvelle, c'est que c'est gratuit, et la mauvaise, c'est que ça se voit parfois.
 
 | Outil | Prix | Ce que ça donne |
 |---|---|---|
 | Gemini | Gratuit limité | Intégré, pratique, mais cohérence du visage capricieuse. |
-| ChatGPT / DALL-E 3 | Freemium | Excellent pour des concepts rapides. Moins précis sur les détails anatomiques. |
+| ChatGPT / DALL-E 3 | Freemium | Excellent pour des concepts rapides et de plus en plus performant en ce moment, même s'il reste moins précis sur les détails anatomiques. |
 | Lumeflow.ai | Freemium | Interface soignée, bons portraits, mais paywall rapide. |
 | Leonardo.ai | Freemium, ~150 tokens/j | Un des plus généreux en gratuit. Bonne qualité avec Phoenix et Flux. |
 | Playground AI | Freemium | Épuré, bonne qualité réaliste. Tourne sur Flux et SDXL. |
 | Adobe Firefly | Inclus CC | Usage commercial sécurisé. Manque de punch sur les ultra-réalistes. |
 
-> ✅ **Verdict terrain.** Pour générer 2-3 images one-shot : les outils gratuits suffisent largement. Pour maintenir une identité visuelle cohérente sur plusieurs projets : c'est là que ça coince.
+> ✅ **Verdict terrain.** Pour générer 2-3 images ponctuelles, les outils gratuits suffisent largement ; c'est quand il faut maintenir une identité visuelle cohérente sur plusieurs projets que ça coince.
 
 ### Phase 3, Higgsfield (aujourd'hui) · *payant*
 
-Après quelques mois à jongler entre les outils gratuits, j'ai sauté le pas. Trois raisons :
-
-- **Cohérence identitaire** : Soul Characters + Elements = le même visage d'une génération à l'autre
-- **Agrégateur de modèles** : Nano Banana, SeaDance, Kling 3.0, Cinema Studio en un seul endroit
-- **Rapidité de production** : interface pensée pour créer vite et bien
+Après quelques mois à jongler entre les outils gratuits, j'ai sauté le pas pour trois raisons. Soul Characters et Elements gardent le même visage d'une génération à l'autre. L'outil rassemble aussi plusieurs modèles en un seul endroit (Nano Banana, SeaDance, Kling 3.0, Cinema Studio), et son interface est pensée pour produire vite et bien.
 
 → [higgsfield.ai](https://higgsfield.ai) · Grille tarifaire : Starter $19 / Plus $59 / Ultra $99 (annuel, −30 %)
 
-> 🔍 **Nuance honnête.** Je ne dis pas que Higgsfield est objectivement le meilleur outil pour tout le monde. Je dis que c'est celui qui répond à mon usage : volume de production + cohérence identitaire + plusieurs projets en parallèle. La vraie question n'est pas "quel est le meilleur outil ?", c'est "quel est MON besoin ?"
+> 🔍 **Nuance honnête.** Je ne dis pas que Higgsfield est objectivement le meilleur outil pour tout le monde. Je dis que c'est celui qui répond à mon usage : volume de production + cohérence identitaire + plusieurs projets en parallèle. La vraie question à te poser est donc "quel est MON besoin ?", bien avant "quel est le meilleur outil ?"
 
 **Pour aller plus loin**
 
@@ -63,7 +59,7 @@ Après quelques mois à jongler entre les outils gratuits, j'ai sauté le pas. T
 
 ## 02 · Nano Banana Pro gratuit via Google AI Studio
 
-La bonne surprise. Nano Banana Pro est accessible via API key sur AI Studio, tant qu'on ne dépasse pas le seuil de facturation. Utilisé depuis avril 2026, facturé 0 €. → [aistudio.google.com](https://aistudio.google.com)
+Bonne surprise : Nano Banana Pro est accessible via une clé API sur AI Studio tant qu'on ne dépasse pas le seuil de facturation, et je m'en sers depuis avril 2026 avec 0 € facturé. → [aistudio.google.com](https://aistudio.google.com)
 
 > 🔍 **Comment ça marche vraiment.** Nano Banana dans le Playground requiert un plan Google AI payant ("Upgrade to unlock"). Mais via une clé API avec facturation activée (carte enregistrée, 0 € débité tant que sous le seuil) : l'accès est possible. Google fonctionne en post-paiement, tu n'es débitée QUE si tu dépasses le seuil. Niveau Payant 1 : plafond à 250 $US, au-delà passage automatique au niveau suivant.
 
@@ -74,14 +70,14 @@ Voici exactement les étapes.
 1. Aller sur aistudio.google.com → menu en bas à gauche → **Get API Key**
 2. Cliquer sur **Créer une clé API**
 3. Donner un nom à ta clé, choisir un projet (ou en créer un)
-4. Copier les données de ta clé. **Tu ne pourras plus la revoir après fermeture.**
+4. Copier les données de ta clé et les garder pour toi, jamais sur une capture d'écran ni dans un fichier partagé. **Tu ne pourras plus la revoir après fermeture.**
 5. Revenir sur l'interface → icône Clé en bas à gauche → sélectionner ta clé
 6. Confirmation : ta clé est "in use", tu es prête
 7. Choisir le modèle Nano Banana Pro dans la liste. Prompt and enjoy.
 
 > 🆘 **Si tu te perds.** Vidéo YouTube d'aide à l'installation : [youtu.be/__O2rm_lvIY](https://youtu.be/__O2rm_lvIY)
 
-Ensuite : inspire-toi sur Pinterest ou Cosmo, puis demande à ton LLM préféré d'analyser une image pour en déduire un prompt. La délégation, c'est sous-côté.
+Ensuite : inspire-toi sur Pinterest ou Cosmo, puis demande à ton modèle de langage (LLM) préféré d'analyser une image pour en déduire un prompt, parce que la délégation, c'est sous-coté.
 
 **Pour aller plus loin**
 
@@ -92,17 +88,17 @@ Ensuite : inspire-toi sur Pinterest ou Cosmo, puis demande à ton LLM préféré
 
 ## 03 · Alternatives gratuites, résultats concrets
 
-Montrer plutôt que raconter : j'ai testé ChatGPT et Gemini sur le même type de prompt, portrait surréaliste, tête flottante, style collage. Captures de mes vraies sessions dans la version HTML, pas de cherry-picking.
+J'ai testé ChatGPT et Gemini sur le même type de prompt (portrait surréaliste, tête flottante, style collage), pour montrer plutôt que raconter. Les captures de mes vraies sessions sont dans la version HTML, sans tri des plus réussies (pas de cherry-picking).
 
 ### ChatGPT / DALL-E 3 · *freemium*
 
-L'esthétique tient la route pour une première itération. Mais la fidélité identitaire est approximative : c'est "une femme brune dans le même esprit", pas moi. → [chatgpt.com](https://chatgpt.com)
+L'esthétique tient la route pour une première itération, et surtout ce portrait est beaucoup plus fidèle à mon visage que celui de Gemini. En ce moment (octobre 2026), ChatGPT devient d'ailleurs de plus en plus performant en génération d'image. → [chatgpt.com](https://chatgpt.com)
 
 ### Gemini · *gratuit*
 
-Rendu plus lisse, presque trop propre. La cohérence du visage reste le problème principal. Joli, mais ce n'est pas moi. → [gemini.google.com](https://gemini.google.com)
+Le rendu est plus lisse, presque trop propre, et la cohérence du visage reste le problème principal : c'est joli, mais ce n'est pas moi. → [gemini.google.com](https://gemini.google.com)
 
-> ✅ **Ce que ces résultats m'ont confirmé.** Les deux outils font quelque chose de joli. Le problème : ce n'est pas moi. Pour un usage créatif sans contrainte d'identité, les outils gratuits font le job. Pour du contenu récurrent avec mon visage, il faut aller plus loin. C'est exactement ce moment qui m'a fait prendre l'abonnement Higgsfield.
+> ✅ **Ce que ces résultats m'ont confirmé.** Les deux outils font quelque chose de joli, et le portrait de ChatGPT est nettement plus proche de mon visage que celui de Gemini. Pour un usage créatif sans contrainte d'identité, les outils gratuits font le job ; pour du contenu récurrent avec mon visage, il faut aller plus loin. C'est exactement ce moment qui m'a fait prendre l'abonnement Higgsfield.
 
 **Pour aller plus loin**
 
@@ -113,7 +109,7 @@ Rendu plus lisse, presque trop propre. La cohérence du visage reste le problèm
 
 ## 04 · Maîtriser les angles photo
 
-Ce lexique, je le copie-colle directement dans mes prompts. Plus tu es précis sur l'angle, moins l'IA improvise. Elle comprend parfaitement "worm's eye view" ou "over-the-shoulder", entraînée sur des millions de photos étiquetées.
+Ce lexique, je le copie-colle directement dans mes prompts. Plus tu es précis sur l'angle, moins l'IA improvise, et elle comprend parfaitement "worm's eye view" ou "over-the-shoulder" puisqu'elle a été entraînée sur des millions de photos étiquetées.
 
 ### Angles primaires
 
@@ -159,11 +155,11 @@ Ce lexique, je le copie-colle directement dans mes prompts. Plus tu es précis s
 
 ## 05 · Prompts que j'utilise, et comment les lire
 
-Ces prompts viennent de ma pratique et de ma veille. Aucun n'est parfait, tous sont à adapter selon le modèle. Ce qui fonctionne sur Nano Banana ne fonctionnera pas pareil sur MidJourney.
+Ces prompts viennent de ma pratique et de ma veille, et aucun n'est parfait : tous sont à adapter selon le modèle, parce que ce qui fonctionne sur Nano Banana ne fonctionnera pas pareil sur MidJourney.
 
 ### Portrait éditorial halftone, style magazine vintage
 
-Mon prompt de direction artistique éditoriale. Collage papier découpé, impression offset CMJN, effet vintage 70s.
+C'est mon prompt de direction artistique éditoriale : collage papier découpé, impression offset CMJN, effet vintage 70s.
 
 ```text
 // CONCEPT
@@ -218,7 +214,7 @@ Natural depth of field, 4K realism. No anime, no illustration, no CGI, no cospla
 
 ### Template, améliorer le grain et le réalisme
 
-Le paramètre qui change tout : `CAMERA FEEL: smartphone photography`, il casse l'effet IA quasi immédiatement.
+Le paramètre qui change tout, c'est `CAMERA FEEL: smartphone photography`, parce qu'il casse l'effet IA quasi immédiatement.
 
 ```text
 [SHOT TYPE] portrait of [AGE]-year-old, [SKIN TONE / ETHNICITY],
@@ -293,7 +289,7 @@ STYLE: ["cinematic" / "documentary" / "commercial" / "UGC"]
 | [QuillBot](https://quillbot.com) | Freemium | Reformulation, analyse de ton, fluidité. Le meilleur outil pour casser l'effet "écrit par une machine". |
 | [Lens Distortions](https://lensdistortions.com) | Payant | Musique instrumentale cinématographique pour cinéastes. Filtrée par mood et style. |
 
-> 🧪 **Idée à creuser, m'automatiser.** Créer plusieurs vidéos de moi dans plusieurs endroits différents, sans y être physiquement. Utiliser Higgsfield (Seedance / Kling 3.0) pour générer les variantes de contexte, puis automatiser la diffusion. Ce workflow n'est pas encore formalisé. C'est la prochaine étape.
+> 🧪 **Idée à creuser, m'automatiser.** Créer plusieurs vidéos de moi dans plusieurs endroits différents sans y être physiquement, en me servant de Higgsfield (Seedance / Kling 3.0) pour générer les variantes de contexte, puis automatiser la diffusion. Ce workflow n'est pas encore formalisé, c'est la prochaine étape.
 
 **Pour aller plus loin**
 
@@ -308,7 +304,7 @@ STYLE: ["cinematic" / "documentary" / "commercial" / "UGC"]
 
 | Outil | Prix | Usage |
 |---|---|---|
-| [Waalaxy](https://www.waalaxy.com) | Freemium | Prospection LinkedIn + email automatisée, no-code. Version gratuite : jusqu'à 400 contacts/jour. Utilisé pour construire des listes qualifiées et lancer des séquences. |
+| [Waalaxy](https://www.waalaxy.com) | Freemium | Prospection LinkedIn + email automatisée, no-code. Version gratuite : jusqu'à 400 contacts/jour. Sert à construire des listes qualifiées et à lancer des séquences. |
 
 ### CRM et automation
 
@@ -324,7 +320,7 @@ STYLE: ["cinematic" / "documentary" / "commercial" / "UGC"]
 > 2. Systeme.io / ActiveCampaign, nurturing et séquences email
 > 3. Make, coller tout ça et automatiser les déclencheurs
 >
-> Je construis brique par brique, pas tout en même temps. C'est plus sain.
+> Je construis brique par brique plutôt que tout en même temps, c'est plus sain.
 
 **Pour aller plus loin**
 
@@ -335,7 +331,7 @@ STYLE: ["cinematic" / "documentary" / "commercial" / "UGC"]
 
 ## 08 · Conclusion, ce que je sais, ce que je ne sais pas encore
 
-Ce document c'est un instantané de là où j'en suis. Pas une vérité absolue. Les outils changent vite, les modèles évoluent encore plus vite.
+Ce document, c'est un instantané de là où j'en suis plutôt qu'une vérité absolue, parce que les outils changent vite et que les modèles évoluent encore plus vite.
 
 ### Ce que je ferais peut-être différemment
 
@@ -348,7 +344,7 @@ Et je ne suis pas certaine qu'un abonnement Higgsfield soit la bonne décision p
 | Outil | Prix | Pourquoi ça m'intéresse |
 |---|---|---|
 | Runway ML Gen-3 | Payant | Référence de la vidéo IA. Cohérence temporelle et effets cinématographiques avancés. |
-| Krea.ai | Freemium | Génération image en temps réel, l'interface change pendant que tu tapes. Nouveau paradigme. |
+| Krea.ai | Freemium | Génération d'image en temps réel : l'image se redessine pendant que tu tapes. |
 | ComfyUI | Gratuit | Node-based open source pour Stable Diffusion. Contrôle total, courbe d'apprentissage réelle. |
 | Ideogram 2.0 | Freemium | Excellent pour intégrer du texte dans les images, un vrai problème non résolu ailleurs. |
 | Pika Labs | Freemium | Effets vidéo spectaculaires : transformations, liquides, explosions. |
@@ -356,18 +352,18 @@ Et je ne suis pas certaine qu'un abonnement Higgsfield soit la bonne décision p
 
 ### Ce que j'ai appris de tout ça
 
-- La cohérence du visage est le problème #1 non résolu des outils gratuits. C'est ce critère seul qui peut justifier un abonnement payant.
+- La cohérence du visage est le problème #1 non résolu des outils gratuits, et c'est ce critère seul qui peut justifier un abonnement payant.
 - Le meilleur prompt est celui que tu comprends, pas celui que tu as copié. Prends le temps d'analyser pourquoi ça fonctionne.
-- Les outils changent très vite. Rester pragmatique : tester → comparer → choisir → avancer.
-- La stack parfaite n'existe pas. Chaque outil a ses angles morts. Ce qui compte : savoir lesquels sont les tiens.
+- Les outils changent très vite, d'où l'intérêt de rester pragmatique : tester → comparer → choisir → avancer.
+- La stack parfaite n'existe pas, puisque chaque outil a ses angles morts : ce qui compte, c'est de savoir lesquels sont les tiens.
 
-> Le tout, c'est d'avoir un concept clair en tête. Ensuite, ça va tout seul.
+> Le tout, c'est d'avoir un concept clair en tête, ensuite ça va tout seul.
 >
-> La créativité, c'est le maître mot. Les outils changent tous les six mois. Toi, tu restes.
+> La créativité, c'est le maître mot : les outils changent tous les six mois, toi, tu restes.
 
 ## 09 · Références, qui suivre, quoi lire
 
-Triées par format, taggées par sujet. Aucun sponsoring, que du vrai.
+Elles sont triées par format et taggées par sujet, sans aucun sponsoring : que du vrai.
 
 ### YouTube
 
@@ -382,7 +378,7 @@ Triées par format, taggées par sujet. Aucun sponsoring, que du vrai.
 
 | Qui | Sujets | Pourquoi |
 |---|---|---|
-| [@higgsfield.ai](https://www.instagram.com/higgsfield.ai) | IA · Vidéo · Image | Générations épiques de la communauté + nouvelles fonctionnalités. |
+| [@higgsfield.ai](https://www.instagram.com/higgsfield.ai) | IA · Vidéo · Image | Créations de la communauté et annonces des nouvelles fonctionnalités. |
 | [@runwayml](https://www.instagram.com/runwayml) | Vidéo · IA · Cinéma | Showreels et dernières fonctionnalités. |
 | [@midjourney](https://www.instagram.com/midjourney) | IA · Image · Inspiration | Inspirations de la communauté + updates. |
 | [@georges.pdf](https://www.instagram.com/georges.pdf) | UX · Design · Créatif | Inspiration vidéo UX/UI, format court, œil très affûté. |
@@ -403,7 +399,7 @@ Triées par format, taggées par sujet. Aucun sponsoring, que du vrai.
 | [Runway ML](https://runwayml.com) | Vidéo · IA · Research | Le leader de la vidéo IA créative. Blog Research = mine d'or. |
 | [ElevenLabs](https://elevenlabs.io) | Audio · Voix · IA | Le grand nom de la voix IA. Clonage vocal, audio génératif. |
 | [Pika Labs](https://pika.art) | Vidéo · IA · Effets | Effets vidéo spectaculaires : transformations, liquides. |
-| [Krea.ai](https://www.krea.ai) | Image · IA · Temps réel | Génération image en temps réel. Nouveau paradigme. |
+| [Krea.ai](https://www.krea.ai) | Image · IA · Temps réel | Génération d'image en temps réel, qui change à chaque mot tapé. |
 
 **Ailleurs dans la Toolbox**
 

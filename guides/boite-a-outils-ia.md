@@ -1,15 +1,15 @@
 # La boîte à outils IA
 
-**Arrête de collectionner les outils IA. Commence à t’en servir.**
+**Arrête de collectionner les outils IA et commence à t’en servir.**
 
-Sept outils. Trois profils. Zéro blabla générique sur "l’IA qui va tout changer." Ce document te dit précisément quoi faire avec Claude Code, les Skills, Figma, Webflow, Higgsfield, N8N et Airtable, que tu les utilises déjà tous les jours, ou que tu n’aies encore jamais ouvert aucun d’entre eux.
+Ce document te dit précisément quoi faire avec Claude Code, les Skills, Figma, Webflow, Higgsfield, N8N et Airtable, que tu t’en serves déjà tous les jours ou que tu n’aies encore jamais ouvert aucun d’entre eux. Les sept outils y sont répartis selon trois profils, sans le blabla générique sur "l’IA qui va tout changer".
 
 ## Sommaire
 
 - [Tu te reconnais ?](#tu-te-reconnais-)
 - [Trois profils, un seul document](#trois-profils-un-seul-document)
 - [Trois notions avant de foncer](#trois-notions-avant-de-foncer)
-- [Sept outils. Ce qu’ils font vraiment, pour toi](#sept-outils-ce-quils-font-vraiment-pour-toi)
+- [Ce que les sept outils font vraiment pour toi](#ce-que-les-sept-outils-font-vraiment-pour-toi)
 - [Claude Code & vibe coding](#claude-code--vibe-coding)
 - [Claude Skills](#claude-skills)
 - [Figma & Figma Make](#figma--figma-make)
@@ -26,12 +26,12 @@ Sept outils. Trois profils. Zéro blabla générique sur "l’IA qui va tout cha
 
 ## Tu te reconnais ?
 
-Avant de te donner un seul outil, un seul framework, une vérification rapide. Si rien ici ne te parle, ferme cette page, elle n’est pas pour toi. Si tout te parle, continue : c’est pour ça qu’elle existe.
+Avant de te donner un seul outil ou une seule méthode, fais une vérification rapide. Si rien ici ne te parle, ferme cette page, elle n’est pas pour toi ; si tout te parle, continue, c’est pour ça qu’elle existe.
 
-1. Tu vois passer douze nouveaux outils IA par semaine sur LinkedIn, et t’as l’impression de prendre du retard, alors que tu en utilises déjà la moitié tous les jours sans le formaliser.
+1. Tu vois passer douze nouveaux outils IA par semaine sur LinkedIn, et t’as l’impression de prendre du retard, alors que tu te sers déjà de la moitié d’entre eux tous les jours sans le formaliser.
 2. On te demande trois fois plus de contenu qu’il y a un an, avec la même équipe, "parce que l’IA fait gagner du temps", sauf que personne ne t’a montré comment, précisément.
-3. Tu postes tous les jours, tu suis tous les conseils qu’on te donne, et ton reach stagne pendant que des comptes bien moins soignés que le tien explosent.
-4. T’as testé six outils IA différents ce mois-ci. T’en utilises encore deux, et tu ne saurais pas dire pourquoi ceux-là et pas les autres.
+3. Tu postes tous les jours, tu suis tous les conseils qu’on te donne, et ta portée stagne pendant que des comptes bien moins soignés que le tien explosent.
+4. T’as testé six outils IA différents ce mois-ci et tu ne t’en sers plus que de deux, sans savoir dire pourquoi ceux-là et pas les autres.
 5. Tu sais, quelque part, que tu devrais construire un vrai système plutôt que d’empiler des prompts au coup par coup, mais tu n’as jamais le temps de t’arrêter pour le faire proprement.
 
 ## Trois profils, un seul document
@@ -70,19 +70,19 @@ Si tu vis déjà dans Claude Code au quotidien, saute cette section entière et 
 
 ### Un bon prompt, en vrai
 
-Un prompt qui marche n’est pas un prompt "malin", c’est un prompt qui donne assez de contexte pour qu’il n’y ait plus qu’une seule bonne façon de comprendre la demande. "Écris-moi un post sur mon produit" est un mauvais prompt, pas parce qu’il est mal formulé, mais parce qu’il manque tout ce qui compte : pour qui, quel ton, quelle longueur, quel objectif. Trois réflexes suffisent pour progresser plus que n’importe quelle liste de 50 templates : donne le contexte avant la demande (qui es-tu, pour qui c’est, ce que tu as déjà essayé) ; donne un exemple du résultat que tu attends plutôt que de le décrire en abstrait ; et itère à voix haute, "trop long, coupe de moitié" fonctionne mieux qu’un nouveau prompt de zéro à chaque fois.
+Un prompt qui marche donne assez de contexte pour qu’il n’y ait plus qu’une seule bonne façon de comprendre la demande, et qu’il soit "malin" n’y change rien. "Écris-moi un post sur mon produit" est un mauvais prompt, pas parce qu’il est mal formulé, mais parce qu’il manque tout ce qui compte : pour qui, quel ton, quelle longueur, quel objectif. Trois réflexes suffisent pour progresser plus que n’importe quelle liste de 50 templates : donne le contexte avant la demande (qui es-tu, pour qui c’est, ce que tu as déjà essayé) ; donne un exemple du résultat que tu attends plutôt que de le décrire en abstrait ; et itère à voix haute, "trop long, coupe de moitié" fonctionne mieux qu’un nouveau prompt de zéro à chaque fois.
 
 ### Outil, agent, Skill : la différence qui évite les malentendus
 
-Un outil, c’est une capacité ponctuelle, générer une image, chercher sur le web, lire un fichier. Un agent, c’est un système qui enchaîne plusieurs étapes tout seul vers un objectif, en décidant lui-même l’ordre et les outils à utiliser en cours de route, Claude Cowork ou Manus en sont des exemples grand public. Une Skill (spécifique à Claude) est un mode d’emploi réutilisable que tu écris une fois, que Claude charge automatiquement quand la tâche correspond, la procédure, pas l’action elle-même. Retiens l’essentiel : plus le besoin est répétitif, plus une Skill vaut le coup ; plus la tâche est longue et à plusieurs étapes, plus un agent devient pertinent.
+Un outil, c’est une capacité ponctuelle : générer une image, chercher sur le web, lire un fichier. Un agent, c’est un système qui enchaîne plusieurs étapes tout seul vers un objectif, en décidant lui-même l’ordre et les outils à mobiliser en cours de route ; Claude Cowork ou Manus en sont des exemples grand public. Une Skill (spécifique à Claude) est un mode d’emploi réutilisable que tu écris une fois et que Claude charge automatiquement quand la tâche correspond : la procédure, pas l’action elle-même. Retiens l’essentiel : plus le besoin est répétitif, plus une Skill vaut le coup ; plus la tâche est longue et à plusieurs étapes, plus un agent devient pertinent.
 
 ### Texte, image, vidéo : qui fait quoi en 2026
 
-Pour le texte et le raisonnement, rédaction, code, structuration, les modèles de langage comme Claude dominent. Pour l’image fixe, deux familles se distinguent : Nano Banana Pro (Gemini 3 Pro Image, chez Google) excelle sur le texte lisible dans l’image, mockups, posters, infographies, et Higgsfield sur la cohérence d’un même personnage ou visage à travers des dizaines de générations. Pour la vidéo, le paysage bouge vite : Veo 3.1 et Runway Gen-4.5 mènent aujourd’hui, Kling 3.0 reste l’option économique, et Sora, qui dominait les conversations il y a un an, a été mis à l’arrêt par OpenAI en 2026, faute de rentabilité. Retiens la leçon plus que le classement : dans cette catégorie, ne construis jamais un système qui dépend d’un seul fournisseur.
+Pour le texte et le raisonnement (rédaction, code, structuration), les modèles de langage comme Claude dominent. Pour l’image fixe, deux familles se distinguent : Nano Banana Pro (Gemini 3 Pro Image, chez Google) excelle sur le texte lisible dans l’image (mockups, posters, infographies), et Higgsfield sur la cohérence d’un même personnage ou visage à travers des dizaines de générations. Pour la vidéo, le paysage bouge vite : Veo 3.1 et Runway Gen-4.5 mènent aujourd’hui, Kling 3.0 reste l’option économique, et Sora, qui dominait les conversations il y a un an, a été mis à l’arrêt par OpenAI en 2026, faute de rentabilité. Retiens la leçon plus que le classement : dans cette catégorie, ne construis jamais un système qui dépend d’un seul fournisseur.
 
-## Sept outils. Ce qu’ils font vraiment, pour toi
+## Ce que les sept outils font vraiment pour toi
 
-Pas un classement, pas un comparatif générique. Pour chaque outil : ce qu’il fait sans le blabla marketing, pourquoi ça compte selon ton profil, comment démarrer si tu ne connais pas, et des astuces concrètes si tu connais déjà.
+Plutôt qu’un classement ou un comparatif générique, chaque outil a droit à quatre rubriques : ce qu’il fait sans le blabla marketing, pourquoi ça compte selon ton profil, comment démarrer si tu ne le connais pas, et des astuces concrètes si tu le connais déjà.
 
 ## Claude Code & vibe coding
 
@@ -116,7 +116,7 @@ Le moyen d’arrêter de réexpliquer la même chose à Claude chaque semaine.
 
 #### C’est quoi, sans le blabla
 
-Une Skill, c’est un simple fichier texte (SKILL.md) que tu écris une fois, un nom, une description de ce qu’elle fait et quand l’utiliser, puis des instructions claires, et que Claude charge tout seul dès qu’une tâche correspond. Rien à coder : rédiger une Skill ressemble à écrire une consigne limpide pour un collègue compétent, pas à programmer.
+Une Skill, c’est un simple fichier texte (SKILL.md) que tu écris une fois (un nom, une description de ce qu’elle fait et du moment où s’en servir, puis des instructions claires) et que Claude charge tout seul dès qu’une tâche correspond. Rien à coder : rédiger une Skill ressemble à écrire une consigne limpide pour un collègue compétent, pas à programmer.
 
 #### Pourquoi ça compte pour toi
 
@@ -126,7 +126,7 @@ Une Skill, c’est un simple fichier texte (SKILL.md) que tu écris une fois, un
 
 #### Comment démarrer
 
-Repère une tâche que tu refais presque à l’identique au moins une fois par semaine. Écris son nom et une description au format "fait X, à utiliser quand Y", c’est ce champ qui détermine si la Skill se déclenchera au bon moment. Ajoute un exemple concret du résultat attendu : un bon exemple vaut mieux qu’une longue liste de règles.
+Repère une tâche que tu refais presque à l’identique au moins une fois par semaine. Écris son nom et une description au format "fait X, à employer quand Y", c’est ce champ qui détermine si la Skill se déclenchera au bon moment. Ajoute un exemple concret du résultat attendu : un bon exemple vaut mieux qu’une longue liste de règles.
 
 #### Astuces
 
@@ -138,7 +138,7 @@ Repère une tâche que tu refais presque à l’identique au moins une fois par 
 
 ## Figma & Figma Make
 
-Ton outil du quotidien, plus une couche IA qui transforme une maquette en prototype cliquable sans sortir de l’écosystème Figma.
+Ton outil du quotidien, plus une couche IA qui transforme une maquette en prototype cliquable sans sortir de Figma.
 
 #### C’est quoi, sans le blabla
 
@@ -166,7 +166,7 @@ Le constructeur de site qui ne t’enferme ni dans un template ni dans du code i
 
 #### C’est quoi, sans le blabla
 
-Webflow est un constructeur de site visuel qui produit du vrai code propre derrière, avec un CMS puissant et un contrôle fin du design. Son AI Site Builder transforme un prompt en site complet, multi-pages, avec animations et système de design de base, un vrai point de départ, pas un site fini : les textes restent génériques, les images restent des placeholders, et la structure fine reste à construire. Sa fonctionnalité la plus intéressante en 2026 est sans doute l’AEO, des agents qui auditent comment les IA comme ChatGPT ou Perplexity représentent ta marque, et proposent des correctifs.
+Webflow est un constructeur de site visuel qui produit du vrai code propre derrière, avec un gestionnaire de contenus (CMS) et un contrôle fin du design. Son AI Site Builder transforme un prompt en site complet, multi-pages, avec animations et système de design de base, un vrai point de départ, pas un site fini : les textes restent génériques, les images restent des placeholders, et la structure fine reste à construire. Sa fonctionnalité la plus intéressante en 2026 est sans doute l’AEO (l’optimisation pour les moteurs de réponse IA) : des agents qui auditent comment les IA comme ChatGPT ou Perplexity représentent ta marque, et proposent des correctifs.
 
 #### Pourquoi ça compte pour toi
 
@@ -180,7 +180,7 @@ Avant de toucher l’IA Site Builder, sache précisément ce que tu veux : tes p
 
 #### Astuces
 
-- 💡 utilise l’IA pour le squelette (structure, sections, système de design), pas pour le texte final, la copie générée reste générique et se repère à l’œil nu.
+- 💡 confie à l’IA le squelette (structure, sections, système de design), pas le texte final : la copie générée reste générique et se repère à l’œil nu.
 - 💡 Webflow se connecte à N8N et Zapier : ton CMS peut déclencher des automatisations (nouvel article publié → post LinkedIn généré) sans code.
 - 💡 l’éditeur historique de Webflow ferme le 4 août 2026, si ton équipe s’appuie encore dessus pour les mises à jour de contenu, planifie la bascule maintenant.
 
@@ -192,7 +192,7 @@ L’outil qui résout le vrai problème de la génération d’image : garder le
 
 #### C’est quoi, sans le blabla
 
-Le problème que tout le monde connaît sans le nommer : tu génères un visuel avec ton visage ou ton personnage de marque, et à la génération suivante, ce n’est plus vraiment la même personne, la mâchoire a changé, les yeux ont dérivé. Higgsfield règle ça avec Soul ID : tu entraînes une identité une seule fois, à partir d’une vingtaine de photos (3 à 5 minutes de traitement), et cette identité reste ensuite verrouillée quel que soit le style ou l’angle demandé ensuite. L’outil agrège en plus plusieurs modèles (dont Nano Banana Pro) sous un seul abonnement.
+Le problème que tout le monde connaît sans le nommer : tu génères un visuel avec ton visage ou ton personnage de marque, et à la génération suivante, ce n’est plus vraiment la même personne, la mâchoire a changé, les yeux ont dérivé. Higgsfield règle ça avec Soul ID : tu entraînes une identité une seule fois, à partir d’une vingtaine de photos (3 à 5 minutes de traitement), et cette identité reste ensuite verrouillée quel que soit le style ou l’angle demandé. L’outil agrège aussi plusieurs modèles (dont Nano Banana Pro) sous un seul abonnement.
 
 #### Pourquoi ça compte pour toi
 
@@ -230,19 +230,19 @@ N8N est un outil d’automatisation visuel, des nœuds reliés entre eux sur un 
 
 #### Comment démarrer
 
-Ne commence pas par un pipeline complexe. Prends une seule tâche répétitive que tu fais à la main chaque semaine, construis les 2-3 nœuds qui l’automatisent, fais-la tourner une fois de bout en bout. Complexifie ensuite, jamais l’inverse.
+Ne commence pas par un pipeline complexe. Prends une seule tâche répétitive que tu fais à la main chaque semaine, construis les 2-3 nœuds qui l’automatisent et fais-la tourner une fois de bout en bout, puis complexifie, jamais l’inverse.
 
 #### Astuces
 
 - 💡 ajoute toujours une étape de validation humaine avant publication automatique, un pipeline sans relecture publie aussi vite ses erreurs que ses réussites.
 - 💡 teste ton pipeline sur 5 sujets différents plutôt que de peaufiner un seul cas en boucle : c’est en comparant plusieurs sorties que le maillon faible du système devient visible.
-- 💡 N8N se branche nativement sur Webflow, Airtable et la plupart des outils de ce document, commence par connecter deux outils que tu utilises déjà avant d’en ajouter un troisième.
+- 💡 N8N se branche nativement sur Webflow, Airtable et la plupart des outils de ce document : commence par connecter deux outils dont tu te sers déjà avant d’en ajouter un troisième.
 
 > 📎 **Ressource.** Build custom AI agents with logic & control, n8n.
 
 ## Airtable
 
-Un tableur qui pense, chaque cellule peut analyser, générer ou aller chercher de l’info toute seule.
+Un tableur qui pense : chaque cellule peut analyser, générer ou aller chercher de l’info toute seule.
 
 #### C’est quoi, sans le blabla
 
@@ -273,7 +273,7 @@ Un outil seul ne change pas grand-chose. Voici comment ils s’enchaînent en vr
 
 Claude Code · Skills · Figma Make · Webflow, de l’idée à un lien qu’on peut envoyer.
 
-1. **Cadre avant de coder.** Une spec d’une page : scénario utilisateur, 3 critères d’acceptation vérifiables, ce qui est explicitement hors scope. Cette étape seule évite 80 % des allers-retours inutiles.
+1. **Cadre avant de coder.** Une spec d’une page : scénario utilisateur, 3 critères d’acceptation vérifiables, ce qui est explicitement hors scope. Cette seule page t’évite bien des allers-retours.
 2. **Pars d’un frame Figma existant.** Génère avec Figma Make plutôt que d’une page blanche, le résultat hérite du contexte visuel et colle à ta charte dès le départ.
 3. **Branche un vrai modèle.** Bascule vers Claude Code pour la partie qui doit être réellement intelligente, pas un texte statique qui fait semblant, un vrai appel à l’API avec réponse en streaming.
 4. **Polish & déploie.** Corrige les écarts avec ton design system, déploie sur Webflow ou Vercel. Un lien imparfait envoyé aujourd’hui vaut mieux qu’un lien parfait promis pour la semaine prochaine.
@@ -296,12 +296,12 @@ Airtable · N8N · Higgsfield, sans que ça bouffe ta soirée à chaque fois.
 1. **Note l’idée brute, sans la travailler.** Un titre, une phrase, dans Airtable ou même une note vocale. Le perfectionnisme à cette étape est ce qui tue la régularité.
 2. **N8N structure l’angle et la légende.** À partir de l’idée brute, avec ta Skill "légendes dans mon style" pour éviter le ton IA générique que tout le monde repère désormais.
 3. **Higgsfield génère le visuel, avec ton identité Soul ID.** Cohérent avec le reste de ton feed, sans nouvelle séance photo.
-4. **Relis, et garde une part de brut.** Point important et contre-intuitif : Instagram privilégie en 2026 le contenu qui a l’air authentique, précisément parce que le contenu parfaitement poli devient trivial à produire pour tout le monde. Utilise le pipeline pour la structure et la régularité, pas pour lisser ce qui fait la voix reconnaissable d’une vraie personne.
+4. **Relis, et garde une part de brut.** Point important et contre-intuitif : Instagram privilégie en 2026 le contenu qui a l’air authentique, précisément parce que le contenu parfaitement poli devient trivial à produire pour tout le monde. Sers-toi du pipeline pour la structure et la régularité, pas pour lisser ce qui fait la voix reconnaissable d’une vraie personne.
 5. **Publie, puis suis dans Airtable.** Ce qui partage bien (en DM, pas juste en likes) est le signal qui compte le plus pour la distribution en 2026, note-le pour orienter les prochaines idées.
 
 ## Le cheat-sheet, pour plus tard
 
-Reviens ici plutôt que de tout relire. Une ligne par outil, ce qu’il fait, pour qui il compte le plus, et par où commencer.
+Reviens ici plutôt que de tout relire : une ligne par outil dit ce qu’il fait, pour qui il compte le plus et par où commencer.
 
 | Outil | Ça sert à | Profil principal | Démarre par |
 |---|---|---|---|
@@ -313,11 +313,11 @@ Reviens ici plutôt que de tout relire. Une ligne par outil, ce qu’il fait, po
 | N8N | Relier tous les outils en un pipeline automatisé | Marketing, Instagram | Une seule tâche répétitive à la fois |
 | Airtable | Base de données qui pense, calendrier, CRM, suivi | Marketing, Instagram | Décrire le besoin à Omni en langage naturel |
 
-> La règle qui traverse tout ce document : commence petit, une seule tâche répétitive à la fois, mesure ce qui marche, complexifie ensuite. Jamais l’inverse.
+> La règle qui traverse tout ce document : commence petit, une seule tâche répétitive à la fois, mesure ce qui marche et complexifie ensuite, jamais l’inverse.
 
 ## Sources vérifiées
 
-Chaque affirmation technique de ce document a été vérifiée sur une source primaire ou une documentation officielle en juillet 2026. Les outils évoluant vite, reviens à ces liens plutôt qu’à ce document pour toute donnée sensible au temps.
+Les affirmations techniques de ce document ont été vérifiées en juillet 2026 sur la documentation des éditeurs ou sur une source primaire. Seule exception, la partie Instagram s’appuie sur deux blogs spécialisés, Hootsuite et MeetEdgar, eux-mêmes fondés sur les déclarations d’Adam Mosseri. Les outils évoluant vite, reviens à ces liens plutôt qu’à ce document pour toute donnée sensible au temps.
 
 ### Claude, Skills & vibe coding
 
@@ -344,10 +344,10 @@ Chaque affirmation technique de ce document a été vérifiée sur une source pr
 
 ### Instagram & algorithme
 
-- [Instagram algorithm tips for 2026](https://blog.hootsuite.com/instagram-algorithm/)
-- Instagram Algorithm Updates 2026 · [meetedgar.com](https://meetedgar.com/blog)
+- [Instagram algorithm tips for 2026](https://blog.hootsuite.com/instagram-algorithm/) (blog Hootsuite)
+- [Instagram Algorithm Updates 2026](https://meetedgar.com/blog/instagram-algorithm-updates) (blog MeetEdgar, mars 2026)
 
-Voilà. Sept outils, trois profils, aucun d'entre eux ne va "tout changer" tout seul pendant que tu regardes ailleurs. Ce qui change les choses, c'est de choisir un outil, une astuce, cette semaine, et de la mettre en pratique avant d'en lire une nouvelle. Referme cette page, ouvre celui des sept qui te parle le plus, et fais quelque chose avec.
+Aucun de ces sept outils ne va "tout changer" tout seul pendant que tu regardes ailleurs. Ce qui change les choses, c'est de choisir un outil et une astuce cette semaine, puis de la mettre en pratique avant d'en lire une nouvelle. Referme cette page, ouvre celui des sept qui te parle le plus, et fais quelque chose avec.
 
 **Ailleurs dans la Toolbox**
 
