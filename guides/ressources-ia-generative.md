@@ -70,7 +70,7 @@ Voici exactement les étapes.
 1. Aller sur aistudio.google.com → menu en bas à gauche → **Get API Key**
 2. Cliquer sur **Créer une clé API**
 3. Donner un nom à ta clé, choisir un projet (ou en créer un)
-4. Copier les données de ta clé. **Tu ne pourras plus la revoir après fermeture.**
+4. Copier les données de ta clé et les garder pour toi, jamais sur une capture d'écran ni dans un fichier partagé. **Tu ne pourras plus la revoir après fermeture.**
 5. Revenir sur l'interface → icône Clé en bas à gauche → sélectionner ta clé
 6. Confirmation : ta clé est "in use", tu es prête
 7. Choisir le modèle Nano Banana Pro dans la liste. Prompt and enjoy.
@@ -344,7 +344,7 @@ Et je ne suis pas certaine qu'un abonnement Higgsfield soit la bonne décision p
 | Outil | Prix | Pourquoi ça m'intéresse |
 |---|---|---|
 | Runway ML Gen-3 | Payant | Référence de la vidéo IA. Cohérence temporelle et effets cinématographiques avancés. |
-| Krea.ai | Freemium | Génération image en temps réel, l'interface change pendant que tu tapes. Nouveau paradigme. |
+| Krea.ai | Freemium | Génération d'image en temps réel : l'image se redessine pendant que tu tapes. |
 | ComfyUI | Gratuit | Node-based open source pour Stable Diffusion. Contrôle total, courbe d'apprentissage réelle. |
 | Ideogram 2.0 | Freemium | Excellent pour intégrer du texte dans les images, un vrai problème non résolu ailleurs. |
 | Pika Labs | Freemium | Effets vidéo spectaculaires : transformations, liquides, explosions. |
@@ -378,7 +378,7 @@ Elles sont triées par format et taggées par sujet, sans aucun sponsoring : que
 
 | Qui | Sujets | Pourquoi |
 |---|---|---|
-| [@higgsfield.ai](https://www.instagram.com/higgsfield.ai) | IA · Vidéo · Image | Générations épiques de la communauté + nouvelles fonctionnalités. |
+| [@higgsfield.ai](https://www.instagram.com/higgsfield.ai) | IA · Vidéo · Image | Créations de la communauté et annonces des nouvelles fonctionnalités. |
 | [@runwayml](https://www.instagram.com/runwayml) | Vidéo · IA · Cinéma | Showreels et dernières fonctionnalités. |
 | [@midjourney](https://www.instagram.com/midjourney) | IA · Image · Inspiration | Inspirations de la communauté + updates. |
 | [@georges.pdf](https://www.instagram.com/georges.pdf) | UX · Design · Créatif | Inspiration vidéo UX/UI, format court, œil très affûté. |
@@ -399,7 +399,7 @@ Elles sont triées par format et taggées par sujet, sans aucun sponsoring : que
 | [Runway ML](https://runwayml.com) | Vidéo · IA · Research | Le leader de la vidéo IA créative. Blog Research = mine d'or. |
 | [ElevenLabs](https://elevenlabs.io) | Audio · Voix · IA | Le grand nom de la voix IA. Clonage vocal, audio génératif. |
 | [Pika Labs](https://pika.art) | Vidéo · IA · Effets | Effets vidéo spectaculaires : transformations, liquides. |
-| [Krea.ai](https://www.krea.ai) | Image · IA · Temps réel | Génération image en temps réel. Nouveau paradigme. |
+| [Krea.ai](https://www.krea.ai) | Image · IA · Temps réel | Génération d'image en temps réel, qui change à chaque mot tapé. |
 
 **Ailleurs dans la Toolbox**
 

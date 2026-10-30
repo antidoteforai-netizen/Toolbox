@@ -4,7 +4,7 @@
 
 ## Sommaire
 
-- [Comment utiliser ça](#comment-utiliser-ça)
+- [Lire ces tutoriels dans le bon ordre](#lire-ces-tutoriels-dans-le-bon-ordre)
 - [Parcours 1 · Product Designer & Builder](#parcours-1--product-designer--builder)
 - [Prendre en main Claude Code & le vibe coding](#prendre-en-main-claude-code--le-vibe-coding)
 - [Vibe coding, tester ce que tu construis avec Playwright](#vibe-coding-tester-ce-que-tu-construis-avec-playwright)
@@ -19,7 +19,7 @@
 - [Ce qui marche vraiment sur Instagram en 2026](#ce-qui-marche-vraiment-sur-instagram-en-2026)
 - [Sources vérifiées](#sources-vérifiées)
 
-## Comment utiliser ça
+## Lire ces tutoriels dans le bon ordre
 
 Il y a trois parcours, un par profil, et chacun contient trois tutoriels à suivre dans l’ordre, parce que chaque tutoriel part du principe que tu as fait le précédent. Chaque tutoriel se lit en une session : installe, teste, passe au suivant un autre jour si besoin. Les blocs de code sont des commandes ou du texte à coller tel quel. Les encadrés 💡 sont des astuces qui évitent l’erreur classique du débutant sur cette étape précise. Les encadrés ⚠️ sont des points de vigilance, lis-les, ils ne sont pas là pour décorer.
 
@@ -395,13 +395,13 @@ Une méthode, sans outil cette fois : comment l’algorithme classe réellement 
 
 ### Comprendre ce que l’algorithme regarde vraiment
 
-Adam Mosseri, le responsable d’Instagram, a confirmé trois signaux principaux : le temps de visionnage, les likes rapportés à la portée, et les partages en message privé, ces derniers pesant 3 à 5 fois plus lourd que les likes pour la diffusion des Reels. Cent likes comptent moins que dix partages en DM : un partage privé est interprété comme un vrai signal de confiance, quelqu’un qui met sa crédibilité en jeu en envoyant ton contenu à un ami.
+Adam Mosseri, le responsable d’Instagram, cite trois signaux : le temps passé à regarder ton contenu, la part des personnes qui l’aiment parmi celles qui l’ont vu, et la part de celles qui l’envoient à quelqu’un en message privé. C’est ce dernier geste qui pèse le plus, parce qu’un like dit « j’aime » alors qu’un envoi dit « il faut que tu voies ça » : la personne engage sa propre crédibilité auprès d’un ami.
 
-### Connaître le système d’audition
+### Accrocher dès les premières secondes
 
-Chaque nouveau post est d’abord montré à un petit groupe de non-abonnés. S’il performe bien auprès de ce groupe test, il est poussé à une audience de plus en plus large ; s’il ne performe pas, il est freiné avant même d’atteindre tes propres abonnés. Conséquence directe : les deux à trois premières secondes de chaque post décident de tout. "Salut tout le monde" est le pire départ possible : commence par le résultat, une affirmation forte, ou une rupture visuelle.
+Ton post peut toucher deux publics : tes abonnés, et des personnes qui ne te suivent pas encore. Selon Mosseri, les mêmes signaux comptent pour les deux, et Hootsuite conseille d’accrocher dès les trois premières secondes : commence par le résultat, une affirmation forte ou une rupture visuelle, jamais par « Salut tout le monde ».
 
-### Utiliser les Trial Reels pour tester sans risque
+### Les Trial Reels, pour tester un Reel sans risque
 
 Cette fonctionnalité montre un Reel à des non-abonnés avant de le publier sur ton profil principal. Si un format ou un sujet inhabituel te fait hésiter, teste-le en Trial Reel d’abord : s’il performe auprès d’une audience froide, c’est ton feu vert pour le publier plus largement, sans avoir pris de risque sur la perception de ton audience existante.
 
@@ -411,23 +411,23 @@ Reprends tes 15 à 20 posts qui ont le mieux performé. Note pour chacun : la st
 
 ### Appliquer la formule de partage avant de publier
 
-Une question simple avant chaque publication : quelqu’un enverrait-il ça à un ami, et pourquoi ? Les quatre raisons qui poussent réellement au partage en DM : c’est utile, c’est drôle, ça donne raison à quelqu’un, ou ça déclenche un léger désaccord. Si tu ne trouves pas de réponse claire à cette question, le post a de bonnes chances de rester à l’intérieur de ta bulle d’abonnés déjà acquis.
+Une question simple avant chaque publication : quelqu’un enverrait-il ça à un ami, et pourquoi ? On envoie un post parce qu’il est utile, drôle, qu’il donne raison à quelqu’un ou qu’il ouvre un léger désaccord. Si tu ne trouves pas de réponse claire à cette question, le post a de bonnes chances de rester à l’intérieur de ta bulle d’abonnés déjà acquis.
 
 ### Ce qu’il faut arrêter de faire
 
-Le bourrage de hashtags ne sert plus la découverte comme avant, les hashtags ne permettent même plus de "suivre" un sujet. Le contenu recyclé depuis un autre réseau (en particulier avec son filigrane visible) est activement pénalisé. Et surtout, contre-intuitif mais confirmé par Instagram lui-même : à mesure que l’IA rend le contenu parfaitement poli trivial à produire pour tout le monde, c’est le contenu qui a l’air brut et humain qui se distingue. Tes outils servent la régularité et la structure, ils ne doivent jamais lisser ce qui rend ta voix reconnaissable.
+Instagram limite désormais chaque publication à cinq hashtags, et Mosseri précise qu’ils aident la recherche sans augmenter la portée : mieux vaut quelques mots-clés précis qu’une longue liste. Une vidéo qui garde le filigrane d’un autre réseau, celui de TikTok par exemple, peut voir sa diffusion réduite. Et dans son message de fin 2025, Mosseri explique que l’IA rend le contenu parfaitement poli facile à produire pour tout le monde, si bien que c’est le contenu brut et humain qui se distingue. Tes outils servent la régularité et la structure, ils ne doivent jamais lisser ce qui rend ta voix reconnaissable.
 
 ### Mesurer ce qui compte, pas ce qui rassure
 
-Suis dans ta base Airtable (tutoriel précédent) les partages en DM et le taux de rétention plutôt que le seul nombre de likes. Ce sont ces deux métriques, pas ton nombre d’abonnés, qui prédisent aujourd’hui si Instagram va pousser ton prochain post au-delà de ta bulle actuelle.
+Suis dans ta base Airtable (tutoriel précédent) les envois en message privé et le temps de visionnage plutôt que le seul nombre de likes. Selon MeetEdgar, ce sont ces signaux, bien plus que ton nombre d’abonnés, qui décident si Instagram montre ton prochain post au-delà de ta bulle actuelle.
 
 > ⚠️ **Point de vigilance.** Aucun de ces signaux n’est figé : Instagram ajuste son système en continu, et ce qui est vrai en juillet 2026 ne le sera pas nécessairement dans un an. Reviens vérifier les dernières annonces d’Adam Mosseri plutôt que de traiter cette méthode comme définitive.
 
-> 📎 **Ressource.** Instagram algorithm tips for 2026 (Hootsuite) · Instagram Algorithm Updates 2026 (MeetEdgar).
+> 📎 **Ressource.** [Instagram algorithm tips for 2026](https://blog.hootsuite.com/instagram-algorithm/) (blog Hootsuite) · [Instagram Algorithm Updates 2026](https://meetedgar.com/blog/instagram-algorithm-updates) (blog MeetEdgar, mars 2026).
 
 ## Sources vérifiées
 
-Chaque commande, chaque affirmation technique de ces neuf tutoriels a été vérifiée sur une documentation officielle en juillet 2026. Les interfaces changent vite, si une commande ne fonctionne plus telle quelle, la doc officielle est toujours le bon réflexe avant de chercher plus loin.
+Les commandes et les affirmations techniques de ces neuf tutoriels ont été vérifiées en juillet 2026 sur la documentation des éditeurs. Deux exceptions : un article de Simon Willison sur le vibe coding, et la partie Instagram, qui s’appuie sur deux blogs spécialisés, Hootsuite et MeetEdgar, eux-mêmes fondés sur les déclarations d’Adam Mosseri. Les interfaces changent vite : si une commande ne fonctionne plus telle quelle, la doc officielle est toujours le bon réflexe avant de chercher plus loin.
 
 ### Claude Code & Playwright
 
@@ -452,8 +452,8 @@ Chaque commande, chaque affirmation technique de ces neuf tutoriels a été vér
 
 ### Instagram & algorithme
 
-- [Instagram algorithm tips for 2026](https://blog.hootsuite.com/instagram-algorithm/) · blog.hootsuite.com
-- [Instagram Algorithm Updates 2026](https://meetedgar.com/blog) · meetedgar.com
+- [Instagram algorithm tips for 2026](https://blog.hootsuite.com/instagram-algorithm/) · blog Hootsuite
+- [Instagram Algorithm Updates 2026](https://meetedgar.com/blog/instagram-algorithm-updates) · blog MeetEdgar, mars 2026
 
 Aucun de ces neuf tutoriels ne vaut quoi que ce soit tant que tu ne l’as pas fait tourner toi-même, une fois, sur un vrai projet. Choisis le premier de ton parcours, ouvre l’outil en même temps que ce document, et avance étape par étape plutôt que de tout lire d’une traite.
 

@@ -9,7 +9,7 @@ Ce document te dit précisément quoi faire avec Claude Code, les Skills, Figma,
 - [Tu te reconnais ?](#tu-te-reconnais-)
 - [Trois profils, un seul document](#trois-profils-un-seul-document)
 - [Trois notions avant de foncer](#trois-notions-avant-de-foncer)
-- [Sept outils. Ce qu’ils font vraiment, pour toi](#sept-outils-ce-quils-font-vraiment-pour-toi)
+- [Ce que les sept outils font vraiment pour toi](#ce-que-les-sept-outils-font-vraiment-pour-toi)
 - [Claude Code & vibe coding](#claude-code--vibe-coding)
 - [Claude Skills](#claude-skills)
 - [Figma & Figma Make](#figma--figma-make)
@@ -80,7 +80,7 @@ Un outil, c’est une capacité ponctuelle : générer une image, chercher sur l
 
 Pour le texte et le raisonnement (rédaction, code, structuration), les modèles de langage comme Claude dominent. Pour l’image fixe, deux familles se distinguent : Nano Banana Pro (Gemini 3 Pro Image, chez Google) excelle sur le texte lisible dans l’image (mockups, posters, infographies), et Higgsfield sur la cohérence d’un même personnage ou visage à travers des dizaines de générations. Pour la vidéo, le paysage bouge vite : Veo 3.1 et Runway Gen-4.5 mènent aujourd’hui, Kling 3.0 reste l’option économique, et Sora, qui dominait les conversations il y a un an, a été mis à l’arrêt par OpenAI en 2026, faute de rentabilité. Retiens la leçon plus que le classement : dans cette catégorie, ne construis jamais un système qui dépend d’un seul fournisseur.
 
-## Sept outils. Ce qu’ils font vraiment, pour toi
+## Ce que les sept outils font vraiment pour toi
 
 Plutôt qu’un classement ou un comparatif générique, chaque outil a droit à quatre rubriques : ce qu’il fait sans le blabla marketing, pourquoi ça compte selon ton profil, comment démarrer si tu ne le connais pas, et des astuces concrètes si tu le connais déjà.
 
@@ -273,7 +273,7 @@ Un outil seul ne change pas grand-chose. Voici comment ils s’enchaînent en vr
 
 Claude Code · Skills · Figma Make · Webflow, de l’idée à un lien qu’on peut envoyer.
 
-1. **Cadre avant de coder.** Une spec d’une page : scénario utilisateur, 3 critères d’acceptation vérifiables, ce qui est explicitement hors scope. Cette étape seule évite 80 % des allers-retours inutiles.
+1. **Cadre avant de coder.** Une spec d’une page : scénario utilisateur, 3 critères d’acceptation vérifiables, ce qui est explicitement hors scope. Cette seule page t’évite bien des allers-retours.
 2. **Pars d’un frame Figma existant.** Génère avec Figma Make plutôt que d’une page blanche, le résultat hérite du contexte visuel et colle à ta charte dès le départ.
 3. **Branche un vrai modèle.** Bascule vers Claude Code pour la partie qui doit être réellement intelligente, pas un texte statique qui fait semblant, un vrai appel à l’API avec réponse en streaming.
 4. **Polish & déploie.** Corrige les écarts avec ton design system, déploie sur Webflow ou Vercel. Un lien imparfait envoyé aujourd’hui vaut mieux qu’un lien parfait promis pour la semaine prochaine.
@@ -317,7 +317,7 @@ Reviens ici plutôt que de tout relire : une ligne par outil dit ce qu’il fait
 
 ## Sources vérifiées
 
-Chaque affirmation technique de ce document a été vérifiée sur une source primaire ou une documentation officielle en juillet 2026. Les outils évoluant vite, reviens à ces liens plutôt qu’à ce document pour toute donnée sensible au temps.
+Les affirmations techniques de ce document ont été vérifiées en juillet 2026 sur la documentation des éditeurs ou sur une source primaire. Seule exception, la partie Instagram s’appuie sur deux blogs spécialisés, Hootsuite et MeetEdgar, eux-mêmes fondés sur les déclarations d’Adam Mosseri. Les outils évoluant vite, reviens à ces liens plutôt qu’à ce document pour toute donnée sensible au temps.
 
 ### Claude, Skills & vibe coding
 
@@ -344,8 +344,8 @@ Chaque affirmation technique de ce document a été vérifiée sur une source pr
 
 ### Instagram & algorithme
 
-- [Instagram algorithm tips for 2026](https://blog.hootsuite.com/instagram-algorithm/)
-- Instagram Algorithm Updates 2026 · [meetedgar.com](https://meetedgar.com/blog)
+- [Instagram algorithm tips for 2026](https://blog.hootsuite.com/instagram-algorithm/) (blog Hootsuite)
+- [Instagram Algorithm Updates 2026](https://meetedgar.com/blog/instagram-algorithm-updates) (blog MeetEdgar, mars 2026)
 
 Aucun de ces sept outils ne va "tout changer" tout seul pendant que tu regardes ailleurs. Ce qui change les choses, c'est de choisir un outil et une astuce cette semaine, puis de la mettre en pratique avant d'en lire une nouvelle. Referme cette page, ouvre celui des sept qui te parle le plus, et fais quelque chose avec.
 

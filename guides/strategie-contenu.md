@@ -99,7 +99,7 @@
 **Temporalité :** En continu, alimentée dès qu'une idée de post arrive.
 **Utilisation :** C'est ton stock : toutes tes idées de contenus y sont rangées et qualifiées avant d'être planifiées. Tu ne crées jamais un post sans savoir pourquoi il existe dans le parcours.
 
-## Comment l'utiliser
+## Le trajet d'une idée jusqu'au Planning
 
 1. Dès qu'une idée arrive (dans ta tête, en lisant, en discutant), tu l'ajoutes immédiatement dans la Matrice.
 2. Tu lui assignes une étape, un format, une offre ciblée.
@@ -126,7 +126,7 @@
 ## Les 4 étapes et leurs formats supposés
 
 ### 🔵 Acquisition, 6 formats
-*Objectif : capter un inconnu en moins de 2 secondes*
+*Objectif : capter un inconnu dès les premières secondes*
 
 | Format | Principe |
 |---|---|
@@ -233,7 +233,7 @@
 # 6. ✅ Checklist Distribution
 
 **Temporalité :** Dans les 30 minutes après chaque publication.
-**Utilisation :** Publier un bon post, c'est 50% du travail, et l'autre 50%, c'est le faire voir. Cette checklist est à imprimer ou mettre en widget sur ton téléphone, pas dans Notion, pour créer une obligation physique.
+**Utilisation :** Un bon post ne suffit pas, encore faut-il le faire voir. Cette checklist est à imprimer ou mettre en widget sur ton téléphone, pas dans Notion, pour créer une obligation physique.
 
 ```
 □ Répondre aux 5 premiers commentaires (dans les 10 min)
@@ -288,7 +288,7 @@
 # 9. 🏦 Banque Tampon
 
 **Temporalité :** En continu, à maintenir en permanence.
-**Utilisation :** Toujours avoir 8 posts "✅ Prêt à publier" dans la Matrice, répartis sur les 4 étapes, créés pendant tes pics d'énergie et consommés pendant tes creux.
+**Utilisation :** Toujours avoir 8 posts "✅ Prêt à publier" dans la Matrice, répartis sur les 4 étapes et le post Communauté, créés pendant tes pics d'énergie et consommés pendant tes creux.
 
 ## État de la banque
 
@@ -359,7 +359,7 @@ Ton audience est constituée de personnes à des stades différents de leur rela
 
 ### 🔵 Acquisition
 **Objectif :** Capter l'attention d'un parfait inconnu.
-**Mécanique psychologique :** Le cerveau filtre 99% des informations. Ce qui passe le filtre : une menace ou opportunité perçue, une reconnaissance de soi immédiate, ou une rupture de pattern dans le feed. Le contenu d'acquisition doit déclencher une de ces trois réactions en moins de 2 secondes.
+**Mécanique psychologique :** Le cerveau laisse filer presque tout ce qui défile ; ce qui passe le filtre, c'est une menace ou une opportunité perçue, une reconnaissance de soi immédiate, ou une rupture de pattern dans le feed. Le contenu d'acquisition doit déclencher une de ces trois réactions dès les premières secondes.
 
 ### 🟡 Considération
 **Objectif :** Faire passer quelqu'un de consommateur passif à consommateur actif de ton contenu.
