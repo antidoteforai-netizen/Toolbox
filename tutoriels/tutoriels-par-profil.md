@@ -216,7 +216,7 @@ Le volume de contenu à produire ne baisse jamais, l’équipe si. Trois tutorie
 
 Le trio qui remplace le tableur partagé illisible et les briefs perdus dans Slack : Notion pour la doc, Airtable pour le suivi, N8N pour relier les deux.
 
-**Prérequis :** Un compte Notion, un compte Airtable (les offres gratuites suffisent pour démarrer).
+**Prérequis :** Un compte Notion, un compte Airtable (les offres gratuites suffisent pour démarrer) et N8N, gratuit si tu l’installes chez toi ([Installer n8n avec Docker](./installer-n8n-docker.md)), alors que N8N Cloud ne propose qu’un essai gratuit avant de devenir payant.
 
 ### Comprendre pourquoi ce ne sont pas deux outils interchangeables
 

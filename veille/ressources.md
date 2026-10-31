@@ -2,7 +2,7 @@
 
 # Ressources
 
-Source : [veille-ux-ui.vercel.app](https://veille-ux-ui.vercel.app/), 21 ressources.
+Source : [veille-ux-ui.vercel.app](https://veille-ux-ui.vercel.app/), 20 ressources.
 
 *Mis à jour le 30 octobre 2026.*
 
@@ -84,11 +84,6 @@ Voir le travail d'une agence de branding et d'UI/UX qui accompagne des startups,
 
 S'inspirer de références UI/UX tirées de projets réels.
 
-## [Webdesigner tools](https://webdesigner.tools/)
-
-*2023-12-19 · UI*
-
-Piocher dans une sélection de ressources et d'outils triés pour les designers web.
 
 ## [Design numerique gouv](https://design.numerique.gouv.fr)
 

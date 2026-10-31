@@ -4,11 +4,11 @@
 
 *Dossier mis à jour le 30 octobre 2026.*
 
-71 ressources triées à la main, classées par type. Chaque fiche porte la date à laquelle je l'ai ajoutée et ses thèmes. Pour monter votre propre veille sur l'actualité tech (flux RSS, alertes, brief du matin), voyez le guide [Veille tech à la source](../guides/veille-tech-sources-primaires.md).
+70 ressources triées à la main, classées par type. Chaque fiche porte la date à laquelle je l'ai ajoutée et ses thèmes. Pour monter votre propre veille sur l'actualité tech (flux RSS, alertes, brief du matin), voyez le guide [Veille tech à la source](../guides/veille-tech-sources-primaires.md).
 
 | Type | Nombre | Ce qu'on y trouve | Mis à jour |
 |---|---|---|---|
-| [Ressources](./ressources.md) | 21 | Inspiration UI, design systems, podcasts, guides publics, checklists accessibilité | 30 octobre 2026 |
+| [Ressources](./ressources.md) | 20 | Inspiration UI, design systems, podcasts, guides publics, checklists accessibilité | 30 octobre 2026 |
 | [Outils](./outils.md) | 37 | IA builders, génération d'images et de vidéos, assistants IA, contraste, prototypage | 30 octobre 2026 |
 | [Plugins](./plugins.md) | 6 | Plugins Figma : données, documentation, présentation, design system | 30 octobre 2026 |
 | [Bibliothèques](./bibliotheques.md) | 7 | Composants React/Tailwind, variants, 3D, icônes | 30 octobre 2026 |

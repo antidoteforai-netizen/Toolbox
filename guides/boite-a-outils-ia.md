@@ -146,7 +146,7 @@ Ton outil du quotidien, plus une couche IA qui transforme une maquette en protot
 
 #### C’est quoi, sans le blabla
 
-Figma Make transforme un prompt, ou un frame Figma existant, en prototype interactif et fonctionnel, sans quitter l’environnement Figma : il peut se synchroniser avec ta bibliothèque de styles et tes packages, se connecter à des outils externes via MCP, et propose un plan avant de générer plutôt que de foncer tête baissée. C’est un outil d’exploration et de démonstration, pas un générateur de code de production tel quel.
+Figma Make transforme un prompt, ou un frame Figma existant, en prototype interactif et fonctionnel, sans quitter l’environnement Figma : il peut se synchroniser avec ta bibliothèque de styles et tes packages, se connecter à des outils externes via MCP, et propose un plan avant de générer plutôt que de foncer tête baissée. Figma le pousse désormais vers la production, avec un mode qui travaille sur ta propre base de code (en bêta) et une mise en production annoncée ; en attendant, relis le code qu’il génère avant de le livrer.
 
 #### Pourquoi ça compte pour toi
 
@@ -250,7 +250,7 @@ Un tableur qui pense : chaque cellule peut analyser, générer ou aller chercher
 
 #### C’est quoi, sans le blabla
 
-Airtable reste une base de données relationnelle facile à prendre en main, mais deux ajouts changent la donne : les Field Agents, des champs IA qui peuvent lire un document, chercher sur le web ou générer du contenu directement dans une cellule, et Omni, un assistant conversationnel qui configure tes tables et automatisations à partir d’une simple description en langage naturel. Limite honnête à connaître : les agents natifs d’Airtable restent cantonnés à l’intérieur de ta base, pour aller chercher au-delà (vérifier un statut ailleurs, publier sur un réseau), il faut les brancher à un outil comme N8N.
+Airtable reste une base de données relationnelle facile à prendre en main, mais deux ajouts changent la donne : les Field Agents, des champs IA qui peuvent lire un document, chercher sur le web ou générer du contenu directement dans une cellule, et Omni, un assistant conversationnel qui configure tes tables et automatisations à partir d’une simple description en langage naturel. Limite honnête à connaître : Airtable présente désormais ses agents comme capables d’orchestrer des actions au-delà de la base en se connectant à d’autres systèmes, alors que dans mon usage ils restaient centrés sur la base, si bien que pour aller chercher au-delà (vérifier un statut ailleurs, publier sur un réseau), je les branche encore à un outil comme N8N.
 
 #### Pourquoi ça compte pour toi
 

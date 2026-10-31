@@ -22,7 +22,7 @@ Quatre dossiers, rangés du plus large au plus concret : la veille dit ce qui ex
 
 ### [Veille](./veille/) : ce qui existe, trié à la main
 
-- [Ressources](./veille/ressources.md) : inspiration UI, design systems, accessibilité (21 fiches)
+- [Ressources](./veille/ressources.md) : inspiration UI, design systems, accessibilité (20 fiches)
 - [Outils](./veille/outils.md) : génération d'images et de vidéos, IA builders (37 fiches)
 - [Plugins Figma](./veille/plugins.md) (6 fiches)
 - [Bibliothèques](./veille/bibliotheques.md) : composants React, 3D, icônes (7 fiches)
@@ -58,13 +58,13 @@ Quatre dossiers, rangés du plus large au plus concret : la veille dit ce qui ex
 | « J'apprends les nouveautés tech une semaine après tout le monde » | [Veille tech à la source](./guides/veille-tech-sources-primaires.md) : où l'info naît, quels flux suivre et comment trier en cinq minutes par jour |
 | « Je publie tous les jours et rien ne bouge » | [Le système de contenu](./guides/strategie-contenu.md) : quoi publier, quand, et pourquoi |
 | « Mon prestataire n'a pas compris ma boîte » | [Préparer un brief avec son IA](./guides/brief-projet-avec-ia.pdf), dix prompts à copier-coller |
-| « Il me faut une référence UI, là, maintenant » | [La veille](./veille/) : 71 liens triés à la main |
+| « Il me faut une référence UI, là, maintenant » | [La veille](./veille/) : 70 liens triés à la main |
 
 ## Qui écrit
 
 Je suis Opaline, Product Designer depuis 10 ans. J'aide les entreprises à construire et déployer leur produit, en réduisant la friction, la ressaisie et la charge mentale de leurs utilisateurs. Chaque projet commence de la même façon : faire parler ceux qui se servent du produit, avant de dessiner quoi que ce soit. Ensuite je couvre toutes les phases, de l'atelier de cadrage à la mise en production.
 
-Je ne suis pas ingénieure. Je me suis formée à l'automatisation, au no-code et à l'IA pour tester une idée en quelques jours au lieu de plusieurs semaines. Ce dépôt, c'est le carnet de cet apprentissage.
+Je me suis formée à l'automatisation, au no-code et à l'IA pour tester une idée en quelques jours au lieu de plusieurs semaines, et ce dépôt est le carnet de cet apprentissage.
 
 En ce moment, je creuse les design systems, l'accessibilité (RGAA, WCAG), la génération d'images et de vidéos, Claude Code, l'automatisation avec n8n et Airtable, la vérification des agents et la stratégie de contenu. J'en parle aussi sur [LinkedIn](https://www.linkedin.com/in/opalinemustiere/).
 

@@ -40,7 +40,7 @@ Organiser et documenter les composants d'un design system sans quitter Figma. So
 
 *2023-03-20 · UI, Assistant IA*
 
-Écrire ou réécrire les textes d'une maquette avec GPT, directement dans Figma.
+Écrire ou réécrire les textes d'une maquette avec GPT, directement dans Figma. Attention, le plugin n'est plus mis à jour depuis juillet 2024 et demande votre propre accès à l'API d'OpenAI, dont l'usage est facturé par OpenAI.
 
 ---
 

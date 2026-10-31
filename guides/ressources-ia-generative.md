@@ -63,7 +63,7 @@ Après quelques mois à jongler entre les outils gratuits, j'ai sauté le pas po
 
 ## 02 · Nano Banana Pro via Google AI Studio
 
-Bonne surprise : Nano Banana Pro est accessible avec une clé API sur AI Studio, et je m'en sers depuis avril 2026 avec 0 € facturé. Vérifie quand même ta facturation, parce que la grille de Google au 30 octobre 2026 ne prévoit aucune offre gratuite pour ce modèle dans l'API : chaque image se paie (détail juste en dessous). → [aistudio.google.com](https://aistudio.google.com)
+Bonne surprise : Nano Banana Pro est accessible avec une clé API sur AI Studio, et je m'en sers depuis avril 2026 avec 0 € facturé, grâce aux crédits offerts de mon compte Google Cloud, ouvert avant le 2 mars 2026 : un compte plus récent n'y a plus droit pour l'API. Vérifie quand même ta facturation, parce que la grille de Google au 30 octobre 2026 ne prévoit aucune offre gratuite pour ce modèle dans l'API : chaque image se paie (détail juste en dessous). → [aistudio.google.com](https://aistudio.google.com)
 
 > 🔍 **Comment ça marche vraiment.** Nano Banana dans le Playground requiert un plan Google AI payant ("Upgrade to unlock") : depuis avril 2026, les abonnements Google AI Pro et Ultra donnent accès à Nano Banana Pro dans AI Studio. Avec une clé API reliée à un compte de facturation (carte enregistrée), l'accès est ouvert mais chaque image est facturée, parce qu'aucun modèle Nano Banana n'a d'offre gratuite dans l'API. Selon la grille de Google au 30 octobre 2026, une image de Nano Banana Pro en 1K ou 2K coûte 0,134 $. En post-paiement, Google te débite à la fin du mois, ou plus tôt si ta dépense atteint le plafond de ton niveau. Au niveau payant 1, ce plafond est de 250 $ par mois, et une fois atteint, l'API se met en pause jusqu'au 1er du mois suivant. Tu passes au niveau 2 (plafond de 2 000 $) une fois 100 $ payés et trois jours écoulés depuis ton premier paiement.
 
@@ -281,7 +281,6 @@ STYLE: ["cinematic" / "documentary" / "commercial" / "UGC"]
 |---|---|---|
 | [Clipcut](https://www.clipcut.pro) | Payant (dès 9 $/mois) | Génère des shorts viraux depuis une longue vidéo automatiquement. TikTok, Reels, YouTube Shorts. |
 | [Agent Opus](https://opus.pro) | Freemium | Motion graphics et animations depuis un prompt ou une image. |
-| [Banger.video](https://banger.video) | Freemium | Vidéos réseaux sociaux complètes depuis une idée ou du footage brut. L'IA monte, toi tu contrôles. Le site était hors ligne le 30 octobre 2026 (« Deployment Paused »), vérifie qu'il répond avant de t'y fier. |
 | [FaceFusion 3.9.2](https://docs.facefusion.io) | Gratuit | Face-swap en temps réel. Open source. |
 
 ### Présence creator
@@ -393,7 +392,6 @@ Elles sont triées par format et taggées par sujet, sans aucun sponsoring : que
 | [Ben's Bites](https://www.bensbites.com) | IA · Daily · EN | Daily AI digest, fun, dense, sans prise de tête. |
 | [The Rundown AI](https://www.therundown.ai) | IA · Synthèse | 5 minutes par jour pour tout savoir sur l'IA. Synthétique, bien sourcé. |
 | [Lenny's Newsletter](https://www.lennysnewsletter.com) | Product · Marketing · Growth | Product, growth, IA dans le monde du produit. |
-| [L'IA Quotidienne](https://aiqu.substack.com) | IA · Français · Veille | La veille en français, sans se noyer. |
 
 ### Studios et entreprises
 
