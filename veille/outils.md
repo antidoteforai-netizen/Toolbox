@@ -62,13 +62,13 @@ Régler visuellement les variables CSS d'un thème shadcn/ui.
 
 ## [Color magic](https://colormagic.app/)
 
-*2026-03-17 · Génération média IA*
+*2026-03-17 · Génération médias IA*
 
 Obtenir une palette de couleurs générée par IA à partir d'un mot, d'une image ou d'un code hexadécimal.
 
 ## [Huemint](https://huemint.com/)
 
-*2026-03-16 · Génération média IA, UI*
+*2026-03-16 · Génération médias IA, UI*
 
 Générer par IA des palettes de couleurs, y compris pour une identité de marque.
 
@@ -104,7 +104,7 @@ Coder et automatiser des tâches métier en faisant travailler plusieurs agents 
 
 ## [FLUX (Black Forest Labs)](https://bfl.ai/)
 
-*2025-06-18 · Génération média IA*
+*2025-06-18 · Génération médias IA*
 
 Générer et retoucher des images à partir d'un texte avec FLUX 3, la dernière génération de modèles de Black Forest Labs, dans le Playground officiel du navigateur ou par API. Attention, flux1.ai, l'adresse que cette page citait auparavant, est un site tiers et non celui de l'éditeur.
 
@@ -184,7 +184,7 @@ Coller un texte et obtenir des diagrammes et des infographies modifiables.
 
 ## [Runway](https://runway.com/)
 
-*2024-11-25 · Génération média IA*
+*2024-11-25 · Génération médias IA*
 
 Générer des vidéos et des simulations interactives avec le modèle Gen-4.5 de Runway.
 
@@ -218,7 +218,7 @@ Retrouver ChatGPT et les modèles GPT chez leur éditeur ; ces IA génératives 
 
 ## [Midjourney](https://www.midjourney.com/)
 
-*2023-12-14 · Génération média IA*
+*2023-12-14 · Génération médias IA*
 
 Générer des images par IA, puis les animer en vidéos de cinq secondes, avec le service officiel Midjourney, sur son site ou dans Discord, où le modèle par défaut est V8.2 depuis juillet 2026. Le site tiers mid-journey.ai, que cette page citait auparavant, a disparu.
 
@@ -226,7 +226,7 @@ Générer des images par IA, puis les animer en vidéos de cinq secondes, avec l
 
 ## [Krea](https://www.krea.ai/)
 
-*2023-11-16 · Génération média IA*
+*2023-11-16 · Génération médias IA*
 
 Générer et retoucher en ligne des images, des vidéos et des éléments 3D, au même endroit.
 
