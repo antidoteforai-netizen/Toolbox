@@ -1210,10 +1210,10 @@ Le modèle économique du serveur MCP est mauvais en 2026 et le pack doit en ten
 
 **État du marché, à écrire noir sur blanc dans `PACK.md` :**
 - La grande majorité des serveurs listés sur les places de marché sont gratuits, souvent de simples enveloppes autour d'une API publique déjà gratuite.
-- Les rares offres payantes se situent entre environ 19 $ par mois pour une offre solo et 149 $ par mois pour une offre entreprise, avec presque rien entre les deux.
+- Les rares offres payantes ont un prix public : relèves-en trois ou quatre sur les places de marché, avec la source et la date de chaque prix, et écris UNKNOWN si tu n'en trouves pas plutôt que d'estimer.
 - Les segments qui tiennent financièrement sont ceux qui vendent autre chose que l'accès : sécurité, supervision, infrastructure de données.
-- Le build va d'environ 8 000 à 25 000 $ pour un MVP mono-source, et bien au delà pour du multi-systèmes avec couche de permissions.
-- Le récurrent est le vrai piège : l'hébergement et l'outillage se chiffrent en milliers de dollars par an, et la maintenance est qualifiée d'indéfinie, parce que les hôtes font évoluer leurs propres exigences en continu. Les estimations divergent fortement selon le périmètre, donc le pack donne des ordres de grandeur, jamais un prix ferme.
+- Le coût de construction change d'échelle entre un serveur qui lit une seule source et un serveur qui relie plusieurs systèmes avec une couche de permissions, et tu ne donnes un montant que s'il est sourcé et daté.
+- Le récurrent est le vrai piège : l'hébergement et l'outillage se paient chaque année, et la maintenance n'a pas de fin, parce que les hôtes font évoluer leurs propres exigences en continu. Les estimations divergent fortement selon le périmètre, donc le pack donne des ordres de grandeur sourcés, jamais un prix ferme.
 
 **Règles qui en découlent, à appliquer dans les trois niveaux d'offre :**
 1. **Ne jamais bâtir un niveau d'offre sur un abonnement au serveur MCP.** Ce qui se facture, c'est la conception, l'installation, et la politique. Pas l'accès.
