@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="520" height="476" viewBox="0 0 520 476" font-family="Raleway, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif">
+  <title>Le cycle de vie d'une action : six états, trois sorties négatives, et la différence entre DEPLOYED et VERIFIED</title>
+  <defs>
+    <marker id="harnais-fleche-2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#161709"/>
+    </marker>
+  </defs>
+  <rect x="0" y="0" width="520" height="476" rx="16" fill="#f3f3ee"/>
+
+  <!-- Le chemin normal, de haut en bas -->
+  <g stroke="#161709" stroke-width="1.5">
+    <rect x="32" y="28" width="220" height="48" rx="10" fill="#fbfbf4"/>
+    <rect x="32" y="104" width="220" height="48" rx="10" fill="#fbfbf4"/>
+    <rect x="32" y="180" width="220" height="48" rx="10" fill="#fbfbf4"/>
+    <rect x="32" y="256" width="220" height="48" rx="10" fill="#fbfbf4"/>
+    <rect x="32" y="332" width="220" height="48" rx="10" fill="#f7ef63"/>
+  </g>
+  <rect x="32" y="408" width="220" height="48" rx="10" fill="#deed9c" stroke="#0c8c7d" stroke-width="2.5"/>
+
+  <g text-anchor="middle" fill="#161709">
+    <text x="142" y="48" font-size="14" font-weight="700" letter-spacing="0.5">DRAFT</text>
+    <text x="142" y="124" font-size="14" font-weight="700" letter-spacing="0.5">PROPOSED</text>
+    <text x="142" y="200" font-size="14" font-weight="700" letter-spacing="0.5">APPROVED</text>
+    <text x="142" y="276" font-size="14" font-weight="700" letter-spacing="0.5">EXECUTING</text>
+    <text x="142" y="352" font-size="14" font-weight="700" letter-spacing="0.5">DEPLOYED</text>
+    <text x="142" y="428" font-size="14" font-weight="700" letter-spacing="0.5">VERIFIED</text>
+  </g>
+  <g text-anchor="middle" font-size="12.5" fill="#55564b">
+    <text x="142" y="66">la demande, en brouillon</text>
+    <text x="142" y="142">l'agent propose une action</text>
+    <text x="142" y="218">vous ou la porte acceptez</text>
+    <text x="142" y="294">l'action s'exécute</text>
+    <text x="142" y="370" fill="#161709">l'agent dit que c'est fait</text>
+    <text x="142" y="446" fill="#161709">une preuve le confirme</text>
+  </g>
+
+  <!-- Les sorties négatives -->
+  <g fill="#fbfbf4" stroke="#fa6e30" stroke-width="2.5">
+    <rect x="332" y="104" width="156" height="48" rx="10"/>
+    <rect x="332" y="256" width="156" height="48" rx="10"/>
+    <rect x="332" y="332" width="156" height="48" rx="10"/>
+  </g>
+  <g text-anchor="middle" fill="#161709">
+    <text x="410" y="124" font-size="14" font-weight="700" letter-spacing="0.5">REJECTED</text>
+    <text x="410" y="276" font-size="14" font-weight="700" letter-spacing="0.5">FAILED</text>
+    <text x="410" y="352" font-size="14" font-weight="700" letter-spacing="0.5">UNVERIFIED</text>
+  </g>
+  <g text-anchor="middle" font-size="12.5" fill="#55564b">
+    <text x="410" y="142">refusée avant d'agir</text>
+    <text x="410" y="294">l'action a échoué</text>
+    <text x="410" y="370">la preuve contredit</text>
+  </g>
+
+  <!-- Flèches -->
+  <g stroke="#161709" stroke-width="1.5" fill="none">
+    <line x1="142" y1="76" x2="142" y2="103" marker-end="url(#harnais-fleche-2)"/>
+    <line x1="142" y1="152" x2="142" y2="179" marker-end="url(#harnais-fleche-2)"/>
+    <line x1="142" y1="228" x2="142" y2="255" marker-end="url(#harnais-fleche-2)"/>
+    <line x1="142" y1="304" x2="142" y2="331" marker-end="url(#harnais-fleche-2)"/>
+    <line x1="142" y1="380" x2="142" y2="407" marker-end="url(#harnais-fleche-2)"/>
+    <line x1="252" y1="128" x2="331" y2="128" marker-end="url(#harnais-fleche-2)"/>
+    <line x1="252" y1="280" x2="331" y2="280" marker-end="url(#harnais-fleche-2)"/>
+    <line x1="252" y1="356" x2="331" y2="356" marker-end="url(#harnais-fleche-2)"/>
+  </g>
+  <g font-size="12.5" fill="#161709">
+    <text x="152" y="398">le harnais vérifie</text>
+    <text x="292" y="120" text-anchor="middle">refus</text>
+    <text x="292" y="272" text-anchor="middle">erreur</text>
+    <text x="292" y="348" text-anchor="middle">preuve</text>
+    <text x="292" y="373" text-anchor="middle">contraire</text>
+  </g>
+
+</svg>

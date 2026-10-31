@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="520" height="470" viewBox="0 0 520 470" font-family="Raleway, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif">
+  <title>Le harnais entoure l'agent : la porte filtre chaque action, le journal garde la trace et la preuve, le voyant montre les angles morts</title>
+  <defs>
+    <marker id="harnais-fleche-1" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#161709"/>
+    </marker>
+  </defs>
+  <rect x="0" y="0" width="520" height="470" rx="16" fill="#f3f3ee"/>
+
+  <!-- Colonne de gauche : le chemin d'une action -->
+  <rect x="32" y="32" width="200" height="52" rx="10" fill="#fbfbf4" stroke="#161709" stroke-width="1.5"/>
+  <text x="132" y="54" text-anchor="middle" font-size="15" font-weight="700" fill="#161709">Vous</text>
+  <text x="132" y="72" text-anchor="middle" font-size="12.5" fill="#55564b">vous demandez et décidez</text>
+
+  <rect x="32" y="140" width="200" height="52" rx="10" fill="#fbfbf4" stroke="#161709" stroke-width="1.5"/>
+  <text x="132" y="162" text-anchor="middle" font-size="15" font-weight="700" fill="#161709">L'agent</text>
+  <text x="132" y="180" text-anchor="middle" font-size="12.5" fill="#55564b">Claude Code, par exemple</text>
+
+  <rect x="32" y="248" width="200" height="52" rx="10" fill="#f7ef63" stroke="#161709" stroke-width="1.5"/>
+  <text x="132" y="270" text-anchor="middle" font-size="15" font-weight="700" fill="#161709">La porte</text>
+  <text x="132" y="288" text-anchor="middle" font-size="12.5" fill="#55564b">des règles écrites, sans IA</text>
+
+  <rect x="32" y="356" width="200" height="60" rx="10" fill="#fbfbf4" stroke="#161709" stroke-width="1.5"/>
+  <text x="132" y="380" text-anchor="middle" font-size="15" font-weight="700" fill="#161709">Le monde réel</text>
+  <text x="132" y="400" text-anchor="middle" font-size="12.5" fill="#55564b">fichiers, terminal, site en ligne</text>
+
+  <!-- Colonne de droite : ce que le harnais garde et montre -->
+  <rect x="320" y="140" width="168" height="52" rx="10" fill="#f7ef63" stroke="#161709" stroke-width="1.5"/>
+  <text x="404" y="162" text-anchor="middle" font-size="15" font-weight="700" fill="#161709">Le voyant</text>
+  <text x="404" y="180" text-anchor="middle" font-size="12.5" fill="#55564b">la liste des angles morts</text>
+
+  <rect x="320" y="248" width="168" height="52" rx="10" fill="#f7ef63" stroke="#161709" stroke-width="1.5"/>
+  <text x="404" y="270" text-anchor="middle" font-size="15" font-weight="700" fill="#161709">Le journal</text>
+  <text x="404" y="288" text-anchor="middle" font-size="12.5" fill="#55564b">un fichier par action</text>
+
+  <!-- Flèches -->
+  <g stroke="#161709" stroke-width="1.5" fill="none">
+    <line x1="132" y1="84" x2="132" y2="139" marker-end="url(#harnais-fleche-1)"/>
+    <line x1="104" y1="192" x2="104" y2="247" marker-end="url(#harnais-fleche-1)"/>
+    <line x1="176" y1="248" x2="176" y2="193" marker-end="url(#harnais-fleche-1)"/>
+    <line x1="132" y1="300" x2="132" y2="355" marker-end="url(#harnais-fleche-1)"/>
+    <line x1="232" y1="274" x2="319" y2="274" marker-end="url(#harnais-fleche-1)"/>
+    <polyline points="232,386 404,386 404,301" marker-end="url(#harnais-fleche-1)"/>
+    <line x1="404" y1="248" x2="404" y2="193" marker-end="url(#harnais-fleche-1)"/>
+    <polyline points="404,140 404,58 233,58" marker-end="url(#harnais-fleche-1)"/>
+  </g>
+
+  <g font-size="12.5" fill="#161709">
+    <text x="142" y="116">une demande</text>
+    <text x="96" y="224" text-anchor="end">veut agir</text>
+    <text x="186" y="224">refuse</text>
+    <text x="142" y="332">autorise</text>
+    <text x="276" y="266" text-anchor="middle">écrit un cas</text>
+    <text x="414" y="350">la preuve</text>
+    <text x="414" y="224">lit</text>
+    <text x="414" y="96">vous montre</text>
+    <text x="414" y="112">les angles morts</text>
+  </g>
+
+  <!-- Légende -->
+  <rect x="32" y="436" width="14" height="14" rx="3" fill="#f7ef63" stroke="#161709" stroke-width="1"/>
+  <text x="54" y="447" font-size="12.5" fill="#161709">En jaune, ce que le harnais ajoute autour de l'agent</text>
+</svg>

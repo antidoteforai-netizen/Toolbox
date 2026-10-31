@@ -8,7 +8,7 @@ Des prompts longs, à copier tels quels dans l'outil indiqué, commentés pour q
 
 | Prompt | Outil | Ce qu'il fait | Mis à jour |
 |---|---|---|---|
-| [Prompt maître du harnais d'agents](./prompt-maitre-harnais.md) | Claude Code | Construit, en cinq blocs avec points d'arrêt, le dispositif qui rend le travail d'un agent observable, arrêtable et vérifiable, avec une règle de départ : ne jamais confondre « l'agent dit qu'il a réussi » avec « le système a réussi » | 30 octobre 2026 |
+| [Construire le harnais qui vérifie le travail de vos agents IA](./prompt-maitre-harnais.md) | Claude Code | Un tutoriel pas à pas pour installer un harnais qui journalise chaque action d'un agent, refuse ce qui est dangereux et ne tient une action pour réussie qu'avec une preuve : six étapes, chacune avec son prompt à télécharger | 31 octobre 2026 |
 
 ## Les autres prompts, rangés avec leurs explications
 
