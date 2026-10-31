@@ -1,129 +1,132 @@
+<sub>[Toolbox](../README.md) › [Veille](./README.md) › Ressources</sub>
+
 # Ressources
 
-Source : [veille-ux-ui.vercel.app](https://veille-ux-ui.vercel.app/), 21 ressources.
+Source : [veille-ux-ui.vercel.app](https://veille-ux-ui.vercel.app/), 20 ressources.
+
+*Mis à jour le 30 octobre 2026.*
 
 ## [Podcast dive club](https://www.dive.club/)
 
 *2026-07-05 · Podcast*
 
-Podcast et articles de formation continue pour designers
+Se former en continu au design, en podcast ou en articles.
 
 ## [Carte data](https://cartes.gouv.fr/explorer-les-cartes/)
 
 *2026-06-28 · Gouvernement*
 
-Portail cartographique officiel de l'État français, successeur de Géoportail.
+Explorer les cartes officielles de l'État français, sur le portail qui remplace Géoportail.
 
 ## [Tailwind CSS Showcase](https://tailwindcss.com/showcase)
 
 *2026-06-09 · UI, Design system*
 
-Showcase officiel de sites en Tailwind, inspiration pour variants de sections.
+Parcourir la vitrine officielle des sites construits avec Tailwind, pour trouver des variantes de sections.
 
 ## [Tailwind CSS v4, tuto Grafikart](https://grafikart.fr/tutoriels/tailwindcss-v4-2265)
 
 *2026-06-09 · UI, Design system*
 
-Tuto Grafikart sur Tailwind v4 : config CSS-first, tokens natifs, moteur Oxide.
+Passer à Tailwind v4 avec Grafikart : configuration écrite directement dans le CSS, tokens natifs (les variables de design), nouveau moteur Oxide.
 
 ## [Component gallery](https://component.gallery/)
 
 *2025-06-24 · Design system, UI*
 
-Répertoire de patterns UI tirés de vrais design systems, pour référence.
+Retrouver un composant d'interface tel que de vrais design systems le construisent, pour s'y référer.
 
 ## [Webdesigners news](https://www.webdesignernews.com/)
 
 *2025-05-12 · UI*
 
-Agrégateur de news et d'articles sur le web design, le dev et l'UX.
+Suivre l'actualité du web design, du développement et de l'UX, rassemblée en un seul fil.
 
 ## [Design Spell](https://www.designspells.com/)
 
 *2025-05-05 · UI, Motion design*
 
-Collection de micro-interactions et détails UI qui rendent une interface vivante.
+Repérer les micro-interactions et les petits détails qui rendent une interface vivante.
 
 ## [Recent Design](https://recent.design/)
 
 *2025-04-16 · UI*
 
-Galerie d'inspiration pour interfaces web et interactions récentes.
+Trouver de l'inspiration parmi des interfaces web et des interactions récentes.
 
-## [Les chroniques du design](https://podcast.ausha.co/les-chroniques-du-design)
+## [Les chroniques du design](https://podcasts.apple.com/fr/podcast/les-chroniques-du-design/id1737673260)
 
 *2025-03-25 · Podcast*
 
-Podcast où des designers racontent leurs échecs et retours d'expérience professionnels.
+Écouter des designers raconter leurs échecs et ce que leur métier leur a appris, en dix épisodes dont le dernier date de janvier 2025.
 
 ## [Toools Design](https://www.toools.design/)
 
 *2025-03-13 · UI*
 
-Annuaire de plus de 2200 ressources et outils design, mis à jour chaque semaine.
+Chercher parmi plus de 2 200 ressources et outils de design, dans un annuaire mis à jour chaque semaine.
 
 ## [Bookmarks Design](https://www.bookmarks.design/)
 
 *2025-03-13 · UI*
 
-Annuaire de ressources design : inspiration, outils et assets gratuits pour designers.
+Trouver de l'inspiration, des outils et des ressources graphiques gratuites, classés dans un annuaire pour designers.
 
 ## [Outcrowd](https://www.outcrowd.io/)
 
 *2024-12-15 · UI*
 
-Agence de branding et UI/UX qui accompagne les startups (identité, produit, site).
+Voir le travail d'une agence de branding et d'UI/UX qui accompagne des startups, de l'identité au produit et au site.
 
 ## [Refero](https://refero.design/)
 
 *2024-02-20 · UI*
 
-Site d'inspiration UI/UX avec des références de projets réels.
+S'inspirer de références UI/UX tirées de projets réels.
 
-## [Webdesigner tools](https://webdesigner.tools/)
-
-*2023-12-19 · UI*
-
-Sélection curatée de ressources et outils utiles aux designers web.
 
 ## [Design numerique gouv](https://design.numerique.gouv.fr)
 
 *2023-11-30 · Gouvernement*
 
-Guides et outils de l'État français pour des services numériques inclusifs.
+Concevoir des services numériques inclusifs avec les guides et les outils de l'État français.
 
 ## [App shots design](https://appshots.design/)
 
 *2023-11-21 · UI*
 
-Galerie de captures d'écran et parcours UX d'applications mobiles pour inspiration.
+Parcourir des captures d'écran d'applications iOS, Android et web pour s'en inspirer, sachant que les parcours complets sont réservés à l'offre payante Pro.
 
 ## [Redesign in Design systems](https://redesigningdesign.systems/resources.html)
 
 *2023-09-14 · Design system*
 
-Guides, gabarits et outils pratiques pour faire évoluer un design system.
+Faire évoluer un design system avec des guides, des gabarits et des outils pratiques.
 
 ## [Motion zajno](https://motion.zajno.com)
 
 *2023-05-07 · Motion design, UI*
 
-Site vitrine de l'agence Zajno présentant ses techniques d'animation UI/UX.
+Observer les techniques d'animation d'interface de l'agence Zajno, présentées sur son site vitrine.
 
 ## [Checklist Pidila](https://design.numerique.gouv.fr/outils/checklist-pidila/)
 
 *2023-04-20 · Accessibilité*
 
-Liste des obligations légales et bonnes pratiques pour sites publics français.
+Vérifier point par point qu'un site public français respecte ses obligations légales et les bonnes pratiques.
 
-## [Checklist opquast](https://checklists.opquast.com/fr/assurance-qualite-web/)
+## [Checklist opquast](https://checklists.opquast.com/fr/qualite-numerique/)
 
 *2023-04-20 · Accessibilité*
 
-Référentiel de 245 règles qualité pour améliorer les services numériques.
+Contrôler la qualité d'un service numérique avec un référentiel de 245 règles.
 
 ## [Design systems](https://designsystems.fr)
 
 *2023-03-28 · Design system*
 
-Collectif francophone recensant plus de 100 design systems et animant une communauté.
+Parcourir plus de 100 design systems recensés par un collectif francophone, qui anime aussi une communauté.
+
+---
+
+[← Toute la veille](./README.md) · [Choisir parmi ces outils : les guides](../guides/README.md) · [Accueil de la Toolbox](../README.md)

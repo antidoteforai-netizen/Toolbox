@@ -1,12 +1,16 @@
+<sub>[Toolbox](../README.md) › Tutoriels</sub>
+
 # Tutoriels
+
+*Dossier mis à jour le 30 octobre 2026.*
 
 Des étapes numérotées, des commandes à coller et les erreurs classiques à l'endroit précis où elles arrivent. Si vous hésitez encore sur l'outil, commencez par les [guides](../guides/), qui aident à choisir.
 
-| Tutoriel | Vous saurez |
-|---|---|
-| [Tutoriels par profil](./tutoriels-par-profil.md) | Neuf tutoriels en trois parcours : Product Designer & Builder, Com & Marketing, Business Instagram |
-| [Installer n8n avec Docker](./installer-n8n-docker.md) | Faire tourner n8n en local avec une commande, puis le mettre à jour et sauvegarder vos workflows |
-| [Figma vers Webflow avec Relume](./workflow-figma-webflow-relume.md) | Construire un site de deux pages à plusieurs, sur les plans gratuits |
+| Tutoriel | Vous saurez | Mis à jour |
+|---|---|---|
+| [Tutoriels par profil](./tutoriels-par-profil.md) | Neuf tutoriels en trois parcours : Product Designer & Builder, Com & Marketing, Business Instagram | 30 octobre 2026 |
+| [Installer n8n avec Docker](./installer-n8n-docker.md) | Faire tourner n8n en local avec une commande, puis le mettre à jour et sauvegarder vos workflows | 30 octobre 2026 |
+| [Figma vers Webflow avec Relume](./workflow-figma-webflow-relume.md) | Construire un site de deux pages à plusieurs, sur les plans gratuits | 30 octobre 2026 |
 
 ## Avant et après chaque tutoriel
 

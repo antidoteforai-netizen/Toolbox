@@ -1,8 +1,10 @@
+<sub>[Toolbox](../README.md) › [Veille](./README.md) › Alternatives à Higgsfield</sub>
+
 # Alternatives à Higgsfield
 
-**Générer des images et des vidéos sans abonnement, ou en ne payant que ce que vous utilisez.**
+**Générer des images et des vidéos sans abonnement, ou en ne payant que ce que vous consommez.**
 
-J'utilise Higgsfield pour une raison précise, garder le même visage d'une image à l'autre, et je raconte ce choix dans [mon parcours de MidJourney à Higgsfield](../guides/ressources-ia-generative.md#phase-3-higgsfield-aujourdhui--payant). L'abonnement commence à 19 € par mois (formule Starter, 270 crédits) et la formule gratuite est limitée. Il est de trop si vous générez peu, si vous voulez que vos images restent sur votre machine ou si vous préférez payer à l'usage. Cette page range les solutions de remplacement selon leur profondeur, c'est-à-dire ce qu'elles vous demandent d'installer, de payer et de comprendre.
+Je me sers de Higgsfield pour une raison précise, garder le même visage d'une image à l'autre, et je raconte ce choix dans [mon parcours de MidJourney à Higgsfield](../guides/ressources-ia-generative.md#phase-3-higgsfield-aujourdhui--payant). L'abonnement commence à 19 € par mois (formule Starter, 270 crédits) et la formule gratuite est limitée. Il est de trop si vous générez peu, si vous voulez que vos images restent sur votre machine ou si vous préférez payer à l'usage. Cette page range les solutions de remplacement selon leur profondeur, c'est-à-dire ce qu'elles vous demandent d'installer, de payer et de comprendre.
 
 *Vérifié le 30 octobre 2026 : chaque lien ouvert, chaque licence lue dans son fichier officiel, chaque offre gratuite relue sur la page de l'éditeur. Le détail est dans les [sources](#sources).*
 
@@ -30,7 +32,7 @@ J'utilise Higgsfield pour une raison précise, garder le même visage d'une imag
 
 ### Trois niveaux d'engagement
 
-Chaque niveau vous demande d'installer ou de comprendre un peu plus que le précédent, en échange de plus de contrôle sur ce que vous produisez.
+Chaque niveau vous demande d'installer ou de comprendre un peu plus que le précédent, et vous donne en échange davantage de contrôle sur ce que vous produisez.
 
 | | Niveau 1 · Navigateur | Niveau 2 · Votre machine | Niveau 3 · Pro et API |
 |---|---|---|---|
@@ -46,7 +48,7 @@ C'est une veille documentée : chaque information vient d'une source officielle 
 
 ## Ce que fait Higgsfield, et où le retrouver
 
-| Ce que j'utilise dans Higgsfield | Où le retrouver ailleurs | Niveau |
+| Ce qui me sert dans Higgsfield | Où le retrouver ailleurs | Niveau |
 |---|---|---|
 | Le même visage d'une image à l'autre (Soul ID) | Un LoRA, un petit modèle entraîné sur vos photos puis chargé dans ComfyUI, plus exigeant à préparer que Soul ID. Plus simple : l'édition à partir d'images de référence, jusqu'à 14 dans Open Generative AI | 2, ou 1 et 3 |
 | Plusieurs modèles au même endroit | Open Generative AI, qui donne accès via Muapi à Kling, Nano Banana et des centaines d'autres modèles ; Runway propose aussi Kling et Seedance à côté de ses propres modèles | 1 et 3 |
@@ -119,13 +121,13 @@ Une API se branche sur un script ou sur n8n : vous envoyez un prompt, vous recev
 |---|---|---|---|
 | [Muapi](https://muapi.ai) | Image, vidéo, audio, lip sync et 3D derrière une seule clé ; c'est le moteur d'Open Generative AI | Un petit crédit à l'inscription, au montant non publié | À l'usage, portefeuille rechargeable, crédits sans expiration |
 | [WaveSpeed AI](https://wavespeed.ai) | Modèles d'image et de vidéo | 1 $ offert aux nouveaux comptes éligibles, sans carte bancaire ; certains modèles premium exclus | À l'usage, sans abonnement |
-| [Fal AI](https://fal.ai) | Image, vidéo, audio et 3D, plus des serveurs de calcul à la demande ; [SDK sur GitHub](https://github.com/fal-ai) | Pas de crédit d'essai affiché ; des crédits ponctuels utilisables seulement dans le bac à sable du site | À l'usage, prix par modèle, crédits prépayés |
+| [Fal AI](https://fal.ai) | Image, vidéo, audio et 3D, plus des serveurs de calcul à la demande ; [SDK sur GitHub](https://github.com/fal-ai) | Pas de crédit d'essai affiché ; des crédits ponctuels valables seulement dans le bac à sable du site | À l'usage, prix par modèle, crédits prépayés |
 
 ## Sur Mac (Apple Silicon)
 
-**Pour les images**, deux applis génèrent en local sur un Mac Apple Silicon : l'appli de bureau ComfyUI, et Open Generative AI, dont le moteur intégré utilise la puce graphique du Mac ; son README indique Dreamshaper 8 (2,1 Go) comme l'option la plus légère testée sur Mac.
+Deux applis génèrent des images en local sur un Mac Apple Silicon : l'appli de bureau ComfyUI, et Open Generative AI, dont le moteur intégré s'appuie sur la puce graphique du Mac ; son README indique Dreamshaper 8 (2,1 Go) comme l'option la plus légère testée sur Mac.
 
-**Pour la vidéo**, LTX Desktop est la seule appli de cette page à publier ses besoins sur Mac. Prévoyez aussi 100 Go d'espace disque libre, et jusqu'à 160 Go si vous ajoutez des LoRA.
+Pour la vidéo, LTX Desktop est la seule appli de cette page à publier ses besoins sur Mac. Prévoyez aussi 100 Go d'espace disque libre, et jusqu'à 160 Go si vous ajoutez des LoRA.
 
 | Votre Mac | Ce que LTX Desktop permet |
 |---|---|
@@ -134,18 +136,18 @@ Une API se branche sur un script ou sur n8n : vous envoyez un prompt, vous recev
 | Moins de 24 Go, ou Mac Intel | Pas de génération locale, l'appli passe par l'API en ligne de Lightricks |
 | macOS 14 ou 15 | L'appli s'ouvre mais la génération locale n'est pas encore disponible |
 
-**À savoir aussi :**
+La vidéo locale d'Open Generative AI, elle, ne tourne pas sur Mac, parce que son moteur vidéo (Wan2GP) exige une carte NVIDIA ou AMD, éventuellement sur un autre ordinateur de votre réseau.
 
-- **La vidéo locale d'Open Generative AI ne tourne pas sur Mac** : son moteur vidéo (Wan2GP) exige une carte NVIDIA ou AMD, éventuellement sur un autre ordinateur de votre réseau.
-- **Au premier lancement d'Open Generative AI**, macOS bloque l'appli parce qu'elle n'est pas notarisée par Apple. Pour l'autoriser : Réglages Système, puis Confidentialité et sécurité, puis « Ouvrir quand même ». Ne le faites que pour une appli téléchargée depuis la [page Releases officielle](https://github.com/Anil-matcha/Open-Generative-AI/releases), puisque vous désactivez pour elle la vérification d'Apple.
-- **L'approche hybride** : les images et les essais en local, la vidéo en ligne avec les crédits renouvelés chaque jour de PixVerse, SeaArt ou Adobe Firefly. Le mois où un projet le justifie, un abonnement d'un mois retire le filigrane ; vérifiez quelle formule ouvre l'usage commercial, chez LTX Studio et Morphic ce n'est pas la première.
+Au premier lancement d'Open Generative AI, macOS bloque l'appli, qui n'est pas notarisée par Apple. Pour l'autoriser, ouvrez Réglages Système, puis Confidentialité et sécurité, et cliquez sur « Ouvrir quand même ». Ne le faites que pour une appli téléchargée depuis la [page Releases officielle](https://github.com/Anil-matcha/Open-Generative-AI/releases), puisque vous désactivez pour elle la vérification d'Apple.
+
+Sur un Mac sans beaucoup de mémoire, l'approche hybride reste la plus simple : les images et les essais en local, la vidéo en ligne avec les crédits renouvelés chaque jour de PixVerse, SeaArt ou Adobe Firefly. Le mois où un projet le justifie, un abonnement d'un mois retire le filigrane ; vérifiez quelle formule ouvre l'usage commercial, chez LTX Studio et Morphic ce n'est pas la première.
 
 ## Par où commencer
 
 | Votre situation | Commencez par |
 |---|---|
 | Vous voulez tester sans payer ni rien installer | PixVerse pour la vidéo (30 crédits par jour), SeaArt ou Adobe Firefly pour l'image |
-| Vous avez un Mac et voulez des images à volonté | ComfyUI (appli de bureau) avec FLUX.1 [schnell] ou FLUX.2 [klein] 4B, tous deux utilisables pour un client |
+| Vous avez un Mac et voulez des images à volonté | ComfyUI (appli de bureau) avec FLUX.1 [schnell] ou FLUX.2 [klein] 4B, tous deux autorisés pour un client |
 | Vous voulez de la vidéo en local sur Mac | LTX Desktop, si votre Mac a au moins 32 Go de mémoire et macOS 26 |
 | Vous voulez l'esprit Higgsfield, plusieurs modèles au même endroit, sans abonnement | Open Generative AI en ligne, payé à l'usage via Muapi |
 | Vous voulez automatiser votre production | Une API à l'usage, branchée sur [n8n installé chez vous](../tutoriels/installer-n8n-docker.md) |
@@ -155,47 +157,49 @@ Une API se branche sur un script ou sur n8n : vous envoyez un prompt, vous recev
 
 Toutes lues le 30 octobre 2026.
 
-**Dépôts et licences**
+Les dépôts et licences :
 
-- Open Generative AI : [README](https://github.com/Anil-matcha/Open-Generative-AI#readme) (Muapi, moteurs locaux, notarisation) et [version 2.0.0 du 23 mai 2026](https://github.com/Anil-matcha/Open-Generative-AI/releases) ; l'ancienne adresse [Open-Higgsfield-AI](https://github.com/Anil-matcha/Open-Higgsfield-AI) y redirige
-- ComfyUI : [README](https://github.com/Comfy-Org/ComfyUI#readme) (plateformes, appli de bureau) et [téléchargement](https://www.comfy.org/download)
-- Pinokio : [README](https://github.com/pinokiocomputer/pinokio#readme) (sécurité des scripts) et [version 8.2.0](https://github.com/pinokiocomputer/pinokio/releases) (Mac, Windows, Linux)
-- LTX Desktop : [README, configuration requise](https://github.com/Lightricks/LTX-Desktop#readme) et [page officielle](https://ltx.io/ltx-desktop)
-- LTX-2 : [licence LTX-2.x](https://github.com/Lightricks/LTX-2/blob/main/LICENSE-2_x), section 2.1 (seuil de 10 millions de dollars)
-- HunyuanVideo : [licence](https://github.com/Tencent-Hunyuan/HunyuanVideo/blob/main/LICENSE.txt), définition du territoire ; même clause pour [HunyuanVideo-1.5](https://github.com/Tencent-Hunyuan/HunyuanVideo-1.5)
-- FLUX : [tableau des licences de FLUX.1](https://github.com/black-forest-labs/flux#readme) et [de FLUX.2](https://github.com/black-forest-labs/flux2#readme)
-- Wan 2.2 : [README](https://github.com/Wan-Video/Wan2.2#readme), sections matériel et « License Agreement » ; [guide ComfyUI pour Wan 2.2](https://docs.comfy.org/tutorials/video/wan/wan2_2)
+| Outil ou modèle | Ce qui a été lu |
+|---|---|
+| Open Generative AI | [README](https://github.com/Anil-matcha/Open-Generative-AI#readme) (Muapi, moteurs locaux, notarisation) et [version 2.0.0 du 23 mai 2026](https://github.com/Anil-matcha/Open-Generative-AI/releases) ; l'ancienne adresse [Open-Higgsfield-AI](https://github.com/Anil-matcha/Open-Higgsfield-AI) y redirige |
+| ComfyUI | [README](https://github.com/Comfy-Org/ComfyUI#readme) (plateformes, appli de bureau) et [téléchargement](https://www.comfy.org/download) |
+| Pinokio | [README](https://github.com/pinokiocomputer/pinokio#readme) (sécurité des scripts) et [version 8.2.0](https://github.com/pinokiocomputer/pinokio/releases) (Mac, Windows, Linux) |
+| LTX Desktop | [README, configuration requise](https://github.com/Lightricks/LTX-Desktop#readme) et [page officielle](https://ltx.io/ltx-desktop) |
+| LTX-2 | [Licence LTX-2.x](https://github.com/Lightricks/LTX-2/blob/main/LICENSE-2_x), section 2.1 (seuil de 10 millions de dollars) |
+| HunyuanVideo | [Licence](https://github.com/Tencent-Hunyuan/HunyuanVideo/blob/main/LICENSE.txt), définition du territoire ; même clause pour [HunyuanVideo-1.5](https://github.com/Tencent-Hunyuan/HunyuanVideo-1.5) |
+| FLUX | [Tableau des licences de FLUX.1](https://github.com/black-forest-labs/flux#readme) et [de FLUX.2](https://github.com/black-forest-labs/flux2#readme) |
+| Wan 2.2 | [README](https://github.com/Wan-Video/Wan2.2#readme), sections matériel et « License Agreement » ; [guide ComfyUI pour Wan 2.2](https://docs.comfy.org/tutorials/video/wan/wan2_2) |
 
-**Sites et tarifs**
+Les sites et les tarifs ont été relevés depuis la France : certains affichent leurs prix en euros, d'autres en dollars, et ils sont repris tels quels. Quand un éditeur ne publie pas un montant, la page le dit plutôt que de l'estimer.
 
-Relevés depuis la France : certains sites affichent leurs prix en euros, d'autres en dollars, ils sont repris tels quels. Les montants qu'un éditeur ne publie pas sont signalés comme tels plutôt qu'estimés.
+| Service | Ce qui a été lu |
+|---|---|
+| Higgsfield | [Formules](https://higgsfield.ai/pricing) |
+| Open Generative AI et Muapi | [Tarifs](https://muapi.ai/docs/pricing) et [fonctionnement des crédits](https://muapi.ai/docs/credits) |
+| PixVerse | [Formules](https://app.pixverse.ai/subscribe) |
+| SeaArt | [Formules et Stamina](https://www.seaart.ai/mall) |
+| Adobe Firefly | [Formules](https://www.adobe.com/products/firefly/plans.html) |
+| Vidnoz | [Tarifs](https://www.vidnoz.com/pricing.html) ; le tableau annonce 30 crédits par jour et le bandeau du site 60, cette page retient le tableau |
+| DomoAI | [Tarifs](https://domoai.app/pricing) et FAQ de la [page d'accueil](https://domoai.app/) |
+| Canva | [Accès aux outils IA](https://www.canva.com/help/ai-access/), [image vers vidéo](https://www.canva.com/help/image-to-video/) et [tarifs](https://www.canva.com/fr_fr/tarification/) |
+| Renderforest | [Générateur vidéo IA](https://www.renderforest.com/ai-video-generator) et [abonnements](https://www.renderforest.com/subscription) |
+| Runway | [Tarifs](https://runwayml.com/pricing) |
+| Kling | [Formules](https://kling.ai/app/membership/membership-plan) et [politique de crédits](https://kling.ai/docs/point-policy) ; les « 66 crédits par jour » cités par certains articles ne figurent pas sur le site officiel |
+| LTX Studio | [Tarifs](https://ltx.io/studio/pricing) |
+| Morphic | [Tarifs](https://www.morphic.com/pricing) |
+| WaveSpeed AI | [Tarifs](https://wavespeed.ai/pricing) |
+| Fal AI | [Tarifs](https://fal.ai/pricing) et [bac à sable](https://fal.ai/docs/documentation/model-apis/sandbox) |
 
-- Higgsfield : [formules](https://higgsfield.ai/pricing)
-- Open Generative AI et Muapi : [tarifs](https://muapi.ai/docs/pricing) et [fonctionnement des crédits](https://muapi.ai/docs/credits)
-- PixVerse : [formules](https://app.pixverse.ai/subscribe)
-- SeaArt : [formules et Stamina](https://www.seaart.ai/mall)
-- Adobe Firefly : [formules](https://www.adobe.com/products/firefly/plans.html)
-- Vidnoz : [tarifs](https://www.vidnoz.com/pricing.html) ; le tableau annonce 30 crédits par jour, le bandeau du site 60, cette page retient le tableau
-- DomoAI : [tarifs](https://domoai.app/pricing) et FAQ de la [page d'accueil](https://domoai.app/)
-- Canva : [accès aux outils IA](https://www.canva.com/help/ai-access/), [image vers vidéo](https://www.canva.com/help/image-to-video/) et [tarifs](https://www.canva.com/fr_fr/tarification/)
-- Renderforest : [générateur vidéo IA](https://www.renderforest.com/ai-video-generator) et [abonnements](https://www.renderforest.com/subscription)
-- Runway : [tarifs](https://runwayml.com/pricing)
-- Kling : [formules](https://kling.ai/app/membership/membership-plan) et [politique de crédits](https://kling.ai/docs/point-policy) ; les « 66 crédits par jour » cités par certains articles ne figurent pas sur le site officiel
-- LTX Studio : [tarifs](https://ltx.io/studio/pricing)
-- Morphic : [tarifs](https://www.morphic.com/pricing)
-- WaveSpeed AI : [tarifs](https://wavespeed.ai/pricing)
-- Fal AI : [tarifs](https://fal.ai/pricing) et [bac à sable](https://fal.ai/docs/documentation/model-apis/sandbox)
-
-**Ce qui a changé depuis le premier recensement**
-
-Le dépôt Open Higgsfield AI a été renommé, son appli génère désormais aussi en local, et cinq sites ont changé d'adresse : Runway (runway.com), Kling (kling.ai), Pinokio (pinokio.co), LTX Studio (ltx.io/studio) et la page Muapi d'Open Generative AI. Les anciennes adresses redirigent, cette page utilise les nouvelles.
+Depuis le premier recensement, le dépôt Open Higgsfield AI a été renommé, son appli génère aussi en local, et cinq sites ont changé d'adresse : Runway (runway.com), Kling (kling.ai), Pinokio (pinokio.co), LTX Studio (ltx.io/studio) et la page Muapi d'Open Generative AI. Les anciennes adresses redirigent, cette page donne les nouvelles.
 
 ## Ailleurs dans la Toolbox
 
-- **Guides** : [Higgsfield dans la boîte à outils IA](../guides/boite-a-outils-ia.md#higgsfield), pour comprendre Soul ID ; [Nano Banana Pro gratuit via Google AI Studio](../guides/ressources-ia-generative.md#02--nano-banana-pro-gratuit-via-google-ai-studio), une autre piste gratuite pour l'image ; [les alternatives gratuites que j'ai testées](../guides/ressources-ia-generative.md#phase-2-les-alternatives-gratuites)
-- **Tutoriels** : [Génération visuelle à l'échelle](../tutoriels/tutoriels-par-profil.md#génération-visuelle-à-léchelle-avec-higgsfield) et [Identité visuelle cohérente](../tutoriels/tutoriels-par-profil.md#construire-une-identité-visuelle-cohérente-avec-higgsfield), dont la méthode s'applique à tous ces outils ; [Installer n8n avec Docker](../tutoriels/installer-n8n-docker.md), pour automatiser via une API
-- **Prompts** : [les prompts d'image et de vidéo commentés](../guides/ressources-ia-generative.md#05--prompts-que-jutilise-et-comment-les-lire) et [les angles photo](../guides/ressources-ia-generative.md#04--maîtriser-les-angles-photo) fonctionnent avec chacun de ces modèles ; [tous les prompts](../prompts/)
-- **Veille** : [les autres outils de génération](./outils.md), dont Runway, Krea et Flux 1
+| Dossier | Pour aller plus loin |
+|---|---|
+| Guides | [Higgsfield dans la boîte à outils IA](../guides/boite-a-outils-ia.md#higgsfield), pour comprendre Soul ID ; [Nano Banana Pro via Google AI Studio](../guides/ressources-ia-generative.md#02--nano-banana-pro-via-google-ai-studio), une autre piste gratuite pour l'image ; [les alternatives gratuites que j'ai testées](../guides/ressources-ia-generative.md#phase-2-les-alternatives-gratuites) |
+| Tutoriels | [Génération visuelle à l'échelle](../tutoriels/tutoriels-par-profil.md#génération-visuelle-à-léchelle-avec-higgsfield) et [Identité visuelle cohérente](../tutoriels/tutoriels-par-profil.md#construire-une-identité-visuelle-cohérente-avec-higgsfield), dont la méthode vaut pour tous ces outils ; [Installer n8n avec Docker](../tutoriels/installer-n8n-docker.md), pour automatiser via une API |
+| Prompts | [Les prompts d'image et de vidéo commentés](../guides/ressources-ia-generative.md#05--prompts-que-jutilise-et-comment-les-lire) et [les angles photo](../guides/ressources-ia-generative.md#04--maîtriser-les-angles-photo), qui marchent avec chacun de ces modèles ; [tous les prompts](../prompts/) |
+| Veille | [Les autres outils de génération](./outils.md), dont Runway, Krea et FLUX |
 
 ---
 

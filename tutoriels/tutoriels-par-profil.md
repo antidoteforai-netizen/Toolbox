@@ -1,12 +1,14 @@
+<sub>[Toolbox](../README.md) › [Tutoriels](./README.md) › Tutoriels par profil</sub>
+
 # Tutoriels par profil
 
-**Neuf tutoriels. Zéro étape sautée.**
+**Neuf tutoriels en trois parcours, sans sauter une seule étape** : c’est la suite logique de [la boîte à outils](../guides/boite-a-outils-ia.md). Ici, pas de vue d’ensemble, mais des étapes numérotées, des commandes à coller et des astuces placées à l’endroit précis où tu vas en avoir besoin. Suis ton parcours du début à la fin, une seule fois, et tu n’auras plus besoin de revenir sur les bases.
 
-La suite logique de [la boîte à outils](../guides/boite-a-outils-ia.md) : ici, pas de vue d’ensemble, des étapes numérotées, des commandes à coller, des astuces à l’endroit précis où tu vas en avoir besoin. Trois parcours, trois tutoriels chacun. Suis le tien du début à la fin, une seule fois, et tu n’auras plus besoin de revenir sur les bases.
+*Mis à jour le 30 octobre 2026.*
 
 ## Sommaire
 
-- [Comment utiliser ça](#comment-utiliser-ça)
+- [Lire ces tutoriels dans le bon ordre](#lire-ces-tutoriels-dans-le-bon-ordre)
 - [Parcours 1 · Product Designer & Builder](#parcours-1--product-designer--builder)
 - [Prendre en main Claude Code & le vibe coding](#prendre-en-main-claude-code--le-vibe-coding)
 - [Vibe coding, tester ce que tu construis avec Playwright](#vibe-coding-tester-ce-que-tu-construis-avec-playwright)
@@ -21,15 +23,15 @@ La suite logique de [la boîte à outils](../guides/boite-a-outils-ia.md) : ici,
 - [Ce qui marche vraiment sur Instagram en 2026](#ce-qui-marche-vraiment-sur-instagram-en-2026)
 - [Sources vérifiées](#sources-vérifiées)
 
-## Comment utiliser ça
+## Lire ces tutoriels dans le bon ordre
 
-Trois parcours, un par profil. Chaque parcours contient trois tutoriels, à suivre dans l’ordre, chacun part du principe que tu as fait le précédent. Chaque tutoriel se lit en une session : installe, teste, passe au suivant un autre jour si besoin. Les blocs de code sont des commandes ou du texte à coller tel quel. Les encadrés 💡 sont des astuces qui évitent l’erreur classique du débutant sur cette étape précise. Les encadrés ⚠️ sont des points de vigilance, lis-les, ils ne sont pas là pour décorer.
+Il y a trois parcours, un par profil, et chacun contient trois tutoriels à suivre dans l’ordre, parce que chaque tutoriel part du principe que tu as fait le précédent. Chaque tutoriel se lit en une session : installe, teste, passe au suivant un autre jour si besoin. Les blocs de code sont des commandes ou du texte à coller tel quel. Les encadrés 💡 sont des astuces qui évitent l’erreur classique du débutant sur cette étape précise. Les encadrés ⚠️ sont des points de vigilance, lis-les, ils ne sont pas là pour décorer.
 
 Tu n’es pas obligé·e de rester dans ton parcours : un designer qui gère aussi le compte Instagram de sa boîte a tout intérêt à lire le parcours Business Instagram en plus du sien. Choisis selon ce que tu dois vraiment faire cette semaine, pas selon ton titre de poste.
 
 ## Parcours 1 · Product Designer & Builder
 
-De la maquette au lien qu’on peut envoyer à un client. Trois tutoriels dans l’ordre logique d’un vrai projet : tu construis, tu vérifies que ça marche vraiment, tu livres.
+De la maquette au lien qu’on peut envoyer à un client, en trois tutoriels qui suivent l’ordre logique d’un vrai projet : tu construis, tu vérifies que ça marche vraiment, tu livres.
 
 1. Claude Code & vibe coding
 2. Tester avec Playwright
@@ -41,17 +43,19 @@ De la maquette au lien qu’on peut envoyer à un client. Trois tutoriels dans l
 
 Installer, donner ta première vraie instruction, et comprendre la différence entre explorer vite et livrer proprement.
 
-**Prérequis :** Node.js installé sur ta machine, un terminal, un compte Claude (Pro, Max, ou accès API).
+**Prérequis :** Un terminal, et un abonnement Claude Pro, Max, Team ou Enterprise, ou bien un compte Console avec accès API, parce que l’offre gratuite de claude.ai ne donne pas accès à Claude Code.
 
 ### Installer Claude Code
 
-Depuis ton terminal, installe le paquet officiel puis lance-le dans le dossier de ton projet (ou un dossier vide pour t’entraîner).
+Depuis ton terminal (Mac, Linux ou WSL), lance l’installateur officiel, puis démarre Claude Code dans le dossier de ton projet (ou un dossier vide pour t’entraîner).
 
 ```bash
-npm install -g @anthropic-ai/claude-code
+curl -fsSL https://claude.ai/install.sh | bash
 cd mon-projet
 claude
 ```
+
+Sur Windows, dans PowerShell, la commande d’installation devient `irm https://claude.ai/install.ps1 | iex`. Si `claude` reste introuvable juste après, ouvre un nouveau terminal et tape `claude --version` : un numéro de version veut dire que tout est en place. L’installation par npm existe encore, mais elle demande Node.js 22 ou plus récent, alors que l’installateur officiel, celui que la documentation recommande, n’a pas besoin de Node.js.
 
 La première fois, on te demande de te connecter à ton compte. Une fois fait, tu es dans une session interactive : tu peux discuter, mais aussi laisser Claude lire, écrire et exécuter du code directement dans ce dossier.
 
@@ -67,7 +71,7 @@ d'attente". Le formulaire doit valider l'email et
 afficher un message de confirmation.
 ```
 
-Claude va d’abord t’exposer un plan avant de commencer à écrire, c’est le moment de corriger si l’interprétation ne colle pas à ce que tu voulais.
+Pour que Claude t’expose son plan avant d’écrire, passe en mode plan en appuyant sur Maj+Tab jusqu’à voir « plan mode on » sous la zone de saisie. Claude lit alors ton projet et propose un plan sans toucher au moindre fichier tant que tu ne l’as pas validé, c’est le moment de corriger si l’interprétation ne colle pas à ce que tu voulais.
 
 ### Comprendre le cycle Explore → Plan → Code → Commit
 
@@ -91,7 +95,7 @@ Pour explorer une idée un week-end, accepte les suggestions et avance vite, c�
 
 ### Les réflexes de debug qui font gagner du temps
 
-Colle les messages d’erreur bruts, sans les résumer, Claude Code s’en sort mieux avec le texte exact qu’avec ta reformulation. Si une session part dans une mauvaise direction, n’hésite pas à revenir en arrière plutôt que d’accumuler les corrections successives.
+Colle les messages d’erreur bruts, sans les résumer, Claude Code s’en sort mieux avec le texte exact qu’avec ta reformulation. Si une session part dans une mauvaise direction, reviens en arrière (commande `/rewind`, ou deux fois Échap sur une invite vide) au lieu d’accumuler les corrections successives.
 
 > 💡 **Astuce.** Demande explicitement à Claude Code de te présenter son plan avant d’écrire quoi que ce soit ("explique ton plan avant de commencer") si tu sens que la tâche est ambiguë, ça coûte trente secondes et ça évite de défaire une heure de travail.
 
@@ -101,13 +105,13 @@ Colle les messages d’erreur bruts, sans les résumer, Claude Code s’en sort 
 
 ## Vibe coding, tester ce que tu construis avec Playwright
 
-Le complément obligatoire du tutoriel précédent : du code qui "a l’air" de marcher n’est pas du code qui marche. Playwright le vérifie vraiment, dans un vrai navigateur.
+Le complément obligatoire du tutoriel précédent, parce que du code qui "a l’air" de marcher n’est pas forcément du code qui marche : Playwright le vérifie dans un vrai navigateur.
 
-**Prérequis :** Avoir terminé le tutoriel 1, une application qui tourne en local (ex. localhost:3000).
+**Prérequis :** Avoir terminé le tutoriel 1, une application qui tourne en local (ex. localhost:3000), et Node.js 20 ou plus récent, parce que le serveur Playwright se lance avec `npx`.
 
 ### Comprendre pourquoi ce tutoriel existe
 
-Playwright est un framework de test qui pilote un vrai navigateur, Chromium, Firefox, WebKit, et vérifie ce qui s’affiche réellement à l’écran. Sans lui, tu demandes à Claude Code de construire un formulaire, il t’assure que c’est fait, et la seule façon de savoir si c’est vrai est de tester toi-même à la main, écran par écran. Avec Playwright branché à Claude Code, c’est Claude qui ouvre le navigateur, clique, remplit, et te dit ce qu’il a réellement observé.
+Playwright est un framework de test qui pilote un vrai navigateur (Chromium, Firefox, WebKit) et vérifie ce qui s’affiche réellement à l’écran. Sans lui, tu demandes à Claude Code de construire un formulaire, il t’assure que c’est fait, et la seule façon de savoir si c’est vrai est de tester toi-même à la main, écran par écran. Avec Playwright branché à Claude Code, c’est Claude qui ouvre le navigateur, clique, remplit, et te dit ce qu’il a observé.
 
 ### Installer le serveur MCP Playwright
 
@@ -117,7 +121,7 @@ Une seule commande depuis ton terminal, dans le dossier de ton projet Claude Cod
 claude mcp add playwright npx @playwright/mcp@latest
 ```
 
-Redémarre Claude Code. Le serveur utilise l’arbre d’accessibilité de la page plutôt que des captures d’écran, plus rapide, et ça produit des sélecteurs stables plutôt que des clics aux coordonnées, qui cassent au moindre changement visuel.
+Redémarre Claude Code. Le serveur lit l’arbre d’accessibilité de la page au lieu de prendre des captures d’écran, ce qui va plus vite et produit des sélecteurs stables, alors que des clics aux coordonnées cassent au moindre changement visuel.
 
 ### Vérifier que la connexion fonctionne
 
@@ -132,7 +136,7 @@ Si Claude ouvre effectivement un navigateur et manipule la page, la connexion es
 
 ### Le premier vrai test : ton propre parcours utilisateur
 
-Décris le parcours à vérifier en une phrase précise plutôt que d’écrire du code de test toi-même :
+Décris le parcours à vérifier en une phrase précise, sans écrire toi-même de code de test :
 
 ```text
 Ouvre mon app sur localhost:3000, remplis le
@@ -154,11 +158,11 @@ et 1440px de large.
 
 ### Transformer une exploration en test réutilisable
 
-Une fois qu’une vérification manuelle en langage naturel fonctionne bien, demande à Claude de générer le code de test correspondant, que tu pourras relancer automatiquement à chaque changement futur sans repasser par une conversation.
+Une fois qu’une vérification décrite en une phrase fonctionne bien, demande à Claude de générer le code de test correspondant, que tu pourras relancer automatiquement à chaque changement futur sans repasser par une conversation.
 
-> ⚠️ **Point de vigilance.** Tout ce que Claude voit à travers Playwright MCP, contenu de page, console, données de formulaire, part vers l’API Anthropic pour être traité. Réserve cet usage aux environnements de développement avec des données de test, jamais à un environnement de production avec de vraies données utilisateur.
+> ⚠️ **Point de vigilance.** Tout ce que Claude voit à travers Playwright MCP (contenu de page, console, données de formulaire) part vers l’API Anthropic pour être traité. Réserve cet usage aux environnements de développement avec des données de test, jamais à un environnement de production avec de vraies données utilisateur.
 
-> 💡 **Astuce.** Pour des tests répétés en intégration continue plutôt que de l’exploration ponctuelle, Microsoft propose depuis 2026 une variante en ligne de commande de Playwright, plus économe en tokens. Garde le MCP pour explorer et déboguer, la CLI pour les tests qui tournent en boucle.
+> 💡 **Astuce.** Microsoft propose depuis janvier 2026 Playwright CLI (`npm install -g @playwright/cli@latest`), une variante en ligne de commande pensée pour les agents de code comme Claude Code, plus économe en tokens parce qu’elle évite de charger tout l’arbre d’accessibilité de la page dans la conversation. Garde le MCP pour explorer et déboguer, la CLI pour les vérifications qui tournent en boucle.
 
 > 📎 **Ressource.** Playwright MCP, documentation officielle.
 
@@ -166,17 +170,17 @@ Une fois qu’une vérification manuelle en langage naturel fonctionne bien, dem
 
 ## Webflow, de la maquette au site en ligne
 
-Quand le bon réflexe n’est pas d’ouvrir Claude Code, mais Webflow, et comment ne pas livrer un site qui sent le générateur IA à trois kilomètres.
+Quand ouvrir Webflow au lieu de Claude Code, et comment ne pas livrer un site qui sent le générateur IA à trois kilomètres.
 
-**Prérequis :** Un compte Webflow (l’offre gratuite suffit pour ce tutoriel), une idée claire de ton contenu.
+**Prérequis :** Un compte Webflow et une idée claire de ton contenu. L’offre gratuite suffit pour découvrir l’AI Site Builder, mais elle limite le site à deux pages, alors qu’une offre payante (Site ou Workspace) en génère jusqu’à cinq au départ et débloque la rédaction de textes par Webflow AI.
 
 ### Décider si Webflow est le bon outil
 
-Règle simple : un site vitrine, une landing page, un portfolio → Webflow. Un produit avec une vraie logique applicative (comptes utilisateurs, logique métier complexe) → Claude Code, comme au tutoriel 1. Les deux se combinent bien : beaucoup d’équipes utilisent Webflow pour la vitrine et un vrai code pour le produit derrière.
+Règle simple : un site vitrine, une landing page, un portfolio → Webflow. Un produit avec une vraie logique applicative (comptes utilisateurs, logique métier complexe) → Claude Code, comme au tutoriel 1. Les deux se combinent bien : beaucoup d’équipes montent la vitrine sur Webflow et codent le produit qui est derrière.
 
 ### Générer un premier jet avec l’AI Site Builder
 
-Depuis ton espace Webflow, choisis "AI Site Builder" et décris ton activité aussi précisément que possible : nom, ce que tu fais, ton audience, les pages dont tu as besoin. Plus le prompt de départ est précis, plus la structure générée est exploitable telle quelle. Tu obtiens un site multi-pages avec un vrai système de design derrière, pas une maquette figée.
+Depuis ton tableau de bord Webflow, clique sur "New site" puis choisis "AI Site Builder", et décris ton activité aussi précisément que possible : nom, ce que tu fais, ton audience, les pages dont tu as besoin. Plus le prompt de départ est précis, plus la structure générée est exploitable telle quelle. Tu obtiens un site multi-pages avec un vrai système de design derrière, pas une maquette figée.
 
 ### Reprendre la main dans le Designer
 
@@ -188,13 +192,13 @@ Le point faible de tous les générateurs IA de site, sans exception : le texte 
 
 ### Connecter le CMS à tes automatisations
 
-Si le site a besoin de contenu qui change régulièrement (articles, études de cas), configure les collections CMS puis connecte-les à N8N ou Zapier, un nouvel article publié peut par exemple déclencher un post LinkedIn automatique, sans ticket ni intervention manuelle.
+Si le site a besoin de contenu qui change régulièrement (articles, études de cas), configure les collections CMS puis connecte-les à N8N ou Zapier : un nouvel article publié peut par exemple déclencher un post LinkedIn automatique, sans ticket ni intervention manuelle.
 
 ### Vérifier avant de publier
 
 Teste sur mobile, vérifie que chaque formulaire envoie bien ses données quelque part, contrôle la vitesse de chargement des images. C’est le moment de rappeler le tutoriel précédent : si le site embarque une brique applicative testable, Playwright peut vérifier ce parcours pour toi avant la mise en ligne.
 
-> ⚠️ **Point de vigilance.** L’éditeur historique de Webflow (le "legacy Editor") ferme le 4 août 2026. Si tu ou ton équipe l’utilisez encore pour les mises à jour de contenu au quotidien, planifie la bascule vers la nouvelle expérience d’édition avant cette date.
+> ⚠️ **Point de vigilance.** L’éditeur historique de Webflow (le "legacy Editor") a fermé le 4 août 2026, et les personnes qui s’en servaient ont été basculées vers des sièges client ou des sièges limités gratuits. Si ton client doit mettre à jour lui-même les textes du site, prévois-lui un siège client dans ton espace Webflow (ils sont proposés sur les offres Workspace pour freelances et agences) avant la livraison, au lieu de lui parler de l’ancien Editor.
 
 > 📎 **Ressource.** Webflow AI Site Builder.
 
@@ -212,7 +216,7 @@ Le volume de contenu à produire ne baisse jamais, l’équipe si. Trois tutorie
 
 Le trio qui remplace le tableur partagé illisible et les briefs perdus dans Slack : Notion pour la doc, Airtable pour le suivi, N8N pour relier les deux.
 
-**Prérequis :** Un compte Notion, un compte Airtable (les offres gratuites suffisent pour démarrer).
+**Prérequis :** Un compte Notion, un compte Airtable (les offres gratuites suffisent pour démarrer) et N8N, gratuit si tu l’installes chez toi ([Installer n8n avec Docker](./installer-n8n-docker.md)), alors que N8N Cloud ne propose qu’un essai gratuit avant de devenir payant.
 
 ### Comprendre pourquoi ce ne sont pas deux outils interchangeables
 
@@ -245,11 +249,11 @@ Une fois la mécanique de base posée, ajoute un nœud IA qui lit le brief et pr
 
 ### Garder une étape de validation humaine
 
-Rien ne doit partir en production sans qu’une personne l’ait vu passer. Ajoute une notification Slack ou email avant toute action finale (publication, envoi), la régularité gagnée par l’automatisation ne vaut rien si elle publie aussi vite ses erreurs que ses réussites.
+Rien ne doit partir en production sans qu’une personne l’ait vu passer. Ajoute une notification Slack ou email avant toute action finale (publication, envoi), parce que la régularité gagnée par l’automatisation ne vaut rien si elle publie aussi vite ses erreurs que ses réussites.
 
-> 💡 **Astuce.** Ne construis pas Notion et Airtable en parallèle dès le premier jour. Commence par un seul, utilise-le deux semaines, et ajoute le second seulement quand la limite du premier devient concrètement gênante, tu sauras alors exactement quoi lui demander.
+> 💡 **Astuce.** Ne construis pas Notion et Airtable en parallèle dès le premier jour. Commence par un seul, sers-t’en deux semaines, et ajoute le second seulement quand la limite du premier devient concrètement gênante, tu sauras alors exactement quoi lui demander.
 
-> 📎 **Ressource.** Airtable, AI agent software · N8N, AI agents.
+> 📎 **Ressource.** Using Omni AI in Airtable · N8N, AI agents.
 
 *Parcours Marketing · tutoriel 2/3 · ~35 min*
 
@@ -257,7 +261,7 @@ Rien ne doit partir en production sans qu’une personne l’ait vu passer. Ajou
 
 Un porte-parole ou une identité de campagne, décliné en dizaines de visuels cohérents, sans reprogrammer un shooting à chaque déclinaison.
 
-**Prérequis :** Un compte Higgsfield, entre 20 et 30 photos de référence de haute qualité (personne réelle ou mannequin, avec les droits d’usage).
+**Prérequis :** Un compte Higgsfield, au moins 20 photos de référence de haute qualité (Higgsfield en accepte jusqu’à 80), d’une personne réelle ou d’un mannequin dont tu as les droits d’usage.
 
 ### Définir l’identité avant d’ouvrir l’outil
 
@@ -265,7 +269,7 @@ Choisis qui incarne la campagne : un vrai porte-parole de marque, un mannequin s
 
 ### Entraîner Soul ID
 
-Dans Higgsfield, section Characters, importe 20 à 30 photos : plusieurs angles de visage, éclairage cohérent, rien qui masque les traits (pas de lunettes de soleil, pas de chapeau qui cache le front). L’entraînement prend 3 à 5 minutes. Nomme l’identité pour la retrouver facilement ensuite.
+Dans Higgsfield, section Characters, importe entre 20 et 80 photos : plusieurs angles de visage et plusieurs expressions, au moins une photo en pied, un éclairage cohérent, et rien qui masque les traits (pas de lunettes de soleil, pas de chapeau qui cache le front, pas de photo de groupe). L’entraînement prend 3 à 5 minutes. Nomme l’identité pour la retrouver facilement ensuite.
 
 ### Générer une première série de test
 
@@ -279,7 +283,7 @@ Connecte Higgsfield à N8N (support MCP natif) pour industrialiser : un brief de
 
 Passe chaque lot généré en revue avant publication : les scènes d’action ou de mouvement rapide restent le point faible de la cohérence de visage, privilégie les scènes posées pour ta production récurrente et réserve les tests plus ambitieux à des allers-retours de validation.
 
-> ⚠️ **Point de vigilance.** Les visuels générés embarquent un marquage de provenance (C2PA). Vérifie les obligations de divulgation IA de chaque plateforme où tu publies en contexte publicitaire, les règles varient déjà selon les régions et se durcissent.
+> ⚠️ **Point de vigilance.** Higgsfield se réserve le droit d’intégrer aux visuels générés un marquage de provenance lisible par machine (filigrane ou métadonnées au standard C2PA), et ses conditions générales t’interdisent de le retirer. Vérifie les obligations de divulgation IA de chaque plateforme où tu publies en contexte publicitaire, les règles varient déjà selon les régions et se durcissent.
 
 > 📎 **Ressource.** Soul ID, Higgsfield.
 
@@ -295,11 +299,11 @@ Cadrer l’objectif de conversion avant d’ouvrir un outil, puis choisir entre 
 
 ### Cadrer l’objectif avant tout
 
-Une seule question compte avant d’ouvrir un outil : que doit faire le visiteur sur cette page (s’inscrire, acheter, réserver un appel) ? Tout le reste, structure, ton, longueur, en découle. Une landing page sans objectif de conversion unique convertit toujours moins bien qu’une page qui n’en vise qu’un.
+Une seule question compte avant d’ouvrir un outil : que doit faire le visiteur sur cette page (s’inscrire, acheter, réserver un appel) ? Tout le reste (structure, ton, longueur) en découle. Une landing page sans objectif de conversion unique convertit toujours moins bien qu’une page qui n’en vise qu’un.
 
 ### Webflow pour une page complète, connectée au CMS
 
-Si la campagne dure et doit évoluer (nouvelles offres, nouveaux témoignages), pars sur Webflow, la logique de génération et de personnalisation avec l’AI Site Builder est la même que dans le tutoriel dédié du parcours Designer.
+Si la campagne dure et doit évoluer (nouvelles offres, nouveaux témoignages), pars sur Webflow : la logique de génération et de personnalisation avec l’AI Site Builder est la même que dans le tutoriel dédié du parcours Designer.
 
 ### Une alternative pour un one-pager rapide
 
@@ -311,13 +315,13 @@ Avant de considérer la page terminée : vérifie que chaque soumission de formu
 
 ### Prévoir une boucle de test simple
 
-Change une seule variable à la fois, le titre, l’image, le bouton d’action, plutôt que de tout changer en même temps. C’est la seule façon de savoir, plus tard, ce qui a réellement fait la différence.
+Change une seule variable à la fois (le titre, l’image ou le bouton d’action) : c’est la seule façon de savoir, plus tard, ce qui a réellement fait la différence.
 
-> 💡 **Astuce.** Utilise l’IA pour le squelette et la structure, jamais pour le texte final tel quel : la copie générée reste générique et se repère à l’œil nu. Réécris chaque titre et chaque accroche dans ta propre voix avant publication.
+> 💡 **Astuce.** Confie à l’IA le squelette et la structure, jamais le texte final tel quel : la copie générée reste générique et se repère à l’œil nu. Réécris chaque titre et chaque accroche dans ta propre voix avant publication.
 
 ## Parcours 3 · Business Instagram
 
-Tu es le produit, la marque et l’équipe de contenu à toi seul·e. Trois tutoriels pour construire un système, identité, production, méthode, plutôt que de courir après l’algorithme un post à la fois.
+Tu es le produit, la marque et l’équipe de contenu à toi seul·e. Trois tutoriels pour construire un système (identité, production, méthode) plutôt que de courir après l’algorithme un post à la fois.
 
 1. Identité visuelle
 2. Pipeline de contenu
@@ -329,11 +333,11 @@ Tu es le produit, la marque et l’équipe de contenu à toi seul·e. Trois tuto
 
 Le même visage, la même vibe, sur des dizaines de posts, sans reprendre une séance photo chaque semaine.
 
-**Prérequis :** Un compte Higgsfield, 20 à 30 photos de toi-même (ou de ton personnage de marque), bien éclairées.
+**Prérequis :** Un compte Higgsfield, au moins 20 photos de toi-même (ou de ton personnage de marque), bien éclairées.
 
 ### Choisir tes photos de référence
 
-La qualité de départ détermine presque tout le résultat. Vise 20 à 30 photos avec un éclairage cohérent (naturel de préférence), plusieurs angles de visage (face, trois-quarts, profil), sans lunettes de soleil ni chapeau qui masque les traits. Un jeu de photos faible donne systématiquement une identité faible, n’essaie pas de compenser ça après coup.
+La qualité de départ détermine presque tout le résultat. Higgsfield demande entre 20 et 80 photos : vise au moins 20 photos avec un éclairage cohérent (naturel de préférence), plusieurs angles de visage (face, trois-quarts, profil) et plusieurs expressions, dont au moins une en pied, sans lunettes de soleil ni chapeau qui masque les traits. Un jeu de photos faible donne systématiquement une identité faible, n’essaie pas de compenser ça après coup.
 
 ### Entraîner ton Soul ID
 
@@ -349,7 +353,7 @@ Choisis 3 à 4 styles ou ambiances que tu vas réutiliser en boucle (ex : lumiè
 
 ### Connaître les limites
 
-Deux limites à intégrer dès maintenant : la cohérence baisse sur les mouvements rapides, et deux personnes qui interagissent dans un même visuel restent un point faible général de ces outils en 2026, pas seulement de Higgsfield. Prévois tes scènes en conséquence plutôt que de forcer un rendu qui ne viendra pas.
+Deux limites à intégrer dès maintenant : la cohérence baisse sur les mouvements rapides, et deux personnes qui interagissent dans un même visuel restent un point faible général de ces outils en 2026, pas seulement de Higgsfield. Prévois tes scènes en conséquence, sans forcer un rendu qui ne viendra pas.
 
 > 📎 **Ressource.** Soul ID, Higgsfield.
 
@@ -365,7 +369,7 @@ De l’idée griffonnée sur le pouce au post publié, sans que chaque publicati
 
 ### Construire ta base Airtable
 
-Une table simple suffit pour démarrer : idée, statut (brute / en écriture / prête / publiée), date prévue, format (Reel, carrousel, photo), lien vers le visuel final, et une colonne performance à remplir après publication. Demande à Omni de la générer en langage naturel si tu veux gagner du temps.
+Une table simple suffit pour démarrer : idée, statut (brute / en écriture / prête / publiée), date prévue, format (Reel, carrousel, photo), lien vers le visuel final, et une colonne performance à remplir après publication. Si tu veux gagner du temps, décris-la à Omni et laisse-le la générer.
 
 ### Noter l’idée brute, sans la travailler
 
@@ -381,83 +385,88 @@ Connecte Higgsfield à la suite du pipeline : le script généré déclenche la 
 
 ### Garder une étape de relecture humaine, et une part de brut
 
-Utilise le pipeline pour la structure et la régularité, jamais pour publier sans relecture. Et retiens ce point pour le tutoriel suivant : lisse trop, et le contenu perd exactement ce qui le rend partageable en 2026.
+Le pipeline te sert pour la structure et la régularité ; ne le laisse jamais publier sans relecture. Et retiens ce point pour le tutoriel suivant : lisse trop, et le contenu perd exactement ce qui le rend partageable en 2026.
 
 ### Suivre la performance dans Airtable
 
 Après chaque publication, note ce qui a bien fonctionné, en particulier les partages en DM, le signal qui compte le plus désormais. Cette colonne devient, avec le temps, la meilleure source d’idées pour les posts suivants.
 
-> 💡 **Astuce.** Commence avec un pipeline qui produit un brouillon, pas un post fini. La dernière passe, relecture, ajustement du ton, décision finale, reste la tienne ; c’est elle qui différencie ton compte des dizaines d’autres qui tournent sur le même type d’automatisation.
+> 💡 **Astuce.** Commence avec un pipeline qui produit un brouillon, pas un post fini. La dernière passe (relecture, ajustement du ton, décision finale) reste la tienne ; c’est elle qui différencie ton compte des dizaines d’autres qui tournent sur le même type d’automatisation.
 
 *Parcours Instagram · tutoriel 3/3 · ~35 min*
 
 ## Ce qui marche vraiment sur Instagram en 2026
 
-Pas un outil cette fois, une méthode. Comment l’algorithme classe réellement le contenu, comment construire un ton reconnaissable, et ce qu’il faut arrêter de faire.
+Une méthode, sans outil cette fois : comment l’algorithme classe réellement le contenu, comment construire un ton reconnaissable, et ce qu’il faut arrêter de faire.
 
 ### Comprendre ce que l’algorithme regarde vraiment
 
-Adam Mosseri, le responsable d’Instagram, a confirmé trois signaux principaux : le temps de visionnage, les likes rapportés à la portée, et les partages en message privé, ces derniers pesant 3 à 5 fois plus lourd que les likes pour la diffusion des Reels. Cent likes comptent moins que dix partages en DM : un partage privé est interprété comme un vrai signal de confiance, quelqu’un qui met sa crédibilité en jeu en envoyant ton contenu à un ami.
+Adam Mosseri, le responsable d’Instagram, cite trois signaux : le temps passé à regarder ton contenu, la part des personnes qui l’aiment parmi celles qui l’ont vu, et la part de celles qui l’envoient à quelqu’un en message privé. C’est ce dernier geste qui pèse le plus, parce qu’un like dit « j’aime » alors qu’un envoi dit « il faut que tu voies ça » : la personne engage sa propre crédibilité auprès d’un ami.
 
-### Connaître le système d’audition
+### Accrocher dès les premières secondes
 
-Chaque nouveau post est d’abord montré à un petit groupe de non-abonnés. S’il performe bien auprès de ce groupe test, il est poussé à une audience de plus en plus large ; s’il ne performe pas, il est freiné avant même d’atteindre tes propres abonnés. Conséquence directe : les deux à trois premières secondes de chaque post décident de tout. "Salut tout le monde" est le pire départ possible, commence par le résultat, une affirmation forte, ou une rupture visuelle.
+Ton post peut toucher deux publics : tes abonnés, et des personnes qui ne te suivent pas encore. Selon Mosseri, les mêmes signaux comptent pour les deux, et Hootsuite conseille d’accrocher dès les trois premières secondes : commence par le résultat, une affirmation forte ou une rupture visuelle, jamais par « Salut tout le monde ».
 
-### Utiliser les Trial Reels pour tester sans risque
+### Les Trial Reels, pour tester un Reel sans risque
 
 Cette fonctionnalité montre un Reel à des non-abonnés avant de le publier sur ton profil principal. Si un format ou un sujet inhabituel te fait hésiter, teste-le en Trial Reel d’abord : s’il performe auprès d’une audience froide, c’est ton feu vert pour le publier plus largement, sans avoir pris de risque sur la perception de ton audience existante.
 
 ### Construire un tone of voice reconnaissable, méthode concrète
 
-Reprends tes 15 à 20 posts qui ont le mieux performé. Note pour chacun : la structure de la phrase d’accroche, les mots que tu répètes naturellement, ce que tu n’écrirais jamais. Ce n’est pas un exercice abstrait de "trouver sa voix", c’est un inventaire de patterns réels que tu peux ensuite donner en exemple à une Skill ou à un pipeline IA, pour que ce qu’il génère te ressemble vraiment plutôt que de sonner comme n’importe quel autre compte IA-assisté.
+Reprends tes 15 à 20 posts qui ont le mieux performé. Note pour chacun : la structure de la phrase d’accroche, les mots que tu répètes naturellement, ce que tu n’écrirais jamais. Tu obtiens, loin de l’exercice abstrait de "trouver sa voix", un inventaire de tes tournures réelles que tu peux ensuite donner en exemple à une Skill ou à un pipeline IA, pour que ce qu’il génère te ressemble au lieu de sonner comme n’importe quel autre compte IA-assisté.
 
 ### Appliquer la formule de partage avant de publier
 
-Une question simple avant chaque publication : quelqu’un enverrait-il ça à un ami, et pourquoi ? Utile, drôle, qui donne raison à quelqu’un, ou qui déclenche un léger désaccord, les quatre raisons qui poussent réellement au partage en DM. Si tu ne trouves pas de réponse claire à cette question, le post a de bonnes chances de rester à l’intérieur de ta bulle d’abonnés déjà acquis.
+Une question simple avant chaque publication : quelqu’un enverrait-il ça à un ami, et pourquoi ? On envoie un post parce qu’il est utile, drôle, qu’il donne raison à quelqu’un ou qu’il ouvre un léger désaccord. Si tu ne trouves pas de réponse claire à cette question, le post a de bonnes chances de rester à l’intérieur de ta bulle d’abonnés déjà acquis.
 
 ### Ce qu’il faut arrêter de faire
 
-Le bourrage de hashtags ne sert plus la découverte comme avant, les hashtags ne permettent même plus de "suivre" un sujet. Le contenu recyclé depuis un autre réseau (en particulier avec son filigrane visible) est activement pénalisé. Et surtout, contre-intuitif mais confirmé par Instagram lui-même : à mesure que l’IA rend le contenu parfaitement poli trivial à produire pour tout le monde, c’est le contenu qui a l’air brut et humain qui se distingue. Utilise tes outils pour la régularité et la structure, jamais pour lisser ce qui fait ta voix reconnaissable.
+Instagram limite désormais chaque publication à cinq hashtags, et Mosseri précise qu’ils aident la recherche sans augmenter la portée : mieux vaut quelques mots-clés précis qu’une longue liste. Une vidéo qui garde le filigrane d’un autre réseau, celui de TikTok par exemple, peut voir sa diffusion réduite. Et dans son message de fin 2025, Mosseri explique que l’IA rend le contenu parfaitement poli facile à produire pour tout le monde, si bien que c’est le contenu brut et humain qui se distingue. Tes outils servent la régularité et la structure, ils ne doivent jamais lisser ce qui rend ta voix reconnaissable.
 
 ### Mesurer ce qui compte, pas ce qui rassure
 
-Suis dans ta base Airtable (tutoriel précédent) les partages en DM et le taux de rétention plutôt que le seul nombre de likes. Ce sont ces deux métriques, pas ton nombre d’abonnés, qui prédisent aujourd’hui si Instagram va pousser ton prochain post au-delà de ta bulle actuelle.
+Suis dans ta base Airtable (tutoriel précédent) les envois en message privé et le temps de visionnage plutôt que le seul nombre de likes. Selon MeetEdgar, ce sont ces signaux, bien plus que ton nombre d’abonnés, qui décident si Instagram montre ton prochain post au-delà de ta bulle actuelle.
 
-> ⚠️ **Point de vigilance.** Aucun de ces signaux n’est figé, Instagram ajuste son système en continu, et ce qui est vrai en juillet 2026 ne le sera pas nécessairement dans un an. Reviens vérifier les dernières annonces d’Adam Mosseri plutôt que de traiter cette méthode comme définitive.
+> ⚠️ **Point de vigilance.** Aucun de ces signaux n’est figé : Instagram ajuste son système en continu, et ce qui est vrai en octobre 2026 ne le sera pas nécessairement dans un an. Reviens vérifier les dernières annonces d’Adam Mosseri plutôt que de traiter cette méthode comme définitive.
 
-> 📎 **Ressource.** Instagram algorithm tips for 2026 (Hootsuite) · Instagram Algorithm Updates 2026 (MeetEdgar).
+> 📎 **Ressource.** [Instagram algorithm tips for 2026](https://blog.hootsuite.com/instagram-algorithm/) (blog Hootsuite) · [Instagram Algorithm Updates 2026](https://meetedgar.com/blog/instagram-algorithm-updates) (blog MeetEdgar, mars 2026).
 
 ## Sources vérifiées
 
-Chaque commande, chaque affirmation technique de ces neuf tutoriels a été vérifiée sur une documentation officielle en juillet 2026. Les interfaces changent vite, si une commande ne fonctionne plus telle quelle, la doc officielle est toujours le bon réflexe avant de chercher plus loin.
+Les commandes et les affirmations techniques de ces neuf tutoriels ont été revérifiées le 30 octobre 2026 sur la documentation des éditeurs. Deux exceptions : un article de Simon Willison sur le vibe coding, et la partie Instagram, qui s’appuie sur deux blogs spécialisés, Hootsuite et MeetEdgar, eux-mêmes fondés sur les déclarations d’Adam Mosseri. Les interfaces changent vite : si une commande ne fonctionne plus telle quelle, la doc officielle est toujours le bon réflexe avant de chercher plus loin.
 
 ### Claude Code & Playwright
 
+- [Claude Code, Advanced setup](https://code.claude.com/docs/en/setup) · code.claude.com
 - [Not all AI-assisted programming is vibe coding](https://simonwillison.net/2025/Mar/19/vibe-coding/) · simonwillison.net
 - [Playwright MCP, documentation officielle](https://playwright.dev/docs/getting-started-mcp) · playwright.dev
-
 - [microsoft/playwright-mcp](https://github.com/microsoft/playwright-mcp) · github.com
+- [microsoft/playwright-cli](https://github.com/microsoft/playwright-cli) · github.com
 
 ### Webflow
 
 - [Webflow AI Site Builder](https://webflow.com/ai-site-builder) · webflow.com
-- [Webflow AI overview](https://help.webflow.com) · help.webflow.com
+- [Build a site with Webflow’s AI site builder](https://help.webflow.com/hc/en-us/articles/38840145286035) · help.webflow.com
+- [Webflow AI overview](https://help.webflow.com/hc/en-us/articles/34297897805715) · help.webflow.com
+- [Legacy Editor deprecation](https://webflow.com/updates/legacy-editor-deprecation) · webflow.com
 
 ### Organisation & données
 
-- [Airtable, AI agent software](https://www.airtable.com) · airtable.com
+- [Using Omni AI in Airtable](https://support.airtable.com/articles/1744327578-using-omni-ai-in-airtable) · support.airtable.com
 - [N8N, AI agents](https://n8n.io/ai-agents/) · n8n.io
 
 ### Higgsfield
 
-- [Soul ID, Higgsfield](https://higgsfield.ai) · higgsfield.ai
+- [Soul ID, Higgsfield](https://higgsfield.ai/character) · higgsfield.ai
+- [How to Put Yourself in an AI Video](https://higgsfield.ai/blog/how-to-put-yourself-in-ai-video) · blog Higgsfield, nombre de photos et durée d’entraînement
+- [Terms of Use, section 6.4 « Provenance and Watermarking »](https://higgsfield.ai/terms-of-use-agreement) · higgsfield.ai
 
 ### Instagram & algorithme
 
-- [Instagram algorithm tips for 2026](https://blog.hootsuite.com/instagram-algorithm/) · blog.hootsuite.com
-- [Instagram Algorithm Updates 2026](https://meetedgar.com/blog) · meetedgar.com
+- [Instagram algorithm tips for 2026](https://blog.hootsuite.com/instagram-algorithm/) · blog Hootsuite
+- [Instagram Algorithm Updates 2026](https://meetedgar.com/blog/instagram-algorithm-updates) · blog MeetEdgar, mars 2026
 
-Neuf tutoriels, un seul point commun : aucun ne vaut quoi que ce soit tant que tu ne l’as pas fait tourner toi-même, une fois, sur un vrai projet. Choisis le premier de ton parcours, ouvre l’outil en même temps que ce document, et avance étape par étape plutôt que de tout lire d’une traite.
+Aucun de ces neuf tutoriels ne vaut quoi que ce soit tant que tu ne l’as pas fait tourner toi-même, une fois, sur un vrai projet. Choisis le premier de ton parcours, ouvre l’outil en même temps que ce document, et avance étape par étape plutôt que de tout lire d’une traite.
 
 **Ailleurs dans la Toolbox**
 
@@ -469,4 +478,4 @@ Neuf tutoriels, un seul point commun : aucun ne vaut quoi que ce soit tant que t
 
 ---
 
-*Tutoriels conçus sur-mesure · Sources vérifiées en juillet 2026 · Les outils et commandes cités évoluent vite, retourne à la documentation officielle pour toute donnée sensible au temps.*
+*Tutoriels conçus sur-mesure · Sources vérifiées le 30 octobre 2026 · Les outils et commandes cités évoluent vite, retourne à la documentation officielle pour toute donnée sensible au temps.*
