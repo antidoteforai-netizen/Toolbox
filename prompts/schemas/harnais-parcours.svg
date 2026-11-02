@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="420" height="537" viewBox="0 0 360 460" font-family="Raleway, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif">
+  <title>Le parcours : six étapes, deux étapes facultatives et un test final, chacune avec ce qu'elle laisse dans votre projet</title>
+  <rect x="0" y="0" width="360" height="460" rx="16" fill="#f3f3ee"/>
+
+  <!-- La ligne du parcours -->
+  <line x1="30" y1="34" x2="30" y2="426" stroke="#161709" stroke-width="1.5"/>
+
+  <!-- Étapes 1 à 6 -->
+  <g fill="#161709">
+    <circle cx="30" cy="34" r="13"/>
+    <circle cx="30" cy="90" r="13"/>
+    <circle cx="30" cy="146" r="13"/>
+    <circle cx="30" cy="202" r="13"/>
+    <circle cx="30" cy="258" r="13"/>
+    <circle cx="30" cy="314" r="13"/>
+  </g>
+  <g text-anchor="middle" font-size="13" font-weight="700" fill="#fbfbf4">
+    <text x="30" y="39">1</text>
+    <text x="30" y="95">2</text>
+    <text x="30" y="151">3</text>
+    <text x="30" y="207">4</text>
+    <text x="30" y="263">5</text>
+    <text x="30" y="319">6</text>
+  </g>
+
+  <!-- Étapes facultatives, puis le test final -->
+  <circle cx="30" cy="370" r="13" fill="#fbfbf4" stroke="#161709" stroke-width="1.5" stroke-dasharray="3 2"/>
+  <path d="M30,364 v12 M24,370 h12" stroke="#161709" stroke-width="2" stroke-linecap="round"/>
+  <circle cx="30" cy="426" r="13" fill="#deed9c" stroke="#0c8c7d" stroke-width="2"/>
+  <polyline points="24,426 28.5,431 36.5,421" fill="none" stroke="#0a6e63" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <g font-size="15" font-weight="700" fill="#161709">
+    <text x="54" y="32">Écrire les règles du jeu</text>
+    <text x="54" y="88">Journaliser un premier cas</text>
+    <text x="54" y="144">Trancher cinq arbitrages</text>
+    <text x="54" y="200">Décider qui valide quoi</text>
+    <text x="54" y="256">Installer la porte</text>
+    <text x="54" y="312">Voir vos angles morts</text>
+    <text x="54" y="368">Étapes 7 et 8, facultatives</text>
+    <text x="54" y="424">Le test final</text>
+  </g>
+  <g font-size="13" fill="#55564b" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace">
+    <text x="54" y="50">harnais/REGLES.md</text>
+    <text x="54" y="106">harnais/cas/</text>
+    <text x="54" y="162">harnais/HARNAIS.md</text>
+    <text x="54" y="218">harnais/matrice-interruption.md</text>
+    <text x="54" y="274">harnais/politique.md, evals.md</text>
+  </g>
+  <g font-size="13" fill="#55564b">
+    <text x="54" y="330">le voyant et la carte de revue</text>
+    <text x="54" y="386">outils de l'agent, offre client</text>
+    <text x="54" y="442">sept contrôles en conditions réelles</text>
+  </g>
+</svg>

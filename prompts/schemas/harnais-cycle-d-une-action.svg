@@ -1,73 +1,74 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="520" height="476" viewBox="0 0 520 476" font-family="Raleway, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif">
+<svg xmlns="http://www.w3.org/2000/svg" width="420" height="548" viewBox="0 0 360 470" font-family="Raleway, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif">
   <title>Le cycle de vie d'une action : six états, trois sorties négatives, et la différence entre DEPLOYED et VERIFIED</title>
   <defs>
     <marker id="harnais-fleche-2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
       <path d="M0,0 L10,5 L0,10 z" fill="#161709"/>
     </marker>
   </defs>
-  <rect x="0" y="0" width="520" height="476" rx="16" fill="#f3f3ee"/>
+  <rect x="0" y="0" width="360" height="470" rx="16" fill="#f3f3ee"/>
 
   <!-- Le chemin normal, de haut en bas -->
   <g stroke="#161709" stroke-width="1.5">
-    <rect x="32" y="28" width="220" height="48" rx="10" fill="#fbfbf4"/>
-    <rect x="32" y="104" width="220" height="48" rx="10" fill="#fbfbf4"/>
-    <rect x="32" y="180" width="220" height="48" rx="10" fill="#fbfbf4"/>
-    <rect x="32" y="256" width="220" height="48" rx="10" fill="#fbfbf4"/>
-    <rect x="32" y="332" width="220" height="48" rx="10" fill="#f7ef63"/>
+    <rect x="12" y="16" width="172" height="46" rx="10" fill="#fbfbf4"/>
+    <rect x="12" y="84" width="172" height="46" rx="10" fill="#fbfbf4"/>
+    <rect x="12" y="152" width="172" height="46" rx="10" fill="#fbfbf4"/>
+    <rect x="12" y="220" width="172" height="46" rx="10" fill="#fbfbf4"/>
+    <rect x="12" y="288" width="172" height="46" rx="10" fill="#f7ef63"/>
   </g>
-  <rect x="32" y="408" width="220" height="48" rx="10" fill="#deed9c" stroke="#0c8c7d" stroke-width="2.5"/>
+  <rect x="12" y="356" width="172" height="46" rx="10" fill="#deed9c" stroke="#0c8c7d" stroke-width="2.5"/>
 
-  <g text-anchor="middle" fill="#161709">
-    <text x="142" y="48" font-size="14" font-weight="700" letter-spacing="0.5">DRAFT</text>
-    <text x="142" y="124" font-size="14" font-weight="700" letter-spacing="0.5">PROPOSED</text>
-    <text x="142" y="200" font-size="14" font-weight="700" letter-spacing="0.5">APPROVED</text>
-    <text x="142" y="276" font-size="14" font-weight="700" letter-spacing="0.5">EXECUTING</text>
-    <text x="142" y="352" font-size="14" font-weight="700" letter-spacing="0.5">DEPLOYED</text>
-    <text x="142" y="428" font-size="14" font-weight="700" letter-spacing="0.5">VERIFIED</text>
+  <g text-anchor="middle" font-size="14" font-weight="700" letter-spacing="0.5" fill="#161709">
+    <text x="98" y="36">DRAFT</text>
+    <text x="98" y="104">PROPOSED</text>
+    <text x="98" y="172">APPROVED</text>
+    <text x="98" y="240">EXECUTING</text>
+    <text x="98" y="308">DEPLOYED</text>
+    <text x="98" y="376">VERIFIED</text>
   </g>
-  <g text-anchor="middle" font-size="12.5" fill="#55564b">
-    <text x="142" y="66">la demande, en brouillon</text>
-    <text x="142" y="142">l'agent propose une action</text>
-    <text x="142" y="218">vous ou la porte acceptez</text>
-    <text x="142" y="294">l'action s'exécute</text>
-    <text x="142" y="370" fill="#161709">l'agent dit que c'est fait</text>
-    <text x="142" y="446" fill="#161709">une preuve le confirme</text>
+  <g text-anchor="middle" font-size="13" fill="#55564b">
+    <text x="98" y="53">la demande en brouillon</text>
+    <text x="98" y="121">l'agent propose</text>
+    <text x="98" y="189">l'action est acceptée</text>
+    <text x="98" y="257">l'action s'exécute</text>
+    <text x="98" y="325" fill="#161709">l'agent dit « fini »</text>
+    <text x="98" y="393" fill="#161709">une preuve le confirme</text>
   </g>
 
   <!-- Les sorties négatives -->
-  <g fill="#fbfbf4" stroke="#fa6e30" stroke-width="2.5">
-    <rect x="332" y="104" width="156" height="48" rx="10"/>
-    <rect x="332" y="256" width="156" height="48" rx="10"/>
-    <rect x="332" y="332" width="156" height="48" rx="10"/>
+  <g fill="#fbfbf4" stroke="#c4451a" stroke-width="2.5">
+    <rect x="224" y="84" width="124" height="46" rx="10"/>
+    <rect x="224" y="220" width="124" height="46" rx="10"/>
+    <rect x="224" y="288" width="124" height="46" rx="10"/>
   </g>
-  <g text-anchor="middle" fill="#161709">
-    <text x="410" y="124" font-size="14" font-weight="700" letter-spacing="0.5">REJECTED</text>
-    <text x="410" y="276" font-size="14" font-weight="700" letter-spacing="0.5">FAILED</text>
-    <text x="410" y="352" font-size="14" font-weight="700" letter-spacing="0.5">UNVERIFIED</text>
+  <g text-anchor="middle" font-size="14" font-weight="700" letter-spacing="0.5" fill="#161709">
+    <text x="286" y="104">REJECTED</text>
+    <text x="286" y="240">FAILED</text>
+    <text x="286" y="308">UNVERIFIED</text>
   </g>
-  <g text-anchor="middle" font-size="12.5" fill="#55564b">
-    <text x="410" y="142">refusée avant d'agir</text>
-    <text x="410" y="294">l'action a échoué</text>
-    <text x="410" y="370">la preuve contredit</text>
+  <g text-anchor="middle" font-size="13" fill="#55564b">
+    <text x="286" y="121">refusée à temps</text>
+    <text x="286" y="257">elle a échoué</text>
+    <text x="286" y="325">preuve contraire</text>
   </g>
 
   <!-- Flèches -->
-  <g stroke="#161709" stroke-width="1.5" fill="none">
-    <line x1="142" y1="76" x2="142" y2="103" marker-end="url(#harnais-fleche-2)"/>
-    <line x1="142" y1="152" x2="142" y2="179" marker-end="url(#harnais-fleche-2)"/>
-    <line x1="142" y1="228" x2="142" y2="255" marker-end="url(#harnais-fleche-2)"/>
-    <line x1="142" y1="304" x2="142" y2="331" marker-end="url(#harnais-fleche-2)"/>
-    <line x1="142" y1="380" x2="142" y2="407" marker-end="url(#harnais-fleche-2)"/>
-    <line x1="252" y1="128" x2="331" y2="128" marker-end="url(#harnais-fleche-2)"/>
-    <line x1="252" y1="280" x2="331" y2="280" marker-end="url(#harnais-fleche-2)"/>
-    <line x1="252" y1="356" x2="331" y2="356" marker-end="url(#harnais-fleche-2)"/>
+  <g stroke="#161709" stroke-width="1.5" fill="none" marker-end="url(#harnais-fleche-2)">
+    <line x1="98" y1="62" x2="98" y2="83"/>
+    <line x1="98" y1="130" x2="98" y2="151"/>
+    <line x1="98" y1="198" x2="98" y2="219"/>
+    <line x1="98" y1="266" x2="98" y2="287"/>
+    <line x1="98" y1="334" x2="98" y2="355"/>
+    <line x1="184" y1="107" x2="223" y2="107"/>
+    <line x1="184" y1="243" x2="223" y2="243"/>
+    <line x1="184" y1="311" x2="223" y2="311"/>
   </g>
-  <g font-size="12.5" fill="#161709">
-    <text x="152" y="398">le harnais vérifie</text>
-    <text x="292" y="120" text-anchor="middle">refus</text>
-    <text x="292" y="272" text-anchor="middle">erreur</text>
-    <text x="292" y="348" text-anchor="middle">preuve</text>
-    <text x="292" y="373" text-anchor="middle">contraire</text>
-  </g>
+  <text x="108" y="349" font-size="13" fill="#161709">le harnais vérifie</text>
 
+  <!-- Légende -->
+  <rect x="12" y="420" width="14" height="14" rx="3" fill="#fbfbf4" stroke="#c4451a" stroke-width="2"/>
+  <rect x="12" y="442" width="14" height="14" rx="3" fill="#deed9c" stroke="#0c8c7d" stroke-width="2"/>
+  <g font-size="13" fill="#161709">
+    <text x="34" y="432">Les trois sorties négatives</text>
+    <text x="34" y="454">Le seul état prouvé</text>
+  </g>
 </svg>

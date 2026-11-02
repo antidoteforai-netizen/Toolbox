@@ -4,9 +4,31 @@
 
 Quand un agent IA vous écrit « c'est déployé, tout fonctionne », il n'a encore rien prouvé. Ce tutoriel vous guide, en six étapes et un test final, pour installer avec Claude Code un harnais qui vérifie à votre place. Il tient en trois pièces : un journal de chaque action, une porte qui refuse ce qui est dangereux et un voyant qui affiche ce que personne n'a vérifié.
 
-*Mis à jour le 31 octobre 2026.*
+*Mis à jour le 2 novembre 2026.*
 
 > **En une phrase :** un harnais est l'ensemble des règles et des petits scripts qui entourent un agent IA pour que chacune de ses actions laisse une trace, puisse être refusée avant d'avoir lieu et ne soit tenue pour réussie qu'avec une preuve tirée du monde réel (un fichier qui existe, un test qui passe, une page qui répond), jamais sur la seule parole de l'agent.
+
+![La même demande sans harnais et avec harnais : sans lui, l'agent agit et dit « c'est fait » sans filtre, sans trace ni preuve ; avec lui, la porte, le journal et la preuve se placent avant « c'est vérifié »](schemas/harnais-principe-sans-avec.svg "La même demande, sans harnais et avec. Sans lui, rien ne se place entre l'action de l'agent et votre confiance, alors qu'avec lui la porte filtre l'action avant qu'elle ait lieu, le journal la consigne et seule une preuve la fait passer pour réussie.")
+
+## Ce que le harnais change, avant et après
+
+Voici cinq moments ordinaires d'une session où un agent code pour vous, et ce que le harnais y change.
+
+- **L'agent écrit « c'est fait, tout fonctionne »**
+  - Sans harnais, vous le croyez sur parole, puisque rien d'autre ne vous dit le contraire.
+  - Avec le harnais, il doit montrer la commande qui le prouve et ce qu'elle a répondu, sinon l'action reste marquée `UNKNOWN`, c'est-à-dire inconnue.
+- **Une commande peut effacer un dossier entier, comme `rm -rf`**
+  - Sans harnais, elle s'exécute avant que vous l'ayez lue.
+  - Avec le harnais, la porte la refuse avant qu'elle ait lieu et explique pourquoi à l'agent.
+- **L'agent veut mettre votre site en ligne**
+  - Sans harnais, il le fait dès qu'il juge le travail prêt.
+  - Avec le harnais, la mise en ligne attend votre accord, puisque vous l'aurez rangée parmi les gestes à approuver.
+- **La conversation devient très longue**
+  - Sans harnais, vos consignes peuvent se perdre quand Claude Code la résume pour faire de la place.
+  - Avec le harnais, elles vivent dans un fichier que chaque nouvelle session relit.
+- **Vous voulez savoir ce que personne n'a vérifié**
+  - Sans harnais, aucune liste n'existe et vous devez tout reprendre à la main.
+  - Avec le harnais, le voyant la calcule à partir du journal et vous la montre.
 
 ## Pourquoi j'ai construit un harnais autour de mes agents
 
@@ -49,17 +71,28 @@ Le test final de ce tutoriel exige que le voyant révèle un angle mort que vous
 
 ## À qui s'adresse ce tutoriel
 
-| Vous êtes | Ce que le harnais vous apporte | Jusqu'où aller |
-|---|---|---|
-| Designer, créatif ou fondateur, vous faites coder Claude Code sans relire chaque ligne | Une preuve à la place d'une promesse, et un refus automatique des gestes irréversibles | Étapes 1 à 6, puis le test final |
-| Builder no-code (n8n, Make), vous commencez à laisser un agent toucher à vos fichiers et à vos comptes | Un journal de ce que vos agents font réellement, et la liste de ce qui n'est jamais vérifié | Étapes 1 à 6, puis l'étape 7 si vos agents appellent des outils externes |
-| Freelance ou consultant, vous installez des agents chez des clients | Une politique écrite, des tests rejouables et une preuve d'usage à montrer | Toutes les étapes, dont la 8 |
+Il vous concerne dès que votre agent agit au lieu de seulement proposer du texte, c'est-à-dire dès qu'une de ces phrases vous ressemble :
+
+- Claude Code lance des commandes dans votre terminal, et vous les acceptez souvent sans tout lire.
+- Il crée, déplace ou supprime des fichiers de votre projet.
+- Il envoie votre code sur GitHub ou met votre site en ligne.
+- Vous ne relisez pas chaque ligne qu'il écrit, faute de temps ou parce que le code n'est pas votre métier.
+
+Le chemin dépend ensuite de votre profil :
+
+- **Vibe-coder, designer ou fondateur**, vous faites coder Claude Code sans relire chaque ligne : les étapes 1 à 6, puis le test final, vous donnent une preuve à la place d'une promesse et un refus automatique des gestes irréversibles.
+- **Builder no-code** (n8n, Make), vous commencez à laisser un agent toucher à vos fichiers et à vos comptes : suivez les mêmes étapes, et ajoutez l'étape 7 si vos agents appellent des outils externes, pour savoir ce qu'ils font réellement.
+- **Freelance ou consultant**, vous installez des agents chez des clients : allez jusqu'à l'étape 8, qui fait de votre harnais une offre appuyée sur une politique écrite, des tests rejouables et une preuve d'usage.
 
 Ce tutoriel n'est pas encore pour vous si vous discutez avec une IA sans la laisser agir sur vos fichiers, votre terminal ou vos comptes : tant qu'elle ne fait que proposer du texte, c'est vous qui jouez le rôle du harnais. Il ne remplace pas non plus une politique de sécurité d'entreprise ni une mise en conformité réglementaire, qui relèvent d'autres outils et d'autres métiers.
 
 ## Comment fonctionne un harnais
 
-Un agent, sans harnais, reçoit votre demande et agit directement sur le monde réel. Le harnais ajoute trois pièces autour de lui, sans toucher au modèle : une porte qui lit chaque action avant qu'elle ait lieu, un journal qui la consigne avec sa preuve, et un voyant qui calcule, à partir du journal, ce qui n'a jamais été vérifié.
+Le harnais ajoute trois pièces autour de l'agent sans toucher au modèle d'IA lui-même, et chacune répond à une question que vous vous posez déjà en le regardant travailler :
+
+- **La porte** répond à « a-t-il le droit de faire ça ? » : elle lit chaque action avant qu'elle ait lieu et refuse ce que vos règles interdisent, comme un videur qui lit sa liste sans juger les visages. Dans Claude Code, c'est un hook, un petit script que Claude Code lance de lui-même avant chaque action.
+- **Le journal** répond à « qu'a-t-il fait, exactement ? » : il range chaque action dans un fichier à son nom, avec ce qui a été demandé, permis et vérifié, comme la boîte noire d'un avion.
+- **Le voyant** répond à « qu'est-ce que personne n'a vérifié ? » : il calcule cette liste à partir du journal, comme le voyant d'huile d'une voiture, qui s'allume avant la panne et non après.
 
 ![Le harnais entoure l'agent : la porte filtre chaque action, le journal garde la trace et la preuve, le voyant montre les angles morts](schemas/harnais-autour-de-l-agent.svg "Le harnais n'agit pas à la place de l'agent, il l'entoure : la porte filtre chaque action avant qu'elle touche le monde réel, le journal garde la décision et la preuve, et le voyant vous montre ce qui n'a pas été vérifié.")
 
@@ -84,13 +117,14 @@ Chaque action suit le même parcours, sans raccourci. La différence qui compte 
 Le dialogue qui résume l'esprit du harnais tient en quelques lignes, et le point d'interrogation final est aussi important que les coches, puisqu'il dit honnêtement ce qui n'a pas pu être contrôlé.
 
 ```text
-L'AGENT DIT : « Je l'ai déployé. »
-LE HARNAIS  : « Montre-moi. »
-CONTRÔLE    : ✓ le commit existe
-              ✓ le déploiement existe
-              ✓ l'adresse répond
-              ✓ le test passe
-              ? le résultat attendu est obtenu → UNKNOWN
+Agent : « Je l'ai déployé. »
+Harnais : « Montre-moi. »
+Preuves :
+  ✓ le commit existe
+  ✓ le déploiement existe
+  ✓ l'adresse répond
+  ✓ le test passe
+  ? effet voulu : UNKNOWN
 ```
 
 ## Avant de commencer
@@ -111,21 +145,21 @@ Chaque étape a son prompt, prêt à l'emploi, avec deux boutons : **Copier** et
 
 ### La règle d'or : une étape, une session, une validation
 
-Ouvrez une session neuve pour chaque étape (la commande `/clear` dans Claude Code) et donnez le prompt. Laissez ensuite l'agent travailler jusqu'au point d'arrêt écrit à la fin du prompt, où il doit s'arrêter et vous montrer son travail. Chaque prompt commence par faire relire `harnais/REGLES.md`, le fichier créé à l'étape 1, si bien que l'agent retrouve les règles même dans une session vierge : c'est ce qui rend chaque étape indépendante des autres. Vous ne répondez « validé » qu'après avoir coché la liste de vérification de l'étape, parce que c'est exactement l'habitude que le harnais cherche à installer chez vous comme chez l'agent.
+Chaque étape se déroule de la même façon, et c'est cette répétition qui la rend facile à suivre :
+
+1. Ouvrez une session neuve dans Claude Code avec la commande `/clear`.
+2. Donnez à l'agent le prompt de l'étape, collé ou lancé comme commande.
+3. Laissez-le travailler jusqu'au point d'arrêt écrit à la fin du prompt, où il s'arrête pour vous montrer son travail.
+4. Vérifiez vous-même chaque point de la liste qui suit le prompt.
+5. Écrivez « validé » quand tout est coché, ou dites à l'agent ce qui manque.
+
+Chaque prompt commence par faire relire `harnais/REGLES.md`, le fichier créé à l'étape 1, si bien que l'agent retrouve les règles même dans une session vierge : c'est ce qui rend chaque étape indépendante des autres. Vous ne répondez « validé » qu'après avoir vérifié, parce que c'est exactement l'habitude que le harnais cherche à installer chez vous comme chez l'agent.
 
 ### Le parcours en un coup d'œil
 
-| Étape | Ce que l'agent construit | Ce que vous vérifiez avant de valider |
-|---|---|---|
-| [1](#étape-1--écrire-les-règles-du-jeu) | Les règles et un état des lieux de votre projet | Un résumé juste, en dix lignes |
-| [2](#étape-2--journaliser-un-premier-cas-de-bout-en-bout) | Le journal, et un premier cas réel suivi jusqu'au verdict | Un fichier de cas complet, avec sa preuve |
-| [3](#étape-3--trancher-vos-cinq-arbitrages) | Les cinq arbitrages de votre harnais | Un choix daté par axe, signé par vous |
-| [4](#étape-4--décider-qui-valide-quoi) | La matrice qui dit qui valide quoi | Chaque action rangée en auto, notifier, approuver ou interdire |
-| [5](#étape-5--installer-la-porte-et-ses-vingt-tests) | La porte et ses vingt tests | Un refus réel, journalisé |
-| [6](#étape-6--voir-vos-angles-morts) | Le voyant et la carte de revue | La liste de vos angles morts |
-| [7](#étape-7-facultative--préparer-les-outils-de-lagent), facultative | Une fiche par outil de l'agent | Un coût et un taux d'échec par outil |
-| [8](#étape-8-facultative--proposer-le-harnais-à-des-clients), facultative | Une offre à proposer à des clients | Trois niveaux d'offre défendables |
-| [Test final](#le-test-final-qui-dit-si-votre-harnais-sert-à-quelque-chose) | Sept contrôles en conditions réelles | Un angle mort que vous ignoriez |
+Chaque étape laisse quelque chose de concret dans votre projet, le plus souvent un fichier du dossier `harnais/`, si bien que vous voyez le harnais grandir d'une session à l'autre.
+
+![Le parcours : six étapes, deux étapes facultatives et un test final, chacune avec ce qu'elle laisse dans votre projet](schemas/harnais-parcours.svg "Les étapes 1 à 6 suffisent pour un harnais complet. La 7 sert si vos agents appellent des outils externes, la 8 si vous accompagnez des clients, et le test final dit si le tout vous protège vraiment.")
 
 ## Étape 1 : écrire les règles du jeu
 
@@ -428,7 +462,8 @@ La porte se place juste avant chaque action de l'agent, lit la politique génér
 Voici à quoi ressemble un refus dans mon propre journal, le 18 septembre 2026 : l'agent avait glissé une suppression récursive entre deux commandes de lecture parfaitement inoffensives, et la porte a bloqué l'ensemble avant que quoi que ce soit s'exécute.
 
 ```yaml
-# Extrait d'un cas réel, commande d'origine : ls scripts | head; rm -rf visual-check-out; grep -n …
+# Extrait d'un cas réel du 18 septembre 2026, commande d'origine :
+# ls scripts | head; rm -rf visual-check-out; grep -n …
 etats:
   - { etat: REJECTED, horodatage: 2026-09-18T16:03:36.257Z, par: harnais }
 etat_courant: REJECTED
@@ -648,17 +683,25 @@ Si l'étape 7 du tutoriel n'a pas été faite, les contrôles 5 et 6 valent `UNK
 
 ## Les cinq erreurs qui rendent un harnais décoratif
 
-| L'erreur | Ce qui se passe | Ce qu'on fait à la place |
-|---|---|---|
-| Laisser l'agent valider son propre travail | « Ça a l'air de marcher » tient lieu de test, et une erreur passe pour un succès | Une commande, un test ou un fichier vérifiés par le harnais, jamais par l'agent |
-| Laisser des cases vides | Une case vide se lit comme « rien à signaler » | `UNKNOWN`, affiché en gris et compté parmi les angles morts |
-| Garder les règles dans la conversation | Quand une longue conversation est résumée, les règles disparaissent avec elle | Des fichiers relus au début de chaque étape, comme `harnais/REGLES.md` |
-| Contrôler seulement la sortie finale | L'action dangereuse a déjà eu lieu quand on la découvre | Une porte placée avant chaque appel d'outil |
-| Une carte de revue trop longue | On approuve sans lire, et l'approbation devient décorative | Une carte qui se lit et se décide en moins de trente secondes |
+- **Laisser l'agent valider son propre travail**
+  - Ce qui se passe : « ça a l'air de marcher » tient lieu de test, et une erreur passe pour un succès.
+  - À la place : seuls une commande, un test ou un fichier vérifiés par le harnais tranchent, jamais l'agent.
+- **Laisser des cases vides**
+  - Ce qui se passe : une case vide se lit comme « rien à signaler ».
+  - À la place : le harnais écrit `UNKNOWN`, l'affiche en gris et le compte parmi les angles morts.
+- **Garder les règles dans la conversation**
+  - Ce qui se passe : quand une longue conversation est résumée, les règles disparaissent avec elle.
+  - À la place : elles vivent dans un fichier relu au début de chaque étape, comme `harnais/REGLES.md`.
+- **Contrôler seulement le résultat final**
+  - Ce qui se passe : l'action dangereuse a déjà eu lieu quand vous la découvrez.
+  - À la place : la porte se place avant chaque appel d'outil, pour refuser avant qu'il soit trop tard.
+- **Faire une carte de revue trop longue**
+  - Ce qui se passe : vous finissez par approuver sans lire, et l'approbation devient décorative.
+  - À la place : chaque carte se lit et se décide en moins de trente secondes.
 
 ## La version d'origine, en un seul prompt
 
-Avant de découper ce tutoriel en étapes, j'avais écrit un seul long prompt, celui qui a construit mon propre harnais en une journée. Je le laisse ici pour les personnes à l'aise avec Claude Code qui préfèrent une longue session, avec des points d'arrêt entre chaque bloc. Il décrit mon environnement (mon tableau de bord, mes services macOS) : adaptez sa section « Contexte existant » au vôtre avant de le lancer. Et si votre voyant vous montre un jour un angle mort inattendu, racontez-le-moi en [ouvrant un ticket sur le dépôt](https://github.com/antidoteforai-netizen/Toolbox/issues), parce que c'est comme ça que ce tutoriel s'améliore.
+Avant de découper ce tutoriel en étapes, j'avais écrit un seul long prompt, celui qui a construit mon propre harnais en une journée. Je le laisse ici pour les personnes à l'aise avec Claude Code qui préfèrent une longue session, avec des points d'arrêt entre chaque bloc. Il décrit mon environnement (mon tableau de bord, mes services macOS) : adaptez sa section « Contexte existant » au vôtre avant de le lancer.
 
 <details>
 <summary>Afficher le prompt maître complet (version 2)</summary>
@@ -1263,5 +1306,22 @@ Le point 7 est le seul vrai test. S'il ne me révèle rien, l'outil ne sert à r
 ````
 
 </details>
+
+## Votre prochaine étape
+
+Si vous avez tout lu sans encore rien installer, la suite tient en une session, et elle ne touche à rien d'autre que le dossier `harnais/` qu'elle crée dans votre projet :
+
+1. Enregistrez votre travail en cours dans un commit, pour pouvoir tout annuler.
+2. Ouvrez Claude Code à la racine du projet et tapez `/clear`.
+3. Copiez ou téléchargez le prompt de [l'étape 1](#étape-1--écrire-les-règles-du-jeu), puis donnez-le à l'agent.
+4. Quand il s'arrête, vérifiez la liste qui suit le prompt avant d'écrire « validé ».
+
+Si Claude Code n'est pas encore installé chez vous, [le tutoriel d'installation](../tutoriels/tutoriels-par-profil.md#installer-claude-code) passe avant tout le reste.
+
+Et si vous avez déjà passé le test final, la suite consiste à faire vivre le harnais :
+
+- Ouvrez la vue Angles morts à un rythme fixe, une fois par semaine par exemple, et commencez par ce qui y est apparu depuis la dernière fois.
+- Transformez chaque incident en règle, comme chez moi la suppression trop large du début, devenue la règle qui a refusé 23 commandes depuis.
+- Racontez-moi l'angle mort inattendu que votre voyant vous a montré, en [ouvrant un ticket sur le dépôt](https://github.com/antidoteforai-netizen/Toolbox/issues), parce que c'est comme ça que ce tutoriel s'améliore.
 
 [← Retour aux prompts](./README.md)
