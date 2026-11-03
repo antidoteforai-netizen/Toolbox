@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="420" height="385" viewBox="0 0 360 330" font-family="Raleway, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif">
+  <title>Le parcours en cinq étapes : enregistrer ta voix, couper un extrait dans une pause, en faire un préréglage, faire lire ton script par Qwen3-TTS, puis vérifier le fichier audio</title>
+  <rect x="0" y="0" width="360" height="330" rx="16" fill="#f3f3ee"/>
+
+  <!-- La ligne du parcours -->
+  <line x1="30" y1="36" x2="30" y2="292" stroke="#161709" stroke-width="1.5"/>
+
+  <!-- Étapes 1 à 4 -->
+  <g fill="#161709">
+    <circle cx="30" cy="36" r="13"/>
+    <circle cx="30" cy="100" r="13"/>
+    <circle cx="30" cy="164" r="13"/>
+    <circle cx="30" cy="228" r="13"/>
+  </g>
+  <g text-anchor="middle" font-size="13" font-weight="700" fill="#fbfbf4">
+    <text x="30" y="41">1</text>
+    <text x="30" y="105">2</text>
+    <text x="30" y="169">3</text>
+    <text x="30" y="233">4</text>
+  </g>
+
+  <!-- Étape 5, la vérification -->
+  <circle cx="30" cy="292" r="13" fill="#deed9c" stroke="#0c8c7d" stroke-width="2"/>
+  <polyline points="24,292 28.5,297 36.5,287" fill="none" stroke="#0a6e63" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <g font-size="15" font-weight="700" fill="#161709">
+    <text x="54" y="33">Enregistrer ta voix</text>
+    <text x="54" y="97">Couper un extrait</text>
+    <text x="54" y="161">En faire un préréglage</text>
+    <text x="54" y="225">Faire lire ton script</text>
+    <text x="54" y="289">Vérifier le fichier</text>
+  </g>
+  <g font-size="13" fill="#3f3f3d">
+    <text x="54" y="51">20 secondes, dans le ton voulu</text>
+    <text x="54" y="115">dans une pause, avec sa transcription</text>
+    <text x="54" y="179">un nom pour chaque ton de voix</text>
+    <text x="54" y="243">par Qwen3-TTS, en local sur ton Mac</text>
+    <text x="54" y="307">Whisper, le volume et ton oreille</text>
+  </g>
+</svg>

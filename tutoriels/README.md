@@ -11,6 +11,7 @@ Des étapes numérotées, des commandes à coller et les erreurs classiques à l
 | [Tutoriels par profil](./tutoriels-par-profil.md) | Neuf tutoriels en trois parcours : Product Designer & Builder, Com & Marketing, Business Instagram | 30 octobre 2026 |
 | [Installer n8n avec Docker](./installer-n8n-docker.md) | Faire tourner n8n en local avec une commande, puis le mettre à jour et sauvegarder vos workflows | 30 octobre 2026 |
 | [Figma vers Webflow avec Relume](./workflow-figma-webflow-relume.md) | Construire un site de deux pages à plusieurs, sur les plans gratuits | 30 octobre 2026 |
+| [Cloner sa voix pour ses voix off](./cloner-sa-voix-qwen3-tts.md) | Faire lire vos scripts par votre propre voix clonée, gratuitement et en local sur votre Mac | 3 novembre 2026 |
 
 ## Avant et après chaque tutoriel
 
@@ -21,5 +22,6 @@ Des étapes numérotées, des commandes à coller et les erreurs classiques à l
 | [Pipeline de contenu n8n et Airtable](./tutoriels-par-profil.md#construire-ton-pipeline-de-contenu-avec-n8n--airtable) | [Le système de contenu ACRV](../guides/strategie-contenu.md) | [Installer n8n avec Docker](./installer-n8n-docker.md), pour l'héberger chez vous |
 | [Installer n8n avec Docker](./installer-n8n-docker.md) | [n8n dans la boîte à outils](../guides/boite-a-outils-ia.md#n8n) | [S'organiser avec n8n, Notion et Airtable](./tutoriels-par-profil.md#sorganiser-avec-n8n-notion-et-airtable) |
 | [Figma vers Webflow avec Relume](./workflow-figma-webflow-relume.md) | [Webflow dans la boîte à outils](../guides/boite-a-outils-ia.md#webflow) et [Relume dans la veille](../veille/outils.md#relume) | [Webflow, de la maquette au site en ligne](./tutoriels-par-profil.md#webflow-de-la-maquette-au-site-en-ligne) |
+| [Cloner sa voix pour ses voix off](./cloner-sa-voix-qwen3-tts.md) | [ElevenLabs dans les ressources IA générative](../guides/ressources-ia-generative.md#studios-et-entreprises), la référence payante en ligne | [Génération visuelle avec Higgsfield](./tutoriels-par-profil.md#génération-visuelle-à-léchelle-avec-higgsfield), pour mettre des images sur votre voix |
 
 [← Retour à l'accueil de la Toolbox](../README.md)

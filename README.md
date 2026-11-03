@@ -41,6 +41,7 @@ Quatre dossiers, rangés du plus large au plus concret : la veille dit ce qui ex
 - [Parcours par profil](./tutoriels/tutoriels-par-profil.md) : neuf tutoriels pour designers, équipes marketing et comptes Instagram business
 - [Installer n8n avec Docker](./tutoriels/installer-n8n-docker.md) : avec les erreurs classiques et leur solution
 - [Figma vers Webflow avec Relume](./tutoriels/workflow-figma-webflow-relume.md) : un site de deux pages sur des outils gratuits
+- [Cloner sa voix pour ses voix off](./tutoriels/cloner-sa-voix-qwen3-tts.md) : votre propre voix lit vos scripts, gratuitement et en local sur un Mac
 
 ### [Prompts](./prompts/) : quoi taper, mot pour mot
 
