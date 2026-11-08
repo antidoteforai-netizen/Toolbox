@@ -34,7 +34,7 @@ Quatre dossiers, rangés du plus large au plus concret : la veille dit ce qui ex
 - [Ressources IA générative](./guides/ressources-ia-generative.md) : outils testés, angles photo, prompts commentés
 - [Système de contenu](./guides/strategie-contenu.md) : la méthode ACRV, du premier regard à la vente
 - [Veille tech à la source](./guides/veille-tech-sources-primaires.md) : savoir avant les médias, avec 27 flux testés à importer d'un coup et trois montages, du lecteur RSS gratuit à n8n
-- [Brief projet avec son IA](./guides/brief-projet-avec-ia.pdf) (PDF) : dix prompts à copier-coller
+- [Le brief que votre client écrit avec son IA](./guides/brief-projet-avec-ia.md) : le guide du freelance, avec le kit à envoyer au client et la grille pour lire ce qu'il renvoie
 
 ### [Tutoriels](./tutoriels/) : comment s'en servir, étape par étape
 
@@ -58,7 +58,7 @@ Quatre dossiers, rangés du plus large au plus concret : la veille dit ce qui ex
 | « Higgsfield coûte trop cher pour ce que je génère » | [Les alternatives à Higgsfield](./veille/alternatives-higgsfield.md) : du navigateur à l'installation locale, licences et coûts réels compris |
 | « J'apprends les nouveautés tech une semaine après tout le monde » | [Veille tech à la source](./guides/veille-tech-sources-primaires.md) : où l'info naît, quels flux suivre et comment trier en cinq minutes par jour |
 | « Je publie tous les jours et rien ne bouge » | [Le système de contenu](./guides/strategie-contenu.md) : quoi publier, quand, et pourquoi |
-| « Mon prestataire n'a pas compris ma boîte » | [Préparer un brief avec son IA](./guides/brief-projet-avec-ia.pdf), dix prompts à copier-coller |
+| « Mon prestataire n'a pas compris ma boîte » | [Le brief que votre client écrit avec son IA](./guides/brief-projet-avec-ia.md), avec un kit de dix prompts à copier-coller |
 | « Il me faut une référence UI, là, maintenant » | [La veille](./veille/) : 70 liens triés à la main |
 
 ## Qui écrit
@@ -77,7 +77,7 @@ Chaque document porte sa date de vérification et ses sources sont cliquables. L
 
 ## Servez-vous
 
-Tout le contenu est sous licence [CC BY 4.0](./LICENSE). Vous pouvez le copier, l'adapter, le traduire, l'intégrer à une formation ou à un livrable client, même payant, à condition de citer la source, par exemple : « Opaline, Antidote.AI, github.com/antidoteforai-netizen/Toolbox ». Le [système de contenu](./guides/strategie-contenu.md) et le [guide du brief](./guides/brief-projet-avec-ia.pdf) sont faits pour circuler : partagez-les à votre équipe ou à vos clients.
+Tout le contenu est sous licence [CC BY 4.0](./LICENSE). Vous pouvez le copier, l'adapter, le traduire, l'intégrer à une formation ou à un livrable client, même payant, à condition de citer la source, par exemple : « Opaline, Antidote.AI, github.com/antidoteforai-netizen/Toolbox ». Le [système de contenu](./guides/strategie-contenu.md) et le [guide du brief](./guides/brief-projet-avec-ia.md) sont faits pour circuler : partagez-les à votre équipe ou à vos clients.
 
 Un guide vous a fait gagner une soirée ? Une ⭐ sur le dépôt me dit quoi enrichir en premier. Pour un lien mort, une erreur ou un outil qui mérite sa place, [ouvrez une issue](../../issues).
 

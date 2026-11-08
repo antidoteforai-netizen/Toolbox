@@ -1,0 +1,112 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="420" height="784" viewBox="0 0 360 672" font-family="Raleway, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif">
+  <style>
+
+    @media (prefers-reduced-motion: reduce) { .b4-bit { display: none; } .b4-anim { animation: none !important; } }
+  </style>
+  <title>Vue éclatée de l'archive du brief, couche par couche : en haut le manifeste, puis les quatre fichiers du niveau Express en trait plein, puis les quatre fichiers ajoutés par le niveau Standard en pointillés, au-dessus de l'archive zip qui les contient</title>
+  <rect x="0" y="0" width="360" height="672" rx="16" fill="#fbfbf4"/>
+  <text x="16" y="28" font-family="ui-monospace, 'SF Mono', Menlo, monospace" font-size="13" letter-spacing="1" fill="#8a8b80">CONCEPT · VUE ÉCLATÉE</text>
+  <rect class="b4-bit" x="-3" y="-3" width="6" height="6" rx="1.5" fill="#161709" opacity="0">
+    <animateMotion dur="5.0s" begin="0.0s" repeatCount="indefinite" path="M86,70 L86,596"/>
+    <animate attributeName="opacity" dur="5.0s" begin="0.0s" repeatCount="indefinite" values="0;1;1;0" keyTimes="0;0.15;0.8;1"/>
+  </rect>
+  <rect class="b4-bit" x="-3" y="-3" width="6" height="6" rx="1.5" fill="#161709" opacity="0">
+    <animateMotion dur="5.0s" begin="1.67s" repeatCount="indefinite" path="M86,70 L86,596"/>
+    <animate attributeName="opacity" dur="5.0s" begin="1.67s" repeatCount="indefinite" values="0;1;1;0" keyTimes="0;0.15;0.8;1"/>
+  </rect>
+  <rect class="b4-bit" x="-3" y="-3" width="6" height="6" rx="1.5" fill="#161709" opacity="0">
+    <animateMotion dur="5.0s" begin="3.33s" repeatCount="indefinite" path="M86,70 L86,596"/>
+    <animate attributeName="opacity" dur="5.0s" begin="3.33s" repeatCount="indefinite" values="0;1;1;0" keyTimes="0;0.15;0.8;1"/>
+  </rect>
+  <line x1="86" y1="44" x2="86" y2="590" stroke="#8a8b80" stroke-width="0.8" stroke-dasharray="3 4"/>
+  <path d="M44,58 L86,70 L86,74 L44,62 Z" fill="#e8e8e3" stroke="#161709" stroke-width="1.2" stroke-linejoin="round"/>
+  <path d="M86,70 L128,58 L128,62 L86,74 Z" fill="#cdcdc8" stroke="#161709" stroke-width="1.2" stroke-linejoin="round"/>
+  <path d="M86,46 L128,58 L86,70 L44,58 Z" fill="#ffffff" stroke="#161709" stroke-width="1.2" stroke-linejoin="round"/>
+  <line x1="128" y1="58" x2="160" y2="58" stroke="#161709" stroke-width="1"/>
+  <circle cx="160" cy="58" r="2.2" fill="#161709"/>
+  <text x="167" y="62" font-family="ui-monospace, 'SF Mono', Menlo, monospace" font-size="13" fill="#161709">manifest.json</text>
+  <text x="167" y="79" font-size="13" fill="#55564b">comment il a été fait</text>
+  <rect x="160" y="98" width="172" height="22" rx="11" fill="#161709"/>
+  <text x="246" y="113.5" text-anchor="middle" font-family="ui-monospace, 'SF Mono', Menlo, monospace" font-size="12.5" letter-spacing="1" fill="#f7ef63">NIVEAU EXPRESS</text>
+  <path d="M22,147 L86,166 L86,171 L22,152 Z" fill="#e8e8e3" stroke="#161709" stroke-width="1.2" stroke-linejoin="round"/>
+  <path d="M86,166 L150,147 L150,152 L86,171 Z" fill="#cdcdc8" stroke="#161709" stroke-width="1.2" stroke-linejoin="round"/>
+  <path d="M86,128 L150,147 L86,166 L22,147 Z" fill="#ffffff" stroke="#161709" stroke-width="1.2" stroke-linejoin="round"/>
+  <line x1="54.0" y1="149.7" x2="89.2" y2="139.2" stroke="#161709" stroke-width="1" stroke-linecap="round" opacity="0.45"/>
+  <line x1="70.6" y1="154.6" x2="95.0" y2="147.4" stroke="#161709" stroke-width="1" stroke-linecap="round" opacity="0.45"/>
+  <line x1="150" y1="147" x2="160" y2="147" stroke="#161709" stroke-width="1"/>
+  <circle cx="160" cy="147" r="2.2" fill="#161709"/>
+  <text x="167" y="151" font-family="ui-monospace, 'SF Mono', Menlo, monospace" font-size="13" fill="#161709">02-projet</text>
+  <text x="167" y="168" font-size="13" fill="#55564b">objectif, budget, décideur</text>
+  <path d="M22,199 L86,218 L86,223 L22,204 Z" fill="#e8e8e3" stroke="#161709" stroke-width="1.2" stroke-linejoin="round"/>
+  <path d="M86,218 L150,199 L150,204 L86,223 Z" fill="#cdcdc8" stroke="#161709" stroke-width="1.2" stroke-linejoin="round"/>
+  <path d="M86,180 L150,199 L86,218 L22,199 Z" fill="#ffffff" stroke="#161709" stroke-width="1.2" stroke-linejoin="round"/>
+  <line x1="54.0" y1="201.7" x2="89.2" y2="191.2" stroke="#161709" stroke-width="1" stroke-linecap="round" opacity="0.45"/>
+  <line x1="70.6" y1="206.6" x2="95.0" y2="199.4" stroke="#161709" stroke-width="1" stroke-linecap="round" opacity="0.45"/>
+  <line x1="150" y1="199" x2="160" y2="199" stroke="#161709" stroke-width="1"/>
+  <circle cx="160" cy="199" r="2.2" fill="#161709"/>
+  <text x="167" y="203" font-family="ui-monospace, 'SF Mono', Menlo, monospace" font-size="13" fill="#161709">03-clients</text>
+  <text x="167" y="220" font-size="13" fill="#55564b">la cible et son parcours</text>
+  <path d="M22,251 L86,270 L86,275 L22,256 Z" fill="#e8e8e3" stroke="#161709" stroke-width="1.2" stroke-linejoin="round"/>
+  <path d="M86,270 L150,251 L150,256 L86,275 Z" fill="#cdcdc8" stroke="#161709" stroke-width="1.2" stroke-linejoin="round"/>
+  <path d="M86,232 L150,251 L86,270 L22,251 Z" fill="#fff1b8" stroke="#161709" stroke-width="1.2" stroke-linejoin="round"/>
+  <line x1="54.0" y1="253.7" x2="89.2" y2="243.2" stroke="#161709" stroke-width="1" stroke-linecap="round" opacity="0.45"/>
+  <line x1="70.6" y1="258.6" x2="95.0" y2="251.4" stroke="#161709" stroke-width="1" stroke-linecap="round" opacity="0.45"/>
+  <line x1="150" y1="251" x2="160" y2="251" stroke="#161709" stroke-width="1"/>
+  <circle cx="160" cy="251" r="2.2" fill="#161709"/>
+  <text x="167" y="255" font-family="ui-monospace, 'SF Mono', Menlo, monospace" font-size="13" fill="#161709">06-douleurs-doutes</text>
+  <text x="167" y="272" font-size="13" fill="#55564b">peut rester pour l'oral</text>
+  <path d="M22,303 L86,322 L86,327 L22,308 Z" fill="#e8e8e3" stroke="#161709" stroke-width="1.2" stroke-linejoin="round"/>
+  <path d="M86,322 L150,303 L150,308 L86,327 Z" fill="#cdcdc8" stroke="#161709" stroke-width="1.2" stroke-linejoin="round"/>
+  <path d="M86,284 L150,303 L86,322 L22,303 Z" fill="#ffffff" stroke="#161709" stroke-width="1.2" stroke-linejoin="round"/>
+  <line x1="54.0" y1="305.7" x2="89.2" y2="295.2" stroke="#161709" stroke-width="1" stroke-linecap="round" opacity="0.45"/>
+  <line x1="70.6" y1="310.6" x2="95.0" y2="303.4" stroke="#161709" stroke-width="1" stroke-linecap="round" opacity="0.45"/>
+  <line x1="150" y1="303" x2="160" y2="303" stroke="#161709" stroke-width="1"/>
+  <circle cx="160" cy="303" r="2.2" fill="#161709"/>
+  <text x="167" y="307" font-family="ui-monospace, 'SF Mono', Menlo, monospace" font-size="13" fill="#161709">07-contraintes</text>
+  <text x="167" y="324" font-size="13" fill="#55564b">délais, règles, accès</text>
+  <rect x="160" y="344" width="172" height="22" rx="11" fill="none" stroke="#8a8b80" stroke-width="1" stroke-dasharray="4 3"/>
+  <text x="246" y="359.5" text-anchor="middle" font-family="ui-monospace, 'SF Mono', Menlo, monospace" font-size="12.5" letter-spacing="1" fill="#55564b">STANDARD, EN PLUS</text>
+  <path d="M22,395 L86,414 L86,419 L22,400 Z" fill="#f3f3ee" stroke="#8a8b80" stroke-width="1.2" stroke-linejoin="round" stroke-dasharray="4 3"/>
+  <path d="M86,414 L150,395 L150,400 L86,419 Z" fill="#e8e8e3" stroke="#8a8b80" stroke-width="1.2" stroke-linejoin="round" stroke-dasharray="4 3"/>
+  <path d="M86,376 L150,395 L86,414 L22,395 Z" fill="#fbfbf4" stroke="#8a8b80" stroke-width="1.2" stroke-linejoin="round" stroke-dasharray="4 3"/>
+  <line x1="54.0" y1="397.7" x2="89.2" y2="387.2" stroke="#8a8b80" stroke-width="1" stroke-linecap="round" opacity="0.45"/>
+  <line x1="70.6" y1="402.6" x2="95.0" y2="395.4" stroke="#8a8b80" stroke-width="1" stroke-linecap="round" opacity="0.45"/>
+  <line x1="150" y1="395" x2="160" y2="395" stroke="#161709" stroke-width="1"/>
+  <circle cx="160" cy="395" r="2.2" fill="#161709"/>
+  <text x="167" y="399" font-family="ui-monospace, 'SF Mono', Menlo, monospace" font-size="13" fill="#55564b">01-entreprise</text>
+  <text x="167" y="416" font-size="13" fill="#55564b">offre, chiffres, décisions</text>
+  <path d="M22,447 L86,466 L86,471 L22,452 Z" fill="#f3f3ee" stroke="#8a8b80" stroke-width="1.2" stroke-linejoin="round" stroke-dasharray="4 3"/>
+  <path d="M86,466 L150,447 L150,452 L86,471 Z" fill="#e8e8e3" stroke="#8a8b80" stroke-width="1.2" stroke-linejoin="round" stroke-dasharray="4 3"/>
+  <path d="M86,428 L150,447 L86,466 L22,447 Z" fill="#fbfbf4" stroke="#8a8b80" stroke-width="1.2" stroke-linejoin="round" stroke-dasharray="4 3"/>
+  <line x1="54.0" y1="449.7" x2="89.2" y2="439.2" stroke="#8a8b80" stroke-width="1" stroke-linecap="round" opacity="0.45"/>
+  <line x1="70.6" y1="454.6" x2="95.0" y2="447.4" stroke="#8a8b80" stroke-width="1" stroke-linecap="round" opacity="0.45"/>
+  <line x1="150" y1="447" x2="160" y2="447" stroke="#161709" stroke-width="1"/>
+  <circle cx="160" cy="447" r="2.2" fill="#161709"/>
+  <text x="167" y="451" font-family="ui-monospace, 'SF Mono', Menlo, monospace" font-size="13" fill="#55564b">04-marche</text>
+  <text x="167" y="468" font-size="13" fill="#55564b">concurrents, références</text>
+  <path d="M22,499 L86,518 L86,523 L22,504 Z" fill="#f3f3ee" stroke="#8a8b80" stroke-width="1.2" stroke-linejoin="round" stroke-dasharray="4 3"/>
+  <path d="M86,518 L150,499 L150,504 L86,523 Z" fill="#e8e8e3" stroke="#8a8b80" stroke-width="1.2" stroke-linejoin="round" stroke-dasharray="4 3"/>
+  <path d="M86,480 L150,499 L86,518 L22,499 Z" fill="#fbfbf4" stroke="#8a8b80" stroke-width="1.2" stroke-linejoin="round" stroke-dasharray="4 3"/>
+  <line x1="54.0" y1="501.7" x2="89.2" y2="491.2" stroke="#8a8b80" stroke-width="1" stroke-linecap="round" opacity="0.45"/>
+  <line x1="70.6" y1="506.6" x2="95.0" y2="499.4" stroke="#8a8b80" stroke-width="1" stroke-linecap="round" opacity="0.45"/>
+  <line x1="150" y1="499" x2="160" y2="499" stroke="#161709" stroke-width="1"/>
+  <circle cx="160" cy="499" r="2.2" fill="#161709"/>
+  <text x="167" y="503" font-family="ui-monospace, 'SF Mono', Menlo, monospace" font-size="13" fill="#55564b">05-marque</text>
+  <text x="167" y="520" font-size="13" fill="#55564b">ton, mots, charte</text>
+  <path d="M22,551 L86,570 L86,575 L22,556 Z" fill="#f3f3ee" stroke="#8a8b80" stroke-width="1.2" stroke-linejoin="round" stroke-dasharray="4 3"/>
+  <path d="M86,570 L150,551 L150,556 L86,575 Z" fill="#e8e8e3" stroke="#8a8b80" stroke-width="1.2" stroke-linejoin="round" stroke-dasharray="4 3"/>
+  <path d="M86,532 L150,551 L86,570 L22,551 Z" fill="#fbfbf4" stroke="#8a8b80" stroke-width="1.2" stroke-linejoin="round" stroke-dasharray="4 3"/>
+  <line x1="54.0" y1="553.7" x2="89.2" y2="543.2" stroke="#8a8b80" stroke-width="1" stroke-linecap="round" opacity="0.45"/>
+  <line x1="70.6" y1="558.6" x2="95.0" y2="551.4" stroke="#8a8b80" stroke-width="1" stroke-linecap="round" opacity="0.45"/>
+  <line x1="150" y1="551" x2="160" y2="551" stroke="#161709" stroke-width="1"/>
+  <circle cx="160" cy="551" r="2.2" fill="#161709"/>
+  <text x="167" y="555" font-family="ui-monospace, 'SF Mono', Menlo, monospace" font-size="13" fill="#55564b">00-sommaire</text>
+  <text x="167" y="572" font-size="13" fill="#55564b">ce qui manque encore</text>
+  <path d="M10,614 L86,592 L162,614 L86,636 Z" fill="#e8e8e3" stroke="#161709" stroke-width="1.2" stroke-linejoin="round"/>
+  <path d="M10,614 L86,636 L86,656 L10,634 Z" fill="#cdcdc8" stroke="#161709" stroke-width="1.2" stroke-linejoin="round"/>
+  <path d="M86,636 L162,614 L162,634 L86,656 Z" fill="#b9b9b3" stroke="#161709" stroke-width="1.2" stroke-linejoin="round"/>
+  <line x1="162" y1="614" x2="160" y2="614" stroke="#161709" stroke-width="1"/>
+  <circle cx="160" cy="614" r="2.2" fill="#161709"/>
+  <text x="167" y="618" font-family="ui-monospace, 'SF Mono', Menlo, monospace" font-size="13" fill="#161709">brief-md-projet.zip</text>
+  <text x="167" y="635" font-size="13" fill="#55564b">ce que le client envoie</text>
+</svg>

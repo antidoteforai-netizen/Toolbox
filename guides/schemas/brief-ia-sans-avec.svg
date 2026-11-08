@@ -1,0 +1,119 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="420" height="653" viewBox="0 0 360 560" font-family="Raleway, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif">
+  <title>Le même projet cadré de deux façons : à gauche, le brief classique sort d'un entretien et les surprises arrivent en cours de projet ; à droite, l'assistant du client rédige, chaque information est étiquetée, un contrôle signale les trous et le premier rendez-vous porte sur les vrais écarts</title>
+  <defs>
+    <marker id="brief1-fleche" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#161709"/>
+    </marker>
+  </defs>
+  <style>
+
+    @media (prefers-reduced-motion: reduce) { .b1-bit { display: none; } .b1-anim { animation: none !important; } }
+  </style>
+  <rect x="0" y="0" width="360" height="560" rx="16" fill="#f3f3ee"/>
+
+  <!-- En-têtes des deux colonnes -->
+  <rect x="10" y="14" width="162" height="34" rx="17" fill="#fbfbf4" stroke="#c4451a" stroke-width="1.5"/>
+  <rect x="188" y="14" width="162" height="34" rx="17" fill="#f7ef63" stroke="#161709" stroke-width="1.5"/>
+  <g text-anchor="middle" font-size="14" font-weight="700" fill="#161709">
+    <text x="91" y="36">Brief classique</text>
+    <text x="269" y="36">Avec l'IA du client</text>
+  </g>
+
+  <!-- Colonne de gauche : l'entretien, puis les surprises -->
+  <g stroke="#161709" stroke-width="1.5" fill="#fbfbf4">
+    <rect x="10" y="68" width="162" height="56" rx="10"/>
+    <rect x="10" y="150" width="162" height="56" rx="10"/>
+    <rect x="10" y="232" width="162" height="56" rx="10"/>
+  </g>
+  <rect x="10" y="314" width="162" height="150" rx="10" fill="#fbfbf4" stroke="#c4451a" stroke-width="2.5"/>
+  <g text-anchor="middle" font-size="14" font-weight="700" fill="#161709">
+    <text x="91" y="92">Entretien de 2 h</text>
+    <text x="91" y="174">Compte rendu</text>
+    <text x="91" y="256">Devis</text>
+    <text x="91" y="340" fill="#c4451a">En cours de projet</text>
+  </g>
+  <g text-anchor="middle" font-size="13" fill="#55564b">
+    <text x="91" y="111">ce qu'on pense à dire</text>
+    <text x="91" y="193">qui a l'air complet</text>
+    <text x="91" y="275">sur des suppositions</text>
+  </g>
+  <g font-size="13" fill="#161709">
+    <text x="27" y="362">le budget ne couvre</text>
+    <text x="27" y="378">pas le périmètre</text>
+    <text x="27" y="402">le vrai décideur</text>
+    <text x="27" y="418">n'était pas là</text>
+    <text x="27" y="442">l'ancien échec</text>
+    <text x="27" y="458">n'a pas été dit</text>
+  </g>
+  <g fill="#c4451a">
+    <circle cx="19" cy="358" r="2.5"/>
+    <circle cx="19" cy="398" r="2.5"/>
+    <circle cx="19" cy="438" r="2.5"/>
+  </g>
+  <g stroke="#161709" stroke-width="1.5" marker-end="url(#brief1-fleche)">
+    <line x1="91" y1="124" x2="91" y2="146"/>
+    <line x1="91" y1="206" x2="91" y2="228"/>
+    <line x1="91" y1="288" x2="91" y2="310"/>
+  </g>
+
+  <!-- Colonne de droite : l'assistant rédige, on contrôle avant de se voir -->
+  <g stroke="#161709" stroke-width="1.5" fill="#fbfbf4">
+    <rect x="188" y="68" width="162" height="56" rx="10"/>
+    <rect x="188" y="150" width="162" height="84" rx="10"/>
+    <rect x="188" y="260" width="162" height="56" rx="10"/>
+  </g>
+  <rect x="188" y="342" width="162" height="122" rx="10" fill="#f7ef63" stroke="#161709" stroke-width="2.5"/>
+  <g text-anchor="middle" font-size="14" font-weight="700" fill="#161709">
+    <text x="269" y="92">L'assistant rédige</text>
+    <text x="269" y="174">Chaque info étiquetée</text>
+    <text x="269" y="284">Contrôle avant RDV</text>
+    <text x="269" y="370">Premier rendez-vous</text>
+  </g>
+  <g text-anchor="middle" font-size="13" fill="#55564b">
+    <text x="269" y="111">avec ce qu'il sait déjà</text>
+    <text x="269" y="303">trous et contradictions</text>
+  </g>
+  <!-- Les quatre étiquettes, en pastilles -->
+  <rect x="198" y="186" width="68" height="18" rx="9" fill="#d9ebe7"/>
+  <rect x="272" y="186" width="68" height="18" rx="9" fill="#c8dcff"/>
+  <rect x="198" y="208" width="68" height="18" rx="9" fill="#fff1b8"/>
+  <rect x="272" y="208" width="68" height="18" rx="9" fill="#e8e8e3"/>
+  <g font-family="ui-monospace, 'SF Mono', Menlo, monospace" font-size="12.5" fill="#161709" text-anchor="middle">
+    <text x="232" y="199.5">confirmé</text>
+    <text x="306" y="199.5">mémoire</text>
+    <text x="232" y="221.5">déduit</text>
+    <text x="306" y="221.5">inconnu</text>
+  </g>
+  <g font-size="13" fill="#161709">
+    <text x="204" y="396">sur les vrais écarts,</text>
+    <text x="204" y="412">avec dix questions au</text>
+    <text x="204" y="428">plus, chacune avec ce</text>
+    <text x="204" y="444">qu'elle débloque</text>
+  </g>
+  <g stroke="#161709" stroke-width="1.5" marker-end="url(#brief1-fleche)">
+    <line x1="269" y1="124" x2="269" y2="146"/>
+    <line x1="269" y1="234" x2="269" y2="256"/>
+    <line x1="269" y1="316" x2="269" y2="338"/>
+  </g>
+
+  <!-- Le moment où les problèmes sortent -->
+  <line x1="10" y1="492" x2="350" y2="492" stroke="#8a8b80" stroke-width="1.5" stroke-dasharray="5 4"/>
+  <g font-size="13" text-anchor="middle">
+    <text x="91" y="516" font-weight="700" fill="#c4451a">les écarts sortent tard</text>
+    <text x="91" y="534" fill="#55564b">et coûtent cher</text>
+    <text x="269" y="516" font-weight="700" fill="#161709">les écarts sortent tôt</text>
+    <text x="269" y="534" fill="#55564b">et coûtent encore peu</text>
+  </g>
+  <rect class="b1-bit" x="-3" y="-3" width="6" height="6" rx="1.5" fill="#161709" opacity="0">
+    <animateMotion dur="1.6s" begin="0.0s" repeatCount="indefinite" path="M269,124 L269,146"/>
+    <animate attributeName="opacity" dur="1.6s" begin="0.0s" repeatCount="indefinite" values="0;1;1;0" keyTimes="0;0.15;0.8;1"/>
+  </rect>
+  <rect class="b1-bit" x="-3" y="-3" width="6" height="6" rx="1.5" fill="#161709" opacity="0">
+    <animateMotion dur="1.6s" begin="0.53s" repeatCount="indefinite" path="M269,234 L269,256"/>
+    <animate attributeName="opacity" dur="1.6s" begin="0.53s" repeatCount="indefinite" values="0;1;1;0" keyTimes="0;0.15;0.8;1"/>
+  </rect>
+  <rect class="b1-bit" x="-3" y="-3" width="6" height="6" rx="1.5" fill="#161709" opacity="0">
+    <animateMotion dur="1.6s" begin="1.06s" repeatCount="indefinite" path="M269,316 L269,338"/>
+    <animate attributeName="opacity" dur="1.6s" begin="1.06s" repeatCount="indefinite" values="0;1;1;0" keyTimes="0;0.15;0.8;1"/>
+  </rect>
+</svg>

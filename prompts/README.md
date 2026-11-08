@@ -17,7 +17,7 @@ Certains prompts n'ont de sens qu'à côté du raisonnement qui les accompagne, 
 | Pour | Où les trouver |
 |---|---|
 | Images et vidéo | Portrait éditorial, character sheet et template de prompt vidéo dans [Ressources IA générative, partie 05](../guides/ressources-ia-generative.md#05--prompts-que-jutilise-et-comment-les-lire), avec le vocabulaire des [angles photo](../guides/ressources-ia-generative.md#04--maîtriser-les-angles-photo). Ils marchent aussi avec les outils des [alternatives à Higgsfield](../veille/alternatives-higgsfield.md). |
-| Brief de projet | Dix prompts dans [Brief projet avec son IA](../guides/brief-projet-avec-ia.pdf) (PDF) |
+| Brief de projet | Dix prompts dans le kit du guide [Le brief que votre client écrit avec son IA](../guides/brief-projet-avec-ia.md) |
 | Claude Code | Comment formuler une demande, dans [Donner une instruction précise, pas une idée vague](../tutoriels/tutoriels-par-profil.md#donner-une-instruction-précise-pas-une-idée-vague) |
 
 [← Retour à l'accueil de la Toolbox](../README.md)
