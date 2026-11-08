@@ -24,7 +24,7 @@ S'il se sert d'un assistant IA depuis quelques mois, celui-ci a accumulé des co
 
 Un assistant cherche à faire plaisir, et devant une question à laquelle il ne sait pas répondre, il comble volontiers le vide avec une réponse plausible qui a tout l'air d'être juste. La méthode lui interdit donc d'inventer : une information qui manque reste marquée inconnue, et chaque phrase dit d'où elle vient. Votre client corrige ainsi un brouillon écrit à partir de ce qu'il sait déjà, au lieu de remplir un énième formulaire.
 
-![La fenêtre d'un assistant IA. Le client demande le fichier du projet, et l'assistant rédige 02-projet.md avec une étiquette au bout de chaque ligne. Une carte posée à côté liste les questions qui restent à trancher.](schemas/brief-ia-assistant.svg "Ce que voit votre client : son assistant rédige le fichier, étiquette chaque information et termine par trois questions au plus. Le client n'écrit presque rien, puisqu'il corrige.")
+![La fenêtre d'un assistant IA. Le client demande le fichier du projet, et l'assistant rédige 02-projet.md avec une étiquette au bout de chaque ligne. Une carte posée à côté liste les questions qui restent à trancher.](schemas/brief-ia-assistant-2x.png "Ce que voit votre client : son assistant rédige le fichier, étiquette chaque information et termine par trois questions au plus. Le client n'écrit presque rien, puisqu'il corrige.")
 
 ## La méthode tient en quatre étapes, deux de chaque côté
 
