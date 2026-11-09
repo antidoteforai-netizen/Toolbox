@@ -52,14 +52,12 @@ Quatre dossiers, rangés du plus large au plus concret : la veille dit ce qui ex
 
 | Vous vous dites | À lire |
 |---|---|
-| « Je ne sais plus quel outil IA vaut le coup pour mon métier » | [La boîte à outils IA](./guides/boite-a-outils-ia.md) : sept outils, trois profils, et les recettes qui les enchaînent |
-| « Je veux un pas-à-pas, pas une vue d'ensemble » | [Neuf tutoriels par profil](./tutoriels/tutoriels-par-profil.md), de Claude Code à Instagram |
-| « Mon visage change à chaque image générée » | [Ressources IA générative](./guides/ressources-ia-generative.md) et mes prompts commentés |
-| « Higgsfield coûte trop cher pour ce que je génère » | [Les alternatives à Higgsfield](./veille/alternatives-higgsfield.md) : du navigateur à l'installation locale, licences et coûts réels compris |
-| « J'apprends les nouveautés tech une semaine après tout le monde » | [Veille tech à la source](./guides/veille-tech-sources-primaires.md) : où l'info naît, quels flux suivre et comment trier en cinq minutes par jour |
-| « Je publie tous les jours et rien ne bouge » | [Le système de contenu](./guides/strategie-contenu.md) : quoi publier, quand, et pourquoi |
-| « Mon prestataire n'a pas compris ma boîte » | [Le brief que votre client écrit avec son IA](./guides/brief-projet-avec-ia.md), avec un kit de dix prompts à copier-coller |
-| « Il me faut une référence UI, là, maintenant » | [La veille](./veille/) : 70 liens triés à la main |
+| « Je livre vendredi et je ne sais pas vérifier mes contrastes » | [Outils d'accessibilité](./veille/themes/accessibilite.md) |
+| « Mon client veut cliquer sur la maquette lundi » | [Du brief au prototype](./guides/boite-a-outils-ia.md#du-brief-au-prototype-cliquable) |
+| « Je dois monter ma maquette Figma dans Webflow » | [Figma vers Webflow](./tutoriels/workflow-figma-webflow-relume.md) |
+| « J'ouvre Claude Code et je ne sais pas quoi lui demander » | [Prendre en main Claude Code](./tutoriels/tutoriels-par-profil.md#prendre-en-main-claude-code--le-vibe-coding) |
+| « Mon client m'envoie un brief de trois lignes » | [Le brief avec l'IA](./guides/brief-projet-avec-ia.md) |
+| « Mon personnage change de visage d'une image à l'autre » | [Ressources IA générative](./guides/ressources-ia-generative.md#01--mon-parcours-de-midjourney-à-higgsfield) |
 
 ## Qui écrit
 
