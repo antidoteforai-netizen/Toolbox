@@ -2,13 +2,135 @@
 
 # Outils
 
-Source : [veille-ux-ui.vercel.app](https://veille-ux-ui.vercel.app/), 37 ressources.
+Source : [veille-ux-ui.vercel.app](https://veille-ux-ui.vercel.app/), 50 ressources.
 
-*Mis à jour le 30 octobre 2026.*
+*Mis à jour le 9 novembre 2026.*
 
 > **Sélection thématique :** vous cherchez à remplacer Higgsfield ? [Les alternatives à Higgsfield](./alternatives-higgsfield.md) classent une vingtaine d'outils et de modèles d'image et de vidéo selon leur profondeur, du navigateur à l'installation locale, avec leurs licences et leurs sources.
 >
 > Cette page liste les outils. Pour choisir entre eux, lisez les [guides](../guides/) ; pour vous en servir pas à pas, suivez les [tutoriels](../tutoriels/).
+
+## [WAVE](https://wave.webaim.org/)
+
+*2026-11-06 · Accessibilité*
+
+Repérer les erreurs d'accessibilité d'une page web en collant son adresse, ou avec l'extension pour Chrome, Firefox et Edge, grâce à l'outil de WebAIM qui pose ses repères directement sur la page et les relie aux critères WCAG.
+
+**Pour qui :** les designers et les intégrateurs qui veulent un premier diagnostic avant un audit complet, y compris sur une page en local ou protégée par un mot de passe, que l'extension sait lire.
+
+**Sa limite :** WAVE ne déclare jamais une page accessible, parce qu'aucun outil automatique ne vérifie tous les critères WCAG, et sa version en ligne n'exécute pas toujours tout le JavaScript, si bien que l'extension donne un résultat plus complet sur une page dynamique.
+
+## [Handy](https://handy.computer/)
+
+*2026-11-06 · Productivité, IA*
+
+Dicter dans n'importe quel champ de texte en maintenant un raccourci, avec une application gratuite et open source qui transcrit la voix sur l'ordinateur même, grâce aux modèles Whisper ou Parakeet, sans rien envoyer dans le cloud, sur Mac, Windows et Linux.
+
+**Pour qui :** les personnes qui écrivent beaucoup et cherchent une dictée gratuite qui garde leur voix sur leur machine.
+
+**Sa limite :** sur Mac, un micro de casque Bluetooth dégrade le son pendant l'enregistrement, si bien que la documentation conseille de dicter avec le micro intégré ou un micro externe.
+
+## [Kilo](https://kilo.ai/)
+
+*2026-11-05 · IA builder*
+
+Faire coder un agent IA open source dans VS Code, les éditeurs JetBrains, le terminal ou le cloud, en choisissant parmi plus de 500 modèles facturés au prix du fournisseur, ou en branchant ses propres clés et des modèles locaux.
+
+**Pour qui :** les développeurs et les designers qui codent et veulent un agent dont ils peuvent lire le code source et changer le modèle quand ils le souhaitent.
+
+**Sa limite :** l'agent est gratuit pour une personne seule, mais l'usage des modèles se paie à part, sauf à s'en tenir aux modèles gratuits, à ses propres clés ou à des modèles locaux.
+
+## [Storybook](https://storybook.js.org/)
+
+*2026-11-04 · Design system, UI*
+
+Construire, tester et documenter chaque composant d'interface à l'écart du reste de l'application, en enregistrant ses états difficiles à reproduire sous forme de « stories » qui servent ensuite aux tests visuels, aux tests d'accessibilité et à la documentation de l'équipe.
+
+**Pour qui :** les équipes qui tiennent un design system en code et veulent que designers, développeurs et agents IA partagent le même catalogue de composants.
+
+**Sa limite :** les tests visuels passent par Chromatic, un service en ligne de l'équipe de Storybook qui demande un compte et envoie les stories dans le cloud pour les comparer.
+
+## [OmniTools](https://omnitools.framatoolbox.org/)
+
+*2026-11-01 · Productivité*
+
+Redimensionner une image, découper une vidéo, fusionner des PDF ou convertir des données dans une seule boîte à outils web open source, hébergée ici par Framasoft dans sa Framatoolbox, dont les traitements se font dans le navigateur sans que les fichiers quittent l'appareil.
+
+**Pour qui :** les personnes qui veulent éviter les sites de conversion chargés de publicités et garder leurs fichiers chez elles.
+
+## [WebYes PDF Accessibility Checker](https://www.webyes.com/product/free-pdf-accessibility-checker/)
+
+*2026-10-26 · Accessibilité*
+
+Contrôler gratuitement un PDF au regard des WCAG et de la norme PDF/UA, sans inscription ni adresse e-mail, et obtenir ses problèmes classés du plus grave au plus léger, chacun situé dans le document et accompagné de la façon de le corriger.
+
+**Pour qui :** les personnes qui publient des rapports, des fiches ou des supports en PDF et doivent les rendre lisibles par les lecteurs d'écran.
+
+**Sa limite :** un PDF sans erreur n'est pas forcément conforme, puisque l'outil ne passe que les critères vérifiables par une machine, tandis que l'ordre de lecture ou la qualité des textes alternatifs demandent encore un contrôle humain.
+
+## [OKLCH Color Picker](https://oklch.com/)
+
+*2026-10-24 · UI, Design system*
+
+Choisir et convertir des couleurs dans l'espace OKLCH en collant un code HEX, RGB ou HSL, avec l'outil d'Evil Martians qui montre aussi la couleur de repli la plus proche en sRGB et les teintes que seuls les écrans P3 affichent.
+
+**Pour qui :** les designers et les intégrateurs qui passent la palette d'un design system en OKLCH et doivent prévoir une couleur de secours pour les écrans qui ne l'affichent pas.
+
+## [Jitter](https://jitter.video/)
+
+*2026-10-24 · Motion design*
+
+Animer des visuels et des interfaces dans le navigateur, à plusieurs et en temps réel, en partant de plus de 300 modèles ou d'un import Figma, puis exporter le résultat en vidéo, en GIF ou en Lottie.
+
+**Pour qui :** les designers qui veulent animer une maquette, un post ou une présentation produit sans être motion designers.
+
+**Sa limite :** l'offre gratuite s'arrête à trois fichiers, exporte en 720p à 30 images par seconde et garde le filigrane de Jitter, que seule une offre payante retire.
+
+## [Rive](https://rive.app/)
+
+*2026-10-24 · Motion design, UI*
+
+Concevoir des animations interactives, qui réagissent aux clics et aux données, dans un éditeur pensé pour les applis, les sites et les jeux, puis les intégrer grâce à des moteurs d'exécution open source disponibles pour chaque plateforme ; Duolingo et Spotify Wrapped s'en servent.
+
+**Pour qui :** les designers produit et les motion designers qui veulent livrer une animation que les développeurs n'auront pas à refaire.
+
+**Sa limite :** l'offre gratuite se limite à trois fichiers collaboratifs et ajoute un écran de démarrage Rive aux fichiers exportés, qui ne disparaît qu'avec une offre payante.
+
+## [Penpot](https://penpot.app/)
+
+*2026-10-24 · UI, Design system*
+
+Dessiner des interfaces, des prototypes et des design systems avec des tokens natifs et des mises en page en CSS Grid et Flex, dans un outil de design open source que l'on utilise en ligne ou que l'on héberge soi-même, et qu'un agent IA peut piloter grâce à son serveur MCP.
+
+**Pour qui :** les équipes qui cherchent une alternative à Figma sans dépendre d'un logiciel fermé, notamment pour garder leurs fichiers sur leurs propres serveurs.
+
+**Sa limite :** l'offre gratuite en ligne s'arrête à huit membres d'équipe, 10 Go de stockage et sept jours d'historique des versions.
+
+## [SuperSplat](https://superspl.at/editor)
+
+*2026-10-24 · 3D*
+
+Inspecter, nettoyer, optimiser et publier une scène en Gaussian splatting (une scène 3D reconstituée à partir de photos) dans l'éditeur gratuit et open source de PlayCanvas, qui tourne dans le navigateur sans rien installer.
+
+**Pour qui :** les designers 3D et les créateurs qui ont scanné un objet ou un lieu et veulent le retoucher avant de le partager sur le web.
+
+## [VoiceStudio](https://voicestudio.sh/)
+
+*2026-10-19 · Génération médias IA*
+
+Cloner une voix à partir d'un court extrait, en créer une à partir d'une description, doubler une vidéo dans une autre langue ou transcrire un enregistrement, le tout sur sa propre machine, avec ce studio gratuit et open source qui se présente comme une alternative locale à ElevenLabs.
+
+**Pour qui :** les créateurs de contenu et les designers qui produisent des voix off ou des sous-titres et ne veulent pas envoyer leur audio dans le cloud.
+
+**Sa limite :** l'application est libre, mais chaque modèle de voix garde sa propre licence, si bien que le modèle OmniVoice, par exemple, est réservé à un usage non commercial.
+
+## [OpenScreen](https://getopenscreen.com/)
+
+*2026-10-11 · Présentation, Productivité*
+
+Enregistrer son écran et obtenir dès la première prise une démo soignée, avec des zooms placés sur chaque clic, un fond, une ombre et un curseur que l'on peut changer après coup, puis couper la vidéo en supprimant des mots dans sa transcription, grâce à une application gratuite et open source, sans filigrane ni compte, pour Windows, macOS et Linux.
+
+**Pour qui :** les designers et les indépendants qui présentent un produit ou un prototype en vidéo et cherchent une alternative gratuite à Screen Studio.
 
 ## [Wisprflow](https://wisprflow.ai/)
 

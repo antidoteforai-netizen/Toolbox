@@ -2,9 +2,31 @@
 
 # Bibliothèques
 
-Source : [veille-ux-ui.vercel.app](https://veille-ux-ui.vercel.app/), 7 ressources.
+Source : [veille-ux-ui.vercel.app](https://veille-ux-ui.vercel.app/), 9 ressources.
 
-*Mis à jour le 30 octobre 2026.*
+*Mis à jour le 9 novembre 2026.*
+
+## [Hallmark](https://github.com/Nutlope/hallmark)
+
+*2026-10-25 · IA, UI*
+
+Empêcher un agent de code (Claude Code, Codex, Cursor ou OpenCode) de livrer une page qui a l'air générée par IA, avec cette skill open source de Together AI qui propose cinquante thèmes, construit la page autour de ce que le visiteur vient faire, puis la contrôle dans un vrai navigateur à huit largeurs d'écran.
+
+**Pour qui :** les designers et les développeurs qui font construire des landing pages par une IA et veulent un résultat qui ne ressemble pas à toutes les autres.
+
+**Sa limite :** les contrôles dans le navigateur et les captures demandent d'installer en plus puppeteer-core et Chrome, sans quoi seuls les contrôles statiques tournent.
+
+**Attention :** un des trois audits de sécurité affichés sur skills.sh la classe en risque moyen, parce qu'un script facultatif installe un hook qui modifie les réglages de Claude Code, si bien qu'il vaut mieux ne le lancer qu'en connaissance de cause.
+
+## [NumberFlow](https://number-flow.barvian.me/)
+
+*2026-10-24 · Motion design, UI*
+
+Animer un nombre qui change (un prix, un compteur, une statistique) avec un composant React sans dépendance, accessible et personnalisable, qui fait défiler chaque chiffre jusqu'à sa nouvelle valeur.
+
+**Pour qui :** les designers qui codent un tableau de bord, une page de tarifs ou un compteur et veulent une transition soignée sans l'écrire eux-mêmes.
+
+**Sa limite :** les notations scientifique et ingénieur, les chiffres non latins et les langues qui s'écrivent de droite à gauche ne sont pas encore pris en charge.
 
 ## [Three.js](https://threejs.org/)
 

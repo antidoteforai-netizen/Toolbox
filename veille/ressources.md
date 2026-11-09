@@ -2,9 +2,53 @@
 
 # Ressources
 
-Source : [veille-ux-ui.vercel.app](https://veille-ux-ui.vercel.app/), 20 ressources.
+Source : [veille-ux-ui.vercel.app](https://veille-ux-ui.vercel.app/), 25 ressources.
 
-*Mis à jour le 30 octobre 2026.*
+*Mis à jour le 9 novembre 2026.*
+
+## [Footer.design](https://www.footer.design/)
+
+*2026-11-09 · UI*
+
+Trouver l'inspiration pour un pied de page dans une galerie qui ne recense que des footers de sites, triés par style : typographique, illustré, en grille, animé, sombre ou clair.
+
+**Pour qui :** les designers web qui soignent la fin d'une page autant que son haut.
+
+## [CTA.gallery](https://www.cta.gallery/)
+
+*2026-11-09 · UI*
+
+Parcourir des boutons, formulaires, fenêtres et blocs d'appel à l'action tirés de vrais sites, classés par type (achat, inscription à une newsletter, téléchargement, tarifs), pour voir comment d'autres invitent le visiteur à passer à l'action.
+
+**Pour qui :** les designers et les rédacteurs qui travaillent la conversion d'une page.
+
+**Sa limite :** la galerie mêle aux exemples de vrais sites des gabarits Webflow et Framer proposés en téléchargement, et elle affiche des emplacements sponsorisés.
+
+## [Fonts In Use](https://fontsinuse.com/)
+
+*2026-10-24 · UI*
+
+Voir comment une police est employée dans de vrais projets (identités, affiches, livres, sites, emballages) grâce à une archive publique de la typographie, nourrie depuis 2010 par les contributions du public et classée par police, format, secteur et époque.
+
+**Pour qui :** les designers qui choisissent ou associent des polices et veulent les voir en situation avant de se décider.
+
+## [Easings.net](https://easings.net/)
+
+*2026-10-24 · Motion design, UI*
+
+Choisir la bonne courbe d'accélération pour une animation en comparant une trentaine de fonctions d'easing animées, chacune accompagnée de sa traduction en CSS.
+
+**Pour qui :** les designers et les intégrateurs qui veulent qu'un mouvement d'interface paraisse naturel plutôt que mécanique.
+
+**Sa limite :** certaines courbes, comme les effets élastiques ou de rebond, ne tiennent pas dans une simple transition CSS et demandent d'écrire des @keyframes.
+
+## [Designers Éthiques](https://designersethiques.org/fr)
+
+*2026-10-07 · Accessibilité, UI*
+
+Se former à une conception numérique responsable avec les guides, les formations et les événements d'une association francophone qui travaille sur le design persuasif, le design systémique, l'écoconception, l'accessibilité et le design inclusif.
+
+**Pour qui :** les designers qui veulent concevoir sans design trompeur et appuyer leurs choix sur des guides publiés, par exemple face à un client.
 
 ## [Podcast dive club](https://www.dive.club/)
 

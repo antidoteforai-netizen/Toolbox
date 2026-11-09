@@ -22,10 +22,10 @@ Quatre dossiers, rangés du plus large au plus concret : la veille dit ce qui ex
 
 ### [Veille](./veille/) : ce qui existe, trié à la main
 
-- [Ressources](./veille/ressources.md) : inspiration UI, design systems, accessibilité (20 fiches)
-- [Outils](./veille/outils.md) : génération d'images et de vidéos, IA builders (37 fiches)
+- [Ressources](./veille/ressources.md) : inspiration UI, design systems, accessibilité (25 fiches)
+- [Outils](./veille/outils.md) : génération d'images et de vidéos, IA builders (50 fiches)
 - [Plugins Figma](./veille/plugins.md) (6 fiches)
-- [Bibliothèques](./veille/bibliotheques.md) : composants React, 3D, icônes (7 fiches)
+- [Bibliothèques](./veille/bibliotheques.md) : composants React, 3D, icônes (9 fiches)
 - [Alternatives à Higgsfield](./veille/alternatives-higgsfield.md) : générer images et vidéos sans abonnement, classées en trois niveaux de profondeur, avec leurs sources
 
 ### [Guides](./guides/) : lequel choisir, et pourquoi
