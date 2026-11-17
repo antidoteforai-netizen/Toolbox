@@ -2,9 +2,19 @@
 
 # Ressources
 
-Source : [veille-ux-ui.vercel.app](https://veille-ux-ui.vercel.app/), 25 ressources.
+Source : [veille-ux-ui.vercel.app](https://veille-ux-ui.vercel.app/), 26 ressources.
 
-*Mis à jour le 9 novembre 2026.*
+*Mis à jour le 17 novembre 2026.*
+
+## [Can I Vibecode It?](https://canivibecodeit.com/)
+
+*2026-11-17 · IA builder*
+
+Savoir si une IA peut vous construire aujourd'hui un remplaçant à une application payante, ou s'il vaut mieux continuer à la payer, grâce à un site gratuit et open source qui rend son verdict sur plus de mille applications, donne pour chacune le prompt à lancer dans Claude Code, Codex ou Cursor et précise ce qu'on perdrait en quittant l'original.
+
+**Pour qui :** les personnes qui additionnent les abonnements et se demandent lesquels une IA peut remplacer, y compris celles qui ne veulent rien construire, puisque le site liste aussi des alternatives gratuites ou open source déjà prêtes.
+
+**Sa limite :** les verdicts sont des avis, que le site présente comme un jugement éditorial nourri par sa communauté, et les prix affichés peuvent dater, si bien qu'il conseille lui-même de vérifier avant de résilier un abonnement important ; le site, en anglais, affiche aussi des emplacements sponsorisés, signalés comme tels.
 
 ## [Footer.design](https://www.footer.design/)
 
