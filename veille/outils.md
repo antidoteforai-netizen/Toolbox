@@ -2,13 +2,23 @@
 
 # Outils
 
-Source : [veille-ux-ui.vercel.app](https://veille-ux-ui.vercel.app/), 50 ressources.
+Source : [veille-ux-ui.vercel.app](https://veille-ux-ui.vercel.app/), 51 ressources.
 
-*Mis à jour le 9 novembre 2026.*
+*Mis à jour le 24 novembre 2026.*
 
 > **Sélection thématique :** vous cherchez à remplacer Higgsfield ? [Les alternatives à Higgsfield](./alternatives-higgsfield.md) classent une vingtaine d'outils et de modèles d'image et de vidéo selon leur profondeur, du navigateur à l'installation locale, avec leurs licences et leurs sources.
 >
 > Cette page liste les outils. Pour choisir entre eux, lisez les [guides](../guides/) ; pour vous en servir pas à pas, suivez les [tutoriels](../tutoriels/).
+
+## [AlignCanvas](https://aligncanvas.com/)
+
+*2026-11-24 · Motion design*
+
+Transformer des images fixes en boucles vidéo 3D, comme des carrousels qui tournent, des galeries infinies ou du verre liquide, en choisissant un modèle de mouvement dans le navigateur sans rien installer, puis en exportant en MP4, WebM, GIF ou séquence d'images, jusqu'en 4K.
+
+**Pour qui :** les personnes qui veulent animer leurs visuels, leurs maquettes ou leurs photos de produit pour un post, un portfolio ou un lancement, sans passer par After Effects.
+
+**Sa limite :** la formule gratuite s'arrête à cinq exports, en 1080p à 30 images par seconde, avec un compte gratuit obligatoire pour exporter, si bien que la 4K, le 120 images par seconde et la collection « Signature » demandent l'abonnement Pro, à 49 $ par an au tarif de lancement affiché, ou 199 $ une seule fois.
 
 ## [WAVE](https://wave.webaim.org/)
 
